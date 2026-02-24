@@ -102,6 +102,10 @@ Open a PR targeting the **`dev`** branch. CI will automatically:
 - Check that all image references resolve
 - Render a PDF preview of your article
 
+### 7. Review and deployment
+
+Once your PR is approved and merged into `dev`, the article will be available on the staging site at **[dev.analoghub.ie](https://dev.analoghub.ie)** for final review. It will remain there until the `dev` branch is merged into `master`, at which point it goes live on the production site at [analoghub.ie](https://analoghub.ie).
+
 ## Repository Structure
 
 ```
