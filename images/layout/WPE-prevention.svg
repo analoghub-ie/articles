@@ -1,0 +1,167 @@
+<svg width="49.555mm" height="40.248mm" version="1.1" viewBox="0 0 49.555 40.248" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-1-8" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0-1-1-9" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-5" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-9-3" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-17" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-5" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-0" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-8-3" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-9-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-4-3" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-3-5" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-8-2-9" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-9-7-3" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-4-5-1" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-3-1-0" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-3-1-9-9" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-8-2-2-3" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-6-1" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-1-2" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-9-6-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-6-7-8" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-107.33 -154.99)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="110" y="165" width="45.906" height="15" fill="#ffffc8" stroke="#000" stroke-width=".19844"/>
+  <path d="m114 165v6.4229c0 1.1457 1.9422 2.0681 4.3546 2.0681h29.192c2.4124 0 4.3546-0.92237 4.3546-2.0681v-6.4229z" fill="#96fa96" stroke="#000" stroke-width=".19844"/>
+  <path d="m118.84 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48712v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m124.87 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48712v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="119.33937" y="166.3217" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="119.33937" y="166.3217" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="125.29362" y="166.37401" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="125.29362" y="166.37401" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m124.83 165v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m121.12 165-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m124.83 165h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m129 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48712v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m135.02 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48712v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="129.49478" y="166.3217" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="129.49478" y="166.3217" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="135.44902" y="166.37401" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="135.44902" y="166.37401" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m134.99 165v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m131.28 165-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m134.98 165h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m139 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48712v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m145.02 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48712v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="139.49478" y="166.3217" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="139.49478" y="166.3217" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="145.44904" y="166.37401" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="145.44904" y="166.37401" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m144.99 165v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m141.28 165-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m144.98 165h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m149 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14432 0 0.26051-0.21726 0.26051-0.48712v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <text x="149.45157" y="166.42531" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="149.45157" y="166.42531" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m114.87 165v1.5129c0 0.26987 0.11619 0.48712 0.26052 0.48712h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48712v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <text x="115.31784" y="166.42531" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="115.31784" y="166.42531" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m151.87 165v7.4893c0 1.336 0.11619 2.4115 0.26052 2.4115h1.7464c0.14433 0 0.26052-1.0755 0.26052-2.4115v-7.4893z" fill="#ff6432" stroke="#000" stroke-width=".19844"/>
+  <path d="m111.73 165v7.4893c0 1.336 0.11619 2.4115 0.26052 2.4115h1.7464c0.14433 0 0.26052-1.0755 0.26052-2.4115v-7.4893z" fill="#ff6432" stroke="#000" stroke-width=".19844"/>
+  <text transform="rotate(-90)" x="-174.00481" y="113.37474" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="-174.00481" y="113.37474" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="bold" stroke="none" stroke-width=".19844">STI</tspan></text>
+  <text transform="rotate(-90)" x="-174.00481" y="153.5798" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="-174.00481" y="153.5798" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="bold" stroke="none" stroke-width=".19844">STI</tspan></text>
+  <text x="143.95175" y="172.51749" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="143.95175" y="172.51749" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">NWELL</tspan></text>
+  <text x="128.88553" y="179.02596" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="128.88553" y="179.02596" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p-substrate</tspan></text>
+  <path d="m113 186.9v8" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-1-8)" stroke="#000" stroke-width=".198"/>
+  <path d="m113 194.9h40" fill="none" stroke="#000" stroke-width=".198"/>
+  <text x="109.76898" y="185.72063" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="109.76898" y="185.72063" text-align="center">Doping</tspan><tspan x="109.76898" y="187.50085" text-align="center">level</tspan></text>
+  <path d="m140.26 194.9h13" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0-1-1-9)" stroke="#000" stroke-width=".198"/>
+  <path d="m122 193.01h22" fill="none" stroke="#00bae6" stroke-width=".33073"/>
+  <text x="120" y="169.07643" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="120" y="169.07643" fill="#969696" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Dummy</tspan></text>
+  <text x="129.91733" y="169.06245" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="129.91733" y="169.06245" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Device B</tspan></text>
+  <text x="139.95107" y="169.05664" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="139.95107" y="169.05664" fill="#969696" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Dummy</tspan></text>
+  <path d="m118.84 190v1.5129c0 0.26987 0.1162 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m124.87 190v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="119.33937" y="191.3217" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="119.33937" y="191.3217" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="125.29362" y="191.37399" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="125.29362" y="191.37399" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m124.83 190v1l-3.7226-0.41284 3e-3 -0.58716z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m121.12 190-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m124.83 190h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m129 190v1.5129c0 0.26987 0.1162 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m135.02 190v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="129.49478" y="191.3217" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="129.49478" y="191.3217" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="135.44904" y="191.37399" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="135.44904" y="191.37399" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m134.99 190v1l-3.7226-0.41284 3e-3 -0.58716z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m131.28 190-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m134.98 190h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m139 190v1.5129c0 0.26987 0.11619 0.48713 0.26051 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m145.02 190v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="139.49478" y="191.3217" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="139.49478" y="191.3217" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="145.44904" y="191.37399" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="145.44904" y="191.37399" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m144.99 190v1l-3.7226-0.41284 3e-3 -0.58716z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m141.28 190-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m144.98 190h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <text x="120" y="187.53195" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="120" y="187.53195" fill="#969696" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Dummy</tspan></text>
+  <text x="129.91733" y="187.51797" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="129.91733" y="187.51797" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Device B</tspan></text>
+  <text x="139.95108" y="187.51215" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="139.95108" y="187.51215" fill="#969696" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Dummy</tspan></text>
+  <rect x="149" y="159.01" width="5.1339" height="5.9879" fill="#ff6432" stroke="#000" stroke-width=".198"/>
+  <text x="152.89133" y="156.01208" fill="#ff0000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="152.89133" y="156.01208" text-align="center">NWELL</tspan><tspan x="152.89133" y="157.79231" text-align="center">Photoresist</tspan></text>
+  <rect x="111.73" y="159.01" width="5.4014" height="5.9879" fill="#ff6432" stroke="#000" stroke-width=".198"/>
+  <text x="113.01035" y="156.01208" fill="#ff0000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="113.01035" y="156.01208" text-align="center">NWELL</tspan><tspan x="113.01035" y="157.79231" text-align="center">Photoresist</tspan></text>
+  <path d="m118.44 157.01-1.3042 3.099" fill="#f00" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m117.13 160.11 1.658 4.2924" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-5)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m119.13 157.01-2 5" fill="#f00" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m117.13 162.01 0.98253 2.3578" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-9-3)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m119.84 157.01-2.7312 6.9989" fill="#f00" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m123 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-17)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m121 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-5)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m127 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-0)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m125 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-8-3)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m131 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-9-4)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m129 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-4-3)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m135 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-3-5)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m133 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-8-2-9)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m139 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-9-7-3)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m137 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-4-5-1)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m143 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-3-1-0)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m145 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-6-3-1-9-9)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m141 157.01v6" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-5-8-2-2-3)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m117.1 164.01 0.22599 0.38528" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-6-1)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m147.6 157.01 1.3042 3.099" fill="#f00" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m148.91 160.11-1.658 4.2924" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-1-2)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m146.91 157.01 2 5" fill="#f00" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m148.91 162.01-0.98253 2.3578" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-9-6-4)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m146.2 157.01 2.7312 6.9989" fill="#f00" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m148.94 164.01-0.22599 0.38528" fill="#f00" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-6-7-8)" stroke="#00bae6" stroke-width=".198"/>
+  <path d="m117 167.01v27.889" fill="#f00" stroke="#000" stroke-dasharray="0.198, 0.594" stroke-width=".198"/>
+  <path d="m149 167.01v27.889" fill="#f00" stroke="#000" stroke-dasharray="0.198, 0.594" stroke-width=".198"/>
+  <path d="m117 193.01c1.8356-13.455 3.3337-0.0262 5 0" fill="none" stroke="#00bae6" stroke-width=".33073"/>
+  <path d="m149 193.01c-1.8356-13.455-3.3337-0.0262-5 0" fill="none" stroke="#00bae6" stroke-width=".33073"/>
+ </g>
+</svg>

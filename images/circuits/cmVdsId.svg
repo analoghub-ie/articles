@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="31.59001mm"
+   height="16.72716mm"
+   viewBox="0 0 31.59001 16.72716"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="current_mirrors.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="165.72815"
+     inkscape:cy="658.93513"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-32.162487"
+       originy="-165.59179"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+    <inkscape:page
+       x="7.8316501e-17"
+       y="0"
+       width="31.590012"
+       height="16.72716"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker20-8-5-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path20-0-0-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-9-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-28-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-4" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.162486,-165.59178)">
+    <path
+       style="fill:#0000c8;fill-opacity:1;stroke:#969696;stroke-width:0.197999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20-8-5-2);paint-order:markers stroke fill"
+       d="M 34,179.90532 V 166.21053"
+       id="path7-49-3"
+       inkscape:export-filename="cmVdsId.svg"
+       inkscape:export-xdpi="1500"
+       inkscape:export-ydpi="1500" />
+    <path
+       style="fill:#0000c8;fill-opacity:1;stroke:#969696;stroke-width:0.198001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow-9-9);paint-order:markers stroke fill"
+       d="M 34,180 H 59.999998"
+       id="path12-46-3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 34,180 c 4.999999,-4 6.999999,-5 25.999998,-6"
+       id="path21-5-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 34,179.90532 c 2.104223,-5.54485 1.773141,-8.52956 9.999999,-9.90532 3.502203,-0.58567 8.535199,-1 15.999999,-1"
+       id="path21-5-4-5-2"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 34,179.90532 C 37.999999,174 37.999999,173 59.900998,171.099"
+       id="path21-5-4-5-2-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 33.999999,180 c 4,-13 0,-13 25.999999,-13"
+       id="path21-5-4-5-2-8"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.5;font-family:Inter;-inkscape-font-specification:Inter;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;paint-order:fill markers stroke"
+       x="32.767582"
+       y="173.02597"
+       id="text6-4-5-8-22"><tspan
+         sodipodi:role="line"
+         id="tspan6-1-1-8-0"
+         style="font-style:italic;font-size:1.41111px;fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.198"
+         x="32.767582"
+         y="173.02597">I<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#969696;fill-opacity:1"
+   id="tspan21-1-1">D1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.5;font-family:Inter;-inkscape-font-specification:Inter;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;paint-order:fill markers stroke"
+       x="62"
+       y="182.02597"
+       id="text6-4-5-6-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan6-1-1-0-1-7"
+         style="font-style:italic;font-size:1.41111px;fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.198"
+         x="62"
+         y="182.02597">V<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#969696;fill-opacity:1"
+   id="tspan21-0-4-7">DS</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.5;font-family:Inter;-inkscape-font-specification:Inter;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;paint-order:fill markers stroke"
+       x="63.409367"
+       y="171.48972"
+       id="text6-6-8-7-6-5-7-8-3"><tspan
+         sodipodi:role="line"
+         id="tspan6-0-0-3-3-7-7-5-7"
+         style="font-style:normal;font-size:1.41111px;fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.198"
+         x="63.409367"
+         y="171.48972">L</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.2;stroke:#969696;stroke-width:0.198;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#DartArrow-8);paint-order:markers stroke fill"
+       d="m 61.999998,174.18651 v -6.1865"
+       id="path51-8" />
+  </g>
+</svg>

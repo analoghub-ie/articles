@@ -1,0 +1,38 @@
+<svg width="49.256mm" height="19.262mm" version="1.1" viewBox="0 0 49.256 19.262" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-156.86 -4.913)" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(1.3 0 0 1 -52.5 0)" fill="none" stroke="#000" stroke-width=".17404" aria-label="VDD">
+   <rect x="175" y="5" width="10" height="5" fill="none" stroke="#000" stroke-width=".17404"/>
+  </g>
+  <g transform="matrix(1.3 0 0 1 -70.53 7.023)" fill="none" stroke="#000" stroke-width=".17404" aria-label="VDD">
+   <rect x="175" y="5" width="10" height="5" fill="none" stroke="#000" stroke-width=".17404"/>
+  </g>
+  <text x="176" y="8" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="176" y="8" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Growth of voids</tspan></text>
+  <text x="163.32738" y="14.032839" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="163.32738" y="14.032839" text-align="center">Increase in </tspan><tspan x="163.32738" y="15.813061" text-align="center">temperature</tspan></text>
+  <text x="199.44298" y="14.032839" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="199.44298" y="14.032839" text-align="center">Increase in </tspan><tspan x="199.44298" y="15.813061" text-align="center">current density</tspan></text>
+  <text x="181.50002" y="21.030832" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="181.50002" y="21.030832" text-align="center">Increase in </tspan><tspan x="181.50002" y="22.811054" text-align="center">Joule heating</tspan></text>
+  <g transform="matrix(1.3 0 0 1 -52.5 14.088)" fill="none" stroke="#000" stroke-width=".17404" aria-label="VDD">
+   <rect x="175" y="5" width="10" height="5" fill="none" stroke="#000" stroke-width=".17404"/>
+  </g>
+  <g transform="matrix(1.3 0 0 1 -34.5 7.0475)" fill="none" stroke="#000" stroke-width=".17404" aria-label="VDD">
+   <rect x="175" y="5" width="10" height="5" fill="none" stroke="#000" stroke-width=".17404"/>
+  </g>
+  <path d="m163.47 12.023v-4.523" fill="none" stroke="#000" stroke-width=".19844"/>
+  <path d="m174.19 7.5h-10.726" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4)" stroke="#000" stroke-width=".19844"/>
+  <path d="m199.53 11.358v-3.8721" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0)" stroke="#000" stroke-width=".19844"/>
+  <path d="m188 7.5h11.53" fill="none" stroke="#000" stroke-width=".19844"/>
+  <path d="m181.47 10.649v3.9121" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4)" stroke="#000" stroke-width=".19844"/>
+  <path d="m193 14.548h-11.53" fill="none" stroke="#000" stroke-width=".19844"/>
+  <path d="m200 17.065v4.523" fill="none" stroke="#000" stroke-width=".19844"/>
+  <path d="m188.81 21.588h11.194" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0)" stroke="#000" stroke-width=".19844"/>
+  <path d="m163.47 17.649v3.9109" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0)" stroke="#000" stroke-width=".19844"/>
+  <path d="m175 21.546h-11.53" fill="none" stroke="#000" stroke-width=".19844"/>
+ </g>
+</svg>

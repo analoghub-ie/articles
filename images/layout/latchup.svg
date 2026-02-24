@@ -1,0 +1,299 @@
+<svg width="87.578mm" height="26.245mm" version="1.1" viewBox="0 0 87.578 26.245" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0-1" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-8-2-8" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-24.096 1)">
+  <g transform="translate(70.276 -33.5)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <path d="m95.276 16.356 1.4479 0.88698" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m97.276 17.988h-0.53834" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m95.276 16.356v-0.85624" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m95.834 19.208 0.89229-0.54478" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m95.276 19.562v0.93843" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m96.726 16.5v3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m105.28 16.132-1.4479-0.88698" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m103.28 14.5h0.53834" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m105.28 16.132v0.85623" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m104.38 13.471 0.89229-0.54477" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m105.28 12.926v-0.93844" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m103.83 15.988v-3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <g transform="translate(8.6247 47.129)" stroke-width=".19844">
+   <title>Resistor_US</title>
+   <path d="m86.651-33.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-34.879 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-35.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-35.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-36.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-36.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-37.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <title>Resistor_US</title>
+  </g>
+  <path d="m103.28 14.5h-8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m105.28 17.988h-8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="translate(18.625 57.775)" stroke-width=".19844">
+   <title>Resistor_US</title>
+   <path d="m86.651-33.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-34.879 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-35.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-35.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-36.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-36.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-37.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <title>Resistor_US</title>
+  </g>
+  <g transform="matrix(-.44713 0 0 .44713 134.41 -20.759)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <g transform="matrix(-.44713 0 0 .44713 124.41 -20.813)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m95.276 13.5v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="95.276" cy="14.5" r=".29766"/>
+  <circle cx="95.276" cy="14.5" r=".29766"/>
+  <path d="m105.28 16.988v2.1582" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="105.28" cy="17.988" r=".29766"/>
+  <circle cx="105.28" cy="17.988" r=".29766"/>
+  <path d="m95.276 8.5v-1h10v4.488" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m95.276 20.5v3.5628" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m100.28 6.5v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="100.28" cy="7.5" r=".29766"/>
+  <circle cx="100.28" cy="7.5" r=".29766"/>
+  <text x="99.122131" y="4.5259485" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="99.122131" y="4.5259485" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">DD</tspan></tspan></text>
+  <text x="89.851227" y="10.966869" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="89.851227" y="10.966869" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">R<tspan baseline-shift="sub" font-size="65%">NWELL</tspan></tspan></text>
+  <text x="106.8107" y="22.217779" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="106.8107" y="22.217779" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">R<tspan baseline-shift="sub" font-size="65%">sub</tspan></tspan></text>
+  <rect x="45.099" y="10" width="39.901" height="15" fill="#ffffc8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m65 10v6.4229c0 1.1457 0.92237 2.0681 2.0681 2.0681h13.864c1.1457 0 2.0681-0.92237 2.0681-2.0681v-6.4229z" fill="#96fa96" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m78.888 10v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m66.845 10v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m72.866 10v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m59.043 10v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m47 10v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m53.022 10v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <text x="79.339478" y="11.425297" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="79.339478" y="11.425297" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="59.431206" y="11.419734" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="59.431206" y="11.419734" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="53.431206" y="11.490373" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="53.431206" y="11.490373" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="47.444988" y="11.402044" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="47.444988" y="11.402044" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="67.339447" y="11.321689" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="67.339447" y="11.321689" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="73.293701" y="11.37399" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="73.293701" y="11.37399" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <g transform="rotate(-90 98.64 10.011)" stroke-width=".19844">
+   <title>Resistor_US</title>
+   <path d="m86.651-33.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-34.879 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-35.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-35.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-36.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-36.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-37.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <title>Resistor_US</title>
+  </g>
+  <text x="51.526356" y="20.428114" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="51.526356" y="20.428114" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">R<tspan baseline-shift="sub" font-size="65%">sub</tspan></tspan></text>
+  <text x="106.19913" y="14.853191" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="106.19913" y="14.853191" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">PNP</tspan></text>
+  <text x="91.48941" y="18.449915" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="91.48941" y="18.449915" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">NPN</tspan></text>
+  <path d="m59.144 15-0.88698 1.4479" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m57.512 17v-0.53834" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m59.144 15h0.85624" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m56.292 15.558 0.54478 0.89229" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m55.938 15h-0.93843" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m59 16.45h-3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <text x="56.051006" y="14.300045" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="56.051006" y="14.300045" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">NPN</tspan></text>
+  <path d="m74 16.632-1.4479-0.88698" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m72 15h0.53834" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m73.108 13.971 0.89229-0.54477" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-0-1)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m74 13.426v-0.93844" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m72.55 16.488v-3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <text x="69.199135" y="17.025949" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="69.199135" y="17.025949" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">PNP</tspan></text>
+  <g transform="rotate(-90 107.64 -5.9891)" stroke-width=".19844">
+   <title>Resistor_US</title>
+   <path d="m86.651-33.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-34.879 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-35.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-35.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-36.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-36.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-37.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <title>Resistor_US</title>
+  </g>
+  <text x="75.40155" y="13.608833" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="75.40155" y="13.608833" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">R<tspan baseline-shift="sub" font-size="65%">NWELL</tspan></tspan></text>
+  <path d="m60 15h12" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m75 15h-2.4504" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m80 15v-3" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m74 12.488v-0.48802" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m55 15h-0.84462" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m54.155 12v3" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m57.512 17v5" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m55 22h2.4978" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m48.134 12v10" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m48.134 22h1.8663" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m74 16.632v5.3682" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m57.512 22h16.488" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="57.498" cy="22" r=".29766"/>
+  <circle cx="57.498" cy="22" r=".29766"/>
+  <path d="m55.324 10v1l3.7226-0.41283-0.0031-0.58717z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m72.835 10v1l-3.7226-0.41283 0.0031-0.58717z" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="translate(44 -34)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="72.846352" y="4.0259485" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="72.846352" y="4.0259485" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">DD</tspan></tspan></text>
+  <path d="m55.337 10-0.0095-1 3.7204 1e-7 -0.0093 1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m59.039 10h-3.7111" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m69.125 10-0.0095-1 3.7204 1e-7 -0.0093 1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m72.826 10h-3.7111" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m60.177 10v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m68 10v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m60.177 8h7.823" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m64.088 8v-1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="64.088" cy="6.6403" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="64.846344" y="7.0992188" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="64.846344" y="7.0992188" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">out</tspan></tspan></text>
+  <path d="m64 5v-1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="64" cy="3.6403" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="64.757858" y="4.0992188" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="64.757858" y="4.0992188" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">in</tspan></tspan></text>
+  <path d="m57.188 9v-4" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m70.975 9v-4" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m57.188 5h13.787" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m74 6v4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="translate(50 -34)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="78.846344" y="4.0259485" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="78.846344" y="4.0259485" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">DD</tspan></tspan></text>
+  <path d="m80 6v4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m48.099 6v3.9008" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 75.139 -38.905)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m48.099 6h-2.0992" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m54.155 6.0992v3.9008" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 81.195 -38.806)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m54.155 6.0992h-2.0992" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m32.901 11.734v1.3604" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m32.901 16.734v-1.4675" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m31.381 12.621v3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m30.895 15.838v-3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m29.901 14.229 0.97902 1e-5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m32.901 15.266h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m32.901 13.732h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m32.901 21.741h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m32.151 13.094h0.69408" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m32.901 23.734v-1.3604" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <path d="m32.901 18.734v1.4675" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m31.381 22.847v-3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m30.895 19.629v3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m29.901 21.238 0.97902-1e-5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m32.901 20.201h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m32.194 22.373h-0.69408" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-8-2-8)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 62.039 -21.171)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m32.901 21.741h2v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m32.901 13.732h3v-1.9985" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 64.039 -22.164)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <g transform="translate(2.9008 -28.266)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="31.747133" y="9.7597189" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="31.747133" y="9.7597189" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">DD</tspan></tspan></text>
+  <g transform="translate(5.9008 -28.266)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="34.747131" y="9.7597189" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="34.747131" y="9.7597189" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">DD</tspan></tspan></text>
+  <path d="m32.901 16.648v2.0856" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m29.901 14.229h-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m29.901 21.238h-1v-7.0087" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m28.901 17.734h-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m34.901 17.734h-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="26.541" cy="17.734" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="23.942614" y="18.192673" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="23.942614" y="18.192673" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">in</tspan></tspan></text>
+  <circle cx="35.26" cy="17.734" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="36.01833" y="18.192673" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="36.01833" y="18.192673" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">out</tspan></tspan></text>
+  <text x="24.267159" y="0.340143" fill="none" font-family="Arial" font-size="1.7639px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="24.267159" y="0.340143" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Inverter schematic</tspan></text>
+  <text x="55.939709" y="0.36684206" fill="none" font-family="Arial" font-size="1.7639px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="55.939709" y="0.36684206" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Layout cross-section</tspan></text>
+  <text x="91.939705" y="0.340143" fill="none" font-family="Arial" font-size="1.7639px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="91.939705" y="0.340143" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Parasitic BJT structure</tspan></text>
+ </g>
+</svg>

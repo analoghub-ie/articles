@@ -1,0 +1,153 @@
+<svg width="61.003mm" height="23.104mm" version="1.1" viewBox="0 0 61.003 23.104" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-60" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-8-2-8-0" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-199 -117.63)">
+  <rect x="220" y="130" width="39.901" height="7" fill="#ffffc8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m239.9 130v3.7071c0 0.66129 0.92238 1.1937 2.0681 1.1937h13.864c1.1457 0 2.0681-0.53237 2.0681-1.1937v-3.7071z" fill="#96fa96" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m253.79 130v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m241.75 130v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m247.77 130v1.5129c0 0.26987 0.1162 0.48713 0.26052 0.48713h1.7464c0.14432 0 0.26051-0.21726 0.26051-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m233.94 130v1.5129c0 0.26987 0.11619 0.48713 0.26051 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m221.9 130v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m227.92 130v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <text x="254.24026" y="131.42529" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="254.24026" y="131.42529" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="234.33199" y="131.41974" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="234.33199" y="131.41974" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="228.33199" y="131.49037" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="228.33199" y="131.49037" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="222.34576" y="131.40204" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="222.34576" y="131.40204" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="242.24023" y="131.32169" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="242.24023" y="131.32169" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="248.19449" y="131.37399" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="248.19449" y="131.37399" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m230.22 130v1l3.7226-0.41283-3e-3 -0.58717z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m247.74 130v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="translate(218.9 87)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="247.74713" y="125.02595" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="247.74713" y="125.02595" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">DD</tspan></tspan></text>
+  <path d="m230.24 130-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m233.94 130h-3.7111" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m244.03 130-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m247.73 130h-3.7111" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m235.08 130v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m242.9 130v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m235.08 128h7.823" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m238.99 128v-1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="238.99" cy="126.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="239.74713" y="127.09922" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="239.74713" y="127.09922" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">out</tspan></tspan></text>
+  <path d="m238.9 125v-1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="238.9" cy="123.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="239.65865" y="124.09922" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="239.65865" y="124.09922" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">in</tspan></tspan></text>
+  <path d="m232.09 129v-4" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m245.88 129v-4" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m232.09 125h13.787" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m248.9 126v4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="translate(224.9 87)" fill="#fff" stroke="#32c832" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="253.74713" y="125.02595" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="253.74713" y="125.02595" fill="#32c800" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" fill="#32c800" font-size="65%">DD</tspan></tspan></text>
+  <path d="m254.9 126v4" fill="none" stroke="#32c832" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m223 126v3.9008" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 250.04 81.095)" fill="none" stroke="#e1e132" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" fill="none" stroke="#e1e132" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m223 126h-2.0992" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m229.06 126.1v3.9008" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 256.1 81.194)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m229.06 126.1h-2.0992" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m207.8 125.41v1.3604" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m207.8 130.41v-1.4675" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m206.28 126.29v3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m205.8 129.51v-3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m204.8 127.9 0.97902 1e-5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m207.8 128.94h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m207.8 127.4h-1.4978" fill="none" stroke="#32c832" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m207.8 135.41h-1.4978" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m207.05 126.77h0.69408" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-60)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m207.8 137.41v-1.3604" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <path d="m207.8 132.41v1.4675" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m206.28 136.52v-3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m205.8 133.3v3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m204.8 134.91 0.97902-1e-5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m207.8 133.87h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m207.09 136.04h-0.69408" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-8-2-8-0)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 236.94 92.5)" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m207.8 135.41h2v1" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m207.8 127.4h3v-1.9985" fill="none" stroke="#32c832" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 238.94 91.507)" stroke="#e1e132" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke="#e1e132" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <g transform="translate(177.8 85.405)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="206.64792" y="123.43106" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="206.64792" y="123.43106" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">DD</tspan></tspan></text>
+  <g transform="translate(180.8 85.405)" fill="#fff" stroke="#32c832" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m30 40-8e-3 -1" style="paint-order:markers stroke fill"/>
+   <path d="m29 39h2.0133" style="paint-order:markers stroke fill"/>
+  </g>
+  <text x="209.64792" y="123.43106" fill="#32c832" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="209.64792" y="123.43106" fill="#32c832" font-family="sans-serif" font-style="italic" font-weight="normal" stroke-width=".19844">V<tspan baseline-shift="sub" fill="#32c832" font-size="65%">DD</tspan></tspan></text>
+  <path d="m207.8 130.32v2.0856" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m204.8 127.9h-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m204.8 134.91h-1v-7.0087" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m203.8 131.41h-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m209.8 131.41h-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="201.44" cy="131.41" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="198.8434" y="131.86401" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="198.8434" y="131.86401" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">in</tspan></tspan></text>
+  <circle cx="210.16" cy="131.41" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="210.91911" y="131.86401" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="210.91911" y="131.86401" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">out</tspan></tspan></text>
+  <text x="199.16794" y="118.9733" fill="none" font-family="Arial" font-size="1.7639px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="199.16794" y="118.9733" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Inverter schematic</tspan></text>
+  <text x="230.84048" y="119" fill="none" font-family="Arial" font-size="1.7639px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="230.84048" y="119" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Layout cross-section</tspan></text>
+  <text x="252.14449" y="134.02594" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="252.14449" y="134.02594" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">nwell</tspan></text>
+  <text x="220.95177" y="136" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="220.95177" y="136" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p-sub</tspan></text>
+  <path d="m221 138v1h16v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".198"/>
+  <text x="225.68262" y="140.71613" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="225.68262" y="140.71613" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">NMOS</tspan></text>
+  <path d="m240.08 137.95v1h18.924v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".198"/>
+  <text x="247.42366" y="140.66306" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="247.42366" y="140.66306" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">PMOS</tspan></text>
+ </g>
+</svg>

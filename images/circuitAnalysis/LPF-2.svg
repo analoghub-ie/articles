@@ -1,0 +1,97 @@
+<svg width="39.796mm" height="15.708mm" version="1.1" viewBox="0 0 39.796 15.708" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="RoundedArrow" overflow="visible" markerHeight="1" markerWidth="1" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-0.21115-4.1056 6.4223 3.2111a1 1 90 0 1 0 1.7889l-6.4223 3.2111a1.2361 1.2361 31.717 0 1-1.7889-1.1056v-6a1.2361 1.2361 148.28 0 1 1.7889-1.1056z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-63.645 -32.187)">
+  <path d="m70 35v-1.9934" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <text x="64.57515" y="33.562717" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="64.57515" y="33.562717" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">in</tspan></tspan></text>
+  <text x="72.536156" y="37.202339" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="72.536156" y="37.202339" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">R<tspan baseline-shift="sub" font-size="65%">1</tspan></tspan></text>
+  <text x="73.038857" y="44.376205" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="73.038857" y="44.376205" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">C<tspan baseline-shift="sub" font-size="65%">1</tspan></tspan></text>
+  <circle cx="70.003" cy="40" r=".29766"/>
+  <path d="m70 45.796v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m70 38v3.0675" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m70 40h5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m70 33h-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m93 34v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <circle cx="93.003" cy="39.993" r=".29766"/>
+  <path d="m93 45.993v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m93 37.993v3.0675" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m93 39.993h5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m93 33h-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m83 40h3" fill="none" marker-end="url(#RoundedArrow)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m92.5 35h1v3h-1z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m93 34v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m93 38v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m92.5 42h1v3h-1z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m93 41v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m93 45v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="translate(76 -37)">
+   <g transform="matrix(0 .83511 -.85711 0 51.549 43.532)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".23455">
+    <path d="m32.299 43.246v1.1341" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 44.38h-1.1974" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 44.38v-1.1459" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 43.234 0.59282-0.59282" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 43.246-0.60462-0.60462" style="paint-order:stroke fill markers"/>
+   </g>
+  </g>
+  <g transform="translate(84.49 -30.011)">
+   <g transform="matrix(0 .83511 -.85711 0 51.549 43.532)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".23455">
+    <path d="m32.299 43.246v1.1341" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 44.38h-1.1974" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 44.38v-1.1459" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 43.234 0.59282-0.59282" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 43.246-0.60462-0.60462" style="paint-order:stroke fill markers"/>
+   </g>
+  </g>
+  <g transform="rotate(180 78.326 .18542)" stroke-width=".19844">
+   <title>Resistor_US</title>
+   <path d="m86.651-33.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-34.879 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-35.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-35.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-36.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-36.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-37.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <title>Resistor_US</title>
+  </g>
+  <g transform="translate(53 -37)">
+   <g transform="matrix(0 .83511 -.85711 0 51.549 43.532)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".23455">
+    <path d="m32.299 43.246v1.1341" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 44.38h-1.1974" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 44.38v-1.1459" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 43.234 0.59282-0.59282" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 43.246-0.60462-0.60462" style="paint-order:stroke fill markers"/>
+   </g>
+  </g>
+  <g transform="translate(61.49 -30.005)">
+   <g transform="matrix(0 .83511 -.85711 0 51.549 43.532)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".23455">
+    <path d="m32.299 43.246v1.1341" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 44.38h-1.1974" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 44.38v-1.1459" style="paint-order:stroke fill markers"/>
+    <path d="m31.102 43.234 0.59282-0.59282" style="paint-order:stroke fill markers"/>
+    <path d="m32.299 43.246-0.60462-0.60462" style="paint-order:stroke fill markers"/>
+   </g>
+  </g>
+  <path d="m68.684 43.132h2.6315" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m70 43v-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m70 46v-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <path d="m68.684 43.868h2.6315" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" style="paint-order:markers stroke fill"/>
+  <text x="78.686821" y="40.647221" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="78.686821" y="40.647221" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">out</tspan></tspan></text>
+  <text x="87.705681" y="33.469524" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="87.705681" y="33.469524" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">in</tspan></tspan></text>
+  <text x="101.81734" y="40.554028" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="101.81734" y="40.554028" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">V<tspan baseline-shift="sub" font-size="65%">out</tspan></tspan></text>
+  <text x="97.089088" y="37.033092" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="97.089088" y="37.033092" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Z<tspan baseline-shift="sub" font-size="65%">R</tspan>=R<tspan baseline-shift="sub" font-size="65%">1</tspan></tspan></text>
+  <text x="98.916718" y="44.206959" fill="none" font-family="Bahnschrift" font-size="1.7639px" font-weight="300" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" text-align="center" text-anchor="middle" style="line-height:1.5;paint-order:markers stroke fill" xml:space="preserve"><tspan x="98.916718" y="44.206959" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Z<tspan baseline-shift="sub" font-size="65%">C</tspan>=1/jwC<tspan baseline-shift="sub" font-size="65%">1</tspan></tspan></text>
+  <g transform="translate(45 -38)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m25 84.592-2e-6 0.40848"/>
+   <path d="m25 85h-0.59151l0.59151 0.59152 0.59151-0.59151h-0.59151"/>
+  </g>
+  <g transform="translate(68 -37.796)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+   <path d="m25 84.592-2e-6 0.40848"/>
+   <path d="m25 85h-0.59151l0.59151 0.59152 0.59151-0.59151h-0.59151"/>
+  </g>
+ </g>
+</svg>

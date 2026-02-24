@@ -1,0 +1,64 @@
+<svg width="52.92mm" height="21.836mm" version="1.1" viewBox="0 0 52.92 21.836" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-63" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-20-6" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-3-9" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-28-7" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-63-3" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-197.9 -33.263)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="198" y="48" width="46.901" height="7" fill="#ffffc8" stroke="#000" stroke-width=".19844"/>
+  <path d="m224.9 48v3.7822c0 0.67467 0.92238 1.2178 2.0681 1.2178h13.864c1.1457 0 2.0681-0.54315 2.0681-1.2178v-3.7822z" fill="#96fa96" stroke="#000" stroke-width=".19844"/>
+  <path d="m238.79 48v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m226.75 48v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m232.77 48v1.5129c0 0.26987 0.1162 0.48713 0.26052 0.48713h1.7464c0.14432 0 0.26051-0.21726 0.26051-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="239.24028" y="49.425293" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="239.24028" y="49.425293" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="227.24025" y="49.321682" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="227.24025" y="49.321682" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="233.1945" y="49.373985" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="233.1945" y="49.373985" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m232.74 48v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m229.03 48-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m232.73 48h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <rect x="229.02" y="46.099" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect x="229.02" y="42.462" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-46.099" y="230.24" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-42.462" y="230.24" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <path d="m215.95 48v3.7822c0 0.67467 0.31 1.2178 0.69505 1.2178h4.6594c0.38505 0 0.69505-0.54315 0.69505-1.2178v-3.7822z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m217.87 48v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <text x="218.31789" y="49.425293" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="218.31789" y="49.425293" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m206.02 48v1.5129c0 0.26987 0.11619 0.48713 0.26051 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m200 48v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <text x="206.40959" y="49.419731" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="206.40959" y="49.419731" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="200.40959" y="49.490368" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="200.40959" y="49.490368" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m202.3 48v1l3.7226-0.41283-3e-3 -0.58717z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m202.32 48-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m206.02 48h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <rect x="205.3" y="42.462" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-48" y="206.52" width="4.6374" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-42.462" y="206.52" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect x="217.16" y="42.461" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-47.999" y="218.38" width="4.6374" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-42.461" y="218.38" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect x="205.3" y="38.823" width="27.432" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <path d="m213.53 34.5-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-63)" stroke="#000005" stroke-width=".198"/>
+  <text x="214.52948" y="34.538837" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="214.52948" y="34.538837" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m218.53 34.471-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-20-6)" stroke="#000005" stroke-width=".198"/>
+  <text x="219.5295" y="34.509613" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="219.5295" y="34.509613" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m223.53 34.471-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-3-9)" stroke="#000005" stroke-width=".198"/>
+  <text x="224.52948" y="34.509613" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="224.52948" y="34.509613" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m228.53 34.471-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-28-7)" stroke="#000005" stroke-width=".198"/>
+  <text x="229.5295" y="34.509613" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="229.5295" y="34.509613" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m220.54 40.292c2.7908 0.70759 2.3585 5.0378 2.3585 8.6604" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-63)" stroke="#c80005" stroke-width=".33073"/>
+  <path d="m217.36 40.34c-2.7908 0.70759-2.3585 5.0378-2.3585 8.6604" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-63-3)" stroke="#c80005" stroke-width=".33073"/>
+  <text x="243" y="41" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="243" y="41" text-align="center">Accumulated charge</tspan><tspan x="243" y="42.780224" text-align="center">goes to p-sub through</tspan><tspan x="243" y="44.560444" text-align="center">the diode</tspan></text>
+ </g>
+</svg>
