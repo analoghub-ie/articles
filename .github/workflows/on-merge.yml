@@ -1,0 +1,42 @@
+name: Deploy on Merge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**'
+      - 'images/**'
+
+jobs:
+  trigger-deploy:
+    name: Trigger Main App Rebuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Railway deploy webhook
+        env:
+          RAILWAY_DEPLOY_WEBHOOK: ${{ secrets.RAILWAY_DEPLOY_WEBHOOK }}
+        run: |
+          if [ -n "$RAILWAY_DEPLOY_WEBHOOK" ]; then
+            curl -X POST "$RAILWAY_DEPLOY_WEBHOOK" \
+              -H "Content-Type: application/json" \
+              --fail --silent --show-error
+            echo "Railway deploy triggered."
+          else
+            echo "RAILWAY_DEPLOY_WEBHOOK not configured, skipping."
+          fi
+
+      - name: Trigger main app repository dispatch
+        env:
+          MAIN_REPO_PAT: ${{ secrets.MAIN_REPO_PAT }}
+        run: |
+          if [ -n "$MAIN_REPO_PAT" ]; then
+            curl -X POST \
+              -H "Accept: application/vnd.github.v3+json" \
+              -H "Authorization: Bearer $MAIN_REPO_PAT" \
+              https://api.github.com/repos/klimofey/analoghub-main-nextjs/dispatches \
+              -d '{"event_type":"content-updated"}' \
+              --fail --silent --show-error
+            echo "Repository dispatch triggered."
+          else
+            echo "MAIN_REPO_PAT not configured, skipping."
+          fi
