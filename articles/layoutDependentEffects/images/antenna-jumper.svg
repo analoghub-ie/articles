@@ -1,0 +1,57 @@
+<svg width="53.438mm" height="21.836mm" version="1.1" viewBox="0 0 53.438 21.836" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-63-7" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-20-6-7" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-3-9-9" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-28-7-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-197.9 -65.263)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="198" y="80" width="46.901" height="7" fill="#ffffc8" stroke="#000" stroke-width=".19844"/>
+  <path d="m224.9 80v3.7822c0 0.67467 0.92238 1.2178 2.0681 1.2178h13.864c1.1457 0 2.0681-0.54315 2.0681-1.2178v-3.7822z" fill="#96fa96" stroke="#000" stroke-width=".19844"/>
+  <path d="m238.79 80v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m226.75 80v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m232.77 80v1.5129c0 0.26987 0.1162 0.48713 0.26052 0.48713h1.7464c0.14432 0 0.26051-0.21726 0.26051-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="239.2403" y="81.425293" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="239.2403" y="81.425293" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="227.24026" y="81.321686" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="227.24026" y="81.321686" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="233.19452" y="81.373985" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="233.19452" y="81.373985" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m232.74 80v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m229.03 80-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m232.73 80h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <rect x="229.02" y="78.099" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect x="229.02" y="74.462" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-78.099" y="230.24" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-74.462" y="230.24" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <path d="m206.02 80v1.5129c0 0.26987 0.11619 0.48713 0.26051 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m200 80v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <text x="206.40961" y="81.419731" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="206.40961" y="81.419731" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="200.40961" y="81.490372" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="200.40961" y="81.490372" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m202.3 80v1l3.7226-0.41283-3e-3 -0.58717z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m202.32 80-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m206.02 80h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <rect x="205.3" y="74.462" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-80" y="206.52" width="4.6374" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-74.462" y="206.52" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect x="213.1" y="70.823" width="19.632" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <path d="m219.5 66.5-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-63-7)" stroke="#000005" stroke-width=".198"/>
+  <text x="220.50026" y="66.538841" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="220.50026" y="66.538841" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m224.5 66.471-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-20-6-7)" stroke="#000005" stroke-width=".198"/>
+  <text x="225.50027" y="66.509613" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="225.50027" y="66.509613" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m229.5 66.471-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-3-9-9)" stroke="#000005" stroke-width=".198"/>
+  <text x="230.50026" y="66.509613" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="230.50026" y="66.509613" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m234.5 66.471-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-28-7-4)" stroke="#000005" stroke-width=".198"/>
+  <text x="235.50027" y="66.509613" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="235.50027" y="66.509613" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <text x="243" y="73" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="243" y="73" text-align="center">Jumper breaks the long</tspan><tspan x="243" y="74.78022" text-align="center">pathe to the gate</tspan></text>
+  <rect transform="matrix(0,1,1,0,0,0)" x="68.086" y="213.1" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="scale(1,-1)" x="205.3" y="-68.088" width="10.287" height=".90078" fill="#c80000" stroke="#000005" stroke-width=".198"/>
+  <rect transform="matrix(0,1,1,0,0,0)" x="68.088" y="206.52" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="scale(1,-1)" x="205.3" y="-71.725" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+ </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg width="65.198mm" height="15.198mm" version="1.1" viewBox="0 0 65.198 15.198" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-90" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-90-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-7" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-90-2" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-74" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-155 -29.901)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844">
+  <text x="160.09923" y="37" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" text-anchor="middle" xml:space="preserve"><tspan x="160.09923" y="37" font-weight="bold" text-align="center">Latch-up</tspan><tspan x="160.09923" y="38.780224" text-align="center">problem</tspan></text>
+  <text x="180.09923" y="32.424557" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" text-anchor="middle" xml:space="preserve"><tspan x="180.09923" y="32.424557" text-align="center"><tspan font-weight="bold">STI</tspan> to weaken</tspan><tspan x="180.09923" y="34.204781" text-align="center">parasitic BJT</tspan></text>
+  <text x="179.9577" y="40.724819" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" text-anchor="middle" xml:space="preserve"><tspan x="179.9577" y="40.724819" text-align="center"><tspan font-weight="bold">Guard rings</tspan> (contacts)</tspan><tspan x="179.9577" y="42.505043" text-align="center">to reduce </tspan><tspan x="179.9577" y="44.285263" text-align="center">parasitic resistance</tspan></text>
+  <rect x="169.1" y="39" width="21" height="6" fill="none" stroke="#000"/>
+  <rect x="169.1" y="30" width="21" height="6" fill="none" stroke="#000"/>
+  <rect x="155.1" y="30" width="10" height="15" fill="none" stroke="#000"/>
+  <text x="200.09923" y="42.517021" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" xml:space="preserve"><tspan x="200.09923" y="42.517021" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844" text-align="center" text-anchor="middle"><tspan font-weight="bold">WPE </tspan>effect</tspan></text>
+  <rect x="194.1" y="30" width="11.901" height="6" fill="none" stroke="#000"/>
+  <text x="200.09923" y="33.383598" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" xml:space="preserve"><tspan x="200.09923" y="33.383598" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844" text-align="center" text-anchor="middle"><tspan font-weight="bold">LOD </tspan>effect</tspan></text>
+  <rect x="194.1" y="39" width="11.901" height="6" fill="none" stroke="#000"/>
+  <text x="215.09924" y="34" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" text-anchor="middle" xml:space="preserve"><tspan x="215.09924" y="34" font-weight="bold" stroke-width=".19844" text-align="center">Solution:</tspan><tspan x="215.09924" y="35.780224" stroke-width=".19844" text-align="center">1. Sufficient</tspan><tspan x="215.09924" y="37.560444" stroke-width=".19844" text-align="center">spacing</tspan><tspan x="215.09924" y="39.340668" stroke-width=".19844" text-align="center">2. Dummy </tspan><tspan x="215.09924" y="41.120888" stroke-width=".19844" text-align="center">placement</tspan><tspan x="215.09924" y="42.884777" text-align="center"/></text>
+  <rect x="210.1" y="30" width="10" height="15" fill="none" stroke="#000"/>
+  <path d="m165.1 32.997h3.2821" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4)" stroke="#000"/>
+  <path d="m165.14 42h3.2821" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-90)" stroke="#000"/>
+  <path d="m190.1 33h3.2821" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-7)" stroke="#000"/>
+  <path d="m190.14 42.003h3.2821" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-90-4)" stroke="#000"/>
+  <path d="m206 33h3.2821" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-74)" stroke="#000"/>
+  <path d="m206.04 42.003h3.2821" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-90-2)" stroke="#000"/>
+ </g>
+</svg>

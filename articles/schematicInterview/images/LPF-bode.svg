@@ -1,0 +1,17 @@
+<svg width="35.047mm" height="20.058mm" version="1.1" viewBox="0 0 35.047 20.058" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle" overflow="visible" markerHeight="1" markerWidth="1" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-33.364 -2.6512)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m40 5v15h25" fill="none" marker-end="url(#ConcaveTriangle)" marker-start="url(#ConcaveTriangle)" stroke="#000" stroke-width=".198"/>
+  <path d="m40 8.0303h8l12 12" fill="none" stroke="#c80000" stroke-width=".198"/>
+  <text x="33.422031" y="4" fill="#000000" font-family="inter" font-size="1.7639px" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="33.422031" y="4" fill="#000000" font-size="1.7639px" font-style="italic" stroke="none" stroke-width=".19844">A(v), dB</tspan></text>
+  <text x="65.057709" y="22.348757" fill="#000000" font-family="inter" font-size="1.7639px" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="65.057709" y="22.348757" fill="#000000" font-size="1.7639px" font-style="italic" stroke="none" stroke-width=".19844">f, Hz</tspan></text>
+  <path d="m48 8.229v11.773" fill="none" stroke="#000" stroke-dasharray="0.396, 0.396" stroke-width=".198"/>
+  <text x="46" y="21.629269" fill="#000000" font-family="inter" font-size="1.4111px" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="46" y="21.629269" fill="#000000" font-size="1.4111px" font-style="italic" stroke="none" stroke-width=".19844">1/2πRC</tspan></text>
+  <text x="55.113548" y="13.343589" fill="#000000" font-family="inter" font-size="1.4111px" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="55.113548" y="13.343589" fill="#c80000" font-size="1.4111px" font-style="italic" stroke="none" stroke-width=".19844">-20dB/decade</tspan></text>
+  <text x="36.465939" y="8.5882616" fill="#000000" font-family="inter" font-size="1.4111px" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="36.465939" y="8.5882616" fill="#000000" font-size="1.4111px" font-style="italic" stroke="none" stroke-width=".19844">0dB</tspan></text>
+ </g>
+</svg>

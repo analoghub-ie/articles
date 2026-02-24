@@ -2,14 +2,15 @@ name: PR Checks
 
 on:
   pull_request:
-    branches: [main]
+    branches: [dev]
     paths:
       - 'articles/**'
-      - 'images/**'
+      - 'categoryIcons/**'
+      - 'category-article-mapping.yml'
 
 jobs:
-  validate-article:
-    name: Validate Article Frontmatter
+  validate-structure:
+    name: Validate Repo Structure
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,23 +19,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Get changed .md files
-        id: changed
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          FILES=$(gh pr diff "$PR_NUMBER" --name-only | grep '\.md$' || true)
-          echo "files<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$FILES" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
-          echo "Changed markdown files: $FILES"
-
-      - name: Validate articles
-        if: steps.changed.outputs.files != ''
-        env:
-          CHANGED_FILES: ${{ steps.changed.outputs.files }}
-        run: node scripts/validate-article.mjs $CHANGED_FILES
+      - name: Validate structure
+        run: node scripts/validate-structure.mjs
 
   validate-images:
     name: Validate Image References
@@ -46,16 +32,17 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Get changed .md files
+      - name: Get changed article.md files
         id: changed
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           GH_TOKEN: ${{ github.token }}
         run: |
-          FILES=$(gh pr diff "$PR_NUMBER" --name-only | grep '\.md$' || true)
+          FILES=$(gh pr diff "$PR_NUMBER" --name-only | grep 'articles/.*/article\.md$' || true)
           echo "files<<EOF" >> "$GITHUB_OUTPUT"
           echo "$FILES" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
+          echo "Changed articles: $FILES"
 
       - name: Validate image references
         if: steps.changed.outputs.files != ''
@@ -63,10 +50,14 @@ jobs:
           CHANGED_FILES: ${{ steps.changed.outputs.files }}
         run: node scripts/validate-images.mjs $CHANGED_FILES
 
+      - name: Validate all images (if mapping changed)
+        if: steps.changed.outputs.files == ''
+        run: node scripts/validate-images.mjs
+
   render-preview:
     name: Render Article Preview
     runs-on: ubuntu-latest
-    needs: [validate-article, validate-images]
+    needs: [validate-structure, validate-images]
     if: github.event.pull_request.draft == false
     steps:
       - name: Checkout content repo (PR)
@@ -115,17 +106,25 @@ jobs:
           npm start &
           sleep 5
 
-          CHANGED=$(cd ../content && git diff --name-only origin/main...HEAD -- 'articles/**/*.md' || true)
+          # Find changed article slugs (new structure: articles/{slug}/article.md)
+          CHANGED=$(cd ../content && git diff --name-only origin/dev...HEAD -- 'articles/*/article.md' || true)
 
           mkdir -p /tmp/previews
 
           for FILE in $CHANGED; do
-            CATEGORY=$(echo "$FILE" | cut -d'/' -f2)
-            ARTICLE=$(basename "$FILE" .md)
-            URL="http://localhost:3000/category/${CATEGORY}/article/${ARTICLE}"
+            SLUG=$(echo "$FILE" | cut -d'/' -f2)
 
+            # Look up category for this slug from the mapping YAML
+            CATEGORY=$(grep -B 20 "slug: ${SLUG}$" ../content/category-article-mapping.yml | grep '    slug:' | tail -1 | sed 's/.*slug: //')
+
+            if [ -z "$CATEGORY" ]; then
+              echo "Warning: Could not find category for slug $SLUG"
+              continue
+            fi
+
+            URL="http://localhost:3000/category/${CATEGORY}/article/${SLUG}"
             echo "Rendering: $URL"
-            npx playwright pdf "$URL" "/tmp/previews/${CATEGORY}_${ARTICLE}.pdf" --wait-for-timeout 3000 || true
+            npx playwright pdf "$URL" "/tmp/previews/${CATEGORY}_${SLUG}.pdf" --wait-for-timeout 3000 || true
           done
 
           kill %1 || true

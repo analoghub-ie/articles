@@ -1,0 +1,49 @@
+<svg width="47.852mm" height="12.455mm" version="1.1" viewBox="0 0 47.852 12.455" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle" overflow="visible" markerHeight="1" markerWidth="1" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-0" overflow="visible" markerHeight="1" markerWidth="1" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-5 -2.644)" stroke-width=".19844">
+  <path d="m25 5v10" fill="none" marker-start="url(#ConcaveTriangle)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m51.521 10h-26.521" fill="none" marker-start="url(#ConcaveTriangle-0)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m25 10 1-1 0.34812 3 0.65188-4.3612" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m27 7.6388-1e-6 3.3612 0.63696-2 0.36304 2 1-3.5499v4.9353" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m29 12.385 1-4.3855" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m30 8 0.37182 3" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m30.372 11 0.62818-2 0.50349 2 0.49651-3 0.38368 4.4483 0.97449-5.0296 0.64183 3.9923 0.58415-2.411 0.41585 2" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m39.628 11 0.79207-2 0.34812 3 0.65188-4.3612" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m41.42 7.6388-1e-6 3.3612 0.63696-2 0.36304 2 1-3.5499v4.9353" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m43.42 12.385 1-4.3855" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m35 11 0.62818-2 0.50349 2 0.49651-3 0.38368 4.4483 0.97449-5.0296 0.64183 3.9923 0.58415-2.411 0.41585 2" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m44.682 10 1-1 0.34812 3 0.65188-4.3612" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m46.682 7.6388-1e-6 3.3612 0.63696-2 0.36304 2 1-3.5499v4.9353" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m48.682 12.385 1-4.3855" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m49.682 8 0.37182 3" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m44.42 8 0.26127 2" fill="none" stroke="#c80000" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="20.846348" y="3.7161245" fill="#000000" font-family="Serif" font-size="1.4111px" stroke-linecap="round" stroke-linejoin="round" xml:space="preserve"><tspan x="20.846348" y="3.7161245" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844">V<tspan baseline-shift="sub" font-family="sans-serif" font-size="1.4111px" font-style="italic">n</tspan>(t)</tspan></text>
+  <text x="52.236439" y="11.716125" fill="#000000" font-family="Serif" font-size="1.4111px" stroke-linecap="round" stroke-linejoin="round" xml:space="preserve"><tspan x="52.236439" y="11.716125" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844">t</tspan></text>
+  <g transform="translate(-77.651 45.629)">
+   <title>Resistor_US</title>
+   <path d="m86.651-33.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-34.879 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629 0.625 0.25" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-35.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-35.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.026-36.879 1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-36.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m87.276-37.379-1.25 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <path d="m86.651-37.629v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+   <title>Resistor_US</title>
+  </g>
+  <circle cx="12.36" cy="5" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" style="paint-order:normal"/>
+  <path d="m9 7v-2l3 1e-6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle transform="scale(1,-1)" cx="12.36" cy="-14" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" style="paint-order:normal"/>
+  <path d="m9 12v2l3-1e-6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="12.846349" y="10.072113" fill="#000000" font-family="Serif" font-size="1.4111px" stroke-linecap="round" stroke-linejoin="round" xml:space="preserve"><tspan x="12.846349" y="10.072113" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844">V<tspan baseline-shift="sub" font-family="sans-serif" font-size="1.4111px" font-style="italic">n</tspan>(t)</tspan></text>
+  <text x="4.8932023" y="10" fill="#000000" font-family="Serif" font-size="1.4111px" stroke-linecap="round" stroke-linejoin="round" xml:space="preserve"><tspan x="4.8932023" y="10" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844">1kΩ</tspan></text>
+ </g>
+</svg>

@@ -1,0 +1,282 @@
+categories:
+  - name: "Category 1"
+    slug: category1
+    icon: "Category.png"
+    description: "This is a small description of Category 1"
+    hideInProd: true
+    articles:
+      - slug: article1
+        title: "Article 1"
+        short_title: "Article 1"
+
+  - name: "Circuits"
+    slug: Circuits
+    icon: "Circuits.svg"
+    description: "Design and layout of the basic circuits"
+    articles:
+      - slug: circuitsLDO
+        title: "LDO"
+        short_title: "LDO"
+      - slug: currentMirrors
+        title: "Cascode current mirror - a practical guide"
+        short_title: "Cascode current"
+      - slug: kelvinConnection
+        title: "Kelvin connection in IC design"
+        short_title: "Kelvin connection in"
+      - slug: sarADC
+        title: "SAR ADC"
+        short_title: "SAR ADC"
+
+  - name: "Circuit Analysis"
+    slug: circuitAnalysis
+    icon: "circuit analysis.svg"
+    description: "Analysing circuits theoretically"
+    hideInProd: true
+    articles:
+      - slug: circuitAnalysisTransferFunctions
+        title: "Transfer Functions"
+        short_title: "Transfer Functions"
+      - slug: noiseAnalysis
+        title: "Noise analysis"
+        short_title: "Noise analysis"
+
+  - name: "Cadence analysis"
+    slug: cadenceAnalysis
+    icon: "Cadence analysis.svg"
+    description: "Explaining different types of analyses"
+    articles:
+      - slug: analysisCorner
+        title: "Corner analysis (PVT)"
+        short_title: "Corner analysis"
+      - slug: analysisExtracted
+        title: "Simulation with extraction in Cadence Virtuoso"
+        short_title: "Simulation with"
+      - slug: analysisMonteCarlo
+        title: "Monte-Carlo analysis"
+        short_title: "Monte-Carlo analysis"
+      - slug: analysisPAC
+        title: "PAC/PSS analysis"
+        short_title: "PAC/PSS analysis"
+      - slug: cadenceAnalysisDC
+        title: "DC analysis"
+        short_title: "DC analysis"
+      - slug: cadenceAnalysisEMIR
+        title: "EM/IR analysis"
+        short_title: "EM/IR analysis"
+
+  - name: "Layout"
+    slug: Layout
+    icon: "layout.svg"
+    description: "Layout techniques and verification"
+    articles:
+      - slug: cmosInverterLayout
+        title: "CMOS Inverter Layout"
+        short_title: "CMOS Inverter Layout"
+      - slug: commonDRC
+        title: "Common DRC errors and fixes"
+        short_title: "Common DRC errors"
+      - slug: layoutBasics
+        title: "IC Layout Basics"
+        short_title: "IC Layout Basics"
+      - slug: layoutDependentEffects
+        title: "Layout-Dependent Effects"
+        short_title: "Layout-Dependent"
+      - slug: layoutMatching
+        title: "Matching in layout"
+        short_title: "Matching in layout"
+      - slug: layoutMatchingPatterns
+        title: "Matching patterns"
+        short_title: "Matching patterns"
+
+  - name: "Verilog-A"
+    slug: verilogModels
+    icon: "VERILOG.svg"
+    description: "Variety of models for simulation"
+    articles:
+      - slug: ADC
+        title: "Analog-to-Digital Converter (ADC) Verilog-A model (any resolution)"
+        short_title: "Analog-to-Digital"
+      - slug: DAC
+        title: "Digital-to-Analog Converter (DAC) Verilog-A model (any resolution)"
+        short_title: "Digital-to-Analog"
+      - slug: HPF
+        title: "High-pass filter (HPF) Verilog-A model"
+        short_title: "High-pass filter"
+      - slug: LPF
+        title: "Low-pass filter (LPF) Verilog-A model"
+        short_title: "Low-pass filter"
+      - slug: PWM
+        title: "PWM generator Verilog-A model"
+        short_title: "PWM generator"
+      - slug: bin2therm
+        title: "Binary to Thermometer Encoder Verilog-A model"
+        short_title: "Binary to"
+      - slug: comparator
+        title: "Comparator Verilog-A model"
+        short_title: "Comparator Verilog-A"
+      - slug: counter
+        title: "Binary Counter Verilog-A model"
+        short_title: "Binary Counter"
+      - slug: dec2bin
+        title: "Decimal to Binary Encoder Verilog-A model"
+        short_title: "Decimal to Binary"
+      - slug: dec2therm
+        title: "Decimal to Thermometer Encoder Verilog-A model"
+        short_title: "Decimal to"
+      - slug: levelShifter
+        title: "Level shifter Verilog-A model"
+        short_title: "Level shifter"
+      - slug: nonoverlapClk
+        title: "Non-overlapping clock generator Verilog-A model"
+        short_title: "Non-overlapping"
+      - slug: save2file
+        title: "Verilog-A block for saving simulation results to file"
+        short_title: "Verilog-A block for"
+      - slug: vcoModel
+        title: "Voltage-controlled oscillator (VCO) Verilog-A model"
+        short_title: "Voltage-controlled"
+
+  - name: "MATLAB"
+    slug: matlabScripts
+    icon: "MATLAB scripts.svg"
+    description: "Calculators, estimators and more"
+    articles:
+      - slug: pcbTraceCalculator
+        title: "RLC-calculator for PCB trace"
+        short_title: "RLC-calculator for"
+      - slug: resLadderCalc
+        title: "Resistor ladder calculator"
+        short_title: "Resistor ladder"
+
+  - name: "Virtuoso Tricks"
+    slug: cadenceTricks
+    icon: "Cadence Virtuoso Tricks.png"
+    description: "Tips and tricks to tame Virtuoso"
+    articles:
+      - slug: cadenceTricksHotkeys
+        title: "Useful hotkeys Cadence Virtuoso"
+        short_title: "Useful hotkeys"
+      - slug: displayParamsVerilogA
+        title: "How to display Verilog-A model parameters in Cadence Virtuoso?"
+        short_title: "How to display"
+      - slug: exportGDS
+        title: "GDSII Export in Cadence Virtuoso"
+        short_title: "GDSII Export in"
+      - slug: netNaming
+        title: "Net naming tricks in Cadence Virtuoso"
+        short_title: "Net naming tricks in"
+      - slug: parallelSimulations
+        title: "Parallel Simulations in Cadence Virtuoso (ADE Assembler)"
+        short_title: "Parallel Simulations"
+      - slug: renumberInstances
+        title: "How to renumber instances in Cadence Virtuoso?"
+        short_title: "How to renumber"
+      - slug: solderDotWarning
+        title: "How to get rid of solder dot warning (intersection of 4 wires) in Cadence Virtuoso?"
+        short_title: "How to get rid of"
+      - slug: thickerLinesCadence
+        title: "How to make wires thicker in Cadence Virtuoso?"
+        short_title: "How to make wires"
+
+  - name: "Useful Materials"
+    slug: usefulMaterials
+    icon: "Useful materials.svg"
+    description: "Cheatsheets and useful links"
+    articles:
+      - slug: printableCheatsheets
+        title: "Printable Cheatsheets"
+        short_title: "Printable"
+      - slug: usefulMaterialsLayout
+        title: "Layout Design Materials"
+        short_title: "Layout Design"
+      - slug: usefulMaterialsSchematic
+        title: "Schematic Design Materials"
+        short_title: "Schematic Design"
+
+  - name: "Design Presentation"
+    slug: designPresentation
+    icon: "Design Presentation.svg"
+    description: "Design code and clarity tips"
+    articles:
+      - slug: layoutViewer
+        title: "3D Layout Viewer"
+        short_title: "3D Layout Viewer"
+      - slug: schematicDesignPresentation
+        title: "Schematic Design Presentation"
+        short_title: "Schematic Design"
+
+  - name: "Simulation Hacks"
+    slug: simulationHacks
+    icon: "Simulation Hacks.svg"
+    description: "How to simulate efficiently"
+    articles:
+      - slug: simulationHacks
+        title: "Simulation Hacks"
+        short_title: "Simulation Hacks"
+
+  - name: "Virtuoso Customization"
+    slug: cadenceEnvironmentSetup
+    icon: "Setting Up Cadence Environment.png"
+    description: "Virtuoso customization and optimization "
+    hideInProd: true
+    articles:
+      - slug: cadenceEnvironmentSetup
+        title: "Setting up Cadence Environment"
+        short_title: "Setting up Cadence"
+
+  - name: "Interview Questions"
+    slug: interviewQuestions
+    icon: "interview.png"
+    description: "Questions and puzzles to get you prepared for an interview "
+    hideInProd: true
+    articles:
+      - slug: schematicInterview
+        title: "Analog Design Interview Questions"
+        short_title: "Analog Design"
+
+  - name: "SKILL"
+    slug: skill
+    icon: "SKILL.svg"
+    description: "Get maximum out of SKILL "
+    articles:
+      - slug: extractingLib
+        title: "Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code"
+        short_title: "Extracting Library"
+      - slug: handlingWarnings
+        title: "Handling error/warning/info messages"
+        short_title: "Handling"
+      - slug: hiRegTimer
+        title: "Scheduling Tasks with hiRegTimer()"
+        short_title: "Scheduling Tasks"
+      - slug: skillBindkeysSetup
+        title: "Setting BindKeys in Cadence Virtuoso Using SKILL Code"
+        short_title: "Setting BindKeys in"
+      - slug: skillCreateForms
+        title: "Creating Forms in SKILL Code: A Practical Guide"
+        short_title: "Creating Forms in"
+      - slug: skillExternalTools
+        title: "Running External Tools via SKILL"
+        short_title: "Running External"
+      - slug: skillIdeSetup
+        title: "Setting Up SKILL IDE in Cadence Virtuoso Environment"
+        short_title: "Setting Up SKILL IDE"
+
+  - name: "Design Practices"
+    slug: goodDesignPractices
+    icon: "Good Design Practices.png"
+    description: "Best design practices and checks"
+    hideInProd: true
+    articles:
+      - slug: layoutDesignChecks
+        title: "Analog IC Layout checks"
+        short_title: "Analog IC Layout"
+      - slug: schematicDesignChecks
+        title: "Schematic Design checks"
+        short_title: "Schematic Design"
+      - slug: schematicDesignPractices
+        title: "Schematic Design practices"
+        short_title: "Schematic Design"
+      - slug: schematicDesignPresentation
+        title: "Schematic Design Presentation"
+        short_title: "Schematic Design"
+

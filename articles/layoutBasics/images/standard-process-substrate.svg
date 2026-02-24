@@ -1,0 +1,121 @@
+<svg width="69.29mm" height="22.482mm" version="1.1" viewBox="0 0 69.29 22.482" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-60-8" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-8-2-8-0-1" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-192.01 -153.66)">
+  <rect x="220" y="165" width="39.901" height="7" fill="#ffffc8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m239.9 165v3.7071c0 0.66129 0.92238 1.1937 2.0681 1.1937h13.864c1.1457 0 2.0681-0.53237 2.0681-1.1937v-3.7071z" fill="#96fa96" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m253.79 165v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m241.75 165v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m247.77 165v1.5129c0 0.26987 0.1162 0.48713 0.26052 0.48713h1.7464c0.14432 0 0.26051-0.21726 0.26051-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m233.94 165v1.5129c0 0.26987 0.11619 0.48713 0.26051 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m221.9 165v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m227.92 165v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <text x="254.24026" y="166.42529" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="254.24026" y="166.42529" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="234.33199" y="166.41974" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="234.33199" y="166.41974" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="228.33199" y="166.49037" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="228.33199" y="166.49037" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="222.34576" y="166.40204" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="222.34576" y="166.40204" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="242.24023" y="166.32169" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="242.24023" y="166.32169" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="248.19449" y="166.37399" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="248.19449" y="166.37399" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m230.22 165v1l3.7226-0.41283-3e-3 -0.58717z" fill="#32c832" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m247.74 165v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m230.24 165-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m233.94 165h-3.7111" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m244.03 165-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m247.73 165h-3.7111" fill="#ffff32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m235.08 165v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m229 165v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m254.9 161.4v3.599" fill="none" stroke="#32c832" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m223 161v3.9008" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 250.04 116.1)" fill="none" stroke="#e1e132" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" fill="none" stroke="#e1e132" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <path d="m223 161h-2.0992" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m199.02 164.1v-1.4675" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m197.5 159.99v3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m197.02 163.2v-3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m196.02 161.59 0.97902 1e-5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m199.02 162.63h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m201.99 161.1h-4.4624" fill="none" stroke="#32c832" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m199.02 172.27h-1.4978" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m198.27 160.46h0.69408" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-9-0-6-60-8)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m199.02 175.01v-2.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <path d="m199.02 169.27v1.4675" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m197.5 173.38v-3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m197.02 170.16v3.2178" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m196.02 171.77 0.97902-1e-5" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m199.02 170.73h-1.4978" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".19844"/>
+  <path d="m198.31 172.91h-0.69408" fill="none" marker-start="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-8-2-8-0-1)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m199.02 172.27h2v1" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <g transform="matrix(-.44713 0 0 .44713 230.16 128.37)" stroke="#e1e132" stroke-width=".4438">
+   <title>GND</title>
+   <g transform="translate(-.26259 -.11701)" stroke="#e1e132" stroke-width=".4438">
+    <g transform="translate(33.547 3.5594)" fill="none" stroke="#e1e132" stroke-linecap="round" stroke-width=".4438">
+     <path d="m31.884 97.901v-0.91358" stroke-linejoin="round"/>
+     <path d="m30.561 97.901h2.6458"/>
+     <path d="m31.884 99.224 1.3229-1.3229"/>
+     <path d="m30.561 97.901 1.3229 1.3229"/>
+    </g>
+   </g>
+   <title>GND</title>
+  </g>
+  <text x="203.30797" y="161.55493" fill="#32c832" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="203.30797" y="161.55493" fill="#32c832" font-family="sans-serif" font-style="italic" font-weight="normal" stroke-width=".19844">any potential</tspan></text>
+  <path d="m196.02 161.59h-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <text x="252.14449" y="169.02594" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="252.14449" y="169.02594" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">nwell</tspan></text>
+  <text x="220.95177" y="171" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="220.95177" y="171" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p-sub</tspan></text>
+  <path d="m221 173v1h16v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".198"/>
+  <text x="225.68262" y="175.71613" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="225.68262" y="175.71613" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">NMOS</tspan></text>
+  <path d="m240.08 172.95v1h18.924v-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".198"/>
+  <text x="247.42366" y="175.66306" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="247.42366" y="175.66306" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">PMOS</tspan></text>
+  <circle cx="202.35" cy="161.1" r=".35968" fill="none" stroke="#32c832" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="201.92177" y="172.57722" fill="#32c832" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="201.92177" y="172.57722" fill="#e1e132" font-family="sans-serif" font-style="italic" font-weight="normal" stroke-width=".19844">only ground</tspan></text>
+  <text x="217.50096" y="160.07211" fill="#32c832" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="217.50096" y="160.07211" fill="#e1e132" font-family="sans-serif" font-style="italic" font-weight="normal" stroke-width=".19844">only ground</tspan></text>
+  <text x="252" y="160" fill="#32c832" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="252" y="160" fill="#32c832" font-family="sans-serif" font-style="italic" font-weight="normal" stroke-width=".19844">any potential</tspan></text>
+  <circle cx="254.9" cy="161.04" r=".35968" fill="none" stroke="#32c832" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <circle cx="198.97" cy="158" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="199.7231" y="158.45891" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="199.7231" y="158.45891" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">S<tspan baseline-shift="sub" font-size="65%">p</tspan></tspan></text>
+  <circle cx="199.02" cy="175.37" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="199.77885" y="175.85974" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="199.77885" y="175.85974" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">S<tspan baseline-shift="sub" font-size="65%">n</tspan></tspan></text>
+  <circle cx="194.66" cy="171.77" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="191.92177" y="172.22948" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="191.92177" y="172.22948" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">G<tspan baseline-shift="sub" font-size="65%">n</tspan></tspan></text>
+  <path d="m196.02 171.77h-1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="194.66" cy="161.59" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="191.92177" y="162.0538" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="191.92177" y="162.0538" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">G<tspan baseline-shift="sub" font-size="65%">p</tspan></tspan></text>
+  <path d="m198.97 160.46v-2.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <path d="m232.09 164v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="232.09" cy="161.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="231.53793" y="160.71466" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="231.53793" y="160.71466" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">G<tspan baseline-shift="sub" font-size="65%">n</tspan></tspan></text>
+  <circle cx="199.02" cy="164.46" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="199.77885" y="164.91782" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="199.77885" y="164.91782" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">D<tspan baseline-shift="sub" font-size="65%">p</tspan></tspan></text>
+  <circle cx="199.02" cy="168.91" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="199.77885" y="169.36545" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="199.77885" y="169.36545" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">D<tspan baseline-shift="sub" font-size="65%">n</tspan></tspan></text>
+  <circle cx="229" cy="162.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="228.50526" y="161.71466" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="228.50526" y="161.71466" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">S<tspan baseline-shift="sub" font-size="65%">n</tspan></tspan></text>
+  <circle cx="235.08" cy="162.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="234.56995" y="161.71468" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="234.56995" y="161.71468" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">D<tspan baseline-shift="sub" font-size="65%">n</tspan></tspan></text>
+  <path d="m248.96 165v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m242.88 165v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <path d="m245.97 164v-2" fill="#c8c8c8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844"/>
+  <circle cx="245.97" cy="161.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="245.41711" y="160.71468" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="245.41711" y="160.71468" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">G<tspan baseline-shift="sub" font-size="65%">p</tspan></tspan></text>
+  <circle cx="242.88" cy="162.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="242.38445" y="161.71468" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="242.38445" y="161.71468" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">S<tspan baseline-shift="sub" font-size="65%">p</tspan></tspan></text>
+  <circle cx="248.96" cy="162.64" r=".35968" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".19844" style="paint-order:normal"/>
+  <text x="248.44913" y="161.71469" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="248.44913" y="161.71469" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">D<tspan baseline-shift="sub" font-size="65%">p</tspan></tspan></text>
+  <text x="228.65849" y="155" fill="none" font-family="Arial" font-size="1.7639px" font-weight="bold" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".19844" xml:space="preserve"><tspan x="228.65849" y="155" fill="#000000" font-family="sans-serif" font-size="1.7639px" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">Standard CMOS process</tspan></text>
+ </g>
+</svg>

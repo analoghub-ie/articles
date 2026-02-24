@@ -1,0 +1,449 @@
+<svg width="550" height="810" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <marker id="Arrow1Mend" overflow="visible" orient="auto">
+   <path transform="matrix(-.4 0 0 -.4 -4 0)" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Arrow2Mend" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <linearGradient id="linearGradient4710">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#aaa" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient3354" cx="218.85" cy="232.36" r="173.36" gradientTransform="matrix(1.0544 0 0 .95206 -23.312 53.501)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4710"/>
+  <radialGradient id="radialGradient3579" cx="218.85" cy="232.36" r="173.36" gradientTransform="matrix(1.0544 0 0 .95206 -8.6191 17.31)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4710"/>
+ </defs>
+ <g transform="translate(-.30652 -6.1711)">
+  <g transform="translate(14.693 -8.1912)" stroke="#000">
+   <rect x="60.5" y="683.36" width="470" height="4" fill="#b7a6b8"/>
+   <rect x="60.5" y="687.36" width="470" height="25.5" fill="#d8e3e9"/>
+   <rect x="60.5" y="712.86" width="470" height="5" fill="#b7a6b8"/>
+   <rect x="60.5" y="657.86" width="470" height="25.5" fill="#d8e3e9"/>
+   <rect x="60.5" y="653.86" width="470" height="4" fill="#df9a92"/>
+  </g>
+  <rect x="75.193" y="709.67" width="470" height="38" fill="#5f8dd3" stroke="#000"/>
+  <path d="m156.76 731.43c-1.4279 0-2.5625 1.1658-2.5625 2.5938v13.656h-79v6h470v-6h-40v-13.656c0-1.4279-1.1346-2.5938-2.5625-2.5938h-39.875c-1.4279 0-2.5625 1.1658-2.5625 2.5938v13.656h-77v-13.656c0-1.4279-1.1346-2.5938-2.5625-2.5938h-39.875c-1.4279 0-2.5625 1.1658-2.5625 2.5938v13.656h-139v-13.656c0-1.4279-1.1346-2.5938-2.5625-2.5938z" fill="#7137c8" stroke="#000"/>
+  <g transform="translate(4.6933 -38.191)" stroke="#000">
+   <g transform="translate(10.3 -.29949)">
+    <rect x="60.2" y="832.16" width="470" height="20" fill="#877db6"/>
+    <rect x="60.2" y="822.16" width="470" height="10" fill="#8994b4"/>
+   </g>
+   <rect x="70.5" y="791.86" width="470" height="30" fill="#92c3f1"/>
+  </g>
+  <g transform="matrix(1 0 0 1 14.693 -144.19)" stroke="#000">
+   <rect x="60.5" y="679.86" width="470" height="4" fill="#b7a6b8"/>
+   <rect x="60.5" y="683.86" width="470" height="29.5" fill="#d8e3e9"/>
+   <rect x="60.5" y="713.36" width="470" height="5.5" fill="#b7a6b8"/>
+   <rect x="60.5" y="642.86" width="470" height="37" fill="#d8e3e9"/>
+   <rect x="60.5" y="638.86" width="470" height="4" fill="#dca59f"/>
+  </g>
+  <g transform="matrix(1 0 0 1.0469 25.458 -272.84)" stroke="#000">
+   <rect x="49.735" y="685.39" width="470" height="4.7761" fill="#b7a6b8" stroke-width=".97736"/>
+   <rect x="49.735" y="690.16" width="470" height="38.209" fill="#d8e3e9" stroke-width=".97736"/>
+   <rect x="49.735" y="728.37" width="470" height="4.7761" fill="#df9a92" stroke-width=".97736"/>
+   <rect x="49.735" y="642.4" width="470" height="42.985" fill="#d8e3e9" stroke-width=".97736"/>
+   <rect x="49.735" y="638.58" width="470" height="3.8209" fill="#df9a92" stroke-width=".97736"/>
+  </g>
+  <g transform="matrix(1 0 0 1.0777 14.693 -391.6)" stroke="#000">
+   <rect x="60.5" y="683.21" width="470" height="4.6397" fill="#b7a6b8" stroke-width=".9633"/>
+   <rect x="60.5" y="687.85" width="470" height="38.046" fill="#d8e3e9" stroke-width=".9633"/>
+   <rect x="60.5" y="725.9" width="470" height="4.6397" fill="#b7a6b8" stroke-width=".9633"/>
+   <rect x="60.5" y="642.38" width="470" height="40.829" fill="#d8e3e9" stroke-width=".9633"/>
+   <rect x="60.5" y="637.74" width="470" height="4.6397" fill="#df9a92" stroke-width=".9633"/>
+  </g>
+  <g transform="translate(14.693 -36.191)" stroke="#000">
+   <rect x="60.5" y="326.86" width="470" height="5" fill="#7137c8"/>
+   <rect x="60.5" y="308.86" width="470" height="18" fill="#92c3f1"/>
+   <rect x="60.5" y="274.86" width="470" height="34" fill="#b0a1d2"/>
+   <path d="m225.56 81.656c-90.502 0-166.75 73.166-166.75 164 0 4.9458 4.3618 12.023 11.688 19.969v-0.375h50.906v0.4375l0.34375-0.25 39.594 56.531h133.5l39.562-56.5 0.34375 0.25v-0.46875h50.188c6.0682-7.3209 9.5625-13.702 9.5625-17.938 0-90.834-78.436-165.66-168.94-165.66z" fill="url(#radialGradient3354)" stroke-width="1.0268"/>
+   <g>
+    <path d="m70.5 267.88v7h44.469l39.875 57h146.47l39.906-57h44.281v-7h-49v0.375l-0.28125-0.1875-39.781 56.812h-136.72l-39.781-56.812-0.4375 0.3125v-0.5z" fill="#a21247"/>
+    <path d="m70.5 265.25v2.625h49.281l39.938 57h3.6562l-0.0937-0.125h129.59l-0.0937 0.125h3.6875l39.906-57h49.125v-2.625h-50.75v0.46875l-0.34375-0.25-39.562 56.5h-133.5l-39.594-56.531-0.34375 0.25v-0.4375z" fill="#ecce55"/>
+   </g>
+  </g>
+  <path d="m351.07 231.68-0.125 0.1875 0.25 0.1875v-0.375z" fill="url(#radialGradient3579)" stroke="#000" stroke-width="1.0268"/>
+  <path d="m351.07 231.68h0.125v0.375l-0.25-0.1875z" fill="url(#radialGradient3579)" stroke="#000" stroke-width="1.0268"/>
+  <path d="m134.19 231.68v0.5l0.40625-0.3125-0.125-0.1875z" fill="url(#radialGradient3579)" stroke="#000" stroke-width="1.0268"/>
+  <path d="m134.19 231.68h0.28125l0.125 0.1875-0.40625 0.3125z" fill="url(#radialGradient3579)" stroke="#000" stroke-width="1.0268"/>
+  <g transform="translate(14.693 -36.191)" fill="none" stroke="#000" stroke-linecap="round">
+   <path d="m-4.5 308.86h59" stroke-width="3"/>
+   <path d="m15.5 742.86h38.919" stroke-width="3"/>
+  </g>
+  <g transform="translate(-155.31 -36.191)">
+   <g transform="translate(184 -1)">
+    <g transform="matrix(.94286 0 0 1.0588 13.143 -46.521)"></g>
+   </g>
+   <g transform="translate(0 -1)">
+    <g transform="matrix(.94286 0 0 1.0588 13.143 -46.521)" stroke="#000">
+     <g transform="translate(1.5557e-5 1)">
+      <rect x="648.73" y="777.86" width="28" height="12" fill="#9a6156" stroke-width="1.0008"/>
+      <rect x="648.73" y="772.86" width="28" height="5" fill="#7f4b19" stroke-width="1.0008"/>
+     </g>
+     <path d="m676.85 773.86c2.4953 0.43059 4.4384 3.9974 4.4384 8.41v8.5877h-4.5606v-16.998c0.0408 5e-3 0.0817-7e-3 0.12216 0z" fill="#df9a92" stroke-width="1.0008"/>
+     <path d="m648.6 773.86c-2.4953 0.43059-4.4384 3.9974-4.4384 8.41v8.5877h4.5606v-16.998c-0.0408 5e-3 -0.0817-7e-3 -0.12216 0z" fill="#df9a92" stroke-width="1.0008"/>
+    </g>
+   </g>
+  </g>
+  <path d="m466.69 709.67 3.5152 26h24.938l2.5464-26z" fill="#d78a23" stroke="#000"/>
+  <path d="m376.19 753.67h-31v4.4375c0 1.0471-0.21218 2.0324-0.59375 2.9375s-0.94172 1.723-1.625 2.4062c-0.68328 0.68329-1.5011 1.2434-2.4062 1.625s-1.8904 0.59375-2.9375 0.59375h-48.438v18h144v-18.906c-0.19724 0.0153-0.3612 0.125-0.5625 0.125h-48.875c-1.0471 0-2.0324-0.21218-2.9375-0.59375s-1.723-0.94171-2.4062-1.625c-0.68328-0.68328-1.2434-1.5011-1.625-2.4062s-0.59375-1.8904-0.59375-2.9375z" fill="#d5ced5" stroke="#000"/>
+  <rect x="343.69" y="753.88" width="34" height="8" rx="0" ry="0" fill="#beaeb8" stroke="#000"/>
+  <rect x="347.49" y="735.67" width="26.4" height="5.2941" fill="#7f4b19" stroke="#000"/>
+  <path d="m374.01 735.67c2.3527 0.45592 4.1848 4.2326 4.1848 8.9048v9.0929h-4.3v-17.998c0.0384 6e-3 0.077-7e-3 0.11518 0z" fill="#df9a92" stroke="#000"/>
+  <path d="m347.38 735.67c-2.3527 0.45592-4.1848 4.2326-4.1848 8.9048v9.0929h4.3v-17.998c-0.0384 6e-3 -0.077-7e-3 -0.11518 0z" fill="#df9a92" stroke="#000"/>
+  <path d="m289.19 753.68v12h48.438c1.0471 0 2.0324-0.21218 2.9375-0.59375s1.723-0.94172 2.4062-1.625 1.2434-1.5011 1.625-2.4062 0.59375-1.8904 0.59375-2.9375v-0.4375c2.821-0.23202 5-1.7938 5-3.6875v-0.3125h-5z" fill="#9190a2" stroke="#000"/>
+  <path d="m289.19 753.67v4h51.559c0.14956 0 0.29637-0.0118 0.44092-0.0312v-3.9688h-6.7903z" fill="#7f4b19" stroke="#000"/>
+  <path d="m433.18 753.68v11.988h-49.219c-1.064 0-2.0652-0.21197-2.9849-0.59316-0.91973-0.3812-1.7508-0.9408-2.4451-1.6234-0.6943-0.68261-1.2635-1.4996-1.6512-2.4039-0.38773-0.90424-0.60333-1.8885-0.60333-2.9346v-0.43707c-2.8665-0.23179-5.0806-1.792-5.0806-3.6839v-0.31219h5.0806z" fill="#9190a2" stroke="#000"/>
+  <path d="m433.19 753.67v3.9961h-52.551c-0.15244 0-0.30207-0.0118-0.4494-0.0312v-3.9648h6.9208z" fill="#7f4b19" stroke="#000"/>
+  <path d="m192.19 753.67h-31v4.4375c0 1.0471-0.21218 2.0324-0.59375 2.9375s-0.94172 1.723-1.625 2.4062c-0.68328 0.68329-1.5011 1.2434-2.4062 1.625s-1.8904 0.59375-2.9375 0.59375h-48.438v18h144v-18.906c-0.19724 0.0153-0.3612 0.125-0.5625 0.125h-48.875c-1.0471 0-2.0324-0.21218-2.9375-0.59375s-1.723-0.94171-2.4062-1.625c-0.68328-0.68328-1.2434-1.5011-1.625-2.4062s-0.59375-1.8904-0.59375-2.9375z" fill="#9190a2" stroke="#000"/>
+  <rect x="159.69" y="753.88" width="34" height="8" rx="0" ry="0" fill="#beaeb8" stroke="#000"/>
+  <rect x="163.49" y="735.67" width="26.4" height="5.2941" fill="#7f4b19" stroke="#000"/>
+  <path d="m190.01 735.67c2.3527 0.45592 4.1848 4.2326 4.1848 8.9048v9.0929h-4.3v-17.998c0.0384 6e-3 0.077-7e-3 0.11518 0z" fill="#df9a92" stroke="#000"/>
+  <path d="m163.38 735.67c-2.3527 0.45592-4.1848 4.2326-4.1848 8.9048v9.0929h4.3v-17.998c-0.0384 6e-3 -0.077-7e-3 -0.11518 0z" fill="#df9a92" stroke="#000"/>
+  <path d="m105.19 753.68v12h48.438c1.0471 0 2.0324-0.21218 2.9375-0.59375s1.723-0.94172 2.4062-1.625 1.2434-1.5011 1.625-2.4062 0.59375-1.8904 0.59375-2.9375v-0.4375c2.821-0.23202 5-1.7938 5-3.6875v-0.3125h-5z" fill="#d5ced5" stroke="#000"/>
+  <path d="m105.19 753.67v4h51.559c0.14956 0 0.29637-0.0118 0.44092-0.0312v-3.9688h-6.7903z" fill="#7f4b19" stroke="#000"/>
+  <path d="m249.18 753.68v11.988h-49.219c-1.064 0-2.0652-0.21197-2.9849-0.59316-0.91973-0.3812-1.7508-0.9408-2.4451-1.6234-0.6943-0.68261-1.2635-1.4996-1.6512-2.4039-0.38773-0.90424-0.60333-1.8885-0.60333-2.9346v-0.43707c-2.8665-0.23179-5.0806-1.792-5.0806-3.6839v-0.31219h5.0806z" fill="#d5ced5" stroke="#000"/>
+  <path d="m249.19 753.67v3.9961h-52.551c-0.15243 0-0.30207-0.0118-0.4494-0.0312v-3.9648h6.9209z" fill="#7f4b19" stroke="#000"/>
+  <path d="m205.19 709.67h127l-3.0696 44h-119.71z" fill="#d78a23" stroke="#000"/>
+  <path d="m115.19 709.67 3.9688 44h28.156l2.875-44z" fill="#d78a23" stroke="#000"/>
+  <path d="m392.69 709.67 3.9688 44h28.156l2.875-44z" fill="#d78a23" stroke="#000"/>
+  <rect x="163.49" y="740.67" width="26.4" height="11" fill="#9a6156" stroke="#000"/>
+  <rect x="163.49" y="751.67" width="26.4" height="2" fill="#b4b9d6" stroke="#000" stroke-linecap="round"/>
+  <rect x="347.49" y="740.67" width="26.4" height="11" fill="#9a6156" stroke="#000"/>
+  <rect x="347.49" y="751.67" width="26.4" height="2" fill="#b4b9d6" stroke="#000" stroke-linecap="round"/>
+  <path d="m114.26 645.65 0.84375 33.469v0.0625l4.9688 32.5h25.75l3.3125-32.5h0.0937l1.1562-33.406z" fill="#ff6d0b" stroke="#000"/>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text4013-ca" x="416.66867" y="222.24707" systemLanguage="ca" xml:space="preserve"><tspan id="tspan4015-ca" x="416.66867" y="222.24707" font-size="10px">Revestiments Cr, Cu i Au</tspan></text>
+   <text x="416.66867" y="222.24707" xml:space="preserve"><tspan x="416.66867" y="222.24707" font-size="10px">Cr, Cu and Au liners</tspan></text>
+  </switch>
+  <path d="m414.94 221.84-11.494 6.9786" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-width="1px"/>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6005-ca" x="341.04773" y="724.55353" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6007-ca" x="341.04773" y="724.55353">porta poli-Si</tspan></text>
+   <text x="341.04773" y="724.55353" xml:space="preserve"><tspan x="341.04773" y="724.55353">poly-Si gate</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6009-ca" x="454.76453" y="773.11249" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6011-ca" x="454.76453" y="773.11249">STI</tspan></text>
+   <text x="454.76453" y="773.11249" xml:space="preserve"><tspan x="454.76453" y="773.11249">STI</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6013-ca" x="168.63403" y="776.4339" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6015-ca" x="168.63403" y="776.4339">p-pou</tspan></text>
+   <text x="168.63403" y="776.4339" xml:space="preserve"><tspan x="168.63403" y="776.4339">p-well</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6017-ca" x="261.56204" y="772.66504" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6019-ca" x="261.56204" y="772.66504">USG</tspan></text>
+   <text x="261.56204" y="772.66504" xml:space="preserve"><tspan x="261.56204" y="772.66504">USG</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="9px" stroke-width="1px">
+   <text id="text6021-ca" x="252.44958" y="738.05292" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6023-ca" x="252.44958" y="738.05292">tungstè</tspan></text>
+   <text x="252.44958" y="738.05292" xml:space="preserve"><tspan x="252.44958" y="738.05292">tungsten</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6025-ca" x="316.8277" y="791.08026" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6027-ca" x="316.8277" y="791.08026">SiO2 enterrat</tspan></text>
+   <text x="316.8277" y="791.08026" xml:space="preserve"><tspan x="316.8277" y="791.08026">buried SiO2</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6029-ca" x="309.84906" y="804.96405" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6031-ca" x="309.84906" y="804.96405">hòstia p-silici</tspan></text>
+   <text x="309.84906" y="804.96405" xml:space="preserve"><tspan x="309.84906" y="804.96405">p-silicon wafer</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6033-ca" x="350.07892" y="778.07599" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6035-ca" x="350.07892" y="778.07599">n-pou</tspan></text>
+   <text x="350.07892" y="778.07599" xml:space="preserve"><tspan x="350.07892" y="778.07599">n-well</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6037-ca" x="81.972534" y="770.61249" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6039-ca" x="81.972534" y="770.61249">USG</tspan></text>
+   <text x="81.972534" y="770.61249" xml:space="preserve"><tspan x="81.972534" y="770.61249">USG</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="9px" stroke-width="1px">
+   <text id="text6041-ca" x="164.69324" y="666.17108" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6043-ca" x="164.69324" y="666.17108">SOD</tspan></text>
+   <text x="164.69324" y="666.17108" xml:space="preserve"><tspan x="164.69324" y="666.17108">SOD</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="9px" stroke-width="1px">
+   <text id="text6045-ca" x="327.86707" y="693.59296" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6047-ca" x="327.86707" y="693.59296">SOD</tspan></text>
+   <text x="327.86707" y="693.59296" xml:space="preserve"><tspan x="327.86707" y="693.59296">SOD</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6049-ca" x="126.35162" y="693.51117" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6051-ca" x="126.35162" y="693.51117">Cu1</tspan></text>
+   <text x="126.35162" y="693.51117" xml:space="preserve"><tspan x="126.35162" y="693.51117">Cu1</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6053-ca" x="85.300751" y="731.68848" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6055-ca" x="85.300751" y="731.68848">PSG</tspan></text>
+   <text x="85.300751" y="731.68848" xml:space="preserve"><tspan x="85.300751" y="731.68848">PSG</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px" text-anchor="middle">
+   <text id="text6057-ca" x="522.17426" y="723.59198" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6137-ca" x="522.17426" y="723.59198" text-align="center">capa de</tspan><tspan id="tspan2162-ca" x="522.17426" y="731.09198" text-align="center">barrera SiN</tspan></text>
+   <text x="522.17426" y="723.59198" xml:space="preserve"><tspan x="522.17426" y="723.59198" text-align="center">SiN barrier</tspan><tspan x="522.17426" y="731.09198" text-align="center">layer</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6061-ca" x="437.67468" y="741.54071" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6063-ca" x="437.67468" y="741.54071">CoSi2</tspan></text>
+   <text x="437.67468" y="741.54071" xml:space="preserve"><tspan x="437.67468" y="741.54071">CoSi2</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="9px" stroke-width="1px">
+   <text id="text6065-ca" x="169.69324" y="696.17108" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6067-ca" x="169.69324" y="696.17108">capa de segellat de SiC</tspan></text>
+   <text x="169.69324" y="696.17108" xml:space="preserve"><tspan x="169.69324" y="696.17108">SiC seal layer</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="9px" stroke-width="1px">
+   <text id="text6069-ca" x="315.30652" y="663.67108" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6071-ca" x="315.30652" y="663.67108">PE-TEOS</tspan></text>
+   <text x="315.30652" y="663.67108" xml:space="preserve"><tspan x="315.30652" y="663.67108">PE-TEOS</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6073-ca" x="202.70627" y="594.16803" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6075-ca" x="202.70627" y="594.16803">Cu 2</tspan></text>
+   <text x="202.70627" y="594.16803" xml:space="preserve"><tspan x="202.70627" y="594.16803">Cu 2</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="9px" stroke-width="1px">
+   <text id="text6077-ca" x="164.69324" y="556.17108" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6079-ca" x="164.69324" y="556.17108">capa de parada de gravat de SiC</tspan></text>
+   <text x="164.69324" y="556.17108" xml:space="preserve"><tspan x="164.69324" y="556.17108">SiC etch stop layer</tspan></text>
+  </switch>
+  <switch font-size="9px">
+   <text id="text6085-ca" x="180.3817" y="462.91467" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6087-ca" x="180.3817" y="462.91467">capa barrera Ta/TaN</tspan></text>
+   <text x="180.3817" y="462.91467" xml:space="preserve"><tspan x="180.3817" y="462.91467">Ta/TaN barrier layer</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text6093-ca" x="367.7308" y="285.87592" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6095-ca" x="367.7308" y="285.87592" font-size="11px">capa de segellat de SiN</tspan></text>
+   <text x="367.7308" y="285.87592" xml:space="preserve"><tspan x="367.7308" y="285.87592" font-size="11px">SiN seal layer</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text6097-ca" x="357.99353" y="262.0285" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6099-ca" x="357.99353" y="262.0285" font-size="11px">capa de segellat (nitrur o òxid)</tspan></text>
+   <text x="357.99353" y="262.0285" xml:space="preserve"><tspan x="357.99353" y="262.0285" font-size="11px">seal layer (nitride or oxide)</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text6101-ca" x="102.95263" y="280.12878" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6103-ca" x="102.95263" y="280.12878" dy="5.6671948" font-size="11px">PSG</tspan></text>
+   <text x="102.95263" y="280.12878" xml:space="preserve"><tspan x="102.95263" y="280.12878" dy="5.6671948" font-size="11px">PSG</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6105-ca" x="176.02319" y="323.64273" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6107-ca" x="176.02319" y="323.64273">Cu 5</tspan></text>
+   <text x="176.02319" y="323.64273" xml:space="preserve"><tspan x="176.02319" y="323.64273">Cu 5</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text6109-ca" x="439.15933" y="316.25357" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6111-ca" x="439.15933" y="316.25357" dy="13.223454" font-size="11px">SOD</tspan></text>
+   <text x="439.15933" y="316.25357" xml:space="preserve"><tspan x="439.15933" y="316.25357" dy="13.223454" font-size="11px">SOD</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6117-ca" x="381.59753" y="625.62421" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6119-ca" x="381.59753" y="625.62421">SOD</tspan></text>
+   <text x="381.59753" y="625.62421" xml:space="preserve"><tspan x="381.59753" y="625.62421">SOD</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6121-ca" x="130.46748" y="763.70819" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6123-ca" x="130.46748" y="763.70819">n-Si</tspan></text>
+   <text x="130.46748" y="763.70819" xml:space="preserve"><tspan x="130.46748" y="763.70819">n-Si</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6125-ca" x="217.93054" y="763.29761" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6127-ca" x="217.93054" y="763.29761">n-Si</tspan></text>
+   <text x="217.93054" y="763.29761" xml:space="preserve"><tspan x="217.93054" y="763.29761">n-Si</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6129-ca" x="311.90161" y="763.29767" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6131-ca" x="311.90161" y="763.29767">p-Si</tspan></text>
+   <text x="311.90161" y="763.29767" xml:space="preserve"><tspan x="311.90161" y="763.29767">p-Si</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text6133-ca" x="400.98203" y="762.88715" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6135-ca" x="400.98203" y="762.88715">p-Si</tspan></text>
+   <text x="400.98203" y="762.88715" xml:space="preserve"><tspan x="400.98203" y="762.88715">p-Si</tspan></text>
+  </switch>
+  <path d="m75.224 295.68-0.03125 49h205v51h69v-51h5.0312l0.8125-49z" fill="#ff6d0b" stroke="#000"/>
+  <path d="m391.69 645.64 0.84375 33.469v0.0625l4.9688 32.5h25.75l3.3125-32.5h0.0937l1.1562-33.406z" fill="#ff6d0b" stroke="#000"/>
+  <path d="m463.69 645.64 0.84375 33.469v0.0625l4.9688 32.5h25.75l3.3125-32.5h0.0937l1.1562-33.406z" fill="#ff6d0b" stroke="#000"/>
+  <path d="m251.19 645.64 0.84375 33.469v0.0625l4.9688 32.5h25.75l3.3125-32.5h0.0937l1.1562-33.406z" fill="#ff6d0b" stroke="#000"/>
+  <g transform="matrix(1 0 0 1.1094 14.693 -150.71)" stroke="#000">
+   <rect x="60.5" y="683.36" width="470" height="4" fill="#b7a6b8" stroke-width=".94943"/>
+   <rect x="60.5" y="687.36" width="470" height="25.5" fill="#d8e3e9" stroke-width=".94943"/>
+   <rect x="60.5" y="712.86" width="470" height="5" fill="#b7a6b8" stroke-width=".94943"/>
+   <rect x="60.5" y="657.86" width="470" height="25.5" fill="#d8e3e9" stroke-width=".94943"/>
+   <rect x="60.5" y="653.86" width="470" height="4" fill="#df9a92" stroke-width=".94943"/>
+  </g>
+  <path d="m243.22 574.68 1.1562 35.969v0.0625l6.875 34.969h35.656l4.5625-34.969h0.125l0.0937-3.0312h165.31l0.0937 2.9688v0.0625l6.875 34.969h35.625l4.5938-34.969h0.125l1.0312-35.906-16.156-0.0312v-0.0937h-229v0.0312z" fill="#ff6d0b" stroke="#000" stroke-linecap="round"/>
+  <rect x="450.19" y="395.67" width="64" height="49" fill="#ff6d0b" stroke="#000" stroke-linecap="round"/>
+  <path d="m106.53 574.67 1.1678 35.987v0.0672l6.8772 34.946h35.64l4.5848-34.946h0.12974l1.007-35.922z" fill="#ff6d0b" stroke="#000"/>
+  <path d="m100.19 494.68v41h5v39h52v-39h388v-41z" fill="#ff6d0b" stroke="#000" stroke-linecap="round"/>
+  <path d="m97.693 395.68v49h2.5v50h64v-50h2.5v-49z" fill="#ff6d0b" stroke="#000" stroke-linecap="round"/>
+  <rect x="282.69" y="395.67" width="64" height="49" fill="#ff6d0b" stroke="#000" stroke-linecap="round"/>
+  <path d="m179.69 461.17-13.5 9.9596" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <switch font-size="11px">
+   <text id="text6113-ca" x="302.47018" y="424.88425" systemLanguage="ca" xml:space="preserve"><tspan id="tspan6115-ca" x="302.47018" y="424.88425" font-size="11px">Cu 4</tspan></text>
+   <text x="302.47018" y="424.88425" xml:space="preserve"><tspan x="302.47018" y="424.88425" font-size="11px">Cu 4</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text9015-ca" x="471.57733" y="424.88425" systemLanguage="ca" xml:space="preserve"><tspan id="tspan9017-ca" x="471.57733" y="424.88425" font-size="11px">Cu 4</tspan></text>
+   <text x="471.57733" y="424.88425" xml:space="preserve"><tspan x="471.57733" y="424.88425" font-size="11px">Cu 4</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text9019-ca" x="121.57741" y="424.88425" systemLanguage="ca" xml:space="preserve"><tspan id="tspan9021-ca" x="121.57741" y="424.88425" font-size="11px">Cu 4</tspan></text>
+   <text x="121.57741" y="424.88425" xml:space="preserve"><tspan x="121.57741" y="424.88425" font-size="11px">Cu 4</tspan></text>
+  </switch>
+  <path d="m367.19 281.17-10 7.5" fill="none" marker-end="url(#Arrow1Mend)" stroke="#000" stroke-width="1px"/>
+  <switch font-size="11px">
+   <text id="text9914-ca" x="302.47018" y="324.88425" systemLanguage="ca" xml:space="preserve"><tspan id="tspan9916-ca" x="302.47018" y="324.88425" font-size="11px">Cu 5</tspan></text>
+   <text x="302.47018" y="324.88425" xml:space="preserve"><tspan x="302.47018" y="324.88425" font-size="11px">Cu 5</tspan></text>
+  </switch>
+  <switch fill="#000000" font-family="Verdana" font-size="9px" stroke-width="1px">
+   <text id="text10876-ca" x="354.703" y="463.76874" systemLanguage="ca" xml:space="preserve"><tspan id="tspan10878-ca" x="354.703" y="463.76874">capa de parada de gravat de SiC</tspan></text>
+   <text x="354.703" y="463.76874" xml:space="preserve"><tspan x="354.703" y="463.76874">SiC etch stop layer</tspan></text>
+  </switch>
+  <path d="M 257.5,552.5 280,565" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m352.19 461.17-10-10" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m167.19 693.67-10 10" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m357.81 656.17 14.387-5" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m437.19 741.17-10.632 13.448" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m457.19 738.67h12.5" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m354.69 726.17 2.5 17.5" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m522.83 732.72 4.3679 15.948" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <path d="m507.19 766.17-8.4198-14.526" fill="none" marker-end="url(#Arrow2Mend)" stroke="#000" stroke-miterlimit="0"/>
+  <switch fill="#000000" font-family="Verdana" font-size="6px" stroke-width="1px">
+   <text id="text10898-ca" x="510.38696" y="767.1391" systemLanguage="ca" xml:space="preserve"><tspan id="tspan10900-ca" x="510.38696" y="767.1391">separador</tspan></text>
+   <text x="510.38696" y="767.1391" xml:space="preserve"><tspan x="510.38696" y="767.1391">spacer</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text3066-ca" x="121.57741" y="520.88422" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3068-ca" x="121.57741" y="520.88422" font-size="11px">Cu 3</tspan></text>
+   <text x="121.57741" y="520.88422" xml:space="preserve"><tspan x="121.57741" y="520.88422" font-size="11px">Cu 3</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text3070-ca" x="121.57741" y="598.88422" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3072-ca" x="121.57741" y="598.88422" font-size="11px">Cu 2</tspan></text>
+   <text x="121.57741" y="598.88422" xml:space="preserve"><tspan x="121.57741" y="598.88422" font-size="11px">Cu 2</tspan></text>
+  </switch>
+  <switch font-size="11px">
+   <text id="text3074-ca" x="361.57739" y="594.88422" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3076-ca" x="361.57739" y="594.88422" font-size="11px">Cu 2</tspan></text>
+   <text x="361.57739" y="594.88422" xml:space="preserve"><tspan x="361.57739" y="594.88422" font-size="11px">Cu 2</tspan></text>
+  </switch>
+ </g>
+ <g transform="matrix(.93873 0 0 .93638 331.51 -801.07)">
+  <rect x="70.5" y="877.23" width="155.53" height="126" fill="#e1e1e1" stroke="#000" stroke-width="1.0666"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.31 -784.68)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#877db6" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.31 -775.32)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#9a6156" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.31 -747.23)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#7f4b19" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.31 -756.59)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#df9a92" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 279.94 -784.68)">
+  <rect x="222.25" y="864.61" width="7.5" height="7.5" fill="#d5ced5" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 308.03 -784.68)">
+  <rect x="222.25" y="864.61" width="7.5" height="7.5" fill="#9190a2" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.31 -737.87)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#d8e3e9" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.36 -728.4)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#5f8dd3" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.36 -719.03)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#d78a23" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.36 -709.67)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#ff6d0b" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.36 -700.3)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#7137c8" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.36 -690.94)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#b0a1d2" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 186.36 -681.58)">
+  <rect x="230.25" y="864.61" width="7.5" height="7.5" fill="#b7a6b8" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <g transform="matrix(.93638 0 0 .93638 21.269 .68075)">
+  <rect transform="translate(176.25 -819.17)" x="230.25" y="864.61" width="7.5" height="7.5" fill="#92c3f1" stroke="#000" stroke-width=".53397"/>
+ </g>
+ <switch fill="#000000" font-family="Arial" font-size="13.568px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-ca" transform="scale(.96068 1.0409)" x="441.95557" y="16.375191" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-ca" x="441.95557" y="16.375191" font-family="sans-serif" stroke-width=".36342">Llegenda:</tspan></text>
+  <text transform="scale(.96068 1.0409)" x="441.95557" y="16.375191" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="441.95557" y="16.375191" font-family="sans-serif" stroke-width=".36342">Legend:</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-ca" transform="scale(.97361 1.0271)" x="443.37009" y="30.229109" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-ca" x="443.37009" y="30.229109" font-family="sans-serif" stroke-width=".19852">Silici (Si)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="443.37009" y="30.229109" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="443.37009" y="30.229109" font-family="sans-serif" stroke-width=".19852">Silicon (Si)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-5-ca" transform="scale(.97361 1.0271)" x="459.40326" y="39.526352" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-5-ca" x="459.40326" y="39.526352" font-family="sans-serif" stroke-width=".19852">Polisilici (Poly-Si)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="459.40326" y="39.526352" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="459.40326" y="39.526352" font-family="sans-serif" stroke-width=".19852">Polysilicon (Poly-Si)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-8-ca" transform="scale(.97361 1.0271)" x="485.94614" y="48.581894" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-52-ca" x="485.94614" y="48.581894" font-family="sans-serif" stroke-width=".19852">Vidre de silici no dopat (USG, SiO )</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="485.94614" y="48.581894" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="485.94614" y="48.581894" font-family="sans-serif" stroke-width=".19852">Undoped silicon glass (USG, SiO )</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-1-ca" transform="scale(.97361 1.0271)" x="486.06564" y="57.406086" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-6-ca" x="486.06564" y="57.406086" font-family="sans-serif" stroke-width=".19852">Diòxid de silici (òxid de TEOS, SiO)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="486.06564" y="57.406086" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="486.06564" y="57.406086" font-family="sans-serif" stroke-width=".19852">Silicon dioxide (TEOS oxide, SiO )</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-55-ca" transform="scale(.97361 1.0271)" x="466.59219" y="66.582481" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-7-ca" x="466.59219" y="66.582481" font-family="sans-serif" stroke-width=".19852">Dissilicida de cobalt (CoSi)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="466.59219" y="66.582481" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="466.59219" y="66.582481" font-family="sans-serif" stroke-width=".19852">Cobalt disilicide (CoSi )</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-16-ca" transform="scale(.97361 1.0271)" x="469.00729" y="75.614143" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-50-ca" x="469.00729" y="75.614143" font-family="sans-serif" stroke-width=".19852">Dielèctric enrotllable (SOD)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="469.00729" y="75.614143" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="469.00729" y="75.614143" font-family="sans-serif" stroke-width=".19852">Spin-on dielectric (SOD)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-9-ca" transform="scale(.97361 1.0271)" x="477.92459" y="84.998016" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-505-ca" x="477.92459" y="84.998016" font-family="sans-serif" stroke-width=".19852">Vidre de silicat de fòsfor (PSG)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="477.92459" y="84.998016" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="477.92459" y="84.998016" font-family="sans-serif" stroke-width=".19852">Phosphor-silicate glass (PSG)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="4.6868px" letter-spacing="0px" stroke-width=".12554" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13844657px">
+  <text id="text3978-4-ca" transform="scale(1.0692 .93528)" x="495.56512" y="55.137012" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13845px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-57-ca" x="495.56512" y="55.137012" font-family="sans-serif" stroke-width=".12554">2</tspan></text>
+  <text transform="scale(1.0692 .93528)" x="495.56512" y="55.137012" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13845px" xml:space="preserve"><tspan x="495.56512" y="55.137012" font-family="sans-serif" stroke-width=".12554">2</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-91-ca" transform="scale(.97361 1.0271)" x="448.33798" y="94.013672" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-62-ca" x="448.33798" y="94.013672" font-family="sans-serif" stroke-width=".19852">Tungstè (W)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="448.33798" y="94.013672" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="448.33798" y="94.013672" font-family="sans-serif" stroke-width=".19852">Tungsten (W)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-5-39-ca" transform="scale(.97361 1.0271)" x="446.34079" y="103.59017" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-5-9-ca" x="446.34079" y="103.59017" font-family="sans-serif" stroke-width=".19852">Coure (Cu)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="446.34079" y="103.59017" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="446.34079" y="103.59017" font-family="sans-serif" stroke-width=".19852">Copper (Cu)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-8-6-ca" transform="scale(.97361 1.0271)" x="459.5177" y="112.36646" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-52-0-ca" x="459.5177" y="112.36646" font-family="sans-serif" stroke-width=".19852">Nitrur de silici (SiN)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="459.5177" y="112.36646" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="459.5177" y="112.36646" font-family="sans-serif" stroke-width=".19852">Silicon nitride (SiN)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-1-0-ca" transform="scale(.97361 1.0271)" x="459.82303" y="121.36675" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-6-7-ca" x="459.82303" y="121.36675" font-family="sans-serif" stroke-width=".19852">Nitrur de silici (SiN)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="459.82303" y="121.36675" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="459.82303" y="121.36675" font-family="sans-serif" stroke-width=".19852">Silicon nitride (SiN)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-55-70-ca" transform="scale(.97361 1.0271)" x="461.15659" y="130.54315" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-7-7-ca" x="461.15659" y="130.54315" font-family="sans-serif" stroke-width=".19852">Carbur de silici (SiC)</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="461.15659" y="130.54315" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="461.15659" y="130.54315" font-family="sans-serif" stroke-width=".19852">Silicon carbide (SiC)</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-16-3-ca" transform="scale(.97361 1.0271)" x="517.07538" y="30.787935" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-50-45-ca" x="517.07538" y="30.787935" font-family="sans-serif" stroke-width=".19852">n-Si</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="517.07538" y="30.787935" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="517.07538" y="30.787935" font-family="sans-serif" stroke-width=".19852">n-Si</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="7.4116px" letter-spacing="0px" stroke-width=".19852" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96311951px">
+  <text id="text3978-9-15-ca" transform="scale(.97361 1.0271)" x="546.61389" y="30.09129" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-505-0-ca" x="546.61389" y="30.09129" font-family="sans-serif" stroke-width=".19852">p-Si</tspan></text>
+  <text transform="scale(.97361 1.0271)" x="546.61389" y="30.09129" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:4.96312px" xml:space="preserve"><tspan x="546.61389" y="30.09129" font-family="sans-serif" stroke-width=".19852">p-Si</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="4.6868px" letter-spacing="0px" stroke-width=".12554" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13844657px">
+  <text id="text3978-4-7-ca" transform="scale(1.0692 .93528)" x="495.67398" y="64.827545" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13845px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-57-9-ca" x="495.67398" y="64.827545" font-family="sans-serif" stroke-width=".12554">2</tspan></text>
+  <text transform="scale(1.0692 .93528)" x="495.67398" y="64.827545" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13845px" xml:space="preserve"><tspan x="495.67398" y="64.827545" font-family="sans-serif" stroke-width=".12554">2</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="4.6868px" letter-spacing="0px" stroke-width=".12554" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13844657px">
+  <text id="text3978-4-2-ca" transform="scale(1.0692 .93528)" x="459.9548" y="75.412498" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13845px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3976-57-2-ca" x="459.9548" y="75.412498" font-family="sans-serif" stroke-width=".12554">2</tspan></text>
+  <text transform="scale(1.0692 .93528)" x="459.9548" y="75.412498" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:3.13845px" xml:space="preserve"><tspan x="459.9548" y="75.412498" font-family="sans-serif" stroke-width=".12554">2</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="13.568px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-4-ca" transform="scale(.96068 1.0409)" x="248.7989" y="143.50926" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-5-ca" x="248.7989" y="143.50926" font-family="sans-serif" stroke-width=".36342">tap de soldadura</tspan></text>
+  <text transform="scale(.96068 1.0409)" x="248.7989" y="143.50926" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="248.7989" y="143.50926" font-family="sans-serif" stroke-width=".36342">lead-free</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="Arial" font-size="13.568px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-4-4-ca" transform="scale(.96068 1.0409)" x="247.61324" y="157.80818" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-5-7-ca" x="247.61324" y="157.80818" font-family="sans-serif" stroke-width=".36342">sense plom</tspan></text>
+  <text transform="scale(.96068 1.0409)" x="247.61324" y="157.80818" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="247.61324" y="157.80818" font-family="sans-serif" stroke-width=".36342">solder bump</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="sans-serif" font-size="21.333px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-8-ca" transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-132.31708" y="30.678114" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-4-ca" x="-132.31708" y="30.678114" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">"Embalatge avançat" /</tspan></text>
+  <text transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-132.31708" y="30.678114" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="-132.31708" y="30.678114" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">back-end /</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="sans-serif" font-size="21.333px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-7-ca" transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-139.09499" y="57.165726" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-1-ca" x="-139.09499" y="57.165726" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">back-end</tspan></text>
+  <text transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-139.09499" y="57.165726" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="-139.09499" y="57.165726" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">"Advanced Packaging"</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="sans-serif" font-size="21.333px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-49-ca" transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-488.10699" y="56.609879" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-7-ca" x="-488.10699" y="56.609879" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BEOL</tspan></text>
+  <text transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-488.10699" y="56.609879" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="-488.10699" y="56.609879" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BEOL</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="sans-serif" font-size="21.333px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-8-5-ca" transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-736.31525" y="23.844172" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-4-0-ca" x="-736.31525" y="23.844172" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">front-end</tspan></text>
+  <text transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-736.31525" y="23.844172" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="-736.31525" y="23.844172" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">front-end</tspan></text>
+ </switch>
+ <switch fill="#000000" font-family="sans-serif" font-size="21.333px" letter-spacing="0px" stroke-width=".36342" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553219px">
+  <text id="text3974-8-9-ca" transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-776.69244" y="55.692539" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" systemLanguage="ca" xml:space="preserve"><tspan id="tspan3972-4-9-ca" x="-776.69244" y="55.692539" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FEOL</tspan></text>
+  <text transform="matrix(1.2684e-8 -.96068 1.0409 1.2007e-8 0 0)" x="-776.69244" y="55.692539" text-align="center" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:9.08553px" xml:space="preserve"><tspan x="-776.69244" y="55.692539" font-family="sans-serif" font-size="21.333px" stroke-width=".36342" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FEOL</tspan></text>
+ </switch>
+</svg>

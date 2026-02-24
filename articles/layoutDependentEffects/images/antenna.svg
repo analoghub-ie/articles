@@ -1,0 +1,55 @@
+<svg width="57.24mm" height="21.836mm" version="1.1" viewBox="0 0 57.24 21.836" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-20" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-3" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-28" overflow="visible" markerHeight="0.60000002" markerWidth="0.60000002" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g transform="translate(-191.91 -.26318)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="198" y="15" width="46.901" height="7" fill="#ffffc8" stroke="#000" stroke-width=".19844"/>
+  <path d="m224.9 15v3.7822c0 0.67467 0.92238 1.2178 2.0681 1.2178h13.864c1.1457 0 2.0681-0.54315 2.0681-1.2178v-3.7822z" fill="#96fa96" stroke="#000" stroke-width=".19844"/>
+  <path d="m238.79 15v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m226.75 15v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <path d="m232.77 15v1.5129c0 0.26987 0.1162 0.48713 0.26052 0.48713h1.7464c0.14432 0 0.26051-0.21726 0.26051-0.48713v-1.5129z" fill="#e1e132" stroke="#000" stroke-width=".19844"/>
+  <text x="239.24026" y="16.425295" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="239.24026" y="16.425295" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="227.24023" y="16.321684" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="227.24023" y="16.321684" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="233.19449" y="16.373987" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="233.19449" y="16.373987" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">p<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m232.74 15v1l-3.7226-0.41283 3e-3 -0.58717z" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <path d="m229.03 15-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m232.73 15h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <rect x="229.02" y="13.099" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect x="229.02" y="9.4618" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-13.099" y="230.24" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-9.4618" y="230.24" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <path d="m206.02 15v1.5129c0 0.26987 0.11619 0.48713 0.26051 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m200 15v1.5129c0 0.26987 0.11619 0.48713 0.26052 0.48713h1.7464c0.14433 0 0.26052-0.21726 0.26052-0.48713v-1.5129z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <text x="206.40958" y="16.419731" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="206.40958" y="16.419731" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <text x="200.40958" y="16.49037" fill="none" font-family="Arial" font-size="1.4111px" font-weight="bold" stroke="#000000" stroke-width=".19844" xml:space="preserve"><tspan x="200.40958" y="16.49037" fill="#000000" font-family="sans-serif" font-style="italic" font-weight="normal" stroke="none" stroke-width=".19844">n<tspan baseline-shift="super" font-size="65%">+</tspan></tspan></text>
+  <path d="m202.3 15v1l3.7226-0.41283-3e-3 -0.58717z" fill="#32c832" stroke="#000" stroke-width=".19844"/>
+  <path d="m202.32 15-0.01-1h3.7204l-9e-3 1" fill="#c8c8c8" stroke="#000" stroke-width=".19844"/>
+  <path d="m206.02 15h-3.7111" fill="#ffff32" stroke="#000" stroke-width=".19844"/>
+  <rect x="205.3" y="9.4618" width="3.7116" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-15" y="206.52" width="4.6374" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect transform="rotate(-90)" x="-9.4618" y="206.52" width="2.7367" height="1.2633" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <rect x="205.3" y="5.8231" width="27.432" height=".90078" fill="#6464c8" stroke="#000005" stroke-width=".19844"/>
+  <path d="m213.53 1.5-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4)" stroke="#000005" stroke-width=".198"/>
+  <text x="214.52946" y="1.5388393" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="214.52946" y="1.5388393" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m218.53 1.4708-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-20)" stroke="#000005" stroke-width=".198"/>
+  <text x="219.52948" y="1.5096132" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="219.52948" y="1.5096132" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m223.53 1.4708-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-3)" stroke="#000005" stroke-width=".198"/>
+  <text x="224.52946" y="1.5096133" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="224.52946" y="1.5096133" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m228.53 1.4708-3 3" fill="#c8c864" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4-28)" stroke="#000005" stroke-width=".198"/>
+  <text x="229.52948" y="1.5096132" fill="#000000" font-family="Arial" font-size="2.1167px" font-weight="bold" stroke-width=".198" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="229.52948" y="1.5096132" fill="#000000" font-size="2.1167px" font-weight="normal" stroke-width=".198">+</tspan></text>
+  <path d="m231.1 4.6698c4.0408-0.61173 2.901 4.3302 2.901 7.9528" fill="none" marker-end="url(#ConcaveTriangle-16-42-5-1-1-7-6-6-2-1-6-9-3-7-3-7-8-93-94-8-4)" stroke="#c80005" stroke-width=".33073"/>
+  <text x="242" y="8" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="242" y="8" text-align="center">Accumulated charge</tspan><tspan x="242" y="9.7802219" text-align="center">strikes gate oxide</tspan></text>
+  <text x="200.14244" y="1.4181955" fill="#000000" font-family="sans-serif" font-size="1.4111px" font-style="italic" stroke-width=".19844" text-anchor="middle" xml:space="preserve"><tspan x="200.14244" y="1.4181955" text-align="center">Charge is accumulated </tspan><tspan x="200.14244" y="3.1984179" text-align="center">on a wire during </tspan><tspan x="200.14244" y="4.9786401" text-align="center">fabrication</tspan></text>
+ </g>
+</svg>

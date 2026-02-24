@@ -2,41 +2,58 @@ name: Deploy on Merge
 
 on:
   push:
-    branches: [main]
+    branches: [dev, master]
     paths:
       - 'articles/**'
-      - 'images/**'
+      - 'categoryIcons/**'
+      - 'category-article-mapping.yml'
 
 jobs:
   trigger-deploy:
     name: Trigger Main App Rebuild
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Railway deploy webhook
+      - name: Trigger Railway deploy webhook (dev)
+        if: github.ref == 'refs/heads/dev'
         env:
-          RAILWAY_DEPLOY_WEBHOOK: ${{ secrets.RAILWAY_DEPLOY_WEBHOOK }}
+          RAILWAY_DEV_WEBHOOK: ${{ secrets.RAILWAY_DEV_WEBHOOK }}
         run: |
-          if [ -n "$RAILWAY_DEPLOY_WEBHOOK" ]; then
-            curl -X POST "$RAILWAY_DEPLOY_WEBHOOK" \
+          if [ -n "$RAILWAY_DEV_WEBHOOK" ]; then
+            curl -X POST "$RAILWAY_DEV_WEBHOOK" \
               -H "Content-Type: application/json" \
               --fail --silent --show-error
-            echo "Railway deploy triggered."
+            echo "Railway dev deploy triggered."
           else
-            echo "RAILWAY_DEPLOY_WEBHOOK not configured, skipping."
+            echo "RAILWAY_DEV_WEBHOOK not configured, skipping."
+          fi
+
+      - name: Trigger Railway deploy webhook (production)
+        if: github.ref == 'refs/heads/master'
+        env:
+          RAILWAY_PROD_WEBHOOK: ${{ secrets.RAILWAY_PROD_WEBHOOK }}
+        run: |
+          if [ -n "$RAILWAY_PROD_WEBHOOK" ]; then
+            curl -X POST "$RAILWAY_PROD_WEBHOOK" \
+              -H "Content-Type: application/json" \
+              --fail --silent --show-error
+            echo "Railway production deploy triggered."
+          else
+            echo "RAILWAY_PROD_WEBHOOK not configured, skipping."
           fi
 
       - name: Trigger main app repository dispatch
         env:
           MAIN_REPO_PAT: ${{ secrets.MAIN_REPO_PAT }}
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
           if [ -n "$MAIN_REPO_PAT" ]; then
             curl -X POST \
               -H "Accept: application/vnd.github.v3+json" \
               -H "Authorization: Bearer $MAIN_REPO_PAT" \
               https://api.github.com/repos/klimofey/analoghub-main-nextjs/dispatches \
-              -d '{"event_type":"content-updated"}' \
+              -d "{\"event_type\":\"content-updated\",\"client_payload\":{\"branch\":\"$BRANCH_NAME\"}}" \
               --fail --silent --show-error
-            echo "Repository dispatch triggered."
+            echo "Repository dispatch triggered for branch $BRANCH_NAME."
           else
             echo "MAIN_REPO_PAT not configured, skipping."
           fi
