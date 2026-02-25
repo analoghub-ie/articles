@@ -64,21 +64,21 @@ simple LDO with an NMOS pass device and no load.
 Let's assume the following inputs:
 - $V_{DD} = 1.8V$
 - $V_{ref} = 1.2V$
-- $R_1 = 100k\\Omega$
-- $R_L = 1k\\Omega$
+- $R_1 = 100k\Omega$
+- $R_L = 1k\Omega$
 - $A_{EA} = 40dB = 10'000$
 
 At the start-up, the output is $V_{out} = V_{fb} = 0V$. The reference voltage is set to $1.2V$, so the output voltage 
 of the amplifier is:
 
 $$
-V_c = A_{EA} (V_{+} - V_{-}) = 10'000(1.2-0) = 120V \\Rightarrow 1.8V
+V_c = A_{EA} (V_{+} - V_{-}) = 10'000(1.2-0) = 120V \Rightarrow 1.8V
 $$ 
 > **Note:** The output voltage of the amplifier is clamped at $V_{dd}$ and equals to 1.8V
 
 The $V_{gs}$ of the pass device now equals $1.8V$ and it starts supplying current to the $R_1$. When $V_{out}$ reaches 
 $1.2V$, both inputs of the error amplifier are at the same voltage and the loop is now locked, supplying 
-$I_q = V_{out}/R_1 = 12\\mu A$. 
+$I_q = V_{out}/R_1 = 12\mu A$. 
 This current is called a **quiescent current**, which helps to achieve stability at no-load condition. Quiescent current 
 and operational amplifier defines the idle power consumption of the LDO.
 
@@ -86,19 +86,19 @@ and operational amplifier defines the idle power consumption of the LDO.
 
 #### 2.2 LDO operation under load 
 
-Let's add a load resistor $R_L = 1k\\Omega$ to the output and see the response of the LDO:
+Let's add a load resistor $R_L = 1k\Omega$ to the output and see the response of the LDO:
 
 <br/> <img src="http://localhost:3000/images/circuitsLDO/ldoBasicOperation2.svg" alt="Basic LDO operation" style="display: block; margin-inline: auto; width: min(80%, 80rem)" /> 
 <p style="display: block; text-align: center">Basic LDO operation 2</p>
 
-When we added a load resistance, the effective output resistance becomes $(R_1||R_L) \\approx 0.99 k\\Omega$. Initially, 
-the LDO was supplying only $12\\mu A$ of current which leads to a sudden drop of the output voltage:
+When we added a load resistance, the effective output resistance becomes $(R_1||R_L) \approx 0.99 k\Omega$. Initially, 
+the LDO was supplying only $12\mu A$ of current which leads to a sudden drop of the output voltage:
 $$
 V_{out} = I_{out}(R_1||R_L) = 0.109V
 $$
 This changes is seen at the feedback voltage and produces a voltage difference at the input of the error amplifier:
 $$
-\\Delta V = V_{ref} - V_{fb} = 1.2 - 0.109 = 1.091V
+\Delta V = V_{ref} - V_{fb} = 1.2 - 0.109 = 1.091V
 $$
 The control voltage ramps-up, increasing the $V_{gs}$ of the pass device and the output current increases. As the output 
 current increases, the output voltage increases too and settles when $V_{out}=V_{fb}$. At the steady state, 
@@ -135,7 +135,7 @@ is commonly a PMOS transistor. Next, we’ll compare the use of PMOS vs. NMOS to
 
 |                |PMOS\t |NMOS\t |
 |:----------------:|:-------:|:-------:|
-|Maximum output voltage\t\t| $$V_{dsat} (\\approx 50-100mV)$$    |$$V_{dd}-V_{th}(\\approx 0.4-0.6V)$$\t |
+|Maximum output voltage\t\t| $$V_{dsat} (\approx 50-100mV)$$    |$$V_{dd}-V_{th}(\approx 0.4-0.6V)$$\t |
 |PSRR\t \t\t\t\t\t|Low  |High\t |
 |Output impedance\t\t\t|Lower  |Higher\t | 
 |Area\t \t\t\t\t\t|Bigger  |Smaller\t | 
@@ -187,54 +187,54 @@ of the LDO:
 
 Using a voltage divider equation, we get:
 $$
-V_{fb} = V_{out}\\frac{R_2}{R_1 + R_2}
+V_{fb} = V_{out}\frac{R_2}{R_1 + R_2}
 $$
 Knowing that $V_{fb} = V_{ref}$ , we can rewrite:
 $$
-V_{ref}  = V_{out}\\frac{R_1}{R_1 + R_2}
+V_{ref}  = V_{out}\frac{R_1}{R_1 + R_2}
 $$
 Combining for $R_1$, we get:
 $$
-R_1 = \\frac{R_2(V_{out}-V_{ref})}{V_{ref}}
+R_1 = \frac{R_2(V_{out}-V_{ref})}{V_{ref}}
 $$
 
 $$
-\\frac{R_1}{R_2} = \\frac{ V_{out} - V_{ref} } { V_{ref} } 
+\frac{R_1}{R_2} = \frac{ V_{out} - V_{ref} } { V_{ref} } 
 $$
 Denoting $k = R_1/R_2$ :
 
 $$
-k = \\frac{ V_{out}  } { V_{ref} } - 1
+k = \frac{ V_{out}  } { V_{ref} } - 1
 $$
 
 Using that equation, we can easily calculate the feedback resistor values, knowing the output voltage of an LDO and a 
 reference voltage. The quiescent current $I_q$ is defined as:
 $$
-I_q = \\frac{V_{out}}{(R_1 + R_2)}
+I_q = \frac{V_{out}}{(R_1 + R_2)}
 $$
 Then,
 $$
-R_1 + R_2 = \\frac{V_{out}}{I_q}
+R_1 + R_2 = \frac{V_{out}}{I_q}
 $$
 And we are getting a system of equations:
 $$
-\\begin{cases}  
-R_1/R_2 = \\frac{ V_{out}  } { V_{ref} } - 1 \\\\
+\begin{cases}  
+R_1/R_2 = \frac{ V_{out}  } { V_{ref} } - 1 \\\\
 \\\\
-R_1 +R_2 = \\frac{V_{out}}{I_q} \\\\
-\\end{cases}
+R_1 +R_2 = \frac{V_{out}}{I_q} \\\\
+\end{cases}
 $$
 
 So the full equation will look like:
 $$
-\\begin{cases} 
-k = \\frac{ V_{out}  } { V_{ref} } - 1 \\\\
-R_2 = \\frac{ V_{out} } { I_q (1 + k) } \\\\
+\begin{cases} 
+k = \frac{ V_{out}  } { V_{ref} } - 1 \\\\
+R_2 = \frac{ V_{out} } { I_q (1 + k) } \\\\
 R_1 = k R_2 \\\\
-\\end{cases}
+\end{cases}
 $$
 
-For $V_{out} \\geq V_{ref}$
+For $V_{out} \geq V_{ref}$
 
 Just knowing $V_{out}$, $V_{ref}$ and $I_q$ will give us the exact values of $R_1$ and $R_2$
 <!---You can use the calculator below or a [Matlab Script]() !LINK -->
@@ -271,51 +271,51 @@ $$
 V_{out} = A_{EA}(V_{ref}-V_{fb})
 $$  
 $$
-V_{out} = A_{EA}(V_{ref}-V_{out} \\beta)
+V_{out} = A_{EA}(V_{ref}-V_{out} \beta)
 $$  
-, where $\\beta = \\frac{R_2}{R_1 + R_2}$.
+, where $\beta = \frac{R_2}{R_1 + R_2}$.
 
 
 Grouping for $V_{ref}$ and $V_{out}$:
 $$
-(1+A_{EA}\\beta)V_{out}=A_{EA}V_{ref}
+(1+A_{EA}\beta)V_{out}=A_{EA}V_{ref}
 $$  
 **Hence, $V_{out}/V_{ref}$ becomes:**
 $$
-A_{EA}^{real} = \\frac{V_{out}}{V_{ref}} = \\frac{A_{EA}}{1+A_{EA}\\beta}
+A_{EA}^{real} = \frac{V_{out}}{V_{ref}} = \frac{A_{EA}}{1+A_{EA}\beta}
 $$  
  The gain error is simply the difference between ideal gain and real gain. Taking into account, that ideal gain 
- is $1/\\beta$:
+ is $1/\beta$:
 $$
-\\delta A_{EA} = \\frac{A_{EA}^{ideal} - A_{EA}^{real} }{A_{EA}^{ideal}}
-$$
-
-$$
-\\delta A_{EA} = \\frac{ 1/\\beta - \\frac{ A_{EA} }{ 1+A_{EA}\\beta }} { 1/\\beta } 
+\delta A_{EA} = \frac{A_{EA}^{ideal} - A_{EA}^{real} }{A_{EA}^{ideal}}
 $$
 
 $$
-\\delta A_{EA} = \\frac{ 1 } {1 + A_{EA}\\beta}
+\delta A_{EA} = \frac{ 1/\beta - \frac{ A_{EA} }{ 1+A_{EA}\beta }} { 1/\beta } 
+$$
+
+$$
+\delta A_{EA} = \frac{ 1 } {1 + A_{EA}\beta}
 $$
 
 To calculate the required gain for a given gain error:
 $$
-A_{EA} = \\frac{ 1 - \\delta A_{EA} } { \\delta A_{EA} \\beta }
+A_{EA} = \frac{ 1 - \delta A_{EA} } { \delta A_{EA} \beta }
 $$
 
 #### 4.3 Reference voltage error
 Another source of the output voltage error is the reference voltage. The reference voltage is usually provided by the 
-Bandgap, which will typically have a variation about $\\pm 0.5\\%$ across PVT:
+Bandgap, which will typically have a variation about $\pm 0.5\%$ across PVT:
 
 $$
-\\delta V_{ref} = \\pm 0.5\\% \\Rightarrow 1\\%
+\delta V_{ref} = \pm 0.5\% \Rightarrow 1\%
 $$
 
 <b><u>Total output voltage error:</b></u>
 **The total output voltage error** is basically the sum of the gain error and reference voltage error:
 
 $$
-\\delta V_{out} = \\delta A_{EA} + \\delta V_{ref}
+\delta V_{out} = \delta A_{EA} + \delta V_{ref}
 $$
 
 <!--Spoiler-->
@@ -332,8 +332,8 @@ $$
 <!--
 - $V_{ref} = 0.6V$
 - $V_{out} = 1.2V$
-- $I_q = 1\\mu A$
-- $\\delta V_{ref} = 1\\%$
+- $I_q = 1\mu A$
+- $\delta V_{ref} = 1\%$
 - $A_{EA} = 60 dB$
 -->
 
@@ -341,32 +341,32 @@ $$
 
 1. Calculate $R_1$, $R_2$:
 $$
-k = \\frac{V_{out}}{V_{ref}}-1 = \\frac{1.2}{0.6} - 1 = 1
+k = \frac{V_{out}}{V_{ref}}-1 = \frac{1.2}{0.6} - 1 = 1
 $$
 
 $$
-R_2 = \\frac{V_{out}}{I_q(1+k)} = \\frac{1.2}{1e^-6(1+1)} = 600k\\Omega
+R_2 = \frac{V_{out}}{I_q(1+k)} = \frac{1.2}{1e^-6(1+1)} = 600k\Omega
 $$
 
 $$
-R_1 = kR_2 = 600k\\Omega
+R_1 = kR_2 = 600k\Omega
 $$
 <b><u>Check:</u></b>
 $$
-I_q =  \\frac{V_{out}}{R_1 + R_2} = \\frac{1.2}{1200k\\Omega} = 1\\mu A
+I_q =  \frac{V_{out}}{R_1 + R_2} = \frac{1.2}{1200k\Omega} = 1\mu A
 $$
 
-2. Calculate $\\delta V_{out}$:
+2. Calculate $\delta V_{out}$:
 $$
-\\beta = \\frac{R_2}{R_1+R_2} = \\frac{600k\\Omega}{1200k\\Omega} = 0.5
-$$
-
-$$
-\\delta A_{EA} = \\frac{1}{1+A_{EA}\\beta} = \\frac{1}{1+1000*0.5} \\approx 0.002
+\beta = \frac{R_2}{R_1+R_2} = \frac{600k\Omega}{1200k\Omega} = 0.5
 $$
 
 $$
-\\delta V_{out} = \\delta A_{EA} + \\delta V_{ref} = 0.002 + 0.01 = 0.012 = 1.2\\%
+\delta A_{EA} = \frac{1}{1+A_{EA}\beta} = \frac{1}{1+1000*0.5} \approx 0.002
+$$
+
+$$
+\delta V_{out} = \delta A_{EA} + \delta V_{ref} = 0.002 + 0.01 = 0.012 = 1.2\%
 $$
  </details>
  
@@ -393,7 +393,7 @@ understand the location and role of the poles and zeros. In a typical LDO there 
 **The first pole** is produced by the combination of the **load capacitance and output resistance**:
 
 $$
-\\omega_{p1} = \\frac{1}{R_{out}C_L} 
+\omega_{p1} = \frac{1}{R_{out}C_L} 
 $$
 
 $$
@@ -403,12 +403,12 @@ $$
 **The second pole** is produced by the combination of the **output resitance of the error amplifier** and 
 **gate capacitance** of the pass device:
 $$
-\\omega_{p2} = \\frac{1}{r_{EA}C_{gs}} 
+\omega_{p2} = \frac{1}{r_{EA}C_{gs}} 
 $$
 
 Load current variation causes the variation in pole location:
 $$
-\\omega_{p1} = \\frac{1}{R_{out}C_L} \\approx \\frac{1}{r_{ds}C_L} = \\frac{I_{L}}{(V_{out}-V_{dd})C_L}
+\omega_{p1} = \frac{1}{R_{out}C_L} \approx \frac{1}{r_{ds}C_L} = \frac{I_{L}}{(V_{out}-V_{dd})C_L}
 $$
 
 $$
@@ -416,7 +416,7 @@ R_{out} = r_{ds}||(R_1+R_2)||R_{L}
 $$
 
 $$
-\\beta = \\frac{R_2}{R_1 + R_2}
+\beta = \frac{R_2}{R_1 + R_2}
 $$
 
 <br/> <img src="http://localhost:3000/images/circuitsLDO/ldoLoadVariation.svg" alt="Load variation impact on LDO poles location" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -429,18 +429,18 @@ $$
 Using the poles equations from Chapter 6.1, the transfer function of an LDO (feedback loop-gain) can be written as:
 
 $$
-T(s) = A_{EA} g_{mp} R_{out} \\beta \\frac{1}{ \\left(1 + \\frac{s}{\\omega_{p1}} \\right) \\left(1 + \\frac{s}{\\omega_{p2}} \\right)}
+T(s) = A_{EA} g_{mp} R_{out} \beta \frac{1}{ \left(1 + \frac{s}{\omega_{p1}} \right) \left(1 + \frac{s}{\omega_{p2}} \right)}
 $$
 
 ,or, in standard form:
 
 $$
-T(s) =  \\frac{ A_{EA} g_{mp} R_{out} \\beta }{ \\left( \\frac{1}{ \\omega_{p1} \\omega_{p2}} \\right) s^2  + \\left( \\frac{1}{ \\omega_{p1}} + \\frac{1}{ \\omega_{p2}} \\right) s + 1}
+T(s) =  \frac{ A_{EA} g_{mp} R_{out} \beta }{ \left( \frac{1}{ \omega_{p1} \omega_{p2}} \right) s^2  + \left( \frac{1}{ \omega_{p1}} + \frac{1}{ \omega_{p2}} \right) s + 1}
 $$
 
 #### 6.3 Compensation
 
-In the previous chapter we saw that the load pole $\\omega _{p2}$ moves, when the load is changing. This effect lead to 
+In the previous chapter we saw that the load pole $\omega _{p2}$ moves, when the load is changing. This effect lead to 
 change in phase margin, which can lead to unstable condition (oscillations). There are two main ways to compensate 
 this effect:
 - Zero insertion 
@@ -456,25 +456,25 @@ One of the ways to compensate our LDO with external capacitor is to utilize the 
 <br/> <img src="http://localhost:3000/images/circuitsLDO/ldoCompensation1.svg" alt="Inserting ESR zero" style="display: block; margin-inline: auto; width: min(80%, 70rem)" /> 
 <p style="display: block; text-align: center">Inserting ESR zero</p>
 
-Apart from the standard poles $\\omega_{p1}$ and $\\omega_{p2}$, we get an extra zero from the ESR:
+Apart from the standard poles $\omega_{p1}$ and $\omega_{p2}$, we get an extra zero from the ESR:
 
 $$
-\\omega_{p1} = \\frac{1}{R_{out} C_L}
-$$
-
-$$
-\\omega_{p2} = \\frac{1}{r_{EA} C_{gs}}
+\omega_{p1} = \frac{1}{R_{out} C_L}
 $$
 
 $$
-\\omega_{z} = \\frac{1}{R_{ESR} C_{L}}
+\omega_{p2} = \frac{1}{r_{EA} C_{gs}}
+$$
+
+$$
+\omega_{z} = \frac{1}{R_{ESR} C_{L}}
 $$
 
 This zero is usually located at a relatively high frequency and helps in phase margin improvement. Phase margin is 
 given by:
 
 $$
-PM \\approx \\arctan \\left(\\frac{\\omega_{UGF}}{\\omega_z} \\right)
+PM \approx \arctan \left(\frac{\omega_{UGF}}{\omega_z} \right)
 $$
 
 > **Note:** 
@@ -490,23 +490,23 @@ adding a buffer will shield the output of the error amplifier from the large $C_
 <br/> <img src="http://localhost:3000/images/circuitsLDO/ldoCompensation2.svg" alt="Using a buffer" style="display: block; margin-inline: auto; width: min(80%, 80rem)" /> 
 <p style="display: block; text-align: center">Using a buffer</p>
 
-Previously, we had a low-frequency pole $\\omega_{p1}$ and a high-frequency pole $\\omega_{p2}$. Adding a buffer splits 
-the high-frequency pole $\\omega_{p2}$ into two **higher-frequency** poles:
+Previously, we had a low-frequency pole $\omega_{p1}$ and a high-frequency pole $\omega_{p2}$. Adding a buffer splits 
+the high-frequency pole $\omega_{p2}$ into two **higher-frequency** poles:
 
 $$
-\\omega_{p2} = \\frac{1}{C_{gs} R_{o,EA}}
+\omega_{p2} = \frac{1}{C_{gs} R_{o,EA}}
 $$
 
 Two high-frequency poles:
 $$
-\\omega_{p2,A} = \\frac{1}{C_{B} R_{o,EA}}
+\omega_{p2,A} = \frac{1}{C_{B} R_{o,EA}}
 $$
 
 $$
-\\omega_{p2,B} = \\frac{1}{C_{gs} R_{o,EA}}
+\omega_{p2,B} = \frac{1}{C_{gs} R_{o,EA}}
 $$
 
-The target here is to push $\\omega_{p2,A}$ and $\\omega_{p2,B}$ above $\\omega_{UGB}$ so it is no longer affects the 
+The target here is to push $\omega_{p2,A}$ and $\omega_{p2,B}$ above $\omega_{UGB}$ so it is no longer affects the 
 phase margin.
 
 <br/>
@@ -526,8 +526,8 @@ mostly capacitive. The typical capacitance for the analog I/O pad is around *1-2
 documentation.
 
 The next piece is the bondwire - metal interconnect between the chip and package. Bondwires are typically made of gold 
-to achieve low resistance ($\\approx 50m\\Omega /mm$). However,  due to relatively big length, the bondwire brings a 
-significant inductance to the picture ($\\approx 1nH /mm$) and it has to be taken into account.
+to achieve low resistance ($\approx 50m\Omega /mm$). However,  due to relatively big length, the bondwire brings a 
+significant inductance to the picture ($\approx 1nH /mm$) and it has to be taken into account.
 
 <br/> <img src="http://localhost:3000/images/circuitsLDO/ldoParasiticsFull.svg" alt="LDO parasitics" style="display: block; margin-inline: auto; width: min(80%, 80rem)" /> 
 <p style="display: block; text-align: center">LDO parasitics</p>
@@ -544,9 +544,9 @@ Typical values for the parasitics are given in the table below:
 
 |Parasitics|R| L| C|
 |:-------:|:-------:|:-------:|:-------:|
-|Bondwire* | $\\approx 50m\\Omega /mm$| $\\approx 1nH /mm$  | -\t|
-|Package** |$50m\\Omega$\t|$1.119 nH$\t  |$352 fF$\t|
-|PCB trace***|$4.93\\Omega$\t|$2.1 nH$\t  |\t$1.47pF$|
+|Bondwire* | $\approx 50m\Omega /mm$| $\approx 1nH /mm$  | -\t|
+|Package** |$50m\Omega$\t|$1.119 nH$\t  |$352 fF$\t|
+|PCB trace***|$4.93\Omega$\t|$2.1 nH$\t  |\t$1.47pF$|
 
 > **Notes:**
 > - *For a typical golden bondwire, (*1mil* diameter). Typical bondwire length is *3-5mm*.
@@ -614,7 +614,7 @@ Let's assume that $V_{dd} = 1.8V$, $V_{ref} = 1.2V$, gain of the error amplifier
 In the beginning, the output voltage $V_{out} = 0V$. Then $V_{fb} = 0V$, so then the negative input of the error 
 amplifier $(V_{-})$ is also $0V$. Then, the output voltage of the amplifier $V_c$ becomes:
 $$
-V_c = A_{EA}(V_{+} - V_{-}) = 10'000(1.2-0) = 120V \\Rightarrow 1.8V
+V_c = A_{EA}(V_{+} - V_{-}) = 10'000(1.2-0) = 120V \Rightarrow 1.8V
 $$ 
 > **Note:** The output voltage of the amplifier is clamped at $V_{dd}$ and equals to 1.8V
 
@@ -656,29 +656,29 @@ $$
 
 
 $$
-\\begin{cases}  
+\begin{cases}  
 3x + 5y + z = 3 \\\\  
 7x - 2y + 4z = 4 \\\\  
 -6x + 3y + 2z = 2  
-\\end{cases}
+\end{cases}
 $$
 -->
 
 <!--   #### LDO equations summary:
 1. **Feedback resistor ration through Vref, Vout and Iq:**
 $$
-\\begin{cases}  
-k =  \\frac{V_{ref}/V_{out}}{1 - V_{ref}/V_{out}} \\\\
+\begin{cases}  
+k =  \frac{V_{ref}/V_{out}}{1 - V_{ref}/V_{out}} \\\\
 \\\\
-R_1 = \\frac{V_{out}}{I_Q(1+k)} \\\\
+R_1 = \frac{V_{out}}{I_Q(1+k)} \\\\
 \\\\
 R_2 = kR_1 \\\\
-\\end{cases}
+\end{cases}
 $$  
 
 2. **Regulation error due to gain and Vref errors:**
 $$
-\\Delta V_{out}  = V_{ref} - \\left(\\frac{A_{EA}}{1+A_{EA}} \\right) (1-\\Delta V_{ref})V_{ref}
+\Delta V_{out}  = V_{ref} - \left(\frac{A_{EA}}{1+A_{EA}} \right) (1-\Delta V_{ref})V_{ref}
 $$
 
 bla

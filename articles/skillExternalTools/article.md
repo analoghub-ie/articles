@@ -36,9 +36,9 @@ let( (filePath destinationPath command exitCode)
 \texitCode = system(command)
 \tif( exitCode == 0
 \tthen
-\t\tprintf("Succeeded to copy file\\n")
+\t\tprintf("Succeeded to copy file\n")
 \telse
-\t\tprintf("Failed to copy file\\n")
+\t\tprintf("Failed to copy file\n")
 \t);if
 );let
 </code></pre>
@@ -54,9 +54,9 @@ let( (scriptFile command exitCode)
 \texitCode = system(command)
 \tif( exitCode == 0
 \tthen
-\t\tprintf("Succeeded to run the script\\n")
+\t\tprintf("Succeeded to run the script\n")
 \telse
-\t\tprintf("Failed to run the script\\n")
+\t\tprintf("Failed to run the script\n")
 \t);if
 );let
 </code></pre>
@@ -87,7 +87,7 @@ let( (command process output nextLine)
 \t\toutput = strcat(output nextLine)
 \t);while
 \t
-\tprintf("%s\\n" output)
+\tprintf("%s\n" output)
 );let
 </code></pre>
 
@@ -129,17 +129,17 @@ let( (command)
 
 procedure( readData(childId data)
 \t; Do data handling stuff here
-\tprintf("Process: %d\\nOutput:\\n%s\\n" childId data)
+\tprintf("Process: %d\nOutput:\n%s\n" childId data)
 );procedure
 
 procedure( readError(childId data)
 \t; Do error handling stuff here
-\tprintf("Process: %d\\nOutput:\\n%s\\n" childId data)
+\tprintf("Process: %d\nOutput:\n%s\n" childId data)
 );procedure
 
 procedure( exitHandler(childId exitStatus)
 \t; Do post processing stuff here
-\tprintf("Process %d finished with code %d\\n" childId exitStatus)
+\tprintf("Process %d finished with code %d\n" childId exitStatus)
 );procedure
 </code></pre>
 

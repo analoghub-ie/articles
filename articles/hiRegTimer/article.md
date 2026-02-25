@@ -33,7 +33,7 @@ tenths of seconds after which the function should run.
 
 <pre><code class="language-lisp">
 procedure( func()
-\tprintf("Hello\\n")
+\tprintf("Hello\n")
 )
 
 hiRegTimer("func()" 100)
@@ -55,7 +55,7 @@ To repeat a task, we’ll need to run **hiRegTimer()** again. To do so, we can c
 
 <pre><code class="language-lisp">
 procedure( func()
-\tprintf("Hello\\n")
+\tprintf("Hello\n")
 )
 
 procedure( repeatTask(function)
@@ -86,7 +86,7 @@ Let’s implement a wrapper function to schedule a task at a specific time and o
 
 <pre><code class="language-lisp">
 procedure( sayHello()
-\tprintf("Hello\\n")
+\tprintf("Hello\n")
 )
 
 

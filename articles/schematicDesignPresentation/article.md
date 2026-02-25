@@ -33,7 +33,7 @@ Analog and Mixed-Signal schematic drawings.
 
 2. Paste the file(s) into the following directory (create one if it doesn't exist):
 
-- **Windows:** *C:\\Users\\username\\AppData\\Roaming\\inkscape\\symbols*
+- **Windows:** *C:\Users\username\AppData\Roaming\inkscape\symbols*
 
 - **Linux:** *~/.config/inkscape/symbols*
 

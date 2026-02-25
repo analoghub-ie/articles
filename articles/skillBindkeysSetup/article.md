@@ -72,7 +72,7 @@ procedure(toggleLayoutDimming()
         window~>dimmingOn = !window~>dimmingOn
         window~>dimmingScope = "all"
         
-        printf("Enable dimming = %L\\n" window~>dimmingOn)
+        printf("Enable dimming = %L\n" window~>dimmingOn)
     )
 )
 
@@ -114,7 +114,7 @@ procedure(changeLayoutDimmingIntensity(signum @key (byValue 5))
 \t\t
 \t\twindow~>dimmingIntensity = intensity
 \t\t
-\t\tprintf("Dimming intensity = %d\\n" window~>dimmingIntensity)
+\t\tprintf("Dimming intensity = %d\n" window~>dimmingIntensity)
 \t)
 )
 

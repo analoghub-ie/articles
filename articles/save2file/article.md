@@ -60,7 +60,7 @@ analog begin
   end
   @(cross(V(smp)-vth,+1)) begin
     $fwrite(fp,"%e ",V(in));
-    $fwrite(fp,"\\n");
+    $fwrite(fp,"\n");
   end
 end
 endmodule
