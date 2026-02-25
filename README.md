@@ -22,6 +22,7 @@ scripts/                         — CI validation scripts
 - **`category-article-mapping.yml`** defines all categories and which articles belong to each
 - Each article lives in `articles/{slug}/article.md` with its images alongside in `images/`
 - The main app reads this repo as a submodule and generates static pages at build time
+- **Interactive widgets** like calculators can be embedded using custom HTML tags (see CONTRIBUTING.md)
 
 ## Contributing
 

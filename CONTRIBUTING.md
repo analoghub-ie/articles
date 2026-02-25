@@ -89,7 +89,20 @@ The `localhost:3000` prefix is replaced with the production URL at render time.
 
 Cross-article image references are allowed: `/images/otherSlug/filename.svg`
 
-### 6. Submit Pull Request
+### 6. Embed interactive widgets
+
+The site provides interactive calculators you can embed in articles using custom HTML tags:
+
+| Tag | Description |
+|-----|-------------|
+| `<ldo-calculator></ldo-calculator>` | LDO feedback resistor divider design |
+| `<series-parallel-calculator></series-parallel-calculator>` | Series/parallel resistor combinations |
+| `<resistor-ladder-calculator></resistor-ladder-calculator>` | Resistor ladder network design |
+| `<pcb-calculator></pcb-calculator>` | PCB trace width & thermal calculations |
+
+Place the tag on its own line in your article. The calculator renders as an interactive widget inline with your content. In the web editor, use the **Widgets** dropdown in the toolbar to insert them.
+
+### 7. Submit Pull Request
 
 ```bash
 git add articles/yourArticleSlug/ category-article-mapping.yml
