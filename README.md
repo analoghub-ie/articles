@@ -11,6 +11,8 @@ articles/
   {slug}/
     article.md                   — article content (description in frontmatter)
     images/                      — co-located images for this article
+widgets/
+  {widget-id}.yml                — declarative calculator widget configs
 category-article-mapping.yml     — categories + article registry (source of truth)
 categoryIcons/                   — category icons
 dates.yaml                       — fallback dates for articles without git history
@@ -21,6 +23,7 @@ scripts/                         — CI validation scripts
 
 - **`category-article-mapping.yml`** defines all categories and which articles belong to each
 - Each article lives in `articles/{slug}/article.md` with its images alongside in `images/`
+- **`widgets/*.yml`** define interactive calculator widgets as declarative YAML configs (no code needed) — embed in articles with `<widget data-id="widget-id"></widget>`
 - The main app reads this repo as a submodule and generates static pages at build time
 - **Interactive widgets** like calculators can be embedded using custom HTML tags (see CONTRIBUTING.md)
 

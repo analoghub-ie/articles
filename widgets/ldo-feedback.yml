@@ -1,0 +1,44 @@
+id: ldo-feedback
+title: "LDO Feedback Resistance Calculator"
+inputs:
+  - id: Vref
+    label: "Reference Voltage"
+    type: number
+    default: 0.6
+    units: voltage
+    defaultUnit: V
+  - id: Vout
+    label: "Output Voltage"
+    type: number
+    default: 1.2
+    units: voltage
+    defaultUnit: V
+  - id: Iq
+    label: "Quiescent Current"
+    type: number
+    default: 1
+    units: current
+    defaultUnit: mA
+outputs:
+  - id: k
+    label: "k"
+    formula: "Vout / Vref - 1"
+    format: number
+    precision: 3
+  - id: R2
+    label: "R2"
+    formula: "Vout / (Iq * (1 + k))"
+    format: si
+    baseUnit: "\u03A9"
+  - id: R1
+    label: "R1"
+    formula: "k * R2"
+    format: si
+    baseUnit: "\u03A9"
+validation:
+  - condition: "Vref <= 0"
+    message: "Reference voltage must be > 0."
+  - condition: "Vout <= Vref"
+    message: "Output voltage must exceed reference voltage."
+  - condition: "Iq <= 0"
+    message: "Quiescent current must be > 0."

@@ -91,7 +91,7 @@ Cross-article image references are allowed: `/images/otherSlug/filename.svg`
 
 ### 6. Embed interactive widgets
 
-The site provides interactive calculators you can embed in articles using custom HTML tags:
+The site provides built-in interactive calculators you can embed in articles using custom HTML tags:
 
 | Tag | Description |
 |-----|-------------|
@@ -100,12 +100,57 @@ The site provides interactive calculators you can embed in articles using custom
 | `<resistor-ladder-calculator></resistor-ladder-calculator>` | Resistor ladder network design |
 | `<pcb-calculator></pcb-calculator>` | PCB trace width & thermal calculations |
 
-Place the tag on its own line in your article. The calculator renders as an interactive widget inline with your content. In the web editor, use the **Widgets** dropdown in the toolbar to insert them.
+Place the tag on its own line in your article. In the web editor, use the **Widgets** dropdown in the toolbar to insert them.
+
+#### Create your own widget
+
+You can also create custom interactive calculator widgets as declarative YAML files — no React/JavaScript needed.
+
+Create a file in `widgets/your-widget-id.yml`:
+
+```yaml
+id: your-widget-id
+title: "My Calculator"
+inputs:
+  - id: Vin
+    label: "Input Voltage"
+    type: number
+    default: 3.3
+    units: voltage        # predefined group: voltage, current, resistance, capacitance,
+    defaultUnit: V        #   inductance, frequency, length, time, power, temperature
+  - id: Iload
+    label: "Load Current"
+    type: number
+    default: 100
+    units: current
+    defaultUnit: mA
+outputs:
+  - id: power
+    label: "Power"
+    formula: "Vin * Iload"    # expr-eval syntax: arithmetic, trig, comparisons, ternary
+    format: si                  # "si" = auto SI prefix (mW, µW...), "number" = plain
+    baseUnit: "W"
+    precision: 3
+validation:
+  - condition: "Vin <= 0"
+    message: "Input voltage must be positive."
+```
+
+**Rules:**
+- `id` must match the filename (sans `.yml`), using only `a-zA-Z0-9_-`
+- Input/output IDs must be unique within the widget
+- Formulas use [expr-eval](https://github.com/nicolewhite/expr-eval) syntax (arithmetic, trig, comparisons, ternary `a ? b : c`)
+- Output formulas can reference earlier outputs (evaluated top-to-bottom)
+- Custom inline units: `units: { oz: 0.0000347, µm: 1e-6 }` instead of a group name
+
+Embed in your article with: `<widget data-id="your-widget-id"></widget>`
+
+You can also use the **web editor** widget builder: Widgets ▾ → + Create Widget.
 
 ### 7. Submit Pull Request
 
 ```bash
-git add articles/yourArticleSlug/ category-article-mapping.yml
+git add articles/yourArticleSlug/ category-article-mapping.yml widgets/
 git commit -m "Add article: Your Article Title"
 git push -u origin article/your-article-slug
 ```
@@ -113,9 +158,10 @@ git push -u origin article/your-article-slug
 Open a PR targeting the **`dev`** branch. CI will automatically:
 - Validate repo structure and frontmatter
 - Check that all image references resolve
+- Validate widget YAML files
 - Render a PDF preview of your article
 
-### 7. Review and deployment
+### 8. Review and deployment
 
 Once your PR is approved and merged into `dev`, the article will be available on the staging site at **[dev.analoghub.ie](https://dev.analoghub.ie)** for final review. It will remain there until the `dev` branch is merged into `master`, at which point it goes live on the production site at [analoghub.ie](https://analoghub.ie).
 
@@ -126,6 +172,8 @@ articles/
   {slug}/
     article.md          # Article content (minimal frontmatter)
     images/             # Co-located images
+widgets/
+  {widget-id}.yml       # Declarative calculator widget configs
 category-article-mapping.yml  # Single source of truth for categories + articles
 categoryIcons/          # Category icons
 dates.yaml              # Fallback dates for articles without git history
