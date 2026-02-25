@@ -49,9 +49,9 @@ $$
 
 As we are sensing the feedback voltage from the output of an LDO, we don't see that voltage change caused by $R_{trace}$ 
 which leads to an output error. If the output current is large, i.e. $100mA$ and even if the routing resistance is 
-$\\approx 1 \\Omega$, the output voltage difference will be:
+$\approx 1 \Omega$, the output voltage difference will be:
 $$
-V_{drop} = I_{L}R_{trace} = 100mA*1 \\Omega = 100mV
+V_{drop} = I_{L}R_{trace} = 100mA*1 \Omega = 100mV
 $$
 
 <br/>
@@ -75,7 +75,7 @@ For a unity gain buffer circuit, let's assume the following:
 - $V_{ref} = 1V$
 - $V_{out} = 1V$
 - $I_{load} = 100mA$
-- $R_{trace} = 1\\Omega$
+- $R_{trace} = 1\Omega$
 
 <br/> <img src="http://localhost:3000/images/kelvinConnection/kelvinUnityGainComparison.svg" alt="Unity gain buffer example" style="display: block; margin-inline: auto; width: min(80%, 120rem)" /> 
 <p style="display: block; text-align: center">Unity gain buffer example</p>
@@ -88,13 +88,13 @@ $$
 
 Due to the resistance of the trace, the output voltage is:
 $$
-V_{out} = V_{force} - I_{L}R_{trace} = 1V - 100mA*1\\Omega = 0.9V 
+V_{out} = V_{force} - I_{L}R_{trace} = 1V - 100mA*1\Omega = 0.9V 
 $$
 
 Since $V_{fb} = V_{force}= V_{fb}$, the loop is locked, while the error of $0.1V$ is present at the output:
 
 $$
-\\Delta V_{out} = \\frac{V_{out}}{V_{ref}} = \\frac{0.9V}{1V} = 10\\%
+\Delta V_{out} = \frac{V_{out}}{V_{ref}} = \frac{0.9V}{1V} = 10\%
 $$
 
 </br>
@@ -112,7 +112,7 @@ V_{force} = 1.1V
 $$
 
 $$
-V_{out} = V_{force} - I_{L}R_{trace} = 1.1V - 100mA*1\\Omega = 1V 
+V_{out} = V_{force} - I_{L}R_{trace} = 1.1V - 100mA*1\Omega = 1V 
 $$
 
 There is no voltage error at the output in this case, thanks to the Kelvin connection.
@@ -168,8 +168,8 @@ For an LDO circuit, let's assume the following:
 - $V_{ref} = 0.9V$
 - $V_{out} = 1.8V$
 - $I_{load} = 100mA$
-- $R_{trace} = 1\\Omega$
-- $R_{fb1} = R_{fb2} = 50k\\Omega$
+- $R_{trace} = 1\Omega$
+- $R_{fb1} = R_{fb2} = 50k\Omega$
 
 
 
@@ -185,19 +185,19 @@ V_{force} = V_{ref} = 1.8V
 $$
 
 $$
-V_{out} = V_{force} - I_{L}R_{trace} = 1.8V - 100mA*1\\Omega = 1.7V 
+V_{out} = V_{force} - I_{L}R_{trace} = 1.8V - 100mA*1\Omega = 1.7V 
 $$
 
 The feedback voltage is:
 
 $$
-V_{fb} = V_{force} \\frac{R_{fb2}}{R_{fb1} + R_{fb2}} =  1.8V \\frac{50k\\Omega}{50k\\Omega + 50k\\Omega} = 0.9V
+V_{fb} = V_{force} \frac{R_{fb2}}{R_{fb1} + R_{fb2}} =  1.8V \frac{50k\Omega}{50k\Omega + 50k\Omega} = 0.9V
 $$
 
 In this case, $V_{fb} = V_{ref}$, while the output of an LDO is 1.7V instead of 1.8V, producing an error at the output:
 
 $$
-\\Delta V_{out} = \\frac{V_{out}}{2V_{ref}} = \\frac{1.7V}{1.8V} = 6\\%
+\Delta V_{out} = \frac{V_{out}}{2V_{ref}} = \frac{1.7V}{1.8V} = 6\%
 $$
 
 </br>
@@ -214,36 +214,36 @@ V_{force} = V_{ref} = 1.8V
 $$
 
 $$
-V_{out} = V_{force} - I_{L}R_{trace} = 1.8 - 100mA*1\\Omega = 1.7V 
+V_{out} = V_{force} - I_{L}R_{trace} = 1.8 - 100mA*1\Omega = 1.7V 
 $$
 
 $$
-V_{sense} = V_{out} - I_{q}R_{trace} = 1.7V - 18\\mu A*1 \\Omega = 1.699982V
+V_{sense} = V_{out} - I_{q}R_{trace} = 1.7V - 18\mu A*1 \Omega = 1.699982V
 $$
 
 The feedback voltage is:
 
 $$
-V_{fb} = V_{sense} \\frac{R_{fb2}}{R_{fb1} + R_{fb2}} =  1.699982V \\frac{50k\\Omega}{50k\\Omega + 50k\\Omega} = 0.85V
+V_{fb} = V_{sense} \frac{R_{fb2}}{R_{fb1} + R_{fb2}} =  1.699982V \frac{50k\Omega}{50k\Omega + 50k\Omega} = 0.85V
 $$
 
 Since $V_{fb}$ is not equal to $V_{fb}$, the loop will drive $V_{force}$ to become $1.799982V$, 
 which will make $V_{sense}$ to be equal to:
 
 $$
-V_{sense} = V_{out} - I_{q}R_{trace} = 1.799982V - 17 \\mu A*1 \\Omega = 1.799965V
+V_{sense} = V_{out} - I_{q}R_{trace} = 1.799982V - 17 \mu A*1 \Omega = 1.799965V
 $$
 
 So that the feedback voltage becomes:
 
 $$
-V_{fb} = V_{sense} \\frac{R_{fb2}}{R_{fb1} + R_{fb2}} =  1.799965V \\frac{50k\\Omega}{50k\\Omega + 50k\\Omega} = 0.9V
+V_{fb} = V_{sense} \frac{R_{fb2}}{R_{fb1} + R_{fb2}} =  1.799965V \frac{50k\Omega}{50k\Omega + 50k\Omega} = 0.9V
 $$
 
 In that case, the output voltage error when the LDO's loop is locked will be:
 
 $$
-\\Delta V_{out} = \\frac{V_{out}}{2V_{ref}} = \\frac{1.799982V}{1.8V} = 0.001\\%
+\Delta V_{out} = \frac{V_{out}}{2V_{ref}} = \frac{1.799982V}{1.8V} = 0.001\%
 $$
 
 

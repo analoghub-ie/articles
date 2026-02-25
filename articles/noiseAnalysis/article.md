@@ -19,7 +19,7 @@ $$
 
 
 $$
-\\sqrt{\\overline{V_{n}^2}} = 4kTR\\Delta f [V];
+\sqrt{\overline{V_{n}^2}} = 4kTR\Delta f [V];
 $$
 
 

@@ -57,7 +57,7 @@ description: "This article describes hotkeys for Cadence Virtuoso"
  - **V** - Create a vertical marker (bar);  
  - **H** - Create a horizontal marker (bar);
  - **M** - Create data marker;
- - **A**, **B** - Create two markers and measure the difference ($\\Delta x$ and $\\Delta y$);
+ - **A**, **B** - Create two markers and measure the difference ($\Delta x$ and $\Delta y$);
  - **Ctrl + R** - Reload data (i.e. after you've resimulated your circuit);
  - **Ctrl + E** - Delete all markers;
  - **Ctrl + Scroll** - Zoom in Y-scale;

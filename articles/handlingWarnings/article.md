@@ -63,7 +63,7 @@ procedure( writeData(filePath data)
 \t\t
 \t\toutPort = outfile(filePath "w")
 \t\tunless( outPort
-\t\t\tsprintf(message "Failed to open a \\"%s\\" file!\\nPlease check that the provided path is correct and you have write permissions."
+\t\t\tsprintf(message "Failed to open a \\"%s\\" file!\nPlease check that the provided path is correct and you have write permissions."
 \t\t\t\tfilePath)
 \t\t\thiDisplayAppDBox(
 \t\t\t\t?name 'errorAppDBox
@@ -77,7 +77,7 @@ procedure( writeData(filePath data)
 \t\t);unless
 \t\t
 \t\tunless( stringp(data)
-\t\t\tsprintf(message "The provided data type - %L.\\nPlease provide data as a string!"
+\t\t\tsprintf(message "The provided data type - %L.\nPlease provide data as a string!"
 \t\t\t\ttype(data))
 \t\t\t
 \t\t\thiDisplayAppDBox(
@@ -91,7 +91,7 @@ procedure( writeData(filePath data)
 \t\t\treturn()
 \t\t);unless
 \t\t
-\t\tfprintf(outPort "%s\\n" data)
+\t\tfprintf(outPort "%s\n" data)
 \t\tclose(outPort)
 \t\t
 \t\treturn(t)
@@ -118,7 +118,7 @@ procedure( runVerifications()
 \tlet( (message)
 \t\t
 \t\tunless( getShellEnvVar("NETBATCH_POOL")
-\t\t\tmessage = "Netbatch settings are missing!\\nRunning the tasks locally."
+\t\t\tmessage = "Netbatch settings are missing!\nRunning the tasks locally."
 \t\t\thiDisplayAppDBox(
 \t\t\t\t?name 'warningAppDBox
 \t\t\t\t?dboxBanner "*WARNING* My App"
@@ -155,7 +155,7 @@ procedure( runTask()
 \t\tthen
 \t\t\tmessage = "The task is finished successfully!"
 \t\telse
-\t\t\tmessage = "The task is finished with errors!\\nPlease refer to a log file."
+\t\t\tmessage = "The task is finished with errors!\nPlease refer to a log file."
 \t\t);if
 \t\t
 \t\thiDisplayAppDBox(
@@ -193,7 +193,7 @@ procedure( askUser()
 \t\tanswer = hiDisplayAppDBox(
 \t\t\t?name 'questionAppDBox
 \t\t\t?dboxBanner "*QUESTION* My App"
-\t\t\t?dboxText "A file is missing!\\nYou can either create a new one, continue or abort."
+\t\t\t?dboxText "A file is missing!\nYou can either create a new one, continue or abort."
 \t\t\t?dialogType hicQuestionDialog\t
 \t\t\t?buttonLayout 'UserDefined
 \t\t\t?buttons list("Create New File" "Continue" "Abort")
@@ -201,13 +201,13 @@ procedure( askUser()
 \t\t
 \t\tcase( answer
 \t\t\t( 1
-\t\t\t\tprintf("Creating a new file\\n")
+\t\t\t\tprintf("Creating a new file\n")
 \t\t\t)
 \t\t\t( 2
-\t\t\t\tprintf("Continuing\\n")
+\t\t\t\tprintf("Continuing\n")
 \t\t\t)
 \t\t\t( 3
-\t\t\t\tprintf("Aborting\\n")
+\t\t\t\tprintf("Aborting\n")
 \t\t\t)
 \t\t);case
 \t);let
@@ -227,24 +227,24 @@ procedure( askUser()
 \thiDisplayAppDBox(
 \t\t?name 'questionAppDBox
 \t\t?dboxBanner "*QUESTION* My App"
-\t\t?dboxText "A file is missing!\\nYou can either create a new one, continue or abort."
+\t\t?dboxText "A file is missing!\nYou can either create a new one, continue or abort."
 \t\t?dialogType hicQuestionDialog\t
 \t\t?buttonLayout 'UserDefined
 \t\t?buttons list("Create New File" "Continue" "Abort")
 \t\t?callback list("createNewFile()" nil "abort()")
 \t)
 \t
-\tprintf("Code continues here\\n")
+\tprintf("Code continues here\n")
 );procedure
 
 
 procedure( createNewFile()
-\tprintf("Creating a new file\\n")
+\tprintf("Creating a new file\n")
 );procedure
 
 
 procedure( abort()
-\tprintf("Aborting\\n")
+\tprintf("Aborting\n")
 );procedure
 </code></pre>
 

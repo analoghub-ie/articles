@@ -25,19 +25,19 @@ hideInProd: true
 That's a very simple circuit that can be represented as a voltage divider:
 
 $$
-V_{out} = \\frac{Z_C}{R + Z_C}
+V_{out} = \frac{Z_C}{R + Z_C}
 $$
 
 Capacitor's impedance is equal to:
 
 $$
-Z_C = \\frac{1}{j \\omega C}
+Z_C = \frac{1}{j \omega C}
 $$
 
 Hence, 
 
 $$ 
-A_V = \\frac{V_{in}}{V_{out}} = \\frac{1}{2\\pi RC}
+A_V = \frac{V_{in}}{V_{out}} = \frac{1}{2\pi RC}
 $$
    <br/> 
    <img src="http://localhost:3000/images/schematicInterview/LPF-bode.svg" alt="LPF Bode Plot" style="display: block; margin-inline: auto; width: min(80%, 20rem)" /> 
@@ -67,7 +67,7 @@ $$
 i_1 + i_2 = 0;
 $$
 $$
-\\frac{ V_{out} - V_n}{ R_2 } + \\frac{ 0 - V_p }{ R_1 } = 0;
+\frac{ V_{out} - V_n}{ R_2 } + \frac{ 0 - V_p }{ R_1 } = 0;
 $$
 Multiplying by $R_1R_2$ we get:
 $$
@@ -83,11 +83,11 @@ V_{out} R_1 = V_{in} (R_1 + R_2);
 $$
 Dividing by $R_1$:
 $$
-V_{out} = \\frac{ V_{in} (R_1 + R_2) }{ R_1 };
+V_{out} = \frac{ V_{in} (R_1 + R_2) }{ R_1 };
 $$
 Finally dividing by $V_{in}$:
 $$
-\\frac{ V_{out} }{ V_{in} } = \\frac{ (R_1 + R_2) }{ R_1 } = 1 + \\frac{ R_2 }{ R_1 }
+\frac{ V_{out} }{ V_{in} } = \frac{ (R_1 + R_2) }{ R_1 } = 1 + \frac{ R_2 }{ R_1 }
 $$
 
 </details>
