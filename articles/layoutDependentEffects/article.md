@@ -28,9 +28,9 @@ causing IC being inoperable or damaged. It is caused by the formation of the BJT
 <p style="display: block; text-align: center">Latch-up in CMOS technology (CMOS inverter example)</p>
 
 Let's have a look on a simple circuit example - CMOS inverter. In such a circuit we have one NMOS device formed in a 
-p-substrate and a NMOS device formed in NWELL. Parasitic NPN device is formed by the **n-type** source terminal of NMOS, 
+p-substrate and a PMOS device formed in NWELL. Parasitic NPN device is formed by the **n-type** source terminal of NMOS, 
 **p-type** substrate and **n-type** NWELL. Parasitic PNP is formed by the **p-type** source terminal of PMOS, **n-type** 
-NMELL and **p-type** substrate. Of course, both NWELL and p-substrate are lightly-doped meaning that they have some 
+NWELL and **p-type** substrate. Of course, both NWELL and p-substrate are lightly-doped meaning that they have some 
 substantial resistance. Equivalent circuit of a parasitics BJT network is shown on a picture above. Parasitic resistors 
 $R_{nwell}$ and  $R_{substrate}$ can create a voltage drop during trigger event hereby allowing current flow through BJTs.  
 This parasitic structure forms a positive feedback, so the current will keep flowing even when trigger is removed, 
