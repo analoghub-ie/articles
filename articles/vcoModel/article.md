@@ -45,12 +45,12 @@ parameter real Points_per_period = 100;
 parameter real Start_freq = 1e6;
 real phase, freq; 
  
-\tanalog begin 
-\t\tfreq = Start_freq+Gain_Hz_per_V*V(in); 
-\t\tphase = idtmod(freq,0,1); 
-\t\tV(out) <+ DC_offset+Amplitude*cos(2*\`M_PI*phase); 
-\t\t$bound_step(1/(Points_per_period*freq)); 
-\tend 
+analog begin 
+freq = Start_freq+Gain_Hz_per_V*V(in); 
+phase = idtmod(freq,0,1); 
+V(out) <+ DC_offset+Amplitude*cos(2*\`M_PI*phase); 
+$bound_step(1/(Points_per_period*freq)); 
+end 
 endmodule 
 
 // Model 2: Gain (V/Hz) is set through start/stop frequency
@@ -63,13 +63,13 @@ parameter real Start_frequency = 1e6;
 parameter real Stop_frequency = 10e6;
 real phase, freq, gain; 
  
-\tanalog begin 
-\t\tgain = Stop_frequency/Start_frequency;
-\t\tfreq = Start_frequency+gain*V(in); 
-\t\tphase = idtmod(freq,0,1); 
-\t\tV(out) <+ DC_offset+Amplitude*cos(2*\`M_PI*phase); 
-\t\t$bound_step(1/(Points_per_period*freq)); 
-\tend 
+analog begin 
+gain = Stop_frequency/Start_frequency;
+freq = Start_frequency+gain*V(in); 
+phase = idtmod(freq,0,1); 
+V(out) <+ DC_offset+Amplitude*cos(2*\`M_PI*phase); 
+$bound_step(1/(Points_per_period*freq)); 
+end 
 endmodule 
 </code></pre>
     

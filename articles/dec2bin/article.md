@@ -33,34 +33,34 @@ This page contains Verilog-A model of the decimal to binary encoder.
 
 \`include "constants.vams"
 \`include "disciplines.vams"
-\`define binary_bits 8\t\t\t\t// define number of binary bits here
+\`define binary_bits 8// define number of binary bits here
 
 module dec2bin(out);
 output [\`binary_bits-1:0] out;
 voltage [\`binary_bits-1:0] out;
 
 parameter real decimal_number = 5;
-parameter real vdd = 1.0;\t\t\t// voltage level of logic 1 (V)
-parameter real vss = 0;\t\t\t\t// voltage level of logic 0 (V)
-real dout[\`binary_bits-1:0];\t\t// internal result variable
+parameter real vdd = 1.0;// voltage level of logic 1 (V)
+parameter real vss = 0;// voltage level of logic 0 (V)
+real dout[\`binary_bits-1:0];// internal result variable
 genvar i;
 real x;
 real z;
 
 analog begin
 // Converting decimal to binary using modulus of 2
-\tx = decimal_number;
+x = decimal_number;
 while (x!=0) begin
-\tfor (i = 0; i <\`binary_bits; i = i + 1) begin
-\t\tz = x/2.0;
-\t\tx = floor(z);\t
-\t\tdout[i] = ceil(z - x);
-\tend
+for (i = 0; i <\`binary_bits; i = i + 1) begin
+z = x/2.0;
+x = floor(z);
+dout[i] = ceil(z - x);
+end
 end
 
 // Plotting outputs
 for (i=0; i<\`binary_bits; i=i+1)
-\t    V(out[i]) <+ transition(dout[i]*vdd,0,0);
+    V(out[i]) <+ transition(dout[i]*vdd,0,0);
 end
 
 endmodule

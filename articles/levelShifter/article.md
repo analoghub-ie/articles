@@ -46,11 +46,11 @@ module level_shifter (inp, inn, outn, outp, low, high);
     input inp, inn, low, high;
     output outp, outn;
     electrical inp, inn, outp, outn, low, high;
-\tinteger d_outp, d_outn;             // logic output state
+integer d_outp, d_outn;             // logic output state
 
-   \tparameter real input_swing = 5.0;   // define input signal swing
-\tparameter real t_edge = 1e-9;
-\tparameter real t_delay = 1e-9;
+   parameter real input_swing = 5.0;   // define input signal swing
+parameter real t_edge = 1e-9;
+parameter real t_delay = 1e-9;
 
 analog begin
 @(initial_step) begin
@@ -102,18 +102,18 @@ module level_shifter_inv (inp, inn, outn, outp, low, high);
 analog begin
 
 @(initial_step)
-\tV(outp) <+ V(high);
-\tV(outn) <+ V(low);
+V(outp) <+ V(high);
+V(outn) <+ V(low);
 
- \tif ((V(inp)-V(inn)) > VDD/2) begin
-\t\tV(outp) <+ V(high);
-\t\tV(outn) <+ V(low);
-\tend 
+ if ((V(inp)-V(inn)) > VDD/2) begin
+V(outp) <+ V(high);
+V(outn) <+ V(low);
+end 
 
-\tif ((V(inp)-V(inn)) < VDD/2) begin
-\t\tV(outp) <+ V(low);
-\t\tV(outn) <+ V(high);
-\tend 
+if ((V(inp)-V(inn)) < VDD/2) begin
+V(outp) <+ V(low);
+V(outn) <+ V(high);
+end 
 end
 
 endmodule

@@ -58,50 +58,50 @@ This article contains Verilog-A model for Decimal to Thermometer encoder. This b
 
 \`include "constants.vams"
 \`include "disciplines.vams"
-\`define therm_bits 10\t\t\t\t\t\t// define number of output bits here
+\`define therm_bits 10// define number of output bits here
 
 module dec2therm(out);
 
 output [\`therm_bits-1:0] out;
 voltage [\`therm_bits-1:0] out;
 
-parameter real vdd = 5;\t\t\t\t\t// voltage level of logic 1 (V)
-parameter real vss = 0;\t\t\t\t\t// voltage level of logic 0 (V)
-parameter integer Decimal_Code = 5; \t// input decimal code
-parameter integer Start_Bit = 0;    \t// defines if thermometer starts from 0 or 1
+parameter real vdd = 5;// voltage level of logic 1 (V)
+parameter real vss = 0;// voltage level of logic 0 (V)
+parameter integer Decimal_Code = 5; // input decimal code
+parameter integer Start_Bit = 0;    // defines if thermometer starts from 0 or 1
 
-real dout[\`therm_bits-1:0];\t\t\t\t\t// internal result variable
+real dout[\`therm_bits-1:0];// internal result variable
 genvar i;
 
 analog begin
 
 case (Start_Bit)
-    0: begin\t// Decimal 0 equals thermometer 0
-\t\tfor(i=1;i<\`therm_bits+1;i=i+1) begin
-          \t\tif(Decimal_Code!=i) begin
-              \t\tdout[i-1]=vss;
-          \t\tend
-      \t\telse begin
-          \t\tdout[i-1]=vdd;
-      \t\tend
-\t\tend
-\tend 
+    0: begin// Decimal 0 equals thermometer 0
+for(i=1;i<\`therm_bits+1;i=i+1) begin
+          if(Decimal_Code!=i) begin
+              dout[i-1]=vss;
+          end
+      else begin
+          dout[i-1]=vdd;
+      end
+end
+end 
 
-    1: begin\t// Decimal 0 equals thermometer 1
-\t\tfor(i=0;i<\`therm_bits;i=i+1) begin
-          \t\tif(Decimal_Code!=i) begin
-              \t\tdout[i]=vss;
-          \t\tend
-      \t\telse begin
-          \t\tdout[i]=vdd;
-      \t\tend
-\t\tend
-\tend
+    1: begin// Decimal 0 equals thermometer 1
+for(i=0;i<\`therm_bits;i=i+1) begin
+          if(Decimal_Code!=i) begin
+              dout[i]=vss;
+          end
+      else begin
+          dout[i]=vdd;
+      end
+end
+end
 endcase
 
 // Plotting outputs
 for (i=0; i<\`therm_bits; i=i+1)
-\t    V(out[i]) <+ transition(dout[i],0,0);
+    V(out[i]) <+ transition(dout[i],0,0);
 end
 
 endmodule

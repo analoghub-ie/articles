@@ -50,12 +50,12 @@ parameter real Filter_Order = 1;            // 1 for 20dB/dec, 2 for 40dB/dec
 analog begin
 case (Filter_Order)
 1: begin    // First Order LPF (-20dB/dec)
-\tV(out) <+ laplace_nd(V(in),{2*\`M_PI*Cutoff_frequency},{2*\`M_PI*Cutoff_frequency, 1});
-\tV(out) <+ laplace_nd(V(in),{2*\`M_PI*Cutoff_frequency},{2*\`M_PI*Cutoff_frequency, 1});
+V(out) <+ laplace_nd(V(in),{2*\`M_PI*Cutoff_frequency},{2*\`M_PI*Cutoff_frequency, 1});
+V(out) <+ laplace_nd(V(in),{2*\`M_PI*Cutoff_frequency},{2*\`M_PI*Cutoff_frequency, 1});
     end
 
 2: begin    // Second Order LPF (-40dB/dec)
-\tV(out) <+ laplace_nd(V(in),{(2*\`M_PI*Cutoff_frequency)**2},{(2*\`M_PI*Cutoff_frequency)**2, 4*\`M_PI*Cutoff_frequency,1});
+V(out) <+ laplace_nd(V(in),{(2*\`M_PI*Cutoff_frequency)**2},{(2*\`M_PI*Cutoff_frequency)**2, 4*\`M_PI*Cutoff_frequency,1});
     end
 endcase
 end

@@ -311,14 +311,14 @@ corresponding matching patterns are summarized in the table below:
 
 |Subcircuit type|**Interdigitation**|**Common Centroid**|
 |---------------|:-----:|:---------------:|
-|Biasing circuit|✔|\t\t\t\t|
-|Current mirror |✔\t\t\t\t|\t\t\t\t|
-|Current sources array|\t\t\t|✔\t\t\t\t|
-|Differential pair|\t\t\t\t|✔\t\t\t\t|
-|R/C ladder\t\t|✔\t\t\t\t|\t\t\t\t|
-|Resistive ADC/DAC array|\t\t|✔\t\t\t\t|
-|Capacitive ADC/DAC array|\t\t|✔\t\t\t\t|
-|Bandgap BJT array|\t\t\t\t|✔\t\t\t\t|
+|Biasing circuit|✔||
+|Current mirror |✔||
+|Current sources array||✔|
+|Differential pair||✔|
+|R/C ladder|✔||
+|Resistive ADC/DAC array||✔|
+|Capacitive ADC/DAC array||✔|
+|Bandgap BJT array||✔|
 
 Summarizing the things we discussed above we can come up with a generic matching procedure, listed below.
 

@@ -33,7 +33,7 @@ tenths of seconds after which the function should run.
 
 <pre><code class="language-lisp">
 procedure( func()
-\tprintf("Hello\n")
+printf("Hello\n")
 )
 
 hiRegTimer("func()" 100)
@@ -55,15 +55,15 @@ To repeat a task, we’ll need to run **hiRegTimer()** again. To do so, we can c
 
 <pre><code class="language-lisp">
 procedure( func()
-\tprintf("Hello\n")
+printf("Hello\n")
 )
 
 procedure( repeatTask(function)
-\tlet( (repeatCommand)
-\t
-\t\tsprintf(repeatCommand "%s repeatTask(\\"%s\\")" function function)
-\t\thiRegTimer(repeatCommand 100)
-\t);let
+let( (repeatCommand)
+
+sprintf(repeatCommand "%s repeatTask(\\"%s\\")" function function)
+hiRegTimer(repeatCommand 100)
+);let
 );procedure
 </code></pre>
 
@@ -74,7 +74,7 @@ above, the repeatCommand variable will contain **“func() repeatCommand(\\”fu
 
 <pre><code class="language-lisp">
 procedure( repeatTask(function)
-\tnil
+nil
 )
 </code></pre>
 
@@ -86,155 +86,155 @@ Let’s implement a wrapper function to schedule a task at a specific time and o
 
 <pre><code class="language-lisp">
 procedure( sayHello()
-\tprintf("Hello\n")
+printf("Hello\n")
 )
 
 
 procedure( scheduleTask(function scheduleTime @key (everyDay nil))
-\t/*
-\tSchedules a task to be executed at a specified time, optionally
-\trepeating every day.
+/*
+Schedules a task to be executed at a specified time, optionally
+repeating every day.
 
-\t@param function string
-\t\tThe name of the SKILL function to be executed at the scheduled time.
+@param function string
+The name of the SKILL function to be executed at the scheduled time.
 
-\t@param scheduleTime string
-\t\tThe target time in the format "HH:MM:SS" at which the function should
-\t\tbe executed.
+@param scheduleTime string
+The target time in the format "HH:MM:SS" at which the function should
+be executed.
 
-\t@param everyDay boolean
-\t\tAn optional parameter indicating whether the task should be scheduled
-\t\tto repeat every day. Defaults to 'nil'.
-\t*/
-\tlet( (secondsLeft scheduleFunction)
-\t\t
-\t\tsecondsLeft = getSecondsLeft(scheduleTime)
-\t\tscheduleFunction = function
-\t\twhen( everyDay
-\t\t\tsprintf(scheduleFunction "%s scheduleTask(\\"%s\\")" function function)
-\t\t);when
-\t\t
-\t\thiRegTimer(scheduleFunction secondsLeft*10)
-\t);let
+@param everyDay boolean
+An optional parameter indicating whether the task should be scheduled
+to repeat every day. Defaults to 'nil'.
+*/
+let( (secondsLeft scheduleFunction)
+
+secondsLeft = getSecondsLeft(scheduleTime)
+scheduleFunction = function
+when( everyDay
+sprintf(scheduleFunction "%s scheduleTask(\\"%s\\")" function function)
+);when
+
+hiRegTimer(scheduleFunction secondsLeft*10)
+);let
 );procedure
 
 
 procedure( getSecondsLeft(otherTime)
-\t/*
-\tCalculates the number of seconds remaining until a specified time on
-\tthe current or next day.
+/*
+Calculates the number of seconds remaining until a specified time on
+the current or next day.
 
-\t@param otherTime string
-\t\tThe target time in the format "HH:MM:SS" for which the remaining
-\t\tseconds are to be calculated.
+@param otherTime string
+The target time in the format "HH:MM:SS" for which the remaining
+seconds are to be calculated.
 
-\t@return integer
-\t\tReturns the number of seconds left until the specified time. If the
-\t\ttime has already passed today, it calculates the seconds remaining
-\t\tuntil the same time on the next day.
-\t*/
-\tlet( (monthsTable dateTime day month year otherDateTime secondsLeft
-\t\t  maxDaysInMonth)
-\t\t
-\t\tmonthsTable = getMonthsTable()
-\t\t
-\t\tdateTime = timeToTm(stringToTime(getCurrentTime()))
-\t\tday = dateTime~>tm_mday
-\t\tmonth = monthsTable[dateTime~>tm_mon+1]
-\t\tyear = dateTime~>tm_year + 1900
-\t\tsprintf(otherDateTime "%s %d %s %d" month day otherTime year)
-\t\t
-\t\tsecondsLeft = compareTime(otherDateTime getCurrentTime())
-\t\twhen( secondsLeft <= 0
-\t\t\t; Consider the next day
-\t\t\tmaxDaysInMonth = getMonthDaysNumber(month)
-\t\t\twhen( month == "Feb" && mod(year 4) != 0
-\t\t\t\tmaxDaysInMonth = 28
-\t\t\t);when
-\t\t\t
-\t\t\tday += 1
-\t\t\twhen( day > maxDaysInMonth
-\t\t\t\t; Next month
-\t\t\t\tday = 1
-\t\t\t\tmonth = monthsTable[dateTime~>tm_mon+2]
-\t\t\t\tunless( month\t;13th month doesn't exists
-\t\t\t\t\t; Next year
-\t\t\t\t\tmonth = monthsTable[1]
-\t\t\t\t\tyear += 1
-\t\t\t\t);unless
-\t\t\t);when
-\t\t\t
-\t\t\tsprintf(otherDateTime "%s %d %s %d" month day otherTime year)
-\t\t\t
-\t\t\tsecondsLeft = compareTime(otherDateTime getCurrentTime())
-\t\t);when
-\t\t
-\t\tsecondsLeft
-\t);let
+@return integer
+Returns the number of seconds left until the specified time. If the
+time has already passed today, it calculates the seconds remaining
+until the same time on the next day.
+*/
+let( (monthsTable dateTime day month year otherDateTime secondsLeft
+  maxDaysInMonth)
+
+monthsTable = getMonthsTable()
+
+dateTime = timeToTm(stringToTime(getCurrentTime()))
+day = dateTime~>tm_mday
+month = monthsTable[dateTime~>tm_mon+1]
+year = dateTime~>tm_year + 1900
+sprintf(otherDateTime "%s %d %s %d" month day otherTime year)
+
+secondsLeft = compareTime(otherDateTime getCurrentTime())
+when( secondsLeft <= 0
+; Consider the next day
+maxDaysInMonth = getMonthDaysNumber(month)
+when( month == "Feb" && mod(year 4) != 0
+maxDaysInMonth = 28
+);when
+
+day += 1
+when( day > maxDaysInMonth
+; Next month
+day = 1
+month = monthsTable[dateTime~>tm_mon+2]
+unless( month;13th month doesn't exists
+; Next year
+month = monthsTable[1]
+year += 1
+);unless
+);when
+
+sprintf(otherDateTime "%s %d %s %d" month day otherTime year)
+
+secondsLeft = compareTime(otherDateTime getCurrentTime())
+);when
+
+secondsLeft
+);let
 );procedure
 
 
 procedure( getMonthsTable()
-\t/*
-\tGets a table mapping month numbers to their corresponding three-letter
-\tabbreviations.
+/*
+Gets a table mapping month numbers to their corresponding three-letter
+abbreviations.
 
-\t@return table
-\t\tReturns a table where each key is a month number (1 through 12), and
-\t\teach value is the corresponding three-letter abbreviation of the month
-\t\tname.
-\t*/
-\tlet( (monthsTable)
-\t\t
-\t\tmonthsTable = makeTable('monthsTable nil)
-\t\tmonthsTable[1] \t= "Jan"
-\t\tmonthsTable[2] \t= "Feb"
-\t\tmonthsTable[3] \t= "Mar"
-\t\tmonthsTable[4] \t= "Apr"
-\t\tmonthsTable[5] \t= "May"
-\t\tmonthsTable[6] \t= "Jun"
-\t\tmonthsTable[7] \t= "Jul"
-\t\tmonthsTable[8] \t= "Aug"
-\t\tmonthsTable[9] \t= "Sep"
-\t\tmonthsTable[10] = "Oct"
-\t\tmonthsTable[11] = "Nov"
-\t\tmonthsTable[12] = "Dec"
-\t\t
-\t\tmonthsTable
-\t);let
+@return table
+Returns a table where each key is a month number (1 through 12), and
+each value is the corresponding three-letter abbreviation of the month
+name.
+*/
+let( (monthsTable)
+
+monthsTable = makeTable('monthsTable nil)
+monthsTable[1] = "Jan"
+monthsTable[2] = "Feb"
+monthsTable[3] = "Mar"
+monthsTable[4] = "Apr"
+monthsTable[5] = "May"
+monthsTable[6] = "Jun"
+monthsTable[7] = "Jul"
+monthsTable[8] = "Aug"
+monthsTable[9] = "Sep"
+monthsTable[10] = "Oct"
+monthsTable[11] = "Nov"
+monthsTable[12] = "Dec"
+
+monthsTable
+);let
 );procedure
 
 
 procedure( getMonthDaysNumber(month)
-\t/*
-\tReturns the number of days in a given month, accounting for leap years
-\tin February.
+/*
+Returns the number of days in a given month, accounting for leap years
+in February.
 
-\t@param month string
-\t\tThe three-letter abbreviation of the month name.
+@param month string
+The three-letter abbreviation of the month name.
 
-\t@return integer
-\t\tReturns the maximum number of days in the specified month. February
-\t\tis assumed to have 29 days to account for leap years.
-\t*/
-\tlet( (maxDays)
-\t\tcond( 
-\t\t\t( month == "Feb"
-\t\t\t\tmaxDays = 29
-\t\t\t)
-\t\t\t( or(month == "Apr" month == "Jun" month == "Sep" month == "Nov")
-\t\t\t\tmaxDays = 30
-\t\t\t)
-\t\t\t( or(month == "Jan" month == "Mar" month == "May" month == "Jul"
-\t\t\t\t\tmonth == "Aug" month == "Oct" month == "Dec")
-\t\t\t\tmaxDays = 31
-\t\t\t)
-\t\t);cond
-\t\t
-\t\t
-\t\tmaxDays
+@return integer
+Returns the maximum number of days in the specified month. February
+is assumed to have 29 days to account for leap years.
+*/
+let( (maxDays)
+cond( 
+( month == "Feb"
+maxDays = 29
+)
+( or(month == "Apr" month == "Jun" month == "Sep" month == "Nov")
+maxDays = 30
+)
+( or(month == "Jan" month == "Mar" month == "May" month == "Jul"
+month == "Aug" month == "Oct" month == "Dec")
+maxDays = 31
+)
+);cond
 
-\t);let
+
+maxDays
+
+);let
 );procedure
 </code></pre>
 

@@ -37,11 +37,11 @@ We can customize the pop-up box with optional arguments like message text, box t
 
 <pre><code class="language-lisp">
 hiDisplayAppDBox(
-\t?name 'errorAppDBox
-\t?dboxBanner "*ERROR* My App"
-\t?dboxText "Failed to open a file!"
-\t?dialogType hicErrorDialog\t
-\t?buttonLayout 'Close
+?name 'errorAppDBox
+?dboxBanner "*ERROR* My App"
+?dboxText "Failed to open a file!"
+?dialogType hicErrorDialog
+?buttonLayout 'Close
 )
 </code></pre>
 
@@ -59,43 +59,43 @@ For example, failing to write to a file or providing incorrect type of input:
 
 <pre><code class="language-lisp">
 procedure( writeData(filePath data)
-\tprog( (outPort message)
-\t\t
-\t\toutPort = outfile(filePath "w")
-\t\tunless( outPort
-\t\t\tsprintf(message "Failed to open a \\"%s\\" file!\nPlease check that the provided path is correct and you have write permissions."
-\t\t\t\tfilePath)
-\t\t\thiDisplayAppDBox(
-\t\t\t\t?name 'errorAppDBox
-\t\t\t\t?dboxBanner "*ERROR* Writing Data"
-\t\t\t\t?dboxText message
-\t\t\t\t?dialogType hicErrorDialog\t
-\t\t\t\t?buttonLayout 'Close
-\t\t\t)
-\t\t\t
-\t\t\treturn()
-\t\t);unless
-\t\t
-\t\tunless( stringp(data)
-\t\t\tsprintf(message "The provided data type - %L.\nPlease provide data as a string!"
-\t\t\t\ttype(data))
-\t\t\t
-\t\t\thiDisplayAppDBox(
-\t\t\t\t?name 'errorAppDBox
-\t\t\t\t?dboxBanner "*ERROR* Writing Data"
-\t\t\t\t?dboxText message
-\t\t\t\t?dialogType hicErrorDialog\t
-\t\t\t\t?buttonLayout 'Close
-\t\t\t)
-\t\t\t
-\t\t\treturn()
-\t\t);unless
-\t\t
-\t\tfprintf(outPort "%s\n" data)
-\t\tclose(outPort)
-\t\t
-\t\treturn(t)
-\t);prog
+prog( (outPort message)
+
+outPort = outfile(filePath "w")
+unless( outPort
+sprintf(message "Failed to open a \\"%s\\" file!\nPlease check that the provided path is correct and you have write permissions."
+filePath)
+hiDisplayAppDBox(
+?name 'errorAppDBox
+?dboxBanner "*ERROR* Writing Data"
+?dboxText message
+?dialogType hicErrorDialog
+?buttonLayout 'Close
+)
+
+return()
+);unless
+
+unless( stringp(data)
+sprintf(message "The provided data type - %L.\nPlease provide data as a string!"
+type(data))
+
+hiDisplayAppDBox(
+?name 'errorAppDBox
+?dboxBanner "*ERROR* Writing Data"
+?dboxText message
+?dialogType hicErrorDialog
+?buttonLayout 'Close
+)
+
+return()
+);unless
+
+fprintf(outPort "%s\n" data)
+close(outPort)
+
+return(t)
+);prog
 );procedure
 </code></pre>
 
@@ -115,21 +115,21 @@ For example, when the netbatch/cloud settings are missing, but we can still run 
 
 <pre><code class="language-lisp">
 procedure( runVerifications()
-\tlet( (message)
-\t\t
-\t\tunless( getShellEnvVar("NETBATCH_POOL")
-\t\t\tmessage = "Netbatch settings are missing!\nRunning the tasks locally."
-\t\t\thiDisplayAppDBox(
-\t\t\t\t?name 'warningAppDBox
-\t\t\t\t?dboxBanner "*WARNING* My App"
-\t\t\t\t?dboxText message
-\t\t\t\t?dialogType hicWarningDialog\t
-\t\t\t\t?buttonLayout 'Close
-\t\t\t)
-\t\t);unless
-\t\t
-\t\t; Rest of the code here
-\t);let
+let( (message)
+
+unless( getShellEnvVar("NETBATCH_POOL")
+message = "Netbatch settings are missing!\nRunning the tasks locally."
+hiDisplayAppDBox(
+?name 'warningAppDBox
+?dboxBanner "*WARNING* My App"
+?dboxText message
+?dialogType hicWarningDialog
+?buttonLayout 'Close
+)
+);unless
+
+; Rest of the code here
+);let
 );procedure
 </code></pre>
 
@@ -147,25 +147,25 @@ For example, we inform the user when the script is finished:
 
 <pre><code class="language-lisp">
 procedure( runTask()
-\tlet( (message success)
-\t\t
-\t\t; Implement task logic here
-\t\t
-\t\tif( success
-\t\tthen
-\t\t\tmessage = "The task is finished successfully!"
-\t\telse
-\t\t\tmessage = "The task is finished with errors!\nPlease refer to a log file."
-\t\t);if
-\t\t
-\t\thiDisplayAppDBox(
-\t\t\t?name 'infoAppDBox
-\t\t\t?dboxBanner "*INFO* My App"
-\t\t\t?dboxText message
-\t\t\t?dialogType hicMessageDialog\t
-\t\t\t?buttonLayout 'Close
-\t\t)
-\t);let
+let( (message success)
+
+; Implement task logic here
+
+if( success
+then
+message = "The task is finished successfully!"
+else
+message = "The task is finished with errors!\nPlease refer to a log file."
+);if
+
+hiDisplayAppDBox(
+?name 'infoAppDBox
+?dboxBanner "*INFO* My App"
+?dboxText message
+?dialogType hicMessageDialog
+?buttonLayout 'Close
+)
+);let
 );procedure
 </code></pre>
 
@@ -188,29 +188,29 @@ For example, when we want the user to choose what to do when a file is missing:
 
 <pre><code class="language-lisp">
 procedure( askUser()
-\tlet( (answer)
+let( (answer)
 
-\t\tanswer = hiDisplayAppDBox(
-\t\t\t?name 'questionAppDBox
-\t\t\t?dboxBanner "*QUESTION* My App"
-\t\t\t?dboxText "A file is missing!\nYou can either create a new one, continue or abort."
-\t\t\t?dialogType hicQuestionDialog\t
-\t\t\t?buttonLayout 'UserDefined
-\t\t\t?buttons list("Create New File" "Continue" "Abort")
-\t\t)
-\t\t
-\t\tcase( answer
-\t\t\t( 1
-\t\t\t\tprintf("Creating a new file\n")
-\t\t\t)
-\t\t\t( 2
-\t\t\t\tprintf("Continuing\n")
-\t\t\t)
-\t\t\t( 3
-\t\t\t\tprintf("Aborting\n")
-\t\t\t)
-\t\t);case
-\t);let
+answer = hiDisplayAppDBox(
+?name 'questionAppDBox
+?dboxBanner "*QUESTION* My App"
+?dboxText "A file is missing!\nYou can either create a new one, continue or abort."
+?dialogType hicQuestionDialog
+?buttonLayout 'UserDefined
+?buttons list("Create New File" "Continue" "Abort")
+)
+
+case( answer
+( 1
+printf("Creating a new file\n")
+)
+( 2
+printf("Continuing\n")
+)
+( 3
+printf("Aborting\n")
+)
+);case
+);let
 );procedure
 </code></pre>
 
@@ -224,27 +224,27 @@ You can also provide callbacks to each button directly via the **?callback** opt
 
 <pre><code class="language-lisp">
 procedure( askUser()
-\thiDisplayAppDBox(
-\t\t?name 'questionAppDBox
-\t\t?dboxBanner "*QUESTION* My App"
-\t\t?dboxText "A file is missing!\nYou can either create a new one, continue or abort."
-\t\t?dialogType hicQuestionDialog\t
-\t\t?buttonLayout 'UserDefined
-\t\t?buttons list("Create New File" "Continue" "Abort")
-\t\t?callback list("createNewFile()" nil "abort()")
-\t)
-\t
-\tprintf("Code continues here\n")
+hiDisplayAppDBox(
+?name 'questionAppDBox
+?dboxBanner "*QUESTION* My App"
+?dboxText "A file is missing!\nYou can either create a new one, continue or abort."
+?dialogType hicQuestionDialog
+?buttonLayout 'UserDefined
+?buttons list("Create New File" "Continue" "Abort")
+?callback list("createNewFile()" nil "abort()")
+)
+
+printf("Code continues here\n")
 );procedure
 
 
 procedure( createNewFile()
-\tprintf("Creating a new file\n")
+printf("Creating a new file\n")
 );procedure
 
 
 procedure( abort()
-\tprintf("Aborting\n")
+printf("Aborting\n")
 );procedure
 </code></pre>
 

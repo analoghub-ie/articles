@@ -47,19 +47,19 @@ This article contains Verilog-A model for a Digital-toAnalog Converter (DAC).
 
 \`include "constants.vams"
 \`include "disciplines.vams"
-\`define bits 12\t\t\t\t\t\t\t// define number of binary bits here
+\`define bits 12// define number of binary bits here
 
 module DAC(out, in, clk);
-    parameter real vmin = 0.0;\t\t\t// minimum input voltage (V)
-    parameter real vmax = 1.0 from (vmin:inf);\t// maximum input voltage (V)
-    parameter real td = 0;\t\t\t// delay from clock edge to output (s)
-    parameter real tt = 0;\t\t\t// transition time of output (s)
-    parameter real vdd = 5.0;\t\t\t// voltage level of logic 1 (V)
-    parameter real vss = 0;\t\t\t// voltage level of logic 0 (V)
-    parameter real thresh = (vdd+vss)/2;\t// logic threshold level (V)
+    parameter real vmin = 0.0;// minimum input voltage (V)
+    parameter real vmax = 1.0 from (vmin:inf);// maximum input voltage (V)
+    parameter real td = 0;// delay from clock edge to output (s)
+    parameter real tt = 0;// transition time of output (s)
+    parameter real vdd = 5.0;// voltage level of logic 1 (V)
+    parameter real vss = 0;// voltage level of logic 0 (V)
+    parameter real thresh = (vdd+vss)/2;// logic threshold level (V)
     parameter integer dir = +1 from [-1:1] exclude 0;
-    \t\t\t\t\t\t// 1 for trigger on rising edge
-\t\t\t\t\t\t// -1 for falling
+    // 1 for trigger on rising edge
+// -1 for falling
     localparam real fullscale = vmax - vmin;
 
     output out;
@@ -72,17 +72,17 @@ module DAC(out, in, clk);
     genvar i;
 
     analog begin
-\t@(cross(V(clk) - thresh, dir) or initial_step) begin
-\t    aout = 0;
-\t    weight = 2;
-\t    for (i = \`bits - 1; i >= 0; i = i - 1) begin
-\t\tif (V(in[i]) > thresh) begin
-\t\t    aout = aout + fullscale/weight;
-\t\tend
-\t\tweight = weight*2;
-\t    end
-\tend
-\tV(out) <+ transition(aout + vmin, td, tt);
+@(cross(V(clk) - thresh, dir) or initial_step) begin
+    aout = 0;
+    weight = 2;
+    for (i = \`bits - 1; i >= 0; i = i - 1) begin
+if (V(in[i]) > thresh) begin
+    aout = aout + fullscale/weight;
+end
+weight = weight*2;
+    end
+end
+V(out) <+ transition(aout + vmin, td, tt);
     end
 endmodule
 </code></pre>

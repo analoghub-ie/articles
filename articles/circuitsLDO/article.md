@@ -133,14 +133,14 @@ is commonly a PMOS transistor. Next, we’ll compare the use of PMOS vs. NMOS to
 
 <br/>
 
-|                |PMOS\t |NMOS\t |
+|                |PMOS |NMOS |
 |:----------------:|:-------:|:-------:|
-|Maximum output voltage\t\t| $$V_{dsat} (\approx 50-100mV)$$    |$$V_{dd}-V_{th}(\approx 0.4-0.6V)$$\t |
-|PSRR\t \t\t\t\t\t|Low  |High\t |
-|Output impedance\t\t\t|Lower  |Higher\t | 
-|Area\t \t\t\t\t\t|Bigger  |Smaller\t | 
-|Speed\t \t\t\t\t\t|Slower  |Faster\t | 
-|Dominant pole location\t \t|Output node  |Gate of pass device\t | 
+|Maximum output voltage| $$V_{dsat} (\approx 50-100mV)$$    |$$V_{dd}-V_{th}(\approx 0.4-0.6V)$$ |
+|PSRR |Low  |High |
+|Output impedance|Lower  |Higher | 
+|Area |Bigger  |Smaller | 
+|Speed |Slower  |Faster | 
+|Dominant pole location |Output node  |Gate of pass device | 
 
 <br/>
 
@@ -158,16 +158,16 @@ high-voltage transistors designed to handle significant current and voltage, and
 higher than the standard 1V of regular transistors.
 
 
-|  Parameter      \t|External\t |Capless\t |
+|  Parameter      |External |Capless |
 |:----------------:|:-------:|:-------:|
-|Stability\t\t| Easy    |\tHard |
-|Max out current\t\t| High    |\tLow-Med |
-|Parasitics\t\t| High   |\tLow |
+|Stability| Easy    |Hard |
+|Max out current| High    |Low-Med |
+|Parasitics| High   |Low |
 
 
 |Amplifier Topology|Regulation| Stability| PSRR| Noise|Power consumption| 
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|Telescopic|Medium\t|High\t  |Medium\t|Low\t  |Low\t\t|
+|Telescopic|Medium|High  |Medium|Low  |Low|
 |Folded cascode|Medium|High|Medium|Medium|Medium|
 |Two-stage|High|Low|High|Low|Medium|
 |Gain-boosted|High|Medium|High|Medium|High|
@@ -544,9 +544,9 @@ Typical values for the parasitics are given in the table below:
 
 |Parasitics|R| L| C|
 |:-------:|:-------:|:-------:|:-------:|
-|Bondwire* | $\approx 50m\Omega /mm$| $\approx 1nH /mm$  | -\t|
-|Package** |$50m\Omega$\t|$1.119 nH$\t  |$352 fF$\t|
-|PCB trace***|$4.93\Omega$\t|$2.1 nH$\t  |\t$1.47pF$|
+|Bondwire* | $\approx 50m\Omega /mm$| $\approx 1nH /mm$  | -|
+|Package** |$50m\Omega$|$1.119 nH$  |$352 fF$|
+|PCB trace***|$4.93\Omega$|$2.1 nH$  |$1.47pF$|
 
 > **Notes:**
 > - *For a typical golden bondwire, (*1mil* diameter). Typical bondwire length is *3-5mm*.

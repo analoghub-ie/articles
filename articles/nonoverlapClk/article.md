@@ -53,11 +53,11 @@ module nonoverlap_clk (clk, ph1, ph2);
     output ph1, ph2;
     electrical clk, ph1, ph2;
 
-    parameter real vdd = 5.0;\t\t// define clock high
-    parameter real vss = 0.0;\t\t// define clock low
-    parameter real t_edge = 1e-9;\t// rising/falling edge of ph1/ph2
-    parameter real t_delay = 1e-9;\t// delay from the input clock edge for ph1/ph2
-    parameter real t_dead = 20e-9; \t// dead-time between ph1/ph2
+    parameter real vdd = 5.0;// define clock high
+    parameter real vss = 0.0;// define clock low
+    parameter real t_edge = 1e-9;// rising/falling edge of ph1/ph2
+    parameter real t_delay = 1e-9;// delay from the input clock edge for ph1/ph2
+    parameter real t_dead = 20e-9; // dead-time between ph1/ph2
 
     real delay_ph1;
     real delay_ph2;
@@ -70,18 +70,18 @@ analog begin
     d_ph2 = 0;
     end
 
-@(cross(V(clk)-vdd/2, +1)) begin\t//rising edge of clk
+@(cross(V(clk)-vdd/2, +1)) begin//rising edge of clk
         d_ph1 = 1;
         d_ph2 = 0;
-\t\tdelay_ph1 = t_delay + t_dead;
-\t\tdelay_ph2 = t_delay;
+delay_ph1 = t_delay + t_dead;
+delay_ph2 = t_delay;
 end
 
-@(cross(V(clk)-vdd/2, -1)) begin\t//falling edge of clk
+@(cross(V(clk)-vdd/2, -1)) begin//falling edge of clk
         d_ph1 = 0;
         d_ph2 = 1;
-\t\tdelay_ph1 = t_delay;
-\t\tdelay_ph2 = t_delay + t_dead;
+delay_ph1 = t_delay;
+delay_ph2 = t_delay + t_dead;
 end
 
 V(ph1) <+ vdd*transition(d_ph1,delay_ph1,t_edge) + vss*transition(d_ph2,delay_ph1,t_edge);
@@ -120,10 +120,10 @@ module nonoverlap_clk_2ph (clk, ph1, ph2);
     output ph1, ph2;
     electrical clk, ph1, ph2;
 
-   \tparameter real vdd = 5.0;   // define clock high
-    parameter real vss = 0.0;\t// define clock low
-\tparameter real t_edge = 1e-9;   // rising/falling edge of ph1/ph2
-\tparameter real t_delay = 1e-9;  // delay from the input clock edge for ph1/ph2
+   parameter real vdd = 5.0;   // define clock high
+    parameter real vss = 0.0;// define clock low
+parameter real t_edge = 1e-9;   // rising/falling edge of ph1/ph2
+parameter real t_delay = 1e-9;  // delay from the input clock edge for ph1/ph2
     parameter real t_dead = 20e-9;  // dead-time between ph1/ph2
 
     real delay_ph1;
@@ -139,32 +139,32 @@ analog begin
     end
 
 
-@(cross(V(clk)-vdd/2, +1)) begin\t//rising edge of clk
+@(cross(V(clk)-vdd/2, +1)) begin//rising edge of clk
         counter_ph1 = counter_ph1 + 1; // count rising edges
-\t\t$display("Rising edge number: %d", counter_ph1);
+$display("Rising edge number: %d", counter_ph1);
         case(counter_ph1)
         1: begin
             d_ph1 = 1;
             d_ph2 = 0;
             delay_ph1 = t_delay + t_dead;
-\t\t    delay_ph2 = t_delay;
+    delay_ph2 = t_delay;
         end
         2: begin 
             d_ph1 = 0;
             d_ph2 = 1;
             delay_ph1 = t_delay;
-\t\t    delay_ph2 = t_delay + t_dead;
+    delay_ph2 = t_delay + t_dead;
             counter_ph1 = 0;    // reset counter
         end
 endcase
 end
 
 
-/*@(cross(V(clk)-vdd/2, -1)) begin\t//falling edge of clk
+/*@(cross(V(clk)-vdd/2, -1)) begin//falling edge of clk
         d_ph1 = 0;
         d_ph2 = 1;
-\t\tdelay_ph1 = t_delay;
-\t\tdelay_ph2 = t_delay + t_dead;
+delay_ph1 = t_delay;
+delay_ph2 = t_delay + t_dead;
 end */
 
 V(ph1) <+ vdd*transition(d_ph1,delay_ph1,t_edge) + vss*transition(d_ph2,delay_ph1,t_edge);
@@ -216,10 +216,10 @@ module nonoverlap_clk_4ph (clk, ph1, ph2, ph3, ph4);
     output ph1, ph2, ph3, ph4;
     electrical clk, ph1, ph2, ph3, ph4;
 
-   \tparameter real vdd = 1.0;   // define clock high
-    parameter real vss = 0.0;\t// define clock low
-\tparameter real t_edge = 1e-9;   // rising/falling edge of ph1/ph2
-\tparameter real t_delay = 1e-9;  // delay from the input clock edge for ph1/ph2/ph3/ph4
+   parameter real vdd = 1.0;   // define clock high
+    parameter real vss = 0.0;// define clock low
+parameter real t_edge = 1e-9;   // rising/falling edge of ph1/ph2
+parameter real t_delay = 1e-9;  // delay from the input clock edge for ph1/ph2/ph3/ph4
     parameter real t_dead = 20e-9;  // dead-time between ph1/ph2/ph3/ph4
 
     real delay_ph1;
@@ -241,16 +241,16 @@ analog begin
     end
 
 
-@(cross(V(clk)-vdd/2, +1)) begin\t//rising edge of clk
+@(cross(V(clk)-vdd/2, +1)) begin//rising edge of clk
         clk_edge_count = clk_edge_count + 1; // count rising edges
-\t\t//$display("Rising edge number: %d", clk_edge_count);
+//$display("Rising edge number: %d", clk_edge_count);
         case(clk_edge_count)
         1: begin
             bit_ph1 = 1;
             bit_ph2 = 0;
             bit_ph3 = 0;
             bit_ph4 = 0;
-\t\t\tdelay_ph4 = t_delay;
+delay_ph4 = t_delay;
             delay_ph1 = t_delay + t_dead;
         end
         2: begin 
@@ -258,8 +258,8 @@ analog begin
             bit_ph2 = 1;
             bit_ph3 = 0;
             bit_ph4 = 0;
-\t\t\tdelay_ph1 = t_delay;
-\t\t    delay_ph2 = t_delay + t_dead;
+delay_ph1 = t_delay;
+    delay_ph2 = t_delay + t_dead;
 
         end
         3: begin 
@@ -267,8 +267,8 @@ analog begin
             bit_ph2 = 0;
             bit_ph3 = 1;
             bit_ph4 = 0;
-\t\t\tdelay_ph2 = t_delay;
-\t\t\tdelay_ph3 = t_delay + t_dead;
+delay_ph2 = t_delay;
+delay_ph3 = t_delay + t_dead;
 
         end
         4: begin 
@@ -276,8 +276,8 @@ analog begin
             bit_ph2 = 0;
             bit_ph3 = 0;
             bit_ph4 = 1;
-\t\t\tdelay_ph3 = t_delay;
-\t\t\tdelay_ph4 = t_delay + t_dead;
+delay_ph3 = t_delay;
+delay_ph4 = t_delay + t_dead;
             clk_edge_count = 0;    // reset counter
         end
 endcase

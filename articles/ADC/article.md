@@ -47,18 +47,18 @@ This article contains Verilog-A model for an Analog-to-Digital Converter (ADC).
 
 \`include "constants.vams"
 \`include "disciplines.vams"
-\`define bits 12\t\t\t\t\t// define number of binary bits here
+\`define bits 12// define number of binary bits here
 module ADC (out, in, clk);
-    parameter real vmin = 0.0;\t\t\t// minimum input voltage (V)
-    parameter real vmax = 1.0 from (vmin:inf);\t// maximum input voltage (V)
-    parameter real td = 0 from [0:inf);\t\t// delay from clock edge to output (s)
-    parameter real tt = 0 from [0:inf);\t\t// transition time of output (s)
-    parameter real vdd = 5;\t\t\t// voltage level of logic 1 (V)
-    parameter real vss = 0;\t\t\t// voltage level of logic 0 (V)
-    parameter real thresh = (vdd+vss)/2;\t// logic threshold level (V)
+    parameter real vmin = 0.0;// minimum input voltage (V)
+    parameter real vmax = 1.0 from (vmin:inf);// maximum input voltage (V)
+    parameter real td = 0 from [0:inf);// delay from clock edge to output (s)
+    parameter real tt = 0 from [0:inf);// transition time of output (s)
+    parameter real vdd = 5;// voltage level of logic 1 (V)
+    parameter real vss = 0;// voltage level of logic 0 (V)
+    parameter real thresh = (vdd+vss)/2;// logic threshold level (V)
     parameter integer dir = +1 from [-1:1] exclude 0;
-    \t\t\t\t\t\t// 1 for trigger on rising edge
-\t\t\t\t\t\t// -1 for falling
+    // 1 for trigger on rising edge
+// -1 for falling
     localparam integer levels = 1<<\`bits;
     input in, clk;
     output [\`bits-1:0] out;
@@ -69,15 +69,15 @@ module ADC (out, in, clk);
 
     analog begin
         @(cross(V(clk)-thresh, dir) or initial_step) begin
-\t    result = levels*((V(in) - vmin))/(vmax - vmin);
-\t    if (result > levels-1)
-\t        result = levels-1;
-\t    else if (result < 0)
-\t        result = 0;
-\tend
+    result = levels*((V(in) - vmin))/(vmax - vmin);
+    if (result > levels-1)
+        result = levels-1;
+    else if (result < 0)
+        result = 0;
+end
 
-\tfor (i=0; i<\`bits; i=i+1)
-\t    V(out[i]) <+ transition(result & (1<<i) ? vdd : vss, td, tt);
+for (i=0; i<\`bits; i=i+1)
+    V(out[i]) <+ transition(result & (1<<i) ? vdd : vss, td, tt);
     end
 endmodule
 

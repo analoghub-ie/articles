@@ -87,35 +87,35 @@ Changing dimming intensity:
 <pre><code class="language-lisp">
 
 procedure(changeLayoutDimmingIntensity(signum @key (byValue 5))
-\t;Adjusts the dimming intensity of the current layout window by a
-\t;specified value and direction.
-\t
-\t;@param signum int
-\t;       The direction of adjustment. Positive values increase
-\t;       intensity, negative values decrease it.
-\t;@key byValue int
-\t;     Optional. The amount by which to adjust the dimming intensity.
-\t;     Default is 5.
-\t
-\tlet((window intensity)
-\t\t
-\t\twindow = hiGetCurrentWindow()
-\t\t
-\t\tintensity = window~>dimmingIntensity
-\t\tintensity = (signum * byValue) + intensity
-\t\tcond(
-\t\t\t(intensity < 0
-\t\t\t\tintensity = 0
-\t\t\t)
-\t\t\t(intensity > 100
-\t\t\t\tintensity = 100
-\t\t\t)
-\t\t)
-\t\t
-\t\twindow~>dimmingIntensity = intensity
-\t\t
-\t\tprintf("Dimming intensity = %d\n" window~>dimmingIntensity)
-\t)
+;Adjusts the dimming intensity of the current layout window by a
+;specified value and direction.
+
+;@param signum int
+;       The direction of adjustment. Positive values increase
+;       intensity, negative values decrease it.
+;@key byValue int
+;     Optional. The amount by which to adjust the dimming intensity.
+;     Default is 5.
+
+let((window intensity)
+
+window = hiGetCurrentWindow()
+
+intensity = window~>dimmingIntensity
+intensity = (signum * byValue) + intensity
+cond(
+(intensity < 0
+intensity = 0
+)
+(intensity > 100
+intensity = 100
+)
+)
+
+window~>dimmingIntensity = intensity
+
+printf("Dimming intensity = %d\n" window~>dimmingIntensity)
+)
 )
 
 </code></pre>
@@ -153,10 +153,10 @@ Or set multiple bind keys in one command:
 <pre><code class="language-lisp">
 
 hiSetBindKeys("Layout" list(
-\t\tlist("<Key>," "changeLayoutDimmingIntensity(-1)")\t
-\t\tlist("<Key>." "changeLayoutDimmingIntensity(1)")
-\t\tlist("<Key>/" "toggleLayoutDimming()")
-\t)
+list("<Key>," "changeLayoutDimmingIntensity(-1)")
+list("<Key>." "changeLayoutDimmingIntensity(1)")
+list("<Key>/" "toggleLayoutDimming()")
+)
 )
 
 </code></pre>

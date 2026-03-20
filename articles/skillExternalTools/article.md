@@ -29,17 +29,17 @@ Let’s see how to copy a file:
 
 <pre><code class="language-lisp">
 let( (filePath destinationPath command exitCode)
-\tfilePath = "./myfile"
-\tdestinationPath = "./new_file"
-\tsprintf(command "cp %s %s" filePath destinationPath)
-\t
-\texitCode = system(command)
-\tif( exitCode == 0
-\tthen
-\t\tprintf("Succeeded to copy file\n")
-\telse
-\t\tprintf("Failed to copy file\n")
-\t);if
+filePath = "./myfile"
+destinationPath = "./new_file"
+sprintf(command "cp %s %s" filePath destinationPath)
+
+exitCode = system(command)
+if( exitCode == 0
+then
+printf("Succeeded to copy file\n")
+else
+printf("Failed to copy file\n")
+);if
 );let
 </code></pre>
 
@@ -48,16 +48,16 @@ path:
 
 <pre><code class="language-lisp">
 let( (scriptFile command exitCode)
-\tscriptFile = "/tmp/myScript.sh"
-\tsprintf(command "sh %s" scriptFile)
-\t
-\texitCode = system(command)
-\tif( exitCode == 0
-\tthen
-\t\tprintf("Succeeded to run the script\n")
-\telse
-\t\tprintf("Failed to run the script\n")
-\t);if
+scriptFile = "/tmp/myScript.sh"
+sprintf(command "sh %s" scriptFile)
+
+exitCode = system(command)
+if( exitCode == 0
+then
+printf("Succeeded to run the script\n")
+else
+printf("Failed to run the script\n")
+);if
 );let
 </code></pre>
 
@@ -78,16 +78,16 @@ Let’s see how to read an output from a terminal command:
 
 <pre><code class="language-lisp">
 let( (command process output nextLine)
-\tcommand = "find . -name '*.txt'"
-\tprocess = ipcBeginProcess(command)
-\tipcWait(process)
-\t
-\toutput = ""
-\twhile( nextLine = ipcReadProcess(process)
-\t\toutput = strcat(output nextLine)
-\t);while
-\t
-\tprintf("%s\n" output)
+command = "find . -name '*.txt'"
+process = ipcBeginProcess(command)
+ipcWait(process)
+
+output = ""
+while( nextLine = ipcReadProcess(process)
+output = strcat(output nextLine)
+);while
+
+printf("%s\n" output)
 );let
 </code></pre>
 
@@ -117,29 +117,29 @@ Let’s look at the next example. We’ll run the *“find”* command from prev
 
 <pre><code class="language-lisp">
 let( (command)
-\tcommand = "find . -name '*.txt'"
-\tipcBeginProcess(
-\t\tcommand
-\t\t""  ; Local
-\t\t'readData
-\t\t'readError
-\t\t'exitHandler
-\t)
+command = "find . -name '*.txt'"
+ipcBeginProcess(
+command
+""  ; Local
+'readData
+'readError
+'exitHandler
+)
 );let
 
 procedure( readData(childId data)
-\t; Do data handling stuff here
-\tprintf("Process: %d\nOutput:\n%s\n" childId data)
+; Do data handling stuff here
+printf("Process: %d\nOutput:\n%s\n" childId data)
 );procedure
 
 procedure( readError(childId data)
-\t; Do error handling stuff here
-\tprintf("Process: %d\nOutput:\n%s\n" childId data)
+; Do error handling stuff here
+printf("Process: %d\nOutput:\n%s\n" childId data)
 );procedure
 
 procedure( exitHandler(childId exitStatus)
-\t; Do post processing stuff here
-\tprintf("Process %d finished with code %d\n" childId exitStatus)
+; Do post processing stuff here
+printf("Process %d finished with code %d\n" childId exitStatus)
 );procedure
 </code></pre>
 

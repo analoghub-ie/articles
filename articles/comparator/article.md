@@ -47,13 +47,13 @@ module comparator (inp, inn, out);
     input inp, inn;
     output out;
     electrical inp, inn, out; 
-    parameter real VDD = 3.3; \t\t\t// Output voltage during high state
-    parameter real t_delay = 1e-9; \t\t// Propagation delay
-    parameter real t_edge = 100e-12; \t\t// Rise and fall times
+    parameter real VDD = 3.3; // Output voltage during high state
+    parameter real t_delay = 1e-9; // Propagation delay
+    parameter real t_edge = 100e-12; // Rise and fall times
     
     analog begin
         V(out) <+ VDD * transition(V(inp) > V(inn), t_delay, t_edge);
-\t\t$bound_step(1/(2*t_delay));  // comment this option if the sim is too slow
+$bound_step(1/(2*t_delay));  // comment this option if the sim is too slow
     end
 endmodule
 </code></pre>

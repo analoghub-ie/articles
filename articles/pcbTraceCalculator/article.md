@@ -76,26 +76,26 @@ $$
 % Source: https://resources.system-analysis.cadence.com/blog/msa2021-is-there-a-pcb-trace-inductance-rule-of-thumb
 
 %% Input parameters
-type = "microstrip";\t\t\t\t% can be microstrip or stripline
-temp = 25;\t\t\t\t\t% temperature [C]
-length = 1e-3;\t\t\t\t\t% trace length [m]
+type = "microstrip";% can be microstrip or stripline
+temp = 25;% temperature [C]
+length = 1e-3;% trace length [m]
 width = 0.5e-3;                                 % trace width [m]
-thickness = 35e-6;\t\t\t\t% trace thickness [m]
-height = 0.4e-3;\t\t\t\t% height over a plane [m] 
+thickness = 35e-6;% trace thickness [m]
+height = 0.4e-3;% height over a plane [m] 
 
 %% Constants
-ro = 1.724e-8;\t\t\t\t\t% resistivity of copper [Ohm/m]
-alpha = 3.9e-3;\t\t\t\t\t% temperature coefficient of copper
-eps_r = 4.46;\t\t\t\t\t% relative permittivity of copper
+ro = 1.724e-8;% resistivity of copper [Ohm/m]
+alpha = 3.9e-3;% temperature coefficient of copper
+eps_r = 4.46;% relative permittivity of copper
 
 %% Calculations
-B = 2*height+thickness;\t\t\t\t% plane-to-plane distance [m]
+B = 2*height+thickness;% plane-to-plane distance [m]
 switch type
     case "microstrip"
         if ( width/height < 7.475 - 1.25*(thickness/height) )
-            R_lumped = 1e3*ro*(1 + alpha*(temp-25))/(thickness*width);\t\t\t\t% mOhms/meter
-            C_lumped = 26.378*(eps_r+1.41)/( log( 5.98*height/(0.8*width+thickness) ) );\t% pF/meter
-            L_lumped = 199.65*log( 5.98*height/(0.8*width + thickness) );\t\t\t% nH/meter
+            R_lumped = 1e3*ro*(1 + alpha*(temp-25))/(thickness*width);% mOhms/meter
+            C_lumped = 26.378*(eps_r+1.41)/( log( 5.98*height/(0.8*width+thickness) ) );% pF/meter
+            L_lumped = 199.65*log( 5.98*height/(0.8*width + thickness) );% nH/meter
             Z = 87*log(5.98*height/(0.8*width + thickness)) / sqrt(eps_r + 1.41);
             
             R = R_lumped*length; % mOhm

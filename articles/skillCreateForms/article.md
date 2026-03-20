@@ -68,98 +68,98 @@ library and cell names used in the top cell's hierarchy.
 
 <pre><code class="language-lisp">
 procedure( createLibrariesCellsInUseForm()
-\tlet( (libraryLabel libraryStringField cellLabel cellStringField viewLabel
-\t\t  viewStringField topGridLayout browseButton horizontalLayout
-\t\t  infoReportField getInfoButton verticalLayout)
-\t\t
-\t\tlibraryLabel = hiCreateLabel(
-\t\t\t?name 'libraryLabel
-\t\t\t?labelText "Library"
-\t\t\t?justification 'right
-\t\t)
+let( (libraryLabel libraryStringField cellLabel cellStringField viewLabel
+  viewStringField topGridLayout browseButton horizontalLayout
+  infoReportField getInfoButton verticalLayout)
 
-\t\tlibraryStringField = hiCreateStringField(
-\t\t\t?name 'libraryStringField
-\t\t)
-\t\t
-\t\tcellLabel = hiCreateLabel(
-\t\t\t?name 'cellLabel
-\t\t\t?labelText "Cell"
-\t\t\t?justification 'right
-\t\t)
+libraryLabel = hiCreateLabel(
+?name 'libraryLabel
+?labelText "Library"
+?justification 'right
+)
 
-\t\tcellStringField = hiCreateStringField(
-\t\t\t?name 'cellStringField
-\t\t)
-\t\t
-\t\tviewLabel = hiCreateLabel(
-\t\t\t?name 'viewLabel
-\t\t\t?labelText "View"
-\t\t\t?justification 'right
-\t\t)
+libraryStringField = hiCreateStringField(
+?name 'libraryStringField
+)
 
-\t\tviewStringField = hiCreateStringField(
-\t\t\t?name 'viewStringField
-\t\t)
-\t\t
-\t\ttopGridLayout = hiCreateGridLayout(
-\t\t\t'topGridLayout
-\t\t\t?spacing 10
-\t\t\t?items list(
-\t\t\t\tlist(libraryLabel 'row 0 'col 0)
-\t\t\t\tlist(libraryStringField 'row 0 'col 1)\t
-\t\t\t\tlist(cellLabel 'row 1 'col 0)
-\t\t\t\tlist(cellStringField 'row 1 'col 1)
-\t\t\t\tlist(viewLabel 'row 2 'col 0)
-\t\t\t\tlist(viewStringField 'row 2 'col 1)
-\t\t\t\tlist('col_stretch 0 0)
-\t\t\t\tlist('col_stretch 1 1)\t
-\t\t\t)
-\t\t)
-\t\t
-\t\tbrowseButton = hiCreateButton(
-\t\t\t?name 'browseButton
-\t\t\t?buttonText "Browse"
-\t\t\t?callback ""
-\t\t)
+cellLabel = hiCreateLabel(
+?name 'cellLabel
+?labelText "Cell"
+?justification 'right
+)
 
-\t\thorizontalLayout = hiCreateHorizontalBoxLayout(
-\t\t\t'horizontalLayout
-\t\t\t?frame "Top Cell Info"
-\t\t\t?spacing 10
-\t\t\t?items list(
-\t\t\t\tlist(topGridLayout 'stretch 1)
-\t\t\t\tlist(browseButton 'stretch 0)
-\t\t\t)\t
-\t\t)
-\t\t
-\t\tinfoReportField = hiCreateReportField(
-\t\t\t?name 'infoReportField
-\t\t\t?title "Hierarchy Info"
-\t\t\t?headers list(
-\t\t\t\tlist("Library" 100 'left 'string t)
-\t\t\t\tlist("Cell" 100 'left 'string t)
-\t\t\t)
-\t\t)
-\t\t
-\t\tgetInfoButton = hiCreateButton(
-\t\t\t?name 'getInfoButton
-\t\t\t?buttonText "Get Hierarchy Info"
-\t\t\t?callback ""
-\t\t)
-\t\t
-\t\tverticalLayout = hiCreateVerticalBoxLayout(
-\t\t\t'verticalLayout
-\t\t\t?items list(horizontalLayout infoReportField getInfoButton)\t
-\t\t)
-\t
-\t\thiCreateLayoutForm(
-\t\t\t'librariesCellsInUseForm
-\t\t\t"Libraries Cells in Use"
-\t\t\tverticalLayout
-\t\t\t?buttonLayout 'Empty
-\t\t)
-\t);let
+cellStringField = hiCreateStringField(
+?name 'cellStringField
+)
+
+viewLabel = hiCreateLabel(
+?name 'viewLabel
+?labelText "View"
+?justification 'right
+)
+
+viewStringField = hiCreateStringField(
+?name 'viewStringField
+)
+
+topGridLayout = hiCreateGridLayout(
+'topGridLayout
+?spacing 10
+?items list(
+list(libraryLabel 'row 0 'col 0)
+list(libraryStringField 'row 0 'col 1)
+list(cellLabel 'row 1 'col 0)
+list(cellStringField 'row 1 'col 1)
+list(viewLabel 'row 2 'col 0)
+list(viewStringField 'row 2 'col 1)
+list('col_stretch 0 0)
+list('col_stretch 1 1)
+)
+)
+
+browseButton = hiCreateButton(
+?name 'browseButton
+?buttonText "Browse"
+?callback ""
+)
+
+horizontalLayout = hiCreateHorizontalBoxLayout(
+'horizontalLayout
+?frame "Top Cell Info"
+?spacing 10
+?items list(
+list(topGridLayout 'stretch 1)
+list(browseButton 'stretch 0)
+)
+)
+
+infoReportField = hiCreateReportField(
+?name 'infoReportField
+?title "Hierarchy Info"
+?headers list(
+list("Library" 100 'left 'string t)
+list("Cell" 100 'left 'string t)
+)
+)
+
+getInfoButton = hiCreateButton(
+?name 'getInfoButton
+?buttonText "Get Hierarchy Info"
+?callback ""
+)
+
+verticalLayout = hiCreateVerticalBoxLayout(
+'verticalLayout
+?items list(horizontalLayout infoReportField getInfoButton)
+)
+
+hiCreateLayoutForm(
+'librariesCellsInUseForm
+"Libraries Cells in Use"
+verticalLayout
+?buttonLayout 'Empty
+)
+);let
 );procedure
 
 
@@ -194,25 +194,25 @@ cell info fields if a cell view is currently open.
 
 <pre><code class="language-lisp">
 procedure( librariesCellsInUseFormMapCB(form)
-\t;Map callback function for initializing the Libraries Cells In Use
-\t;form fields.
-\t
-\t;@param form formObject
-\t\t;The form object being instantiated.
+;Map callback function for initializing the Libraries Cells In Use
+;form fields.
 
-\tlet( (cv)
-\t\t
-\t\thiInstantiateForm(form)
-\t\thiSetFieldMinSize(form 'browseButton ?widgetHeight 25)
-\t\thiSetFieldMinSize(form 'getInfoButton ?widgetHeight 35)
-\t\t
-\t\tcv = geGetEditCellView()
-\t\twhen( cv
-\t\t\tform~>libraryStringField~>value = cv~>libName
-\t\t\tform~>cellStringField~>value = cv~>cellName
-\t\t\tform~>viewStringField~>value = cv~>viewName
-\t\t);when
-\t);let
+;@param form formObject
+;The form object being instantiated.
+
+let( (cv)
+
+hiInstantiateForm(form)
+hiSetFieldMinSize(form 'browseButton ?widgetHeight 25)
+hiSetFieldMinSize(form 'getInfoButton ?widgetHeight 35)
+
+cv = geGetEditCellView()
+when( cv
+form~>libraryStringField~>value = cv~>libName
+form~>cellStringField~>value = cv~>cellName
+form~>viewStringField~>value = cv~>viewName
+);when
+);let
 );procedure
 </code></pre>
 
@@ -221,12 +221,12 @@ fields. Set the function as a map callback by adding the **?mapCB** keyword to t
 
 <pre><code class="language-lisp">
 hiCreateLayoutForm(
-\t\t'librariesCellsInUseForm
-\t\t"Libraries Cells in Use"
-\t\tverticalLayout
-\t\t?buttonLayout 'Empty
-\t\t?mapCB 'librariesCellsInUseFormMapCB
-\t)
+'librariesCellsInUseForm
+"Libraries Cells in Use"
+verticalLayout
+?buttonLayout 'Empty
+?mapCB 'librariesCellsInUseFormMapCB
+)
 
 </code></pre>
 
@@ -262,34 +262,34 @@ Add a modify callback to the library string field to validate the entered name a
 
 <pre><code class="language-lisp">
 procedure( libraryNameModifyCB(field scope latestTextValue sourceOfChange)
-\t;Modify callback function for validating and highlighting the library
-\t;name field.
-\t;
-\t;@param field formField
-\t;       The form field being modified.
-\t;@param scope formObject
-\t;       The form object contains the field.
-\t;@param latestTextValue string
-\t;       The latest text value entered in the field.
-\t;@param sourceOfChange any
-\t;       The source of the change, indicating whether the modification
-\t;       was user-initiated.
-\t;@return t boolean
-\t;        Returns t to allow the changes made to the field.
+;Modify callback function for validating and highlighting the library
+;name field.
+;
+;@param field formField
+;       The form field being modified.
+;@param scope formObject
+;       The form object contains the field.
+;@param latestTextValue string
+;       The latest text value entered in the field.
+;@param sourceOfChange any
+;       The source of the change, indicating whether the modification
+;       was user-initiated.
+;@return t boolean
+;        Returns t to allow the changes made to the field.
 
-\tlet( (libraryObject)
-\t\twhen( sourceOfChange
-\t\t\tlibraryObject = ddGetObj(latestTextValue)
-\t\t\tif( !libraryObject
-\t\t\tthen
-\t\t\t\thiHighlightField(scope field~>hiFieldSym 'error)
-\t\t\telse
-\t\t\t\thiHighlightField(scope field~>hiFieldSym 'background)
-\t\t\t);if
-\t\t);when
-\t\t
-\t\tt
-\t);let
+let( (libraryObject)
+when( sourceOfChange
+libraryObject = ddGetObj(latestTextValue)
+if( !libraryObject
+then
+hiHighlightField(scope field~>hiFieldSym 'error)
+else
+hiHighlightField(scope field~>hiFieldSym 'background)
+);if
+);when
+
+t
+);let
 );procedure
 
 </code></pre>
@@ -300,9 +300,9 @@ Set the function as a modify callback by adding the **?modifyCallback** keyword 
 
 <pre><code class="language-lisp">
 libraryStringField = hiCreateStringField(
-\t\t\t?name 'libraryStringField
-\t\t\t?modifyCallback 'libraryNameModifyCB
-\t\t)
+?name 'libraryStringField
+?modifyCallback 'libraryNameModifyCB
+)
 
 </code></pre>
 
@@ -321,13 +321,13 @@ selection.
 
 <pre><code class="language-lisp">
 procedure( browseLibraryCellViewCB(form)
-\t;Callback function for synchronizing library, cell, and view fields with
-\t;the form.
+;Callback function for synchronizing library, cell, and view fields with
+;the form.
 
-\t;@param form formObject
-\t\t;The form object containing the fields to be synchronized.
-\tddsSyncWithForm(form 'browse 'libraryStringField 'cellStringField
-\t\t'viewStringField)
+;@param form formObject
+;The form object containing the fields to be synchronized.
+ddsSyncWithForm(form 'browse 'libraryStringField 'cellStringField
+'viewStringField)
 );procedure
 </code></pre>
 
@@ -339,10 +339,10 @@ form as an argument.
 
 <pre><code class="language-lisp">
 browseButton = hiCreateButton(
-\t\t\t?name 'browseButton
-\t\t\t?buttonText "Browse"
-\t\t\t?callback "browseLibraryCellViewCB(hiGetCurrentForm())"
-\t\t)
+?name 'browseButton
+?buttonText "Browse"
+?callback "browseLibraryCellViewCB(hiGetCurrentForm())"
+)
 </code></pre>
 
 <br/> <img src="http://localhost:3000/images/skillCreateForms/cellExample.png" disableinvert alt="" style="display: block; margin-inline: auto; width: min(80%, 60rem)" /> 
@@ -359,41 +359,41 @@ Define a function to run the algorithm, get results, and display them in a table
 
 <pre><code class="language-lisp">
 procedure( getUsedLibrariesCellsCB(form)
-\t;Callback function to extract and display used libraries and cells from a
-\t;specified cell view.
-\t;
-\t;@param form formObject
-\t\t;The form object containing the input fields and report field.
-\tprog( (libName cellName viewName cellView usedLibrariesCellsTable choices)
-\t\t
-\t\t; Get input
-\t\tlibName = form~>libraryStringField~>value
-\t\tcellName = form~>cellStringField~>value
-\t\tviewName = form~>viewStringField~>value
-\t\t
-\t\t; Check input
-\t\tunless( checkInput(libName cellName viewName)
-\t\t\treturn()
-\t\t);unless
-\t\t
-\t\t; Pre-process input
-\t\tcellView = dbOpenCellViewByType(libName cellName viewName)
-\t\t
-\t\t; Run the libraries and cells extraction function
-\t\tusedLibrariesCellsTable = getLibrariesCellsUsedIn(cellView)
-\t\t
-\t\t; Post-process output
-\t\tforeach( library usedLibrariesCellsTable
-\t\t\tforeach( cell usedLibrariesCellsTable[library]
-\t\t\t\tchoices = cons(list(library cell) choices)
-\t\t\t);foreach
-\t\t);foreach
+;Callback function to extract and display used libraries and cells from a
+;specified cell view.
+;
+;@param form formObject
+;The form object containing the input fields and report field.
+prog( (libName cellName viewName cellView usedLibrariesCellsTable choices)
 
-\t\t; Show output in a table
-\t\tform~>infoReportField~>choices = choices
-\t\t
-\t\treturn(t)
-\t);prog
+; Get input
+libName = form~>libraryStringField~>value
+cellName = form~>cellStringField~>value
+viewName = form~>viewStringField~>value
+
+; Check input
+unless( checkInput(libName cellName viewName)
+return()
+);unless
+
+; Pre-process input
+cellView = dbOpenCellViewByType(libName cellName viewName)
+
+; Run the libraries and cells extraction function
+usedLibrariesCellsTable = getLibrariesCellsUsedIn(cellView)
+
+; Post-process output
+foreach( library usedLibrariesCellsTable
+foreach( cell usedLibrariesCellsTable[library]
+choices = cons(list(library cell) choices)
+);foreach
+);foreach
+
+; Show output in a table
+form~>infoReportField~>choices = choices
+
+return(t)
+);prog
 );procedure
 </code></pre>
 
@@ -410,10 +410,10 @@ Add this function to the run button as a callback.
 
 <pre><code class="language-lisp">
 getInfoButton = hiCreateButton(
-\t\t\t?name 'getInfoButton
-\t\t\t?buttonText "Get Hierarchy Info"
-\t\t\t?callback "getUsedLibrariesCellsCB(hiGetCurrentForm())"
-\t\t)
+?name 'getInfoButton
+?buttonText "Get Hierarchy Info"
+?callback "getUsedLibrariesCellsCB(hiGetCurrentForm())"
+)
 </code></pre>
 
 Now, when you provide correct library/cell/view names and click the run button, you'll see the extracted results 
@@ -437,253 +437,253 @@ Cadence guides on creating forms and experiment with different fields and parame
 
 <pre><code class="language-lisp">
 procedure( createLibrariesCellsInUseForm()
-\t
-\t;Creates a form for displaying and interacting with library, cell, and
-\t;view information.
 
-\t;@return formObject
-\t;\tThe created form object for libraries and cells in use.
-\t
-\tlet( (libraryLabel libraryStringField cellLabel cellStringField viewLabel
-\t\t  viewStringField topGridLayout browseButton horizontalLayout
-\t\t  infoReportField getInfoButton verticalLayout)
-\t\t
-\t\tlibraryLabel = hiCreateLabel(
-\t\t\t?name 'libraryLabel
-\t\t\t?labelText "Library"
-\t\t\t?justification 'right
-\t\t)
+;Creates a form for displaying and interacting with library, cell, and
+;view information.
 
-\t\tlibraryStringField = hiCreateStringField(
-\t\t\t?name 'libraryStringField
-\t\t\t?modifyCallback 'libraryNameModifyCB
-\t\t)
-\t\t
-\t\tcellLabel = hiCreateLabel(
-\t\t\t?name 'cellLabel
-\t\t\t?labelText "Cell"
-\t\t\t?justification 'right
-\t\t)
+;@return formObject
+;The created form object for libraries and cells in use.
 
-\t\tcellStringField = hiCreateStringField(
-\t\t\t?name 'cellStringField
-\t\t)
-\t\t
-\t\tviewLabel = hiCreateLabel(
-\t\t\t?name 'viewLabel
-\t\t\t?labelText "View"
-\t\t\t?justification 'right
-\t\t)
+let( (libraryLabel libraryStringField cellLabel cellStringField viewLabel
+  viewStringField topGridLayout browseButton horizontalLayout
+  infoReportField getInfoButton verticalLayout)
 
-\t\tviewStringField = hiCreateStringField(
-\t\t\t?name 'viewStringField
-\t\t)
-\t\t
-\t\ttopGridLayout = hiCreateGridLayout(
-\t\t\t'topGridLayout
-\t\t\t?spacing 10
-\t\t\t?items list(
-\t\t\t\tlist(libraryLabel 'row 0 'col 0)
-\t\t\t\tlist(libraryStringField 'row 0 'col 1)\t
-\t\t\t\tlist(cellLabel 'row 1 'col 0)
-\t\t\t\tlist(cellStringField 'row 1 'col 1)
-\t\t\t\tlist(viewLabel 'row 2 'col 0)
-\t\t\t\tlist(viewStringField 'row 2 'col 1)
-\t\t\t\tlist('col_stretch 0 0)
-\t\t\t\tlist('col_stretch 1 1)\t
-\t\t\t)
-\t\t)
-\t\t
-\t\tbrowseButton = hiCreateButton(
-\t\t\t?name 'browseButton
-\t\t\t?buttonText "Browse"
-\t\t\t?callback "browseLibraryCellViewCB(hiGetCurrentForm())"
-\t\t)
+libraryLabel = hiCreateLabel(
+?name 'libraryLabel
+?labelText "Library"
+?justification 'right
+)
 
-\t\thorizontalLayout = hiCreateHorizontalBoxLayout(
-\t\t\t'horizontalLayout
-\t\t\t?frame "Top Cell Info"
-\t\t\t?spacing 10
-\t\t\t?items list(
-\t\t\t\tlist(topGridLayout 'stretch 1)
-\t\t\t\tlist(browseButton 'stretch 0)
-\t\t\t)\t
-\t\t)
-\t\t
-\t\tinfoReportField = hiCreateReportField(
-\t\t\t?name 'infoReportField
-\t\t\t?title "Hierarchy Info"
-\t\t\t?headers list(
-\t\t\t\tlist("Library" 100 'left 'string t)
-\t\t\t\tlist("Cell" 100 'left 'string t)
-\t\t\t)
-\t\t)
-\t\t
-\t\tgetInfoButton = hiCreateButton(
-\t\t\t?name 'getInfoButton
-\t\t\t?buttonText "Get Hierarchy Info"
-\t\t\t?callback "getUsedLibrariesCellsCB(hiGetCurrentForm())"
-\t\t)
-\t\t
-\t\tverticalLayout = hiCreateVerticalBoxLayout(
-\t\t\t'verticalLayout
-\t\t\t?items list(horizontalLayout infoReportField getInfoButton)\t
-\t\t)
-\t
-\t\thiCreateLayoutForm(
-\t\t\t'librariesCellsInUseForm
-\t\t\t"Libraries Cells in Use"
-\t\t\tverticalLayout
-\t\t\t?buttonLayout 'Empty
-\t\t\t?mapCB 'librariesCellsInUseFormMapCB
-\t\t)
-\t);let
+libraryStringField = hiCreateStringField(
+?name 'libraryStringField
+?modifyCallback 'libraryNameModifyCB
+)
+
+cellLabel = hiCreateLabel(
+?name 'cellLabel
+?labelText "Cell"
+?justification 'right
+)
+
+cellStringField = hiCreateStringField(
+?name 'cellStringField
+)
+
+viewLabel = hiCreateLabel(
+?name 'viewLabel
+?labelText "View"
+?justification 'right
+)
+
+viewStringField = hiCreateStringField(
+?name 'viewStringField
+)
+
+topGridLayout = hiCreateGridLayout(
+'topGridLayout
+?spacing 10
+?items list(
+list(libraryLabel 'row 0 'col 0)
+list(libraryStringField 'row 0 'col 1)
+list(cellLabel 'row 1 'col 0)
+list(cellStringField 'row 1 'col 1)
+list(viewLabel 'row 2 'col 0)
+list(viewStringField 'row 2 'col 1)
+list('col_stretch 0 0)
+list('col_stretch 1 1)
+)
+)
+
+browseButton = hiCreateButton(
+?name 'browseButton
+?buttonText "Browse"
+?callback "browseLibraryCellViewCB(hiGetCurrentForm())"
+)
+
+horizontalLayout = hiCreateHorizontalBoxLayout(
+'horizontalLayout
+?frame "Top Cell Info"
+?spacing 10
+?items list(
+list(topGridLayout 'stretch 1)
+list(browseButton 'stretch 0)
+)
+)
+
+infoReportField = hiCreateReportField(
+?name 'infoReportField
+?title "Hierarchy Info"
+?headers list(
+list("Library" 100 'left 'string t)
+list("Cell" 100 'left 'string t)
+)
+)
+
+getInfoButton = hiCreateButton(
+?name 'getInfoButton
+?buttonText "Get Hierarchy Info"
+?callback "getUsedLibrariesCellsCB(hiGetCurrentForm())"
+)
+
+verticalLayout = hiCreateVerticalBoxLayout(
+'verticalLayout
+?items list(horizontalLayout infoReportField getInfoButton)
+)
+
+hiCreateLayoutForm(
+'librariesCellsInUseForm
+"Libraries Cells in Use"
+verticalLayout
+?buttonLayout 'Empty
+?mapCB 'librariesCellsInUseFormMapCB
+)
+);let
 );procedure
 
 
 procedure( librariesCellsInUseFormMapCB(form)
-\t
-\t;Map callback function for initializing the Libraries Cells In Use
-\t;form fields.
-\t
-\t;@param form formObject
-\t;\tThe form object being instantiated.
-\t
-\tlet( (cellView)
-\t\t
-\t\thiInstantiateForm(form)
-\t\thiSetFieldMinSize(form 'browseButton ?widgetHeight 25)
-\t\thiSetFieldMinSize(form 'getInfoButton ?widgetHeight 35)
-\t\t
-\t\tcellView = geGetEditCellView()
-\t\twhen( cellView
-\t\t\tform~>libraryStringField~>value = cellView~>libName
-\t\t\tform~>cellStringField~>value = cellView~>cellName
-\t\t\tform~>viewStringField~>value = cellView~>viewName
-\t\t);when
-\t);let
+
+;Map callback function for initializing the Libraries Cells In Use
+;form fields.
+
+;@param form formObject
+;The form object being instantiated.
+
+let( (cellView)
+
+hiInstantiateForm(form)
+hiSetFieldMinSize(form 'browseButton ?widgetHeight 25)
+hiSetFieldMinSize(form 'getInfoButton ?widgetHeight 35)
+
+cellView = geGetEditCellView()
+when( cellView
+form~>libraryStringField~>value = cellView~>libName
+form~>cellStringField~>value = cellView~>cellName
+form~>viewStringField~>value = cellView~>viewName
+);when
+);let
 );procedure
 
 
 procedure( libraryNameModifyCB(field scope latestTextValue sourceOfChange)
-\t
-\t;Modify callback function for validating and highlighting the library
-\t;name field.
-\t
-\t;@param field formField
-\t;    The form field being modified.
-\t;@param scope formObject
-\t;    The form object containing the field.
-\t;@param latestTextValue string
-\t;    The latest text value entered in the field.
-\t;@param sourceOfChange any
-\t;\tThe source of the change, indicating whether the modification
-\t;\twas user-initiated.
-\t;@return t boolean
-\t;\tReturns t to allow the changes made to the field.
 
-\tlet( (libraryObject)
-\t\twhen( sourceOfChange
-\t\t\tlibraryObject = ddGetObj(latestTextValue)
-\t\t\tif( !libraryObject
-\t\t\tthen
-\t\t\t\thiHighlightField(scope field~>hiFieldSym 'error)
-\t\t\telse
-\t\t\t\thiHighlightField(scope field~>hiFieldSym 'background)
-\t\t\t);if
-\t\t);when
-\t\t
-\t\tt
-\t);let
+;Modify callback function for validating and highlighting the library
+;name field.
+
+;@param field formField
+;    The form field being modified.
+;@param scope formObject
+;    The form object containing the field.
+;@param latestTextValue string
+;    The latest text value entered in the field.
+;@param sourceOfChange any
+;The source of the change, indicating whether the modification
+;was user-initiated.
+;@return t boolean
+;Returns t to allow the changes made to the field.
+
+let( (libraryObject)
+when( sourceOfChange
+libraryObject = ddGetObj(latestTextValue)
+if( !libraryObject
+then
+hiHighlightField(scope field~>hiFieldSym 'error)
+else
+hiHighlightField(scope field~>hiFieldSym 'background)
+);if
+);when
+
+t
+);let
 );procedure
 
 
 procedure( browseLibraryCellViewCB(form)
 
-\t;Callback function for synchronizing library, cell, and view fields with
-\t;the form.
+;Callback function for synchronizing library, cell, and view fields with
+;the form.
 
-\t;@param form formObject
-\t;\tThe form object containing the fields to be synchronized.
-\t
-\tddsSyncWithForm(form 'browse 'libraryStringField 'cellStringField
-\t\t'viewStringField)
+;@param form formObject
+;The form object containing the fields to be synchronized.
+
+ddsSyncWithForm(form 'browse 'libraryStringField 'cellStringField
+'viewStringField)
 );procedure
 
 
 procedure( getUsedLibrariesCellsCB(form)
-\t
-\t;Callback function to extract and display used libraries and cells from a
-\t;specified cell view.
-\t
-\t;@param form formObject
-\t;\tThe form object containing the input fields and report field.
-\t
-\tprog( (libName cellName viewName cellView usedLibrariesCellsTable choices)
-\t\t
-\t\t; Get input
-\t\tlibName = form~>libraryStringField~>value
-\t\tcellName = form~>cellStringField~>value
-\t\tviewName = form~>viewStringField~>value
-\t\t
-\t\t; Check input
-\t\tunless( checkInput(libName cellName viewName)
-\t\t\treturn()
-\t\t);unless
-\t\t
-\t\t; Pre-process input
-\t\tcellView = dbOpenCellViewByType(libName cellName viewName)
-\t\t
-\t\t; Run the libraries and cells extraction function
-\t\tusedLibrariesCellsTable = getLibrariesCellsUsedIn(cellView)
-\t\t
-\t\t; Post-process output
-\t\tforeach( library usedLibrariesCellsTable
-\t\t\tforeach( cell usedLibrariesCellsTable[library]
-\t\t\t\tchoices = cons(list(library cell) choices)
-\t\t\t);foreach
-\t\t);foreach
 
-\t\t; Show output in a table
-\t\tform~>infoReportField~>choices = choices
-\t\t
-\t\treturn(t)
-\t);prog
+;Callback function to extract and display used libraries and cells from a
+;specified cell view.
+
+;@param form formObject
+;The form object containing the input fields and report field.
+
+prog( (libName cellName viewName cellView usedLibrariesCellsTable choices)
+
+; Get input
+libName = form~>libraryStringField~>value
+cellName = form~>cellStringField~>value
+viewName = form~>viewStringField~>value
+
+; Check input
+unless( checkInput(libName cellName viewName)
+return()
+);unless
+
+; Pre-process input
+cellView = dbOpenCellViewByType(libName cellName viewName)
+
+; Run the libraries and cells extraction function
+usedLibrariesCellsTable = getLibrariesCellsUsedIn(cellView)
+
+; Post-process output
+foreach( library usedLibrariesCellsTable
+foreach( cell usedLibrariesCellsTable[library]
+choices = cons(list(library cell) choices)
+);foreach
+);foreach
+
+; Show output in a table
+form~>infoReportField~>choices = choices
+
+return(t)
+);prog
 );procedure
 
 
 procedure( checkInput(libName cellName viewName)
-\t
-\t;Validates the existence of a specified library, cell, and view
-\t;combination.
-\t
-\t;@param libName string
-\t;       The name of the library to check.
-\t;@param cellName string
-\t;       The name of the cell to check.
-\t;@param viewName string
-\t;       The name of the view to check.
-\t;@return boolean
-\t;        Returns t if the library, cell, and view exist; otherwise,
-\t;        displays an error dialog and returns nil.
-\t
-\tprog( (viewObject)
-\t
-\t\tviewObject = ddGetObj(libName cellName viewName)
-\t\tunless( viewObject
-\t\t\thiDisplayAppDBox(
-\t\t\t\t?name 'errorAppDBox
-\t\t\t\t?dboxBanner "*ERROR* Libraries Cells in Use"
-\t\t\t\t?dboxText "Selected library, cell or view don't exist!"
-\t\t\t\t?dialogType hicErrorDialog\t
-\t\t\t\t?buttonLayout 'Close
-\t\t\t)
-\t\t\t
-\t\t\treturn()
-\t\t);unless
-\t\t
-\t\treturn(t)
-\t);prog
+
+;Validates the existence of a specified library, cell, and view
+;combination.
+
+;@param libName string
+;       The name of the library to check.
+;@param cellName string
+;       The name of the cell to check.
+;@param viewName string
+;       The name of the view to check.
+;@return boolean
+;        Returns t if the library, cell, and view exist; otherwise,
+;        displays an error dialog and returns nil.
+
+prog( (viewObject)
+
+viewObject = ddGetObj(libName cellName viewName)
+unless( viewObject
+hiDisplayAppDBox(
+?name 'errorAppDBox
+?dboxBanner "*ERROR* Libraries Cells in Use"
+?dboxText "Selected library, cell or view don't exist!"
+?dialogType hicErrorDialog
+?buttonLayout 'Close
+)
+
+return()
+);unless
+
+return(t)
+);prog
 );procedure
 
 

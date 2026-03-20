@@ -4,14 +4,14 @@ description: "Description of article 1"
 
 # Transfer functions of RLC circuits
 ## 1. Voltage divider
-|   Element              |\tR\t |\tC\t\t\t  |\t\t\tL\t|
+|   Element              |R |C  |L|
 |------------------------|-------|----------------|-------------|
-|Laplace domain impedance|$$R$$  |$$1/j\omega C$$ |$$j\omega L$$|\t  
+|Laplace domain impedance|$$R$$  |$$1/j\omega C$$ |$$j\omega L$$|  
 
 Knowing that $s = j\omega$:
-|   Element              |\tR\t |\tC\t\t\t  |\t\t\tL\t|
+|   Element              |R |C  |L|
 |------------------------|-------|----------------|-------------|
-|Laplace domain impedance|$$R$$  |$$1/sC$$ |$$sL$$|\t
+|Laplace domain impedance|$$R$$  |$$1/sC$$ |$$sL$$|
 
 
 Let's derive a transfer function of a very simple circuit - voltage divider:
