@@ -16,7 +16,7 @@ description: "This article covers IC manufacturing steps, basic components such 
 
 <div id="CMOSprocess"></div>
 
-### 1.CMOS process
+### 1.CMOS process EDIT
 Fabrication of the CMOS integrated circuit is a multistep process, that takes a lot of efforts to achieve good 
 performance and yield. Manufacturing of the IC is very similar to cooking a very tall and fancy burger - it starts from 
 the $Si-$substrate (bottom bun), adding different layers to create structures (cheese, lettuce, patty) and covering 
