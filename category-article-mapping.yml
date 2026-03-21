@@ -69,6 +69,9 @@ categories:
     icon: "layout.svg"
     description: "Layout techniques and verification"
     articles:
+      - slug: layoutBasics
+        title: "IC Layout Basics"
+        short_title: "IC Layout Basics"
       - slug: cmosInverterLayout
         title: "CMOS Inverter Layout"
         short_title: "CMOS Inverter Layout"
