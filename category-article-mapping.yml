@@ -81,9 +81,6 @@ categories:
       - slug: layoutBasics
         title: "IC Layout Basics"
         short_title: "IC Layout Basics"
-      - slug: layoutDependentEffects
-        title: "Layout-Dependent Effects"
-        short_title: "Layout-Dependent"
       - slug: layoutMatching
         title: "Matching in layout"
         short_title: "Matching in layout"
