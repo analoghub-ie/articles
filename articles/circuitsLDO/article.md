@@ -255,9 +255,9 @@ There are <u><b>3 main sources</b></u> of the output error in LDO:
 
 #### 5.1 Voltage divider mismatch 
 The resistor value variation in CMOS process in generally big and can be up to 15-30%, depending on the 
-[resistor type](https://localhost:3000/category/Layout/article/layoutBasics#resistors). Since only the ratio between 
+[resistor type](http://localhost:3000/category/Layout/article/layoutBasics#resistors). Since only the ratio between 
 $R_1$ and $R_2$ matters (and not their absolute values), we can neglect the error, introduced by the divider if we 
-[match](https://localhost:3000/category/Layout/article/layoutMatching) them in layout. 
+[match](http://localhost:3000/category/Layout/article/layoutMatching) them in layout. 
 
 
 #### 5.2 Gain error of error amplifier
@@ -552,7 +552,7 @@ Typical values for the parasitics are given in the table below:
 > - *For a typical golden bondwire, (*1mil* diameter). Typical bondwire length is *3-5mm*.
 > - **Values are provided for the [QFN-20 package ](https://www.ti.com/lit/an/scba017d/scba017d.pdf?ts=1755636160382)
 > - ***For a typical PCB trace (*W = 1mm, L = 10mm, thickness = 35um*). To calculate different geometries, use this 
-[calculator](https://localhost:3000/category/matlabScripts/article/pcbTraceCalculator).
+[calculator](http://localhost:3000/category/matlabScripts/article/pcbTraceCalculator).
 
 <!--
 Low-dropout oscillator (LDO) is a very important circuit that helps in achieving better performance of the internal 
