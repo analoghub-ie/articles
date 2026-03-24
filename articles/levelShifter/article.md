@@ -30,7 +30,7 @@ This article contains Verilog-A model for a digital Level Shifter.
 
 > **Model type:** Verilog-A
 
-> [Download from Github](https://github.com/analoghub-ie/software/blob/main/Verilog-A/HPF.va)
+> [Download from Github](https://github.com/analoghub-ie/software/blob/main/Verilog-A/level_shifter.va)
 
 <pre><code class="language-verilog">
 // Digital level shifter (without inversion)

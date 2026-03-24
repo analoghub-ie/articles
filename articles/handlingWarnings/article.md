@@ -35,6 +35,8 @@ Use **hiDisplayAppDBox()** when you need to interact with the user through the G
 displaying an error that requires user acknowledgment, or providing important information.
 We can customize the pop-up box with optional arguments like message text, box type, buttons, etc., to match our needs.
 
+[Download from Github](https://github.com/analoghub-ie/software/blob/main/SKILL/handling_errors_warnings.il)
+
 <pre><code class="language-lisp">
 hiDisplayAppDBox(
 ?name 'errorAppDBox

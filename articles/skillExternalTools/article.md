@@ -27,6 +27,8 @@ The system() function in SKILL is used to execute external commands or programs 
 
 Let’s see how to copy a file:
 
+[Download from Github](https://github.com/analoghub-ie/software/blob/main/SKILL/run_external_tools.il)
+
 <pre><code class="language-lisp">
 let( (filePath destinationPath command exitCode)
 filePath = "./myfile"
