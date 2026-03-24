@@ -77,7 +77,7 @@ For a unity gain buffer circuit, let's assume the following:
 - $I_{load} = 100mA$
 - $R_{trace} = 1\Omega$
 
-<br/> <img src="http://localhost:3000/images/kelvinConnection/kelvinUnityGainComparison.svg" alt="Unity gain buffer example" style="display: block; margin-inline: auto; width: min(80%, 120rem)" /> 
+<br/> <img src="http://localhost:3000/images/kelvinConnection/kelvinUnityGainComparison.svg" alt="Unity gain buffer example" style="display: block; margin-inline: auto; width: 100%" />
 <p style="display: block; text-align: center">Unity gain buffer example</p>
 
 <u><b> Conventional connection: </b></u>
