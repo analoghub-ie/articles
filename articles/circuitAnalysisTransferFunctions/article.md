@@ -60,7 +60,7 @@ $$
 Now, this factor will affect the output voltage of the divider:
 >**pic of the Vout of two dividers**
 
-Here is what our equation shows us. Let's stop for a second and think of it's physical meaning. In the first example, all current $I_1$ was flowing through $R_1$ and $R_2$. Now, because of the load resistor $R_L$ the current will divide into two paths: through $R_2$ and $R_L$. In other words, adding $R_L$ is equivalent to reducing the size of the $R_2$ in the previous example.
+Here is what our equation shows us. Let's stop for a second and think of its physical meaning. In the first example, all current $I_1$ was flowing through $R_1$ and $R_2$. Now, because of the load resistor $R_L$ the current will divide into two paths: through $R_2$ and $R_L$. In other words, adding $R_L$ is equivalent to reducing the size of the $R_2$ in the previous example.
 
 OFFTOP (need to think how integrate it into the text)
 We can think of the voltage divider's resistors as of current sources. Let's say we have $R_1 = R_2 = 1k\Omega$. In this case, both current sources have the same "strength" and hereby divide the voltage exactly by half. If we will make $R_2 = 500\Omega$, then $R_2$ will become "stronger" and hence will demand more current. At the same time, $R_1$ is 2 times "weaker" than $R_2$ and wouldn't be able to satisfy such current requirements. 

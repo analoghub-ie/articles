@@ -5,7 +5,7 @@ description: "Description of article 1"
     
 ## 3D layout viewer
 [GDS3D](https://www.utwente.nl/en/news/2012/3/59583/3d-gdsii-viewer-goes-open-source) - is an amazing 3D layout viewer 
-that can be used to present your design or even debug some complex layout problems! This is an open-soource software 
+that can be used to present your design or even debug some complex layout problems! This is an open-source software 
 provided by University of Twente, Netherlands.
 
 <br/>

@@ -146,7 +146,7 @@ drain-bulk capacitance $C_{DB}= C_{DB}'$. If the same device has 2 fingers, $W_n
 
 Apart from this, the polysilicon gate of the MOSFET has also some substantial resistance, making the gate voltage potential 
  distribution uneven hereby negatively affecting the performance. In the case of the two-finger device, the gate will 
- look like two hal-sized resistors in parallel, reducing the total resistance by the factor of 2.
+ look like two half-sized resistors in parallel, reducing the total resistance by the factor of 2.
  
  > **Key points of using fingers:**
  > - Reduced parasitic capacitance of the drain/source;
@@ -232,7 +232,7 @@ To further increase capacitance density, multiple metal layers can be connected 
 forming a vertical metal wall or mesh. The lowest metal layers (such as M1–M5) are typically used 
 in **MOM capacitors** to maximize capacitance density, as these layers have the smallest metal line width and spacing.
 This type of capacitors does not require an extra mask which makes them a very low-cost devices. 
-**Main drawbacks** of this type of capacitor is that it has higher series inductance and resistance, as well as occuping 
+**Main drawbacks** of this type of capacitor is that it has higher series inductance and resistance, as well as occupying
 routing metal layers, which makes routing more complicated.  
 
 
@@ -277,7 +277,7 @@ resistor has $10-20%$ lower temperature coefficient (both TC are positive).
 
 #### 6.3 NWELL resistor
 **NWELL resistor** - is a type of resistor which is formed in a well area (NWELL or PWELL). It uses the resistance of 
-lightly doped area of the wel to form a resistor.
+lightly doped area of the well to form a resistor.
 Both diffusion and NWELL resistors are formed directly in the substrate, that's why they have a natural parasitic 
 capacitance caused by the reverse-biased junction formed between the diffusion resistor and the opposing doping of the 
 substrate.

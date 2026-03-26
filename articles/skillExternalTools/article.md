@@ -45,7 +45,7 @@ printf("Failed to copy file\n")
 );let
 </code></pre>
 
-Here, we use Lunix’s *“cp”* command. You can also run an external script/tool (Bash, Perl, Python) by providing its full 
+Here, we use Linux’s *”cp”* command. You can also run an external script/tool (Bash, Perl, Python) by providing its full 
 path:
 
 <pre><code class="language-lisp">
@@ -155,7 +155,7 @@ effectively.
 
 <div id="conclusion"></div>
 
-## 4.Conclusion
+## 4. Conclusion
 
 In this guide, we've explored how to run external tools via SKILL using **system()** and **ipcBeginProcess()**. 
 Use **system()** for short tasks where output isn't needed, and **ipcBeginProcess()** with handlers for longer tasks 
