@@ -31,6 +31,8 @@ process with SKILL code, which we will cover in this guide.
 To define a bind key for a single action, use the action's function. For example, to make all layers invisible except 
 the selected layer in the Layout window’s palette, we use a built-in SKILL function:
 
+[Download from Github](https://github.com/analoghub-ie/software/blob/main/SKILL/set_bindkeys.il)
+
 <pre><code class="language-lisp">
 
 hiSetBindKey("Layout" "Ctrl<Key>Q" "leSetAllLayerVisible(nil)")

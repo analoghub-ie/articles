@@ -18,9 +18,9 @@ description: "Matching techniques in layout and main principles"
 **Matching** - is a very important technique in Analog IC layout. It helps to compensate a lot of undesirable 
 [layout-dependent effects](/category/Layout/article/layoutDependentEffects). In IC design there are 
 multiple sources of nonidealities that affecting IC performance. We can split them into two categories: 
-**manufacturing-related** and **environmental**. **Manufacturing-related sources** includes dopant gradients, oxide 
-thickness gradients, and mechanical stress, which are very hard to predict and simulate. **Environmental factors** 
-includes temperature gradients which is also hard to predict. 
+**manufacturing-related** and **environmental**. **Manufacturing-related sources** include dopant gradients, oxide
+thickness gradients, and mechanical stress, which are very hard to predict and simulate. **Environmental factors**
+include temperature gradients which is also hard to predict. 
 
 
 <br/> <img src="http://localhost:3000/images/layoutMatching/gradient-types.svg" alt="Gradient types" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -111,7 +111,7 @@ By surrounding our core devices with dummy devices around, we are achieving two 
 
 ## 3. Placement
 
-Correct placement of the devices is playing a vital role in layout. Placing devices aas evenly as possible will reduce 
+Correct placement of the devices is playing a vital role in layout. Placing devices as evenly as possible will reduce 
 a lot of unwanted effects. Let's have a look on the placement examples and discuss their impact on the design.
 
 <br/> <img src="http://localhost:3000/images/layoutMatching/wrong-placement-example-1.svg" alt="Examples of the wrong placement" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -126,7 +126,7 @@ The third example shows two devices with a different lengths. Those devices will
 affecting the performance in the same way as in a previous example.   
 
 We should also be aware of not only the shape and orientation of the matched devices themselves, but also about the 
-surroundings. ASIC are usually contain sensitive analog blocks, such as amplifiers, bandgaps and comparators together with a noisy 
+surroundings. ASICs usually contain sensitive analog blocks, such as amplifiers, bandgaps and comparators together with noisy 
 or high-current blocks, such as LDOs, drivers and digital logic. Those blocks may create a lot of substrate noise and 
 temperature gradients, that may impact the performance of the sensitive devices.
 

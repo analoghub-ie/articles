@@ -12,8 +12,8 @@ menu:
 <p style="display: block; text-align: center">Create Verilog-A parameters label</p> 
 
 Then select **Analog Device Annotate** and enter *Verilog-A* parameter name in **"cdsParam("your_param")"**. Repeat that action for all 
-Verilog-A model parameters that you want to be displayed. After that, you will see specified parameters on schematic as 
-show below:
+Verilog-A model parameters that you want to be displayed. After that, you will see specified parameters on schematic as
+shown below:
 
 <br/> <img src="http://localhost:3000/images/displayParamsVerilogA/params-display.png" disableinvert alt="Displaying Verilog-A parameters on schematic" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">Displaying Verilog-A parameters on schematic</p> 

@@ -2,8 +2,8 @@
 description: "Verilog-A model for a DAC"
 ---
 
-## Digital-to_analog (DAC) Verilog-A model
-This article contains Verilog-A model for a Digital-toAnalog Converter (DAC).
+## Digital-to-Analog (DAC) Verilog-A model
+This article contains Verilog-A model for a Digital-to-Analog Converter (DAC).
 
 
 **Usage:**

@@ -11,7 +11,7 @@ Input signal  is  set  to  be  DC.
 <p style="display: block; text-align: center">Input signal for PAC analysis</p> 
 
 ### 2. Clock signal (fundamental frequency)
-Ideal clock generator should be only one. If we need more tan one clock signal, they should be derived from the main source:
+Ideal clock generator should be only one. If we need more than one clock signal, they should be derived from the main source:
 
 <br/> <img src="http://localhost:3000/images/analysisPAC/PAC-clock-generator.png" disableinvert alt="Clock generator for PAC analysis" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">Clock generator for PAC analysis</p> 
@@ -34,7 +34,7 @@ Select *Results → Direct Plot → Main Form*. Then select *PAC* tab and select
 <br/> <img src="http://localhost:3000/images/analysisPAC/PAC-result.png" disableinvert alt="PAC analysis result" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">PAC analysis result</p> 
 
-6 Click on a desired node to plot
+6. Click on a desired node to plot
 
 P.S. We will see some artefacts near the sampling frequency, which is normal and makes complete sense
 

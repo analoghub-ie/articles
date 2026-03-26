@@ -63,8 +63,10 @@ Now, let’s get to our practical example.
 
 ### 2. GUI Template
 
-Start by building a GUI template. Our GUI will receive the top cell's library, cell, and view names as input and display 
+Start by building a GUI template. Our GUI will receive the top cell's library, cell, and view names as input and display
 library and cell names used in the top cell's hierarchy.
+
+[Download from Github](https://github.com/analoghub-ie/software/blob/main/SKILL/create_form.il)
 
 <pre><code class="language-lisp">
 procedure( createLibrariesCellsInUseForm()

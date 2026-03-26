@@ -13,9 +13,9 @@ This article contains Verilog-A model for a binary counter, which counts up or d
 2. Copy and paste the code provided;
 3. Specify ***bits*** variable to define the number of output bits;
 4. Specify ***start_code*** variable to be the start code of the counter;
-5. Specify ***count_up*** variable to be 1 for increasing or 0 for decresing counting;
+5. Specify ***count_up*** variable to be 1 for increasing or 0 for decreasing counting;
 6. Specify ***step_size*** variable to be the step size of the counter (increment);
-7. Specify ***vth_clk*** variable to be threshold volatge of the clock signal;
+7. Specify ***vth_clk*** variable to be threshold voltage of the clock signal;
 8. Specify ***vtol*** and ***ttol*** variables as signal and time tolerance to the clock signal;
 9. Specify ***vdd*** variable to be the output voltage of the counter;
 10. Specify ***t_edge*** and ***t_delay*** variables to be the rising/falling time and delay of the output waveform;

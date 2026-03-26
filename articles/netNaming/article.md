@@ -3,7 +3,7 @@ description: "Net naming tricks in Cadence Virtuoso"
 ---
 
 ### List of tricks
-1. [How to rename multiple nets simultaniously in Cadence Virtuoso?](#multipleNetsRename)
+1. [How to rename multiple nets simultaneously in Cadence Virtuoso?](#multipleNetsRename)
 2. [How to create a bus in Cadence Virtuoso?](#createBus)
 3. [How to edit net name directly in Cadence Virtuoso?](#directNetEditing)
 4. [How to connect a bus to a net in Cadence Virtuoso?](#busToNet)
@@ -14,7 +14,7 @@ description: "Net naming tricks in Cadence Virtuoso"
 
 ## 1. How to rename all nets in Cadence Virtuoso?
 This is how to rename multiple nets in Cadence Virtuoso.
-1. Have your schematic with the multiple nets that you want to rename simultaniously:
+1. Have your schematic with the multiple nets that you want to rename simultaneously:
 
 <br/> <img src="http://localhost:3000/images/netNaming/renaming-multiple-nets-1.png" disableinvert alt="Original schematic with multiple nets" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">Original schematic with multiple nets</p> 
@@ -75,7 +75,7 @@ Select the net name and press **T hotkey**. Now you can enter net name directly:
 ## 4. How to connect a bus to a net in Cadence Virtuoso?
 Sometimes we need to connect a multiple separate nets to a bus. Let's say, we have a block input of <2:0> and we want to
 connect bits <1>, <3>, <5> to this input. In order to do that, we can write ***bit<1>, bit<3>, bit<5>*** on the input net.
-However, the simplier way of doing that is writing ***bit<1,3,5>***:
+However, the simpler way of doing that is writing ***bit<1,3,5>***:
 
 <br/> <img src="http://localhost:3000/images/netNaming/multiple-bus-1.png" disableinvert alt="Connecting multiple nets to the bus" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">Connecting multiple nets to the bus (all notations are equivalent)</p> 

@@ -4,7 +4,7 @@ description: "Description of article 1"
 
 # EM/IR analysis
 This page describes how to perform Electromigration (EM) analysis in Cadence Virtuoso (Voltus). 
-EM analysis become important for example during the design of high-current circuits, such as LDO. IR analysis is important whne designing power rails, ESD protection etc.
+EM analysis becomes important for example during the design of high-current circuits, such as LDO. IR analysis is important when designing power rails, ESD protection etc.
 Metal routing in IC design have a limited current capacity before it will fail. 
 You can read more about electromigration [here](/category/Layout/article/layLayoutDependentEffects#EM).
 

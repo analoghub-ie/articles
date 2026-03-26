@@ -153,7 +153,7 @@ the cathode.
 
 > **Electromigration key points:**  
 > - Occurs at very high current densities (usually >$10kA/cm^2$);  
-> - Usually caused by the incorrect wire width for a give current density.
+> - Usually caused by the incorrect wire width for a given current density.
 
 
 <br/> <img src="http://localhost:3000/images/layoutDependentEffects/electromigration.gif" disableinvert alt="Electromigration in layout" style="display: block; margin-inline: auto; width: min(80%, 35rem)" /> 
@@ -176,7 +176,7 @@ neighbouring metal interconnect which may result in a short circuit.
 
 #### 4.3 Electromigration prevention 
 
- On order to prevent electromigration, designers should strictly follow the manufacturer recommendation for the wire 
+ In order to prevent electromigration, designers should strictly follow the manufacturer recommendation for the wire 
  width (because the thickness is specified by the process and cannot be changed) according to the current flowing 
  through the wire. As a sanity check for the layout design, EM/IR analysis can be performed (i.e. using Cadence Voltus 
  tool).

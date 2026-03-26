@@ -78,7 +78,7 @@ to the $V_{out}$ variation.
 <div id="basicMult"></div>
 
 #### 2.1 Multiplying/dividing current
-Current mirrors allow us to copy currents, that have a different values from the reference. For example, if we want to 
+Current mirrors allow us to copy currents, that have different values from the reference. For example, if we want to 
 achieve $2xI_0$ at the output, we would have to double the width of the $M_2$ device. Multiplying the width of $M_2$ 
 essentially means creating an extra leg, carrying the reference current and because these devices are identical 
 (by geometry, $V_{GS}/V_{DS}$), they will carry the same current. This representation is very useful in terms of layout.
