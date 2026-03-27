@@ -1,5 +1,5 @@
 ---
-description: "Description of article 1"
+description: "DC operating point and DC sweep analysis in Cadence Virtuoso"
 hideInProd: true
 ---
 

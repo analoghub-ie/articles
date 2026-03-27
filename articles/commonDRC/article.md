@@ -1,5 +1,5 @@
 ---
-description: "This article describes common DRC errors and fixes"
+description: "Common DRC errors and how to fix them"
 hideInProd: true
 ---
 

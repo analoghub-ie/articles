@@ -1,5 +1,5 @@
 ---
-description: "Description of article 1"
+description: "PSS and PAC analysis setup in Cadence Virtuoso for characterising periodically driven circuits"
 ---
 
 ## PAC/PSS analysis

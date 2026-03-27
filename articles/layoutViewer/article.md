@@ -1,5 +1,5 @@
 ---
-description: "Description of article 1"
+description: "Visualising and presenting IC layouts in 3D using GDS3D with Cadence Virtuoso GDSII exports"
 ---
 
     

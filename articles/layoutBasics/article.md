@@ -1,5 +1,5 @@
 ---
-description: "This article covers IC manufacturing steps, basic components such as MOSFETs, resistors and capacitors and their types"
+description: "IC manufacturing steps and basic components: MOSFETs, resistors, and capacitors"
 ---
 
 ## IC Layout Basics 

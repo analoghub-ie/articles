@@ -94,46 +94,46 @@ categories:
     description: "Variety of models for simulation"
     articles:
       - slug: ADC
-        title: "Analog-to-Digital Converter (ADC) Verilog-A model (any resolution)"
+        title: "Analog-to-Digital Converter (ADC)"
         short_title: "Analog-to-Digital"
       - slug: DAC
-        title: "Digital-to-Analog Converter (DAC) Verilog-A model (any resolution)"
+        title: "Digital-to-Analog Converter (DAC)"
         short_title: "Digital-to-Analog"
       - slug: HPF
-        title: "High-pass filter (HPF) Verilog-A model"
+        title: "High-pass filter (HPF)"
         short_title: "High-pass filter"
       - slug: LPF
-        title: "Low-pass filter (LPF) Verilog-A model"
+        title: "Low-pass filter (LPF)"
         short_title: "Low-pass filter"
       - slug: PWM
-        title: "PWM generator Verilog-A model"
+        title: "PWM generator"
         short_title: "PWM generator"
       - slug: bin2therm
-        title: "Binary to Thermometer Encoder Verilog-A model"
-        short_title: "Binary to"
+        title: "Binary to Thermometer Encoder"
+        short_title: "Binary to Thermometer"
       - slug: comparator
-        title: "Comparator Verilog-A model"
-        short_title: "Comparator Verilog-A"
+        title: "Comparator"
+        short_title: "Comparator"
       - slug: counter
-        title: "Binary Counter Verilog-A model"
+        title: "Binary Counter"
         short_title: "Binary Counter"
       - slug: dec2bin
-        title: "Decimal to Binary Encoder Verilog-A model"
+        title: "Decimal to Binary Encoder"
         short_title: "Decimal to Binary"
       - slug: dec2therm
-        title: "Decimal to Thermometer Encoder Verilog-A model"
-        short_title: "Decimal to"
+        title: "Decimal to Thermometer Encoder"
+        short_title: "Decimal to Thermometer"
       - slug: levelShifter
-        title: "Level shifter Verilog-A model"
+        title: "Level shifter"
         short_title: "Level shifter"
       - slug: nonoverlapClk
-        title: "Non-overlapping clock generator Verilog-A model"
+        title: "Non-overlapping clock generator"
         short_title: "Non-overlapping"
       - slug: save2file
-        title: "Verilog-A block for saving simulation results to file"
-        short_title: "Verilog-A block for"
+        title: "Saving simulation results to file"
+        short_title: "Saving simulation"
       - slug: vcoModel
-        title: "Voltage-controlled oscillator (VCO) Verilog-A model"
+        title: "Voltage-controlled oscillator (VCO)"
         short_title: "Voltage-controlled"
 
   - name: "MATLAB"

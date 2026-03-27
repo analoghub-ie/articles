@@ -1,5 +1,5 @@
 ---
-description: "This is a compilation of the useful links, books and sources for Analog IC Designers"
+description: "Useful links, books, and resources for analog IC designers"
 ---
 
     

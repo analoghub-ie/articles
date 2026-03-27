@@ -1,5 +1,5 @@
 ---
-description: "This article explains how to handle error/warning/info messages in SKILL"
+description: "Handling error, warning, and info messages in SKILL"
 ---
 
 ## Handling error/warning/info messages in SKILL

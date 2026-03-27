@@ -1,5 +1,5 @@
 ---
-description: "Diving into the layout-dependent effects, such as LOD, WPE, Electromigration, Antenna their nature and prevention techniques"
+description: "Layout-dependent effects: LOD, WPE, Electromigration, and Antenna — causes and prevention"
 ---
 
 ## Layout-dependent effects (LOD, WPE, Latch-up, Electromigration, Antenna)  

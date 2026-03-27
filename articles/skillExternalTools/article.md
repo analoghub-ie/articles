@@ -1,5 +1,5 @@
 ---
-description: "This article describes how run external tools via SKILL"
+description: "Running external tools from Cadence Virtuoso via SKILL"
 ---
 
 ### Contents:

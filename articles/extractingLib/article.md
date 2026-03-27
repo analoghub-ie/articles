@@ -1,5 +1,5 @@
 ---
-description: "Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code"
+description: "Extract library and cell names from a design hierarchy using SKILL"
 ---
 
 ## Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code

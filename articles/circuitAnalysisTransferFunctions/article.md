@@ -1,5 +1,5 @@
 ---
-description: "Description of article 1"
+description: "Deriving transfer functions of RLC circuits in the Laplace domain"
 ---
 
 # Transfer functions of RLC circuits

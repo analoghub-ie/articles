@@ -1,5 +1,5 @@
 ---
-description: "A practical guide explaining how to create forms using SKILL"
+description: "Creating interactive forms in Cadence Virtuoso using SKILL"
 ---
 
 ## Creating Forms in SKILL Code: A Practical Guide

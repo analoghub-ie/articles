@@ -1,5 +1,5 @@
 ---
-description: "This article explains how to schedule tasks with hiRegTimer() in SKILL"
+description: "Scheduling recurring tasks in SKILL using hiRegTimer()"
 ---
 
 ## Scheduling Tasks with hiRegTimer()

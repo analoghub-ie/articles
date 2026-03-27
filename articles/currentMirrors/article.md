@@ -1,5 +1,5 @@
 ---
-description: "Kelvin connection for IC design explained"
+description: "Cascode current mirror design: topologies, biasing, and output resistance"
 hideInProd: true
 ---
 

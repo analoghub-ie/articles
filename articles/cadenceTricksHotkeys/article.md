@@ -1,5 +1,5 @@
 ---
-description: "This article describes hotkeys for Cadence Virtuoso"
+description: "Useful hotkeys for Cadence Virtuoso"
 ---
 
 ### Cadence Virtuoso Shortcuts

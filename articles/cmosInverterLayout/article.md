@@ -1,5 +1,5 @@
 ---
-description: "This article describes how to create a layout for a basic structure - CMOS Inverter"
+description: "How to create a CMOS Inverter layout in Cadence Virtuoso"
 hideInProd: true
 ---
 
