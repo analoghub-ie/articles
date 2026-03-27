@@ -119,7 +119,7 @@ As the source voltage of $M_{C1}$ is equal to the drain voltage of the $M_1$ ( a
 saturation we need:
 
 $$
-V_{C} = $V_{DS1}$ + $V_{THC}
+V_{C} = V_{DS1} + V_{THC}
 $$
 
 <br/>

@@ -303,7 +303,7 @@ $$
 A_{EA} = \frac{ 1 - \delta A_{EA} } { \delta A_{EA} \beta }
 $$
 
-#### 4.3 Reference voltage error
+#### 5.3 Reference voltage error
 Another source of the output voltage error is the reference voltage. The reference voltage is usually provided by the 
 Bandgap, which will typically have a variation about $\pm 0.5\%$ across PVT:
 
