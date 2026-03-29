@@ -8,7 +8,7 @@ EM analysis becomes important for example during the design of high-current circ
 Metal routing in IC design have a limited current capacity before it will fail. 
 You can read more about electromigration [here](/category/Layout/article/layLayoutDependentEffects#EM).
 
-### EM analysis setup
+## EM analysis setup
 Workflow:
 1. [Extract your design](#extractingDesign) using Calibre PEX  to *.dspf*;
 2. [Configure simulator](#analysisSetting) for performing EM/IR analysis;
@@ -17,7 +17,7 @@ and [.map](/category/cadenceAnalysis/article/cadenceAnalysisEMIR#mapFile) for se
 
 <div id="extractingDesign"></div>
 
-### Extracting the design
+## 1. Extracting the design
 
 >- Use usual rules files from TSMC;
 >- Make sure that extraction type is set to *R+C+CC*;
@@ -46,7 +46,8 @@ Extract the whole design, or only specific nets you need:
 <p style="display: block; text-align: center">PEX reduction for EMIR analysis</p> 
 
 <div id="analysisSetting"></div>
-### Setting the analysis
+
+## 2. Setting the analysis
 
 - Go to the ADE L;
 - Provide extracted *.dspf* file using *Simulation files* menu.
@@ -90,7 +91,7 @@ Extract the whole design, or only specific nets you need:
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-setup-4.png" alt="EMIR analysis settings4" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">EMIR analysis settings</p> 
 
-### Display the results
+## 3. Display the results
 
 - After simulation is finished, go to:  
 *Results  → EM/IR data → Layout analysis*;
@@ -108,7 +109,7 @@ Extract the whole design, or only specific nets you need:
 
 <div id="emDataFile"></div>
 
-### .EMDataFile example 
+## .EMDataFile example
 
 [Download from Github](https://github.com/analoghub-ie/software/blob/main/EMIR%20files/EM_example.emDataFile)
 
@@ -336,7 +337,7 @@ ACpeakCurrentDensSpecList = (
 
 <div id="mapFile"></div>
 
-### .map file example 
+## .map file example
 
 [Download from Github](https://github.com/analoghub-ie/software/blob/main/EMIR%20files/dfii.map)
 
