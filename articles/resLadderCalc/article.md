@@ -3,7 +3,7 @@ description: "Resistor ladder with multiple taps calculator "
 hideInProd: true
 ---
 
-## Resistor ladder calculator
+# Resistor ladder calculator
 This article contains MATLAB script for the calculation of the resistor ladder with multiple taps.
 > **How to use:**
 > - Download the [Matlab script](https://github.com/analoghub-ie/software/blob/main/MATLAB/resLadderCalc.m)
@@ -11,7 +11,7 @@ This article contains MATLAB script for the calculation of the resistor ladder w
 > - Enter input voltage, current and desired tap voltages;
 > - Execute the script
 
-### Output example:
+## Output example:
 <pre><code class="language-matlab">
 -------------------------------------
 ==== Resistor ladder calculation ====

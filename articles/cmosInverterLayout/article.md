@@ -3,15 +3,15 @@ description: "How to create a CMOS Inverter layout in Cadence Virtuoso"
 hideInProd: true
 ---
 
-## CMOS Inverter Layout
+# CMOS Inverter Layout
 
 <div id="circuitAnalysis"></div>
 
-### 1. CMOS Inverter circuit analysis
+## 1. CMOS Inverter circuit analysis
 
 <div id="basicLayers"></div>
 
-### 2. Basic layers and devices
+## 2. Basic layers and devices
 
 <br/> <img src="http://localhost:3000/images/cmosInverterLayout/inverter-layout-1.svg" disableinvert alt="Basic inverter layers" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">Basic inverter layers</p> 
@@ -26,7 +26,7 @@ hideInProd: true
 
 <div id="inverterLayoutVideo"></div>
 
-### 3. CMOS Inverter layout tutorial (video)
+## 3. CMOS Inverter layout tutorial (video)
 
 
 <div style="display: block; margin-inline: auto; width: min(90%, 100rem); aspect-ratio: 16/9">

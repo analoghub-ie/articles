@@ -3,7 +3,7 @@ description: "Visualising and presenting IC layouts in 3D using GDS3D with Caden
 ---
 
     
-## 3D layout viewer
+# 3D layout viewer
 [GDS3D](https://www.utwente.nl/en/news/2012/3/59583/3d-gdsii-viewer-goes-open-source) - is an amazing 3D layout viewer 
 that can be used to present your design or even debug some complex layout problems! This is an open-source software 
 provided by University of Twente, Netherlands.
@@ -63,9 +63,9 @@ have heard of one case where N-Well and P-Well "layers" actually had the same la
 In such an event one can specify two layers with the same layer number but differing datatypes to render these layers in, 
 for example, different colors.
 
-### 1. Using the program
+## 1. Using the program
 
-#### 1.1 Controlling Movement
+### 1.1 Controlling Movement
 
 When the program is running, it is possible to move the camera around using the classical 3D-game controls, the A,W,S,D 
 (or the arrow) keys. The Q and Z keys are used to move the camera up and down and the R key can be used to reset the view.
@@ -76,7 +76,7 @@ for up or down motion. Finally, the scroll wheel can be used to move up or down.
 By pressing the M key, the program switches to mouse control mode. In this mode the mouse can be used to rotate and tilt 
 the camera much like in a 3D-game. The scroll wheel can still be used to move up and down.
 
-#### 1.2 Interface Elements
+### 1.2 Interface Elements
 
 ##### 1.2.1 Legend
 

@@ -2,28 +2,28 @@
 description: "Extract library and cell names from a design hierarchy using SKILL"
 ---
 
-## Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code
+# Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code
 
 
 
 This guide explains how to extract the names of libraries and cells used in a top cell hierarchy within layout and schematic views. 
 Essentially, it answers the question: What libraries and cells are utilized in the design?
 
-### Key Considerations:
+## Key Considerations:
 - The goal is to collect library and cell names once. For object counting, other techniques should be used.
 - Larger top cells may result in longer execution times.
 
 
 <div id="approach"></div>
 
-### 1. Approach
+## 1. Approach
 The method involves traversing the top cell's hierarchy, like navigating through layout or schematic windows. 
 Manually, you would select an instance and descend into its cell view. Our SKILL code achieves this using recursion, 
 tracking visited library and cell names with SKILL's table data structure.
 
 <div id="skillCode"></div>
 
-### 2. SKILL Code
+## 2. SKILL Code
 
 [Download from Github](https://github.com/analoghub-ie/software/blob/main/SKILL/extract_libraries_cells.il)
 
@@ -112,7 +112,7 @@ procedure( mapViewName(viewName)
 
 <div id="codeOverview"></div>
 
-### 3. SKILL Code Overview
+## 3. SKILL Code Overview
 
 Encapsulating code in functions allows us to reuse the code in other tools.
 
@@ -164,14 +164,14 @@ mapViewName: Maps *"symbol"* to *"schematic"* view; otherwise, returns the given
 
 <div id="functionOutput"></div>
 
-### 4. Function Output
+## 4. Function Output
 
 The main function, *getLibrariesCellsUsedIn*, returns a SKILL table with library and cell names as strings. This data can 
 be used to call other functions, create objects, or access further information.
 
 <div id="usageExamples"></div>
 
-### 5. Usage Examples
+## 5. Usage Examples
 
 After loading the main code, run the following in CIW:
 <pre><code class="language-lisp">
@@ -211,7 +211,7 @@ foreach( cellName table[libName]
 
 <div id="alternativeMethods"></div>
 
-### 6. Alternative Methods
+## 6. Alternative Methods
 
 Besides SKILL, other methods exist for hierarchy extraction:
 

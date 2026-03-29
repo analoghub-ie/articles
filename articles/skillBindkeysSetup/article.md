@@ -2,7 +2,7 @@
 description: "Setting BindKeys in Cadence Virtuoso Using SKILL Code"
 ---
 
-## Setting Bind Keys in Cadence Virtuoso Using SKILL Code
+# Setting Bind Keys in Cadence Virtuoso Using SKILL Code
 
 
 
@@ -18,7 +18,7 @@ process with SKILL code, which we will cover in this guide.
 
 <div id="singleBindkey"></div>
 
-### 1. Single Action Bind Key
+## 1. Single Action Bind Key
 
 To define a bind key for a single action, use the action's function. For example, to make all layers invisible except 
 the selected layer in the Layout window’s palette, we use a built-in SKILL function:
@@ -42,7 +42,7 @@ hiSetBindKey("Layout" "Ctrl<Key>Q" "leSetAllLayerVisible(nil)")
 
 <div id="multipleActions"></div>
 
-### 2. Multiple Actions or Complex Steps
+## 2. Multiple Actions or Complex Steps
 For multiple actions or steps, define a function. For instance, toggle the dimming option and change the dimming 
 intensity in the Layout window. These options can be found in the “Display Options” form (Layout window ⟶ Options ⟶ 
 Display).
@@ -129,7 +129,7 @@ changeLayoutDimmingIntensity(1 ?byValue 10)
 
 <div id="functionBindkeys"></div>
 
-### 3. Setting Bind Keys for Functions
+## 3. Setting Bind Keys for Functions
 
 Now we’ve got to set bind keys for these two functions.
 
@@ -163,7 +163,7 @@ Here, we assign functions to the following bind keys:
 
 <div id="bindkeyComponents"></div>
 
-### 4. Bind Key Components
+## 4. Bind Key Components
 
 Each bind key requires:
 - **Application Name:** For the Layout window, we use "Layout". Other windows require different application names. 
@@ -178,7 +178,7 @@ Refer to Cadence documentation for more details.
 
 <div id="loadingBindkeys"></div>
 
-### 5. Loading Bind Keys
+## 5. Loading Bind Keys
 
 Write your SKILL code with bind keys definitions in a **.il** file and load it from CIW using the **load()** function 
 or from the SKILL IDE. 

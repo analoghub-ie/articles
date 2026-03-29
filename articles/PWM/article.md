@@ -2,7 +2,7 @@
 description: "Verilog-A model for pulse width generator"
 ---
 
-## Pulse Width Modulated generator
+# Pulse Width Modulated generator
 This article contains Verilog-A models for a Pulse Width Modulated generator. 
 
 
@@ -21,7 +21,7 @@ This article contains Verilog-A models for a Pulse Width Modulated generator.
 
 
 
-### Pulse Width Modulated generator
+## Pulse Width Modulated generator
 
 > **Cell name:** pwm_gen_clk
 

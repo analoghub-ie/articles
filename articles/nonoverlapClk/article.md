@@ -2,7 +2,7 @@
 description: "Verilog-A model non-overlapping clock generator"
 ---
 
-## Non-overlapping clock generator
+# Non-overlapping clock generator
 This article contains Verilog-A models for a Non-overlapping clock generator. 
 
 **Usage:**
@@ -21,7 +21,7 @@ This article contains Verilog-A models for a Non-overlapping clock generator.
 <div id="nonoverlap1"></div>
 
 
-### Non-overlapping clock generator (same as clk)
+## Non-overlapping clock generator (same as clk)
 
 <br/> <img src="http://localhost:3000/images/nonoverlapClk/nonoverlap1-tb.png" disableinvert alt="Nonoverlap_clk testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Nonoverlap_clk testbench</p>
@@ -88,7 +88,7 @@ endmodule
 
 <div id="nonoverlap2"></div>
 
-### Non-overlapping clock generator with 2 phases
+## Non-overlapping clock generator with 2 phases
 
 <br/> <img src="http://localhost:3000/images/nonoverlapClk/nonoverlap2-tb.png" disableinvert alt="Nonoverlap_clk_2ph testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">2-phases nonoverlap_clk testbench</p>
@@ -171,7 +171,7 @@ endmodule
 
 <div id="nonoverlap3"></div>
 
-### Non-overlapping clock generator with 4 phases
+## Non-overlapping clock generator with 4 phases
 
 <br/> <img src="http://localhost:3000/images/nonoverlapClk/nonoverlap4-tb.png" disableinvert alt="Nonoverlap_clk_4ph testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">4-phases nonoverlap_clk testbench</p>

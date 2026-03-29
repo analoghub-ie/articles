@@ -2,7 +2,7 @@
 description: "Handling error, warning, and info messages in SKILL"
 ---
 
-## Handling error/warning/info messages in SKILL
+# Handling error/warning/info messages in SKILL
 
 
 In programming, effective communication with users and robust error handling are essential for creating reliable and 
@@ -18,7 +18,7 @@ and providing informational messages within the Cadence Virtuoso environment.
 
 <div id="hiDisplayAppDBox"></div>
 
-### 1. Function - hiDisplayAppDBox()
+## 1. Function - hiDisplayAppDBox()
 This function displays a pop-up box with a custom message. It can be used to display error, warning, informational 
 or dialog messages.
 
@@ -43,7 +43,7 @@ hiDisplayAppDBox(
 
 <div id="displayError"></div>
 
-### 2. Display an error message
+## 2. Display an error message
 
 Errors should prevent a user from continuing using a script if something went wrong. They should be clear, so the user 
 understands why the script failed and what to do next.
@@ -100,7 +100,7 @@ showing an error message.
 
 <div id="displayWarning"></div>
 
-### 3. Display a warning message
+## 3. Display a warning message
 
 Warnings inform users of conditions that might lead to problems but do not immediately prevent the script from continuing.
 
@@ -131,7 +131,7 @@ hiDisplayAppDBox(
 
 <div id="displayInfo"></div>
 
-### 4. Display an info message
+## 4. Display an info message
 
 Info messages also do not prevent the script from continuing and are best to communicate progress, confirm actions, 
 and offer guidance and tips.
@@ -167,7 +167,7 @@ hiDisplayAppDBox(
 
 <div id="displayDialog"></div>
 
-### 5. Display a dialog box
+## 5. Display a dialog box
 
 Displaying a dialog box is required when you need to interact directly with the user. Dialog boxes are ideal for 
 situations where you need to make selections from the user. This could include entering data, choosing options, or 
@@ -246,12 +246,12 @@ to run after the click. Also, if the callback is set to **"nil"**, the button do
 
 <div id="errFunctions"></div>
 
-### 6. Functions - error(), warn() and info()
+## 6. Functions - error(), warn() and info()
 
 There is another way to show error, warning and informational messages.
 These functions print colored messages into the CIW, providing information for debugging without popping a box.
 
-#### Overview:
+### Overview:
 
 - **error()** - prints an error message and halts the execution of the current script.
 
@@ -275,7 +275,7 @@ examples for error, warning, and informational messages, respectively.
 
 <div id="conclusion"></div>
 
-### 7. Conclusion 
+## 7. Conclusion 
 
 Mastering the use of messaging and debugging functions such as **hiDisplayAppDBox()**, **error()**, **warn()**, and 
 **info()** is crucial for developing robust and user-friendly applications. These functions provide effective 

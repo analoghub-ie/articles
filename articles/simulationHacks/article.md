@@ -3,12 +3,12 @@ description: "Simulation Hacks for Cadence Virtuoso"
 ---
 
     
-## Simulation Hacks 
+# Simulation Hacks 
 
 <div id="differentialSignals"></div>
 
 
-### 1. Differential signals testbench
+## 1. Differential signals testbench
 Sometimes we need to create a differential signal testbench (i.e. for a differential amplifier). The following structure
 generates differential signal with a given amplitude and frequency:
 <img src="http://localhost:3000/images/simulationHacks/differential-signal-tb.png" disableinvert alt="Differential signal generator" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 

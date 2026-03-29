@@ -2,7 +2,7 @@
 description: "Kelvin connection for IC design explained"
 ---
 
-##  Kelvin connection in IC design
+#  Kelvin connection in IC design
 
 
 
@@ -10,7 +10,7 @@ description: "Kelvin connection for IC design explained"
 
 <div id="intro"></div>
 
-### 1. Introduction
+## 1. Introduction
 
 **Kelvin connection** - is a very clever concept, often used for high-accuracy resistance measurements by separating 
 the leads that supply current from the leads that measure voltage. Let's explore how this concept applies to the IC 
@@ -19,7 +19,7 @@ design and helps to create more accurate circuits.
 
 <div id="concept"></div>
 
-### 2. The concept
+## 2. The concept
 
 The entire idea behind **Kelvin connection** is to separate the nodes that are carrying high currents from the sensing 
 nodes to the feedback. Let's have a look on a very simple example - a unity gain buffer:
@@ -57,7 +57,7 @@ $V_{out} = V_{fb} = V_{ref}$.
 
 <div id="kelvinUGBExample"></div>
 
-### 3. Kelvin connection in unity gain buffer (example)
+## 3. Kelvin connection in unity gain buffer (example)
 
 For a unity gain buffer circuit, let's assume the following:
 
@@ -107,7 +107,7 @@ There is no voltage error at the output in this case, thanks to the Kelvin conne
 
 <div id="kelvinLDOTheory"></div>
 
-### 4. Kelvin connection in LDO (theory)
+## 4. Kelvin connection in LDO (theory)
 
 Now let's take a look at more complex circuit - [a low-dropout regulator (LDO)](/category/Circuits/article/circuitsLDO), 
 which contains a resistive feedback:
@@ -148,7 +148,7 @@ feedback. We can now say that true output voltage value is fed back into the loo
 
 <div id="kelvinLDOExample"></div>
 
-### 5. Kelvin connection in LDO (example)
+## 5. Kelvin connection in LDO (example)
 
 For an LDO circuit, let's assume the following:
 

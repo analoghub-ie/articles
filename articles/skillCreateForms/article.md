@@ -2,7 +2,7 @@
 description: "Creating interactive forms in Cadence Virtuoso using SKILL"
 ---
 
-## Creating Forms in SKILL Code: A Practical Guide
+# Creating Forms in SKILL Code: A Practical Guide
 
 
 Why should we create graphical user interfaces (GUIs) for our tools?  
@@ -25,7 +25,7 @@ define several callbacks, with the full code attached at the end.
 
 <div id="layoutForms"></div>
 
-### 1. Layout Forms
+## 1. Layout Forms
 
 There are two main approaches for field placement in a GUI: using pixels **(hiCreateAppForm())** and using layout 
 forms **(hiCreateLayoutForm())**. 
@@ -51,7 +51,7 @@ Now, let’s get to our practical example.
 
 <div id="guiTemplate"></div>
 
-### 2. GUI Template
+## 2. GUI Template
 
 Start by building a GUI template. Our GUI will receive the top cell's library, cell, and view names as input and display
 library and cell names used in the top cell's hierarchy.
@@ -174,7 +174,7 @@ hiDisplayForm(form)
 
 <div id="mapCallback"></div>
 
-### 3. Map Callback
+## 3. Map Callback
 
 Map callbacks are used to perform additional setup or customization when a form is instantiated and displayed. They are 
 particularly useful for initializing form fields, setting default values, adjusting field sizes, or performing any other 
@@ -233,7 +233,7 @@ verticalLayout
 
 <div id="modifyCallback"></div>
 
-### 4. Modify Callback
+## 4. Modify Callback
 
 A modify callback in SKILL is a function that is triggered whenever the user changes the value of a string field, 
 such as by typing a new value. This callback is executed immediately when a change is detected in the field, but 
@@ -306,7 +306,7 @@ libraryStringField = hiCreateStringField(
 
 <div id="buttonBrowseCallback"></div>
 
-### 5. Button Callback - Browse
+## 5. Button Callback - Browse
 
 Instead of manually entering library/cell/view names, we can define a callback to invoke the Library Manager for 
 selection.
@@ -342,7 +342,7 @@ browseButton = hiCreateButton(
 
 <div id="buttonRunCallback"></div>
 
-### 6. Button Callback - Run
+## 6. Button Callback - Run
 
 The run button executes the main algorithm. Here, we’ll use the **getLibrariesCellsUsedIn()** function, described in the 
 *“Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code”* guide.
@@ -417,7 +417,7 @@ in the report field.
 
 <div id="conclusion"></div>
 
-### 7. Conclusion
+## 7. Conclusion
 
 In this guide, we've explored how to use layout forms, define various callbacks, highlight string fields, display 
 error messages, invoke the Library Manager, and utilize **let()** and **prog()** scopes. To further explore, check out 
@@ -425,7 +425,7 @@ Cadence guides on creating forms and experiment with different fields and parame
 
 <div id="fullCode"></div>
 
-### 8. Full code
+## 8. Full code
 
 <pre><code class="language-lisp">
 procedure( createLibrariesCellsInUseForm()

@@ -2,11 +2,11 @@
 description: "LDO topologies and design explained"
 ---
 
-##  Low-dropout regulator (LDO)
+#  Low-dropout regulator (LDO)
 
 <div id="intro"></div>
 
-### 1. Introduction
+## 1. Introduction
 
 **Low-dropout regulator (LDO)** - is a critical building block that generates a stable voltage (which can be used as 
 a voltage reference or a supply) irrespective of the external conditions (supply voltage variation, noise etc.). An LDO 
@@ -16,7 +16,7 @@ ensure a constant output voltage.
 
 <div id="operationPrinciple"></div>
 
-### 2. Principle of operation
+## 2. Principle of operation
 
 **The principle of operation** of an LDO can be explained as a voltage-controlled voltage source (VCVS). This VCVS is 
 controlled by two voltages - **reference voltage** $(V_{ref})$ and **feedback voltage** $(V_{fb})$ targeting to 
@@ -41,7 +41,7 @@ resistance $R_L$ and $V_{out} = V_{ref}$ is maintained. The load capacitance $C_
 transients (by supplying extra current) and stability, which wil be discussed later.
 
 
-#### 2.1 LDO operation at no-load condition
+### 2.1 LDO operation at no-load condition
 
 Let's have a look on a practical example of an LDO to understand its operation better. The picture below represents a 
 simple LDO with an NMOS pass device and no load. 
@@ -71,7 +71,7 @@ This current is called a **quiescent current**, which helps to achieve stability
 and operational amplifier defines the idle power consumption of the LDO.
 
 
-#### 2.2 LDO operation under load 
+### 2.2 LDO operation under load 
 
 Let's add a load resistor $R_L = 1k\Omega$ to the output and see the response of the LDO:
 
@@ -93,7 +93,7 @@ $V_{out} = 1.2V$, $I_{out} = I_q + I_L = 12.012 mA$.
 
 <div id="topologies"></div>
 
-### 3. LDO topologies
+## 3. LDO topologies
 
 In the previous chapters we had LDO operation and stability covered, and now we can cover different LDO topologies.
 LDOs have a variety of topologies and oriented for use with analog or digital circuits. There are two main LDO 
@@ -159,7 +159,7 @@ higher than the standard 1V of regular transistors.
 
 <div id="feedbackCalculation"></div>
 
-### 4. Feedback resistance calculation
+## 4. Feedback resistance calculation
 
 The reference voltage is usually provided by the bandgap reference and usually outputs a fixed voltage, that might be 
 different from what we want to see at the output of LDO. Solution to this is to use a voltage divider in the feedback 
@@ -227,21 +227,21 @@ Just knowing $V_{out}$, $V_{ref}$ and $I_q$ will give us the exact values of $R_
 
 <div id="outputError"></div>
 
-### 5. Output voltage error
+## 5. Output voltage error
 There are <u><b>3 main sources</b></u> of the output error in LDO:
 
 1. Voltage divider mismatch ($R_1$ and $R_2$)
 2. Gain error of error amplifier
 3. Reference voltage error
 
-#### 5.1 Voltage divider mismatch 
+### 5.1 Voltage divider mismatch 
 The resistor value variation in CMOS process in generally big and can be up to 15-30%, depending on the 
 [resistor type](http://localhost:3000/category/Layout/article/layoutBasics#resistors). Since only the ratio between 
 $R_1$ and $R_2$ matters (and not their absolute values), we can neglect the error, introduced by the divider if we 
 [match](http://localhost:3000/category/Layout/article/layoutMatching) them in layout. 
 
 
-#### 5.2 Gain error of error amplifier
+### 5.2 Gain error of error amplifier
 Due to the finite gain of the amplifier, we get some error in control voltage $(V_c)$ which leads to the error in output 
 current and hence, an output voltage. The output voltage of the error amplifier is given by:
 $$
@@ -284,7 +284,7 @@ $$
 A_{EA} = \frac{ 1 - \delta A_{EA} } { \delta A_{EA} \beta }
 $$
 
-#### 5.3 Reference voltage error
+### 5.3 Reference voltage error
 Another source of the output voltage error is the reference voltage. The reference voltage is usually provided by the 
 Bandgap, which will typically have a variation about $\pm 0.5\%$ across PVT:
 
@@ -361,8 +361,8 @@ $$
 
 <div id="stability"></div>
 
-### 6. LDO stability & transfer function
-#### 6.1 Poles and zeros
+## 6. LDO stability & transfer function
+### 6.1 Poles and zeros
 
 As any feedback system, the LDO is a subject to stability analysis. Let's dive into a typical LDO structure and 
 understand the location and role of the poles and zeros. In a typical LDO there are two main poles. 
@@ -402,7 +402,7 @@ $$
 <br/> <img src="http://localhost:3000/images/circuitsLDO/ldoLoadVariation.svg" alt="Load variation impact on LDO poles location" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Load variation impact on LDO poles location</p>
 
-#### 6.2 Transfer function of the LDO
+### 6.2 Transfer function of the LDO
 
 
 Using the poles equations from Chapter 6.1, the transfer function of an LDO (feedback loop-gain) can be written as:
@@ -417,7 +417,7 @@ $$
 T(s) =  \frac{ A_{EA} g_{mp} R_{out} \beta }{ \left( \frac{1}{ \omega_{p1} \omega_{p2}} \right) s^2  + \left( \frac{1}{ \omega_{p1}} + \frac{1}{ \omega_{p2}} \right) s + 1}
 $$
 
-#### 6.3 Compensation
+### 6.3 Compensation
 
 In the previous chapter we saw that the load pole $\omega _{p2}$ moves, when the load is changing. This effect lead to 
 change in phase margin, which can lead to unstable condition (oscillations). There are two main ways to compensate 
@@ -489,7 +489,7 @@ phase margin.
 
 <div id="parasitics"></div>
 
-### 7. LDO Parasitics 
+## 7. LDO Parasitics 
 
 In the design of LDO with an off-chip capacitor, it's very important to take into account parasitics, associated 
 with the output node. The main contributors are I/O pads, bondwires, packaging and PCB trace:
