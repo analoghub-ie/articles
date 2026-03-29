@@ -16,7 +16,6 @@ This article contains Verilog-A model for saving simulation results to *.txt* fi
 6. Instantiate ***save2file*** cell into your design;
 7. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 
 > **Cell name:** save2file

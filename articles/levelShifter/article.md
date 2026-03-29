@@ -22,7 +22,6 @@ This article contains Verilog-A model for a digital Level Shifter.
 7. Instantiate ***level_shifter*** cell into your design;
 8. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 <div id="ls-1"></div>
 
@@ -79,7 +78,6 @@ endmodule
 
 <div id="ls-2"></div>
 
-</br>
 
 > **Cell name:** level_shifter_inv
 

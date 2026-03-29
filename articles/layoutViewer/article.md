@@ -8,7 +8,6 @@ description: "Visualising and presenting IC layouts in 3D using GDS3D with Caden
 that can be used to present your design or even debug some complex layout problems! This is an open-source software 
 provided by University of Twente, Netherlands.
 
-<br/>
 
 <div style="display: block; margin-inline: auto; width: min(90%, 100rem); aspect-ratio: 16/9">
     <iframe 

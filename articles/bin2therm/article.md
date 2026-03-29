@@ -6,7 +6,6 @@ description: "Verilog-A model for Binary to Thermometer encoder"
 
 *This page contains Verilog-A model of the binary-to-thermometer encoder. This block can be used for behavioral simulation of the pipelined ADCs, programmable gains/BW etc. This model will automatically select number of outputs based on selected number of input binary bits.*
 
-</br>
 
 **Usage:** 
 1. Create a new cell in Library Manager named ***bin2therm*** and select cell type ***Verilog A***;
@@ -18,7 +17,6 @@ description: "Verilog-A model for Binary to Thermometer encoder"
 7. Instantiate ***bin2term*** cell into your design;
 8. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 > Example:
 > ***binary_bits = 2, Start_Bit = 0***

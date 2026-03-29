@@ -27,11 +27,9 @@ All files are coming with explanations and use examples, so you can see exactly 
 
 ## 2. Bindkeys 
 
-<br/> 
 <img src="http://localhost:3000/images/cadenceEnvironmentSetup/bindkeys-menu.png"  alt="Bindkeys menu" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Bindkeys menu</p>
 
-<br/> 
 <img src="http://localhost:3000/images/cadenceEnvironmentSetup/bindkeys-editor.png"  alt="Bindkeys Editor menu" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Bindkeys Editor menu</p>
 
@@ -62,11 +60,9 @@ All files are coming with explanations and use examples, so you can see exactly 
 
 ## 5. Cadence Environment File
 
-<br/> 
 <img src="http://localhost:3000/images/cadenceEnvironmentSetup/cdsenv-menu.png" alt="Cadence Environment menu" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Cadence Environment menu</p>
 
-<br/> 
 <img src="http://localhost:3000/images/cadenceEnvironmentSetup/cdsenv-editor.png" alt="Cadence Environment Editor menu" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Cadence Environment Editor menu</p>
 
@@ -83,6 +79,5 @@ if(blankstrp(ddGetForcedLib()) then ddGetStartup("cds.lib") else ddGetForcedLib(
 
 ## How to get commands in CIW?
 
-<br/> 
 <img src="http://localhost:3000/images/cadenceEnvironmentSetup/log-filter-ciw.png" alt="How to get commands in CIW" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">How to get commands in CIW</p>

@@ -12,7 +12,6 @@ description: "LDO topologies and design explained"
 5. [Output voltage error](#outputError)
 6. [LDO stability](#stability)
 7. [LDO parasitics](#parasitics)
-<br/>
 
 <div id="intro"></div>
 
@@ -23,7 +22,6 @@ a voltage reference or a supply) irrespective of the external conditions (supply
 helps in achieving better performance of the internal circuits and usually used together with the bandgap reference to 
 ensure a constant output voltage.
 
-<br/>
 
 <div id="operationPrinciple"></div>
 
@@ -51,7 +49,6 @@ $V_c$ which determines current through the pass device, hereby ensuring that eno
 resistance $R_L$ and $V_{out} = V_{ref}$ is maintained. The load capacitance $C_L$ is playing a vital role during load 
 transients (by supplying extra current) and stability, which wil be discussed later.
 
-<br/>
 
 #### 2.1 LDO operation at no-load condition
 
@@ -82,7 +79,6 @@ $I_q = V_{out}/R_1 = 12\mu A$.
 This current is called a **quiescent current**, which helps to achieve stability at no-load condition. Quiescent current 
 and operational amplifier defines the idle power consumption of the LDO.
 
-<br/>
 
 #### 2.2 LDO operation under load 
 
@@ -104,7 +100,6 @@ The control voltage ramps-up, increasing the $V_{gs}$ of the pass device and the
 current increases, the output voltage increases too and settles when $V_{out}=V_{fb}$. At the steady state, 
 $V_{out} = 1.2V$, $I_{out} = I_q + I_L = 12.012 mA$.
 
-<br/>
 <div id="topologies"></div>
 
 ### 3. LDO topologies
@@ -131,7 +126,6 @@ the output voltage for comparison with the reference voltage ($V_{ref}$). The pa
 resistance between the input and output voltages to maintain stability. In practical applications, the pass device 
 is commonly a PMOS transistor. Next, we’ll compare the use of PMOS vs. NMOS topologies:
 
-<br/>
 
 |                |PMOS |NMOS |
 |:----------------:|:-------:|:-------:|
@@ -142,7 +136,6 @@ is commonly a PMOS transistor. Next, we’ll compare the use of PMOS vs. NMOS to
 |Speed |Slower  |Faster | 
 |Dominant pole location |Output node  |Gate of pass device | 
 
-<br/>
 
 PMOS LDOs is the most commonly used topology due to their low dropout voltage, while NMOS pass transistors are 
 practical when the supply voltage is significantly higher than the regulated output. In an NMOS configuration, the pass 
@@ -172,7 +165,6 @@ higher than the standard 1V of regular transistors.
 |Two-stage|High|Low|High|Low|Medium|
 |Gain-boosted|High|Medium|High|Medium|High|
 
-<br/>
 
 <div id="feedbackCalculation"></div>
 
@@ -241,12 +233,10 @@ Just knowing $V_{out}$, $V_{ref}$ and $I_q$ will give us the exact values of $R_
 
 <ldo-calculator></ldo-calculator>
 
-<br/>
 
 <div id="outputError"></div>
 
 ### 5. Output voltage error
-<br/>
 There are <u><b>3 main sources</b></u> of the output error in LDO:
 
 1. Voltage divider mismatch ($R_1$ and $R_2$)
@@ -377,7 +367,6 @@ $$
 > - **[Match](http://localhost:3000/category/Layout/article/layoutMatchingPatterns)** feedback resistors in layout; 
 > - Total **resistance defines quiescent current ($$I_q$$)** - a trade-off between stability and power consumption;  
   
-<br/>
 
 <div id="stability"></div>
 
@@ -424,7 +413,6 @@ $$
 
 #### 6.2 Transfer function of the LDO
 
-<br/>
 
 Using the poles equations from Chapter 6.1, the transfer function of an LDO (feedback loop-gain) can be written as:
 
@@ -446,7 +434,6 @@ this effect:
 - Zero insertion 
 - $C_{gs}$ shielding through buffer
 
-<br/>
 
 ##### 6.3.1 Using a ESR zero
 
@@ -480,7 +467,6 @@ $$
 > **Note:** 
 > The ESR depends on frequency so it's better to use an s-parameter model for your sims to get precise results.
 
-<br/>
 
 ##### 6.3.2 Using a buffer
 
@@ -509,7 +495,6 @@ $$
 The target here is to push $\omega_{p2,A}$ and $\omega_{p2,B}$ above $\omega_{UGB}$ so it is no longer affects the 
 phase margin.
 
-<br/>
 
 <div id="parasitics"></div>
 

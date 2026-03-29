@@ -15,7 +15,6 @@ hideInProd: true
 #### 1.1 LPF-filter transfer function and Bode Plot:
 **QUESTION:** Write down the transfer function for the following circuit and draw a Bode plot.
 
-<br/> 
 <img src="http://localhost:3000/images/schematicInterview/LPF-question.svg" alt="LPF schematic" style="display: block; margin-inline: auto; width: min(80%, 20rem)" /> 
 <p style="display: block; text-align: center">LPF schematic</p>
 
@@ -39,7 +38,6 @@ Hence,
 $$ 
 A_V = \frac{V_{in}}{V_{out}} = \frac{1}{2\pi RC}
 $$
-   <br/> 
    <img src="http://localhost:3000/images/schematicInterview/LPF-bode.svg" alt="LPF Bode Plot" style="display: block; margin-inline: auto; width: min(80%, 20rem)" /> 
     <p style="display: block; text-align: center">LPF Bode Plot</p>
 

@@ -59,7 +59,6 @@ $$
 $$ 
 Z = 60  \frac{\ln{\frac{1.9 B}{0.8W+ T}} }{ \sqrt{\epsilon_r}}
 $$
-</br>
 
 [Download from Github](https://github.com/analoghub-ie/software/blob/main/MATLAB/PCB_calculator.m)
 

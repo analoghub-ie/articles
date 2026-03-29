@@ -10,7 +10,6 @@ This article contains MATLAB script for the calculation of the resistor ladder w
 > - Open it in Matlab
 > - Enter input voltage, current and desired tap voltages;
 > - Execute the script
-</br>
 
 ### Output example:
 <pre><code class="language-matlab">
@@ -35,7 +34,6 @@ R5 : 200 Ohm
 **** GND=0V ****
 </code></pre>
 
-</br>
 
 [Download from Github](https://github.com/analoghub-ie/software/blob/main/MATLAB/resLadderCalc.m)
 

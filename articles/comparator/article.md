@@ -17,7 +17,6 @@ This article contains Verilog-A model for a comparator.
 7. Instantiate ***comp*** cell into your design;
 8. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 
 <br/> <img src="http://localhost:3000/images/comparator/comparator-tb.png" disableinvert alt="Comparator testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -27,7 +26,6 @@ This article contains Verilog-A model for a comparator.
 <br/> <img src="http://localhost:3000/images/comparator/comparator-sim.png" disableinvert alt="Comparator simulation result" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Comparator simulation result</p> 
  
-</br>
 
 > **Cell name:** comparator
 

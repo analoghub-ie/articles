@@ -161,7 +161,6 @@ Taking into account that $$A = 2B = 2C$$, we can see that all devices in this ar
 
 The following tutorial shows how to create an **interdigitation** pattern for a current mirror in Cadence Layout GXL:
 
-<br/>
 
 <div style="display: block; margin-inline: auto; width: min(90%, 100rem); aspect-ratio: 16/9">
     <iframe 
@@ -284,7 +283,6 @@ multipliers, place them too, but on $D_2$
 
 The following tutorial shows how to create a **common centroid** pattern for a differential pair in Cadence Layout GXL:
 
-<br/>
 
 <div style="display: block; margin-inline: auto; width: min(90%, 100rem); aspect-ratio: 16/9">
     <iframe 

@@ -15,7 +15,6 @@ description: "Kelvin connection for IC design explained"
 
 
 
-<br/>
 
 <div id="intro"></div>
 
@@ -25,7 +24,6 @@ description: "Kelvin connection for IC design explained"
 the leads that supply current from the leads that measure voltage. Let's explore how this concept applies to the IC 
 design and helps to create more accurate circuits.
 
-<br/>
 
 <div id="concept"></div>
 
@@ -54,7 +52,6 @@ $$
 V_{drop} = I_{L}R_{trace} = 100mA*1 \Omega = 100mV
 $$
 
-<br/>
 
 To avoid such a large voltage error, we can use a **Kelvin connection**:
 
@@ -97,7 +94,6 @@ $$
 \Delta V_{out} = \frac{V_{out}}{V_{ref}} = \frac{0.9V}{1V} = 10\%
 $$
 
-</br>
 
 <u><b> Kelvin connection: </b></u>
 
@@ -157,7 +153,6 @@ usually very small compared to the
 load current, the voltage drop will be also very small, delivering almost entire value of the true output voltage to the 
 feedback. We can now say that true output voltage value is fed back into the loop.
 
-<br/>
 
 <div id="kelvinLDOExample"></div>
 
@@ -200,7 +195,6 @@ $$
 \Delta V_{out} = \frac{V_{out}}{2V_{ref}} = \frac{1.7V}{1.8V} = 6\%
 $$
 
-</br>
 
 <u><b> Kelvin connection: </b></u>
 

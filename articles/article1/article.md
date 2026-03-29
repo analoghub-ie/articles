@@ -61,7 +61,6 @@ Centered SVG image (auto-inverts in dark mode by default):
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Opamp_symbol.svg" alt="Op-amp schematic symbol" style="display: block; margin-inline: auto; width: min(60%, 20rem)" />
 <p style="text-align: center">Op-amp schematic symbol (Wikipedia)</p>
 
-<br/>
 
 Image with disabled inversion (add `disableinvert` attribute):
 

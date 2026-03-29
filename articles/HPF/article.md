@@ -15,7 +15,6 @@ This article contains Verilog-A model for a high-pass filter.
 6. Instantiate ***HPF*** cell into your design;
 7. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 <br/> <img src="http://localhost:3000/images/HPF/hpf-tb.png" disableinvert alt="HPF model testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">HPF model testbench</p>  
@@ -24,7 +23,6 @@ This article contains Verilog-A model for a high-pass filter.
 <br/> <img src="http://localhost:3000/images/HPF/hpf-sim.png" disableinvert alt="LPF model simulation result" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">HPF model simulation result</p> 
  
-</br>
 
 > **Cell name:** HPF
 

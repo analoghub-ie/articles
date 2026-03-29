@@ -15,7 +15,6 @@ hideInProd: true
 7. [Running Monte Carlo in Virtuoso](#virtuoso)
 8. [Interpreting results](#results)
 
-<br/>
 
 <div id="intro"></div>
 
@@ -35,7 +34,6 @@ circuit performance.
 Both are necessary. Corners tell you the worst case quickly; Monte Carlo tells you how likely that worst case is and
 reveals failures that corners miss.
 
-<br/>
 
 <div id="sources"></div>
 
@@ -50,7 +48,6 @@ Manufacturing variation in CMOS processes falls into two orthogonal categories:
 
 Understanding which category dominates a given failure mode determines which simulation method to use.
 
-<br/>
 
 <div id="local"></div>
 
@@ -92,7 +89,6 @@ The PDK provides mismatch models as statistical parameter distributions (usually
 instance. In Cadence, these are activated via the **mismatch** Monte Carlo mode — each instance gets an independent
 random draw. Devices on the same net share *global* parameters but get *independent* mismatch parameters.
 
-<br/>
 
 <div id="global"></div>
 
@@ -114,7 +110,6 @@ Global variation is modelled as correlated shifts to model parameters — a sing
 simulation run, applied equally to all instances of the same device type. In Cadence this is the **process** Monte
 Carlo mode.
 
-<br/>
 
 <div id="mc-types"></div>
 
@@ -143,7 +138,6 @@ For 99% yield ($Y = 0.99$), $\pm 0.5\%$ interval, 95% confidence: $N \approx 150
 
 In practice, 200–500 runs reveal the distribution shape; 1000+ runs are needed for tails below 1%.
 
-<br/>
 
 <div id="corners"></div>
 
@@ -191,7 +185,6 @@ FF/Vmax/−40°C for speed, SS/Vmin/125°C for current and setup time).
 | Output | Pass/fail per corner | Yield, $\sigma$, histograms |
 | Use early in design | ✓ | Later, pre-tapeout |
 
-<br/>
 
 <div id="virtuoso"></div>
 
@@ -215,7 +208,6 @@ TODO: screenshots
 
 TODO: screenshots — selecting corner `.scs` files, sweep across PVT corners
 
-<br/>
 
 <div id="results"></div>
 

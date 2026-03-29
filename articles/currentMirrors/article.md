@@ -16,7 +16,6 @@ hideInProd: true
 
 
 
-<br/>
 
 <div id="intro"></div>
 
@@ -29,7 +28,6 @@ In this article we will discuss 3 most-used architectures of the current mirror 
 current mirror and self-biased cascode current mirror.
 
 
-<br/>
 
 <div id="basicCM"></div>
 
@@ -73,7 +71,6 @@ length of $M_1$ and $M_2$:
 Hereby, it's important to use long-channel devices for the basic current mirror to reduce output current variation due 
 to the $V_{out}$ variation.
 
-<br/>
 
 <div id="basicMult"></div>
 
@@ -83,7 +80,6 @@ achieve $2xI_0$ at the output, we would have to double the width of the $M_2$ de
 essentially means creating an extra leg, carrying the reference current and because these devices are identical 
 (by geometry, $V_{GS}/V_{DS}$), they will carry the same current. This representation is very useful in terms of layout.
 
-<br/>
 
 <div id="basicLayout"></div>
 
@@ -91,7 +87,6 @@ essentially means creating an extra leg, carrying the reference current and beca
 Current mirror performance relies on the similar behavior of the devices and that's why it's important to match them in layout
 (link to layout article)
 
-<br/>
 
 <div id="Cascode"></div>
 
@@ -122,7 +117,6 @@ $$
 V_{C} = V_{DS1} + V_{THC}
 $$
 
-<br/>
 
 <div id="selfBiased"></div>
 

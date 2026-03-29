@@ -15,7 +15,6 @@ This article contains Verilog-A model for Decimal to Thermometer encoder. This b
 7. Instantiate ***dec2term*** cell into your design;
 8. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 > Example:
 > ***therm_bits = 4, Start_Bit = 0***
@@ -37,7 +36,6 @@ This article contains Verilog-A model for Decimal to Thermometer encoder. This b
 |    2      |      0100      |
 |    2      |      1000      |
 
-</br>
 
 > **Cell name:** dec2term
 

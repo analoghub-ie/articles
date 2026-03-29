@@ -24,7 +24,6 @@ This article contains Verilog-A model for a binary counter, which counts up or d
 13. Instantiate ***counter*** cell into your design;
 14. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 
 <br/> <img src="http://localhost:3000/images/counter/counter-tb.png" disableinvert alt="Counter testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -34,7 +33,6 @@ This article contains Verilog-A model for a binary counter, which counts up or d
 <br/> <img src="http://localhost:3000/images/counter/counter-sim.png" disableinvert alt="Counter model simulation result" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Counter model simulation result</p> 
  
-</br>
 
 > **Cell name:** counter
 

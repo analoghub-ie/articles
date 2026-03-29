@@ -33,7 +33,6 @@ hideInProd: true
 
 ### 3. CMOS Inverter layout tutorial (video)
 
-<br/>
 
 <div style="display: block; margin-inline: auto; width: min(90%, 100rem); aspect-ratio: 16/9">
     <iframe 
@@ -44,7 +43,6 @@ hideInProd: true
 </div>
 <p style="display: block; text-align: center">Inverter layout tutorial in Cadence Virtuoso</p> 
 
-<br/>
 
 
 <div id="introduction"></div>

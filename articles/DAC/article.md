@@ -20,7 +20,6 @@ This article contains Verilog-A model for a Digital-to-Analog Converter (DAC).
 10. Instantiate ***DAC*** cell into your design;
 11. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 
 <br/> <img src="http://localhost:3000/images/ADC/adc-dac-tb.png" disableinvert alt="ADC-DAC testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -30,7 +29,6 @@ This article contains Verilog-A model for a Digital-to-Analog Converter (DAC).
 <br/> <img src="http://localhost:3000/images/ADC/adc-dac-sim.png" disableinvert alt="ADC-DAC simulation result" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">ADC-DAC simulation result</p>  
 
-</br>
 
 > **Cell name:** DAC
 

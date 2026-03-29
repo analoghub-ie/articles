@@ -16,7 +16,6 @@ Knowing that $s = j\omega$:
 
 Let's derive a transfer function of a very simple circuit - voltage divider:
 
-<br/>
 <img src="http://localhost:3000/images/circuitAnalysisTransferFunctions/voltage-divider.svg" alt="Voltage Divider" style="display: block; margin-inline: auto; width: min(80%, 15rem)" /> 
 <p style="display: block; text-align: center">A simple voltage divider</p>
 
@@ -45,7 +44,6 @@ $$
 $$
 Let's have a look on one more important aspect of the resistor divider circuit. Let's add some load $R_L$:
 
-<br/>
 <img src="http://localhost:3000/images/circuitAnalysisTransferFunctions/voltage-divider-loaded.svg" alt="Voltage Divider Loaded" style="display: block; margin-inline: auto; width: min(80%, 20rem)" /> 
 <p style="display: block; text-align: center">A simple voltage divider with resistive load</p>
 
@@ -67,13 +65,11 @@ We can think of the voltage divider's resistors as of current sources. Let's say
 
 ## 2. Low-pass filter
 
-<br/>
 <img src="http://localhost:3000/images/circuitAnalysisTransferFunctions/LPF.svg" alt="Low Pass Filter" style="display: block; margin-inline: auto; width: min(80%, 20rem)" /> 
 <p style="display: block; text-align: center">A low-pass filter</p>
 
 Interestingly, this circuit is very similar to our previous example. The only difference is that $R_2$ is now replaced with capacitor $C$. 
 
-<br/>
 <img src="http://localhost:3000/images/circuitAnalysisTransferFunctions/LPF-2.svg" alt="Low pass filter as a voltage divider" style="display: block; margin-inline: auto; width: min(80%, 30rem)" /> 
 <p style="display: block; text-align: center">Low pass filter as a voltage divider</p>
 

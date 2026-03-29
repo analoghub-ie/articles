@@ -23,7 +23,6 @@ causing IC being inoperable or damaged. It is caused by the formation of the BJT
 - Substrate noise  
 - ESD occurrences  
 
-<br/> 
 <img src="http://localhost:3000/images/layoutDependentEffects/latchup.svg" alt="Latch-up in CMOS technology (CMOS inverter example)" style="display: block; margin-inline: auto; width: min(80%, 60rem)" />  
 <p style="display: block; text-align: center">Latch-up in CMOS technology (CMOS inverter example)</p>
 

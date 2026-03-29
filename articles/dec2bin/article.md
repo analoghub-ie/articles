@@ -4,7 +4,6 @@ description: "Verilog-A model for Decimal to Binary encoder"
 
 ## Decimal-to-Binary Encoder
 This page contains Verilog-A model of the decimal to binary encoder. 
-</br>
 
 **Usage:**
 

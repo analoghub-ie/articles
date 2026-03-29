@@ -16,7 +16,6 @@ This article contains Verilog-A model for a low-pass filter. This model supports
 7. Instantiate ***LPF*** cell into your design;
 8. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 <br/> <img src="http://localhost:3000/images/LPF/lpf-tb.png" disableinvert alt="LPF model testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">LPF model testbench</p>  
@@ -26,7 +25,6 @@ This article contains Verilog-A model for a low-pass filter. This model supports
 <p style="display: block; text-align: center">LPF model simulation result (Filter_Order =  1 - purple, 
 Filter_Order = 2 - green)</p> 
  
-</br>
 
 > **Cell name:** LPF
 
