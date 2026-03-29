@@ -1,5 +1,6 @@
 ---
 description: "Deriving transfer functions of RLC circuits in the Laplace domain"
+hideInProd: true
 ---
 
 # Transfer functions of RLC circuits

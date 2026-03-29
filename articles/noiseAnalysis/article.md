@@ -1,5 +1,6 @@
 ---
 description: "Noise basics for analog IC design: thermal noise, noise spectral density, and simulation in Cadence Virtuoso"
+hideInProd: true
 ---
 
     

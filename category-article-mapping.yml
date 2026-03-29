@@ -31,7 +31,6 @@ categories:
     slug: circuitAnalysis
     icon: "circuit analysis.svg"
     description: "Analysing circuits theoretically"
-    hideInProd: true
     articles:
       - slug: circuitAnalysisTransferFunctions
         title: "Transfer Functions"
