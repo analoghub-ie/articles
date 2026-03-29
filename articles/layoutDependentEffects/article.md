@@ -3,13 +3,6 @@ description: "Layout-dependent effects: LOD, WPE, Electromigration, and Antenna 
 ---
 
 ## Layout-dependent effects (LOD, WPE, Latch-up, Electromigration, Antenna)  
-### Table of Contents  
-1. [Latch-up](#Latchup)  
-2. [Length of Diffusion (LOD)](#LOD)  
-3. [Well Proximity Effect (WPE)](#WPE)  
-4. [Electromigration](#EM)
-5. [Antenna effect](#Antenna)
-  
 <div id="Latchup"></div>
 
 ### 1. Latchup  

@@ -4,14 +4,6 @@ description: "IC manufacturing steps and basic components: MOSFETs, resistors, a
 
 ## IC Layout Basics 
 
-### Table of Contents
-1. [CMOS process](#CMOSprocess)
-2. [CMOS Inverter cross-section](#inverterCrossSection)
-3. [Mask-related effects, distortion of light](#maskEffects)
-4. [CMOS transistors. Fingers and Multipliers](#fingersMultipliers)
-5. [Capacitors](#capacitors)
-6. [Resistors](#resistors)
-
 
 
 <div id="CMOSprocess"></div>

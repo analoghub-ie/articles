@@ -2,12 +2,6 @@
 description: "Running external tools from Cadence Virtuoso via SKILL"
 ---
 
-### Contents:
-1. [Straightforward system() Function](#systemFunction)
-2. [Reading Output with ipcBeginProcess()](#readingOutput)
-3. [Using ipcBeginProcess() with Handlers](#usingIpcBeginProcess)
-4. [Conclusion](#conclusion)
-
 
 ## Running External Tools via SKILL
 

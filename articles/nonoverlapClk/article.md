@@ -5,11 +5,6 @@ description: "Verilog-A model non-overlapping clock generator"
 ## Non-overlapping clock generator
 This article contains Verilog-A models for a Non-overlapping clock generator. 
 
-### Table of Contents  
-1. [Non-overlap clock generator (same as clk)](#nonoverlap1)  
-2. [Non-overlap clock generator with 2 phases](#nonoverlap2)  
-3. [Non-overlap clock generator with 4 phases](#nonoverlap3)  
-
 **Usage:**
 
 1. Create a new cell in Library Manager named ***nonoverlap_clk*** and select cell type ***Verilog A***;

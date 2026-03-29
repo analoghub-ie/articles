@@ -5,15 +5,6 @@ hideInProd: true
 
 ##  Current mirrors
 
-### Table of Contents
-
-1. [Introduction](#intro)
-2. [Basic current mirror](#basicCM)
-   1. [Multiplying/dividing current](#basicMult)
-   2. [Layout considerations](#basicLayout)
-3. [Cascode current mirror](#cascode)
-4. [Self-biased current mirror](#selfBiased)
-
 
 
 

@@ -6,10 +6,6 @@ description: "Verilog-A model for level shifter (digital)"
 This article contains Verilog-A model for a digital Level Shifter.
 
 
-### Table of Contents  
-1. [Level-shifter without inversion (same as clk)](#ls-1)  
-2. [Level-shifter with inversion](#ls-2)  
- 
 
 **Usage:**
 

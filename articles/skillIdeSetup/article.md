@@ -5,12 +5,6 @@ description: "Setting Up SKILL IDE in Cadence Virtuoso Environment"
 ## Setting Up SKILL IDE in Cadence Virtuoso Environment
 
 
-### Contents:
-1. [Writing SKILL Code](#writingSkill)
-2. [Invoking SKILL IDE](#invokeSkillIde)
-3. [Writing Your First Program](#firstSkillProgram)
-4. [Exploring SKILL Functions](#exploreSkillFunctions)
-
 
 This guide will show you how to set up the SKILL IDE within Cadence's Virtuoso environment, enabling you to write and 
 execute SKILL programming language scripts to create custom tools and automate tasks.

@@ -4,14 +4,6 @@ description: "Kelvin connection for IC design explained"
 
 ##  Kelvin connection in IC design
 
-### Table of Contents
-
-1. [Introduction](#intro)
-2. [The concept](#concept)
-3. [Kelvin connection in unity gain buffer (example)](#kelvinUGBExample)
-4. [Kelvin connection in LDO (theory)](#kelvinLDOTheory)
-5. [Kelvin connection in LDO (example)](#kelvinLDOExample)
-
 
 
 

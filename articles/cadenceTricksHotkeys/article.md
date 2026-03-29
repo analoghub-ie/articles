@@ -2,11 +2,6 @@
 description: "Useful hotkeys for Cadence Virtuoso"
 ---
 
-### Cadence Virtuoso Shortcuts
-1. [Schematic Editor Shortcuts](#schematicEditor)
-2. [Layout Editor Shortcuts](#layoutEditor)
-3. [Bindkeys File](/category/cadenceEnvironmentSetup/article/cadenceEnvironmentSetup#bindkeys)
-
 <div id="schematicEditor"></div>
 
 ### 1. Schematic Editor Shortcuts

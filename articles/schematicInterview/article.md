@@ -3,10 +3,6 @@ description: "Analog Design Interview Questions"
 hideInProd: true
 ---
 
-### Table of Contents:
-1. [RC-networks questions](#RCNetworks)
-1. [OpAmp circuits questions](#opampNetworks)
-
 
 
 <div id="RCNetworks"></div>

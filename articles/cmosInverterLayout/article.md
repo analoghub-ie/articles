@@ -5,11 +5,6 @@ hideInProd: true
 
 ## CMOS Inverter Layout
 
-### Table of Contents
-1. [CMOS Inverter circuit analysis](#circuitAnalysis)
-2. [Basic layers and devices](#basicLayers)
-3. [CMOS Inverter layout (video)](#inverterLayoutVideo)
-
 <div id="circuitAnalysis"></div>
 
 ### 1. CMOS Inverter circuit analysis

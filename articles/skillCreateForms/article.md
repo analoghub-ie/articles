@@ -5,16 +5,6 @@ description: "Creating interactive forms in Cadence Virtuoso using SKILL"
 ## Creating Forms in SKILL Code: A Practical Guide
 
 
-### Contents:
-1. [Layout Forms](#layoutForms)
-2. [GUI Template](#guiTemplate)
-3. [Map Callback](#mapCallback)
-4. [Modify Callback](#modifyCallback)
-5. [Button Callback - Browse](#buttonBrowseCallback)
-6. [Button Callback - Run](#buttonRunCallback)
-7. [Conclusion](#conclusion)
-8. [Full code](#fullCode)
-
 Why should we create graphical user interfaces (GUIs) for our tools?  
 
 GUIs offer a user-friendly and intuitive way to interact with software, making complex tasks more accessible and 

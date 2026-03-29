@@ -5,10 +5,6 @@ hideInProd: true
 
 ## Common DRC errors and fixes
 
-### Table of Contents
-1. [NWell Spacing errors (NW.S.1, NW.S.2)](#nwellSpacingDRC)
-2. [PP/NP Spacing errors (PP.S.1, PP.S.2)](#ppSpacingDRC)
-
 <div id="nwellSpacingDRC"></div>
 
 ### 1. NWell Spacing errors (NW.S.1, NW.S.2)

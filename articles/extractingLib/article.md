@@ -5,14 +5,6 @@ description: "Extract library and cell names from a design hierarchy using SKILL
 ## Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code
 
 
-### Contents:
-1. [Approach](#approach)
-2. [SKILL Code](#skillCode)
-3. [SKILL Code Overview](#codeOverview)
-4. [Function Output](#functionOutput)
-5. [Usage Examples](#usageExamples)
-6. [Alternative Methods](#alternativeMethods)
-
 
 This guide explains how to extract the names of libraries and cells used in a top cell hierarchy within layout and schematic views. 
 Essentially, it answers the question: What libraries and cells are utilized in the design?

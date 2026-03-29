@@ -5,9 +5,6 @@ description: "Simulation Hacks for Cadence Virtuoso"
     
 ## Simulation Hacks 
 
-### Table of Contents
-1. [Differential Signals Testbench](#differentialSignals)
-
 <div id="differentialSignals"></div>
 
 

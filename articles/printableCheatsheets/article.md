@@ -2,9 +2,6 @@
 description: "Printable Cheatsheets for Analog Designer"
 ---
 
-### Contents:
-1. [Cadence Virtuoso Shortcuts (bindkeys)](#bindkeys)
-
 <div id="bindkeys"></div>
 
 ### 1. Cadence Virtuoso Shortcuts

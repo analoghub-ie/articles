@@ -3,9 +3,6 @@ description: "SAR ADC explained"
 hideInProd: true
 ---
 
-### Table of Contents:
-1. [Question 1](#q1)
-
 
 <div id="q1"></div>
 

@@ -4,13 +4,6 @@ hideInProd: true
 ---
 
     
-### Contents:
-1. [Introduction](#intro)
-2. [Bindkeys File](#bindkeys)
-3. [Display Resource File](#drf)
-4. [Initialisation File](#cdsinit)
-5. [Cadence Environment File](#cdsenv)
-
 <div id="intro"></div>
 
 ## 1. Introduction

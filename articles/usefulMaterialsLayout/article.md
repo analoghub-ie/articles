@@ -3,11 +3,6 @@ description: "Useful links, books, and resources for analog IC designers"
 ---
 
     
-## Contents:
-
-1. [Analog IC Layout Videos](#analogLayoutVideos)
-2. [Analog IC Layout Books](#analogLayoutBooks)
-
 <div id="analogLayoutVideos"></div>
 
 ## 1. Analog IC Layout Videos & Tutorials

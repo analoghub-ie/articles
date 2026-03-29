@@ -3,10 +3,6 @@ description: "Noise basics for analog IC design: thermal noise, noise spectral d
 ---
 
     
-## Contents:
-
-1. [Noise basics](#noiseBasics)
-   1. Thermal noise. Noise Spectral density. 
 <div id="noiseBasics"></div>
 
 <br/> <img src="http://localhost:3000/images/noiseAnalysis/resistor-noise.svg" alt="Thermal noise in a resistor" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 

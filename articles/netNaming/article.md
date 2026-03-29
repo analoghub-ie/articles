@@ -2,13 +2,6 @@
 description: "Net naming tricks in Cadence Virtuoso"
 ---
 
-### List of tricks
-1. [How to rename multiple nets simultaneously in Cadence Virtuoso?](#multipleNetsRename)
-2. [How to create a bus in Cadence Virtuoso?](#createBus)
-3. [How to edit net name directly in Cadence Virtuoso?](#directNetEditing)
-4. [How to connect a bus to a net in Cadence Virtuoso?](#busToNet)
-5. [How to connect multiple wires to the same potential in Cadence Virtuoso?](#multipleWiresToNet)
-
 <div id="multipleNetsRename"></div>
 
 

@@ -4,12 +4,6 @@ description: "Matching techniques in layout and main principles"
 
 ## Matching in layout 
 
-### Table of Contents
-1. [Introduction](#introduction)
-2. [Matching techniques](#matchingTechniques)
-3. [Placement](#placement)
-4. [Dummies](#dummies)
-
 
 <div id="introduction"></div>
 

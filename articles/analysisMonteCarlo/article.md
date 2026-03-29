@@ -5,16 +5,6 @@ hideInProd: true
 
 ## Monte Carlo Analysis
 
-### Table of Contents
-1. [Introduction](#intro)
-2. [Sources of variation](#sources)
-3. [Local mismatch](#local)
-4. [Global process variation](#global)
-5. [Local vs global in Monte Carlo](#mc-types)
-6. [Process corners](#corners)
-7. [Running Monte Carlo in Virtuoso](#virtuoso)
-8. [Interpreting results](#results)
-
 
 <div id="intro"></div>
 

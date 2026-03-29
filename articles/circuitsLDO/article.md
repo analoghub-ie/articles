@@ -4,15 +4,6 @@ description: "LDO topologies and design explained"
 
 ##  Low-dropout regulator (LDO)
 
-### Table of Contents
-1. [Introduction](#intro)
-2. [Principle of operation](#operationPrinciple)
-3. [LDO topologies](#topologies)
-4. [Feedback resistance calculation](#feedbackCalculation)
-5. [Output voltage error](#outputError)
-6. [LDO stability](#stability)
-7. [LDO parasitics](#parasitics)
-
 <div id="intro"></div>
 
 ### 1. Introduction

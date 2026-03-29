@@ -4,14 +4,6 @@ description: "Dive into interdigitation and common centroid"
 
 ## Matching patterns in layout
 
-### Table of Contents
-1. [Introduction](#introduction)
-2. [Matching principles](#matchingGoldenRules)
-3. [Matching patterns](#matchingPatterns)
-4. [Interdigitation](#interdigitation)
-5. [Common Centroid](#commonCentroid)
-6. [Matching guide](#matchingGuide)
-
 <div id="introduction"></div>
 
 ## 1. Introduction

@@ -4,14 +4,6 @@ description: "Scheduling recurring tasks in SKILL using hiRegTimer()"
 
 ## Scheduling Tasks with hiRegTimer()
 
-### Contents:
-1. [How to use hiRegTimer()](#howToUse)
-2. [Repeating tasks](#repeatingTasks)
-3. [Practical example](#practicalExample)
-4. [Understanding SKILL’s tm structure](#skillTmStructure)
-5. [More tips](#moreTips)
-6. [Conclusion](#conclusion)
-
 In Cadence's Virtuoso environment, automation tools and scripts are essential for optimizing chip design development. 
 We can benefit even more from automating tasks to run at regular intervals or specific times without manual intervention. 
 Whether you need to monitor conditions or execute background tasks for resource cleanup, scheduling these tasks to run 

@@ -5,15 +5,6 @@ description: "Handling error, warning, and info messages in SKILL"
 ## Handling error/warning/info messages in SKILL
 
 
-### Contents:
-1. [Function - hiDisplayAppDBox()](#hiDisplayAppDBox)
-2. [Display an error message](#displayError)
-3. [Display a warning message](#displayWarning)
-4. [Display an info message](#displayInfo)
-5. [Display a dialog box](#displayDialog)
-6. [Functions - error(), warn() and info()](#errFunctions)
-7. [Conclusion](#conclusion)
-
 In programming, effective communication with users and robust error handling are essential for creating reliable and 
 user-friendly applications.
 

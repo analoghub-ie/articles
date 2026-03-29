@@ -5,14 +5,6 @@ description: "Setting BindKeys in Cadence Virtuoso Using SKILL Code"
 ## Setting Bind Keys in Cadence Virtuoso Using SKILL Code
 
 
-### Contents:
-1. [Single Action Bind Key](#singleBindkey)
-2. [Multiple Actions or Complex Steps](#multipleActions)
-3. [Setting BindKeys for Functions](#functionBindkeys)
-4. [BindKey Components](#bindkeyComponents)
-5. [Loading Bindkeys](#loadingBindkeys)
-6. [Conclusion](#conclusion)
-
 
 Bind keys in Cadence Virtuoso are a great way to boost your productivity and simplify your design work. They let you set 
 up custom keyboard shortcuts for specific tasks, so you can breeze through repetitive actions faster and more efficiently.
