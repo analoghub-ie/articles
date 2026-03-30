@@ -62,6 +62,9 @@ categories:
       - slug: cadenceAnalysisEMIR
         title: "EM/IR analysis"
         short_title: "EM/IR analysis"
+      - slug: simulationHacks
+        title: "Simulation Hacks"
+        short_title: "Simulation Hacks"
 
   - name: "Layout"
     slug: Layout
@@ -155,6 +158,9 @@ categories:
       - slug: cadenceTricksHotkeys
         title: "Useful hotkeys Cadence Virtuoso"
         short_title: "Useful hotkeys"
+      - slug: cadenceEnvironmentSetup
+        title: "Setting up Cadence Environment"
+        short_title: "Setting up Cadence"
       - slug: displayParamsVerilogA
         title: "How to display Verilog-A model parameters in Cadence Virtuoso?"
         short_title: "How to display"
@@ -192,36 +198,26 @@ categories:
         title: "Schematic Design Materials"
         short_title: "Schematic Design"
 
-  - name: "Design Presentation"
-    slug: designPresentation
-    icon: "Design Presentation.svg"
-    description: "Design code and clarity tips"
+  - name: "Design Guidelines"
+    slug: designGuidelines
+    icon: "Good Design Practices.png"
+    description: "Best practices for schematic and layout design"
     articles:
+      - slug: layoutDesignChecks
+        title: "Analog IC Layout checks"
+        short_title: "Analog IC Layout"
+      - slug: schematicDesignChecks
+        title: "Schematic Design checks"
+        short_title: "Schematic Design"
+      - slug: schematicDesignPractices
+        title: "Schematic Design practices"
+        short_title: "Schematic Design"
       - slug: layoutViewer
         title: "3D Layout Viewer"
         short_title: "3D Layout Viewer"
       - slug: schematicDesignPresentation
         title: "Schematic Design Presentation"
         short_title: "Schematic Design"
-
-  - name: "Simulation Hacks"
-    slug: simulationHacks
-    icon: "Simulation Hacks.svg"
-    description: "How to simulate efficiently"
-    articles:
-      - slug: simulationHacks
-        title: "Simulation Hacks"
-        short_title: "Simulation Hacks"
-
-  - name: "Virtuoso Customization"
-    slug: cadenceEnvironmentSetup
-    icon: "Setting Up Cadence Environment.png"
-    description: "Virtuoso customization and optimization "
-    hideInProd: true
-    articles:
-      - slug: cadenceEnvironmentSetup
-        title: "Setting up Cadence Environment"
-        short_title: "Setting up Cadence"
 
   - name: "Interview Questions"
     slug: interviewQuestions
@@ -260,19 +256,4 @@ categories:
         title: "Setting Up SKILL IDE in Cadence Virtuoso Environment"
         short_title: "Setting Up SKILL IDE"
 
-  - name: "Design Practices"
-    slug: goodDesignPractices
-    icon: "Good Design Practices.png"
-    description: "Best design practices and checks"
-    hideInProd: true
-    articles:
-      - slug: layoutDesignChecks
-        title: "Analog IC Layout checks"
-        short_title: "Analog IC Layout"
-      - slug: schematicDesignChecks
-        title: "Schematic Design checks"
-        short_title: "Schematic Design"
-      - slug: schematicDesignPractices
-        title: "Schematic Design practices"
-        short_title: "Schematic Design"
 
