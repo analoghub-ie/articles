@@ -200,7 +200,7 @@ categories:
 
   - name: "Design Guidelines"
     slug: designGuidelines
-    icon: "Good Design Practices.png"
+    icon: "Design Presentation.svg"
     description: "Best practices for schematic and layout design"
     articles:
       - slug: layoutDesignChecks
