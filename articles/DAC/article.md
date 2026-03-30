@@ -3,6 +3,9 @@ description: "Verilog-A model for a DAC"
 ---
 
 ## Digital-to-Analog (DAC) Verilog-A model
+
+This is a behavioral N-bit digital-to-analog converter that reconstructs an analog voltage from a parallel binary input bus, sampled on a configurable clock edge. It is most useful in mixed-signal testbenches where a digital pattern source (counter, encoder, or static code) needs to drive an analog circuit — for example, sweeping through codes to produce a staircase ramp into a filter or amplifier. The output voltage maps linearly between `vmin` and `vmax`; `vdd`/`vss` define the input logic levels and `thresh` sets the decision threshold. Resolution is set by the `bits` macro, and `td`/`tt` model realistic clock-to-output latency. Pair it with the ADC model in a loopback testbench to validate a complete digital-in → analog → digital-out signal path.
+
 This article contains Verilog-A model for a Digital-to-Analog Converter (DAC).
 
 

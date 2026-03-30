@@ -3,6 +3,9 @@ description: "Verilog-A model for level shifter (digital)"
 ---
 
 ## Digital Level Shifter
+
+This article provides two behavioral digital level-shifter models: a non-inverting variant (`level_shifter`) and an inverting variant (`level_shifter_inv`). Level shifters are required in any mixed-voltage IC where digital control signals from a low-voltage core (e.g. 1.2 V) must interface with higher-voltage peripherals (e.g. 3.3 V or 5 V gate drivers or I/O). The non-inverting model takes a differential input (`inp`/`inn`) and adapts the output swing automatically to external `low`/`high` reference pins — no need to hard-code the target supply. `input_swing` sets the input crossing threshold (half the expected peak-to-peak swing), and `t_edge`/`t_delay` model realistic transition timing. A typical use-case is interfacing a 1.8 V digital controller with a 5 V gate driver in a power-management IC testbench.
+
 This article contains Verilog-A model for a digital Level Shifter.
 
 

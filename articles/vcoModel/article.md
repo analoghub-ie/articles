@@ -3,6 +3,9 @@ description: "Verilog-A model for the Voltage Controlled oscillator (VCO)"
 ---
 
 ## Voltage-controlled oscillator model (VCO)
+
+This is a behavioral sinusoidal VCO model where the output frequency varies linearly with the input control voltage, suitable for PLL behavioral simulations, FM modulation testbenches, and VCO gain characterization without a full transistor-level oscillator. Two variants are provided: Model 1 sets the tuning sensitivity directly via `Gain_Hz_per_V` (Hz/V); Model 2 derives it automatically from a `Start_frequency`/`Stop_frequency` tuning range — convenient when the VCO spec is expressed as a bandwidth rather than a gain slope. Shared parameters include `DC_offset` (output midpoint), `Amplitude`, and `Points_per_period` (simulator steps per cycle — increase this for accurate FFT-based phase-noise analysis). The internal `$bound_step` call adapts the maximum timestep to the instantaneous frequency, ensuring the waveform is correctly resolved even at high frequencies. A typical use-case is the oscillator core in a PLL behavioral model for lock-time or phase-noise co-simulation.
+
 This article contains two models: 
 
 

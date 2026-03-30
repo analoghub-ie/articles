@@ -3,6 +3,9 @@ description: "Verilog-A model for Decimal to Thermometer encoder"
 ---
 
 ## Decimal to Thermometer Encoder
+
+This is a static combinatorial block that drives a thermometer-coded output bus from a fixed decimal value given as the `Decimal_Code` parameter, with no input port or clock. It is the direct decimal-input counterpart to the `bin2therm` model — most useful for pre-setting a thermometer bus to a known level, for example initializing a current-steering DAC array or a programmable-gain bank to a specific state at simulation start. `therm_bits` sets the number of output lines and `Start_Bit` selects whether code 0 maps to the all-zero or the LSB-high thermometer word. For dynamic (time-varying) thermometer encoding driven by a live binary signal, use the `bin2therm` model instead.
+
 This article contains Verilog-A model for Decimal to Thermometer encoder. This block can be used for behavioral simulation of the pipelined ADCs, programmable gains/BW etc. This model will automatically select number of outputs based on selected number of input binary bits.
 **Usage:**
 

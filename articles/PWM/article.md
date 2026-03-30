@@ -3,6 +3,9 @@ description: "Verilog-A model for pulse width generator"
 ---
 
 # Pulse Width Modulated generator
+
+This is a behavioral pulse-width modulation generator that produces a fixed-duty-cycle square wave phase-locked to an external input clock, intended for switching-converter testbenches, gate-driver stimulus sources, or any design requiring a precisely timed on-time. The external clock (`clk`) triggers the output; `duty` (0–1 exclusive) and `period` set the duty cycle and output period, while `vdd`/`vss` define the output swing and `t_edge`/`t_delay` control edge sharpness and phase offset. A typical use-case is supplying a PWM drive signal to a switch model in a DC-DC converter simulation where you need to sweep duty cycle independently of switching frequency. Note that `period` must match the input clock period for the timing to be consistent.
+
 This article contains Verilog-A models for a Pulse Width Modulated generator. 
 
 

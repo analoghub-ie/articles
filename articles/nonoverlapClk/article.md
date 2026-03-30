@@ -3,6 +3,9 @@ description: "Verilog-A model non-overlapping clock generator"
 ---
 
 # Non-overlapping clock generator
+
+This article provides three variants of a non-overlapping clock generator: a 2-phase generator at the same frequency as the input clock, a 2-phase generator at half the input clock frequency (frequency-divided), and a 4-phase generator at one-quarter the input clock frequency. Non-overlapping clocks are essential in switched-capacitor circuits — integrators, filters, SAR ADC charge-redistribution arrays — where two phases must never be simultaneously high to prevent charge sharing and signal corruption. The key parameter shared by all variants is `t_dead`, which sets the guaranteed dead-time gap between adjacent phases; `vdd`/`vss` set output levels and `t_edge`/`t_delay` control edge characteristics. A typical use-case is generating the φ1/φ2 clocks for a switched-capacitor integrator or the four-phase sequence of a charge-pump in a behavioral PLL model.
+
 This article contains Verilog-A models for a Non-overlapping clock generator. 
 
 **Usage:**

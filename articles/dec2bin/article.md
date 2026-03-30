@@ -3,6 +3,9 @@ description: "Verilog-A model for Decimal to Binary encoder"
 ---
 
 ## Decimal-to-Binary Encoder
+
+This is a static combinatorial block that converts a fixed decimal value (set via the `decimal_number` parameter) into a parallel binary output bus — there is no input port and no clock, so the output is driven once at simulation start. It is most useful as a one-shot bit-pattern generator when you need to pre-load a specific digital code into a DAC, decoder, or register model at the beginning of a simulation. The `binary_bits` macro sets the bus width and `vdd`/`vss` define the output logic levels. A typical use-case is quickly applying a known static code to a DAC model to verify its output voltage at a specific operating point, without wiring up a counter or sequencer stimulus.
+
 This page contains Verilog-A model of the decimal to binary encoder. 
 
 **Usage:**
