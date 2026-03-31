@@ -4,7 +4,7 @@ description: "Creating clean and informative schematic diagrams for Analog IC de
 
    
 
-## Schematic Diagrams
+# Schematic Diagrams
 
 How many times we've seen ugly drawings like these in papers, design presentations and guides?
 

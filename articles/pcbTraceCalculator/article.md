@@ -2,7 +2,7 @@
 description: "RLC-calculator for PCB trace"
 ---
 
-## RLC-calculator for a PCB trace
+# RLC-calculator for a PCB trace
 This article contains MATLAB script for the calculation of the parasitic parameters of the PCB trace.
 > **Script limitations:**
 > - Valid under 1GHz

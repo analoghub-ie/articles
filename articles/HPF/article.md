@@ -2,7 +2,7 @@
 description: "Verilog-A model for high-pass filter (HPF)"
 ---
 
-## High-pass filter model
+# High-pass filter model
 
 This is a behavioral first-order high-pass filter implemented in the Laplace (s-domain) using Verilog-A's `laplace_nd` function, so it is evaluated natively as a transfer function during AC analysis and as an equivalent time-domain filter during transient. The only tunable parameter is `Cutoff_frequency` — the −3 dB corner (default: 10 kHz) — making it trivial to drop into any testbench without sizing resistors or capacitors. Typical use-cases include AC-coupling a signal source to strip DC bias, representing the high-frequency pole of a feedback network, or serving as an ideal reference response when verifying the corner frequency of a real RC filter implementation.
 

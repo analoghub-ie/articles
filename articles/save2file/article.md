@@ -2,7 +2,7 @@
 description: "Verilog-A block for saving simulation results to file"
 ---
 
-## ADC
+# ADC
 
 This is a utility Verilog-A block — not a signal-processing model — that samples an observed circuit node (`in`) each time a sampling clock (`smp`) crosses a threshold and writes the value to a plain-text file. It is most valuable for exporting long transient simulation datasets to MATLAB, Python, or other post-processing tools without relying on Cadence-specific waveform export formats. The `path` and `file_nm` parameters define the output file location; enabling `montecarlo > 0.5` causes each Monte Carlo iteration to write to a uniquely numbered file, preventing runs from overwriting each other. A typical use-case is capturing the output of an ADC model at every sample point during a noise or linearity simulation, then importing the data into MATLAB for SNDR, SFDR, or histogram analysis.
 

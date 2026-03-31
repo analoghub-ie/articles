@@ -2,7 +2,7 @@
 description: "How to get rid of solder warning (intersection of 4 wires) in Cadence Virtuoso?"
 ---
 
-## How to get rid of solder warning (intersection of 4 wires) in Cadence Virtuoso?
+# How to get rid of solder warning (intersection of 4 wires) in Cadence Virtuoso?
 
 You've probably seen this annoying warning multiple times while saving your design:
 

@@ -2,7 +2,7 @@
 description: "Verilog-A model for a comparator"
 ---
 
-## Comparator
+# Comparator
 
 This is a behavioral analog comparator that outputs `VDD` when the non-inverting input (`inp`) exceeds the inverting input (`inn`), and 0 V otherwise — ideal as a decision element in SAR ADC control logic, zero-crossing detectors, or overvoltage-protection circuits. `t_delay` models propagation delay and `t_edge` models rise/fall time, allowing you to approximate realistic comparator speed without a transistor-level model. The built-in `$bound_step` call prevents the simulator from stepping over fast transitions; comment it out if simulation speed is a concern and transitions are not critical. A typical use-case is the comparison stage in a SAR ADC behavioral model where the bit-cycling logic depends on clean, timely digital decisions from an analog subtraction.
 

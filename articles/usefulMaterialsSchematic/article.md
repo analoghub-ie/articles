@@ -5,7 +5,7 @@ description: "Useful links, books, and resources for analog IC designers"
     
 <div id="analogDesignVideos"></div>
 
-## 1. Analog IC Design Theory Videos
+# 1. Analog IC Design Theory Videos
 
  - [Analog IC Design Lectures by Prof. B. Razavi, Part1](https://www.youtube.com/watch?v=yQDfVJzEymI&list=PLyYrySVqmyVPzvVlPW-TTzHhNWg1J_0LU)
  - [Analog IC Design Lectures by Prof. B. Razavi, Part2](https://www.youtube.com/watch?v=pK2elUcXWzs&list=PLO4mxQzfcml_56XSGcA8ULOv7qEtZd0Hy)

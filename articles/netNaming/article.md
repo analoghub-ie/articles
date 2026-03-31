@@ -5,7 +5,7 @@ description: "Net naming tricks in Cadence Virtuoso"
 <div id="multipleNetsRename"></div>
 
 
-## 1. How to rename all nets in Cadence Virtuoso?
+# 1. How to rename all nets in Cadence Virtuoso?
 This is how to rename multiple nets in Cadence Virtuoso.
 1. Have your schematic with the multiple nets that you want to rename simultaneously:
 

@@ -2,7 +2,7 @@
 description: "Dive into interdigitation and common centroid"
 ---
 
-## Matching patterns in layout
+# Matching patterns in layout
 
 <div id="introduction"></div>
 

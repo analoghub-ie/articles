@@ -2,7 +2,7 @@
 description: "Verilog-A model for a binary counter"
 ---
 
-## Binary Counter Model Verilog-A
+# Binary Counter Model Verilog-A
 
 This is a behavioral N-bit synchronous binary counter that increments or decrements on the rising edge of `clk` while `en` is high, useful as a stimulus or sequencing block in ADC testbenches, frequency dividers, or state machines for programmable-gain/bandwidth control. The counter width is fixed by the `bits` macro; `count_up` selects direction, `step_size` sets the increment, and `start_code` defines the reset value. `t_delay` and `t_edge` model clock-to-output delay and edge times on the output bus, giving realistic digital behavior. A typical use-case is driving a DAC model with a linearly increasing code to generate a staircase waveform for ADC linearity characterization, or sequencing the capacitor-array switches in a SAR ADC behavioral model.
 

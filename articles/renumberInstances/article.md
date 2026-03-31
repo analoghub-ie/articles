@@ -2,7 +2,7 @@
 description: "How to renumber instances in Cadence Virtuoso"
 ---
 
-## Renumbering instances in Cadence Virtuoso
+# Renumbering instances in Cadence Virtuoso
 During design, we are adding and deleting instances multiple times, so the instance names become wild like: ***R556***
 or ***C132***. This makes it hard to track them during layout and extraction as well as complicates the communication
 between schematic and layout engineers:

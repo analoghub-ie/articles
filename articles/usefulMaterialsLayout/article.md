@@ -5,7 +5,7 @@ description: "Useful links, books, and resources for analog IC designers"
     
 <div id="analogLayoutVideos"></div>
 
-## 1. Analog IC Layout Videos & Tutorials
+# 1. Analog IC Layout Videos & Tutorials
 
 - [Layout Tutorials Playlist (AnalogHub)](https://www.youtube.com/watch?v=hm_Q0dSpx1I&list=PL0oLvNvFrW9xbe26NgdX-HsknCJ4ioGT7)
 

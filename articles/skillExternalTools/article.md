@@ -3,7 +3,7 @@ description: "Running external tools from Cadence Virtuoso via SKILL"
 ---
 
 
-## Running External Tools via SKILL
+# Running External Tools via SKILL
 
 When working with a programming language, we should stick to it as much as possible for consistency, efficiency, 
 integration, error handling, scalability, and more.

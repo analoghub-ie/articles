@@ -2,7 +2,7 @@
 description: "Matching techniques in layout and main principles"
 ---
 
-## Matching in layout 
+# Matching in layout 
 
 
 <div id="introduction"></div>

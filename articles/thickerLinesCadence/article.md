@@ -2,7 +2,7 @@
 description: "How to make wires thicker in Cadence Virtuoso"
 ---
 
-## How to make wires/lines thicker in Cadence Virtuoso?
+# How to make wires/lines thicker in Cadence Virtuoso?
 
 Let's make Cadence Virtuoso schematic look nicer and more friendly for print export. Default line thickness is too small,
  so let's change that. First, in main CIW window, navigate to **Tools → Display Resource Manager → Edit** :

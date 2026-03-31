@@ -2,7 +2,7 @@
 description: "How to display Verilog-A model parameters on schematic in Cadence Virtuoso"
 ---
 
-## How to display Verilog-A model parameters in Cadence Virtuoso?
+# How to display Verilog-A model parameters in Cadence Virtuoso?
 
 Displaying *Verilog-A* model parameters on the schematic can be useful to track changes.
 To do that, all you need is to add text label (Create → Label **[Hotkey L]**) and then press **F3** to display options
