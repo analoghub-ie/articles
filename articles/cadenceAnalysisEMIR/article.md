@@ -8,8 +8,7 @@ EM analysis becomes important for example during the design of high-current circ
 Metal routing in IC design have a limited current capacity before it will fail. 
 You can read more about electromigration [here](/category/Layout/article/layLayoutDependentEffects#EM).
 
-## EM analysis setup
-Workflow:
+<b>EM analysis workflow:</b>
 1. [Extract your design](#extractingDesign) using Calibre PEX  to *.dspf*;
 2. [Configure simulator](#analysisSetting) for performing EM/IR analysis;
 3. Use files [.emDataFile](/category/cadenceAnalysis/article/cadenceAnalysisEMIR#emDataFile) 
