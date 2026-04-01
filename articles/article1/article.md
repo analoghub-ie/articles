@@ -83,6 +83,7 @@ Ordered list:
     1. Sub-step 2a
     2. Sub-step 2b
 3. Third step
+4. Fourth step
 
 ---
 
