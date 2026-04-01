@@ -32,15 +32,15 @@ Extract the whole design, or only specific nets you need:
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-net-selection.png" alt="Net selection for EMIR analysis" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">Net selection for EMIR analysis</p> 
 
-- Go to the PEX options tab;
-- Provide ground name;
-- Check that checkboxes are activated as shown.
+1. Go to the PEX options tab;
+2. Provide ground name;
+3. Check that checkboxes are activated as shown.
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-PEX-options.png" alt="PEX options for EMIR analysis" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">PEX options for EMIR analysis</p> 
 
-- Go to the Reduction and CC tab;
-- Check that the reduction is disabled.
+1. Go to the Reduction and CC tab;
+2. Check that the reduction is disabled.
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-PEX-reduction.png" alt="PEX reduction for EMIR analysis" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">PEX reduction for EMIR analysis</p> 
@@ -49,8 +49,8 @@ Extract the whole design, or only specific nets you need:
 
 ## 2. Setting the analysis
 
-- Go to the ADE L;
-- Provide extracted *.dspf* file using *Simulation files* menu.
+1. Go to the ADE L;
+2. Provide extracted *.dspf* file using *Simulation files* menu.
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-simulation-files.png" alt="Providing dspf for EMIR analysis" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">Providing dspf for EMIR analysis</p> 
@@ -69,40 +69,41 @@ Extract the whole design, or only specific nets you need:
 <p style="display: block; text-align: center">EMIR analysis settings</p> 
 
 
-- Set solver method to direct;
-- Select full transient or time window for EM estimation;
-- Click *Add/Modify*.
+1. Set solver method to direct;
+2. Select full transient or time window for EM estimation;
+3. Click *Add/Modify*.
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-setup-2.png" alt="EMIR analysis settings2" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">EMIR analysis settings</p> 
 
-- Add the *.dspf* file;
-- Click *Run*;
-- After run is finished, click *Apply*.
+1. Add the *.dspf* file;
+2. Click *Run*;
+3. After run is finished, click *Apply*.
 
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-setup-3.png" alt="EMIR analysis settings3" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">EMIR analysis settings</p> 
 
-- Check the temperature and process corner;
-- Check that simulator is set to *aps emir*;
-- Run the simulation.
+1. Check the temperature and process corner;
+2. Check that simulator is set to *aps emir*;
+3. Run the simulation.
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-setup-4.png" alt="EMIR analysis settings4" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">EMIR analysis settings</p> 
 
 ## 3. Display the results
 
-- After simulation is finished, go to:  
-*Results  → EM/IR data → Layout analysis*;
-- Select the layout view.
+1. After simulation is finished, go to:  
+*Results → EM/IR data → Layout analysis*;
+2. Select the layout view;
+3. You will see a heatmap of the violations on your layout.
 
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-display-1.png" alt="EMIR analysis display settings" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">EMIR analysis display settings</p> 
 
-- You will see a heatmap of the violations on your layout.
-> N.B. If the average density is more than 1, that means that the layout is not satisfying EM rules.
+
+> Note: If the average density is more than 1, that means that the layout is not satisfying EM rules.
 
 <br/> <img src="http://localhost:3000/images/cadenceAnalysisEMIR/EMIR-display-3.png" alt="EMIR analysis results example" style="display: block; margin-inline: auto; width: min(80%, 40rem)" /> 
 <p style="display: block; text-align: center">EMIR analysis results example</p> 
