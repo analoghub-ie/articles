@@ -18,13 +18,14 @@ provided by University of Twente, Netherlands.
 </div>
 
 ***Usage (Windows):***
-1. Download the software from the official [GitHub repo](https://github.com/icdut24/GDS3D)
-2. Go to *path* and change the map file according to your process;
+1. Download the software repo from the official [GitHub repo](https://github.com/icdut24/GDS3D)
+2. Unzip / extract it
 3. [Export GDS in Cadence Virtuoso](/category/cadenceTricks/article/exportGDS)
-4. Place GDS into the *path*
-5. Modify ***.map*** file according to the process layer definitions;
+4. Put your GDS file into the repo’s gds/ subfolder
+5. Edit the tech/map file in the repo's techfiles/ subfolder so it matches your process layers
 6. Change GDS name and MAP file name in *.cmd* script;
 7. Run *.cmd*
+
 
 
 The process definition files contain the physical properties of the process being used, as well as color mappings for 
