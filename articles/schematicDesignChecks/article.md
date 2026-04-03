@@ -4,6 +4,3 @@ hideInProd: true
 ---
 
     
-
-### Contents:
-1. [Introduction](#introduction)

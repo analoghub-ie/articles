@@ -2,7 +2,10 @@
 description: "Verilog-A model for an ADC"
 ---
 
-## Analog-to-Digital (ADC) Verilog-A model
+# Analog-to-Digital (ADC) Verilog-A model
+
+This is a behavioral N-bit analog-to-digital converter, most useful in mixed-signal testbenches where you need an ideal ADC to represent the digital backend — for example, verifying that an LDO or buffer output stays within a specified input range. The model samples the analog input `in` on a configurable clock edge, quantizes it uniformly between `vmin` and `vmax`, and drives a parallel binary output bus at `vdd`/`vss` logic levels. Resolution is controlled by the `bits` macro at the top of the file (default: 12-bit); `td` and `tt` add realistic clock-to-output delay and output transition time, or can be zeroed for ideal instantaneous conversion. A typical use-case is pairing this model with a DAC in a loopback testbench to validate a complete analog front-end signal chain.
+
 This article contains Verilog-A model for an Analog-to-Digital Converter (ADC).
 
 
@@ -20,7 +23,6 @@ This article contains Verilog-A model for an Analog-to-Digital Converter (ADC).
 10. Instantiate ***ADC*** cell into your design;
 11. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 
 <br/> <img src="http://localhost:3000/images/ADC/adc-dac-tb.png" disableinvert alt="ADC-DAC testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -30,7 +32,6 @@ This article contains Verilog-A model for an Analog-to-Digital Converter (ADC).
 <br/> <img src="http://localhost:3000/images/ADC/adc-dac-sim.png" disableinvert alt="ADC-DAC simulation result" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">ADC-DAC simulation result</p> 
  
-</br>
 
 > **Cell name:** ADC
 

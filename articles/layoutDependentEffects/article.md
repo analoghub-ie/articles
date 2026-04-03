@@ -1,18 +1,11 @@
 ---
-description: "Diving into the layout-dependent effects, such as LOD, WPE, Electromigration, Antenna their nature and prevention techniques"
+description: "Layout-dependent effects: LOD, WPE, Electromigration, and Antenna — causes and prevention"
 ---
 
-## Layout-dependent effects (LOD, WPE, Latch-up, Electromigration, Antenna)  
-### Table of Contents  
-1. [Latch-up](#Latchup)  
-2. [Length of Diffusion (LOD)](#LOD)  
-3. [Well Proximity Effect (WPE)](#WPE)  
-4. [Electromigration](#EM)
-5. [Antenna effect](#Antenna)
-  
+# Layout-dependent effects (LOD, WPE, Latch-up, Electromigration, Antenna)  
 <div id="Latchup"></div>
 
-### 1. Latchup  
+## 1. Latchup  
 
 **Latch-up** is a short circuit/low impedance channel generated between the power and ground rails of a MOSFET circuit, 
 causing IC being inoperable or damaged. It is caused by the formation of the BJT network with a positive feedback. 
@@ -23,7 +16,6 @@ causing IC being inoperable or damaged. It is caused by the formation of the BJT
 - Substrate noise  
 - ESD occurrences  
 
-<br/> 
 <img src="http://localhost:3000/images/layoutDependentEffects/latchup.svg" alt="Latch-up in CMOS technology (CMOS inverter example)" style="display: block; margin-inline: auto; width: min(80%, 60rem)" />  
 <p style="display: block; text-align: center">Latch-up in CMOS technology (CMOS inverter example)</p>
 
@@ -59,7 +51,7 @@ so the IC has to be powered off to restore normal operation.
 
 <div id="LOD"></div>
 
-### 2. Length of Diffusion (LOD)  
+## 2. Length of Diffusion (LOD)  
 
 **Length Of Diffusion effect (LOD)** - is the manufacturing effect, which induces stress to the edges of the diffusion 
 area during Shallow Trench Insulation (STI) formation.   
@@ -91,7 +83,7 @@ edge effects (each device will have the same neighbours).
 
 <div id="WPE"></div>
   
-###  3. Well Proximity Effect (WPE)  
+##  3. Well Proximity Effect (WPE)  
 
 
 **Well proximity effect (WPE)** – is the effect due to lateral non-uniformity in well doping which causes the MOSFET 
@@ -139,8 +131,8 @@ for all devices;
  
 <div id="Electromigration"></div>
 
-### 4. Electromigration    
-#### 4.1 Failure mechanisms  
+## 4. Electromigration    
+### 4.1 Failure mechanisms  
 **Electromigration** - is an electrical effect where electrons on an IC interconnect give some momentum to the atoms 
 that make up the wire. This happens through low energy collisions and subsequent scattering. As a result, the 
 interconnect deforms over time as atoms are moved along the interconnect towards the cathode. This causes pits to 
@@ -153,14 +145,14 @@ the cathode.
 
 > **Electromigration key points:**  
 > - Occurs at very high current densities (usually >$10kA/cm^2$);  
-> - Usually caused by the incorrect wire width for a give current density.
+> - Usually caused by the incorrect wire width for a given current density.
 
 
 <br/> <img src="http://localhost:3000/images/layoutDependentEffects/electromigration.gif" disableinvert alt="Electromigration in layout" style="display: block; margin-inline: auto; width: min(80%, 35rem)" /> 
 <p style="display: block; text-align: center">Electromigration process in CMOS technology</p>
 
 
-#### 4.2 Types of failures 
+### 4.2 Types of failures 
 
  
 - **Void:** If the incoming ion flux is lesser than the outgoing ion flux, It will create a void in interconnect. 
@@ -174,9 +166,9 @@ neighbouring metal interconnect which may result in a short circuit.
 <p style="display: block; text-align: center">Hillocks and voids</p>
 
 
-#### 4.3 Electromigration prevention 
+### 4.3 Electromigration prevention 
 
- On order to prevent electromigration, designers should strictly follow the manufacturer recommendation for the wire 
+ In order to prevent electromigration, designers should strictly follow the manufacturer recommendation for the wire 
  width (because the thickness is specified by the process and cannot be changed) according to the current flowing 
  through the wire. As a sanity check for the layout design, EM/IR analysis can be performed (i.e. using Cadence Voltus 
  tool).
@@ -197,7 +189,7 @@ neighbouring metal interconnect which may result in a short circuit.
 
 <div id="Antenna"></div>
 
-### 5. Antenna effect  
+## 5. Antenna effect  
 
 The **Antenna Effect**, also known as **Plasma-Induced Damage**, occurs when charge accumulates on isolated nodes of an 
 integrated circuit during fabrication, particularly during **plasma etching**. Plasma's energetic ions and radicals 

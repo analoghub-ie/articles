@@ -1,17 +1,13 @@
 ---
-description: "This article describes common DRC errors and fixes"
+description: "Common DRC errors and how to fix them"
 hideInProd: true
 ---
 
-## Common DRC errors and fixes
-
-### Table of Contents
-1. [NWell Spacing errors (NW.S.1, NW.S.2)](#nwellSpacingDRC)
-2. [PP/NP Spacing errors (PP.S.1, PP.S.2)](#ppSpacingDRC)
+# Common DRC errors and fixes
 
 <div id="nwellSpacingDRC"></div>
 
-### 1. NWell Spacing errors (NW.S.1, NW.S.2)
+## 1. NWell Spacing errors (NW.S.1, NW.S.2)
 
 In this example we are getting NW spacing error due to 2 reasons:
 
@@ -35,7 +31,7 @@ Spacing DRC can be fixed by combining NW of the guard ring and device:
 
 <div id="ppSpacingDRC"></div>
 
-### 2. PP/NP Spacing errors (PP.S.1, PP.S.2)
+## 2. PP/NP Spacing errors (PP.S.1, PP.S.2)
 
 Spacing DRC for PP/NP usually happens because of insufficient spacing between devices.
 

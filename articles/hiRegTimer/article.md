@@ -1,16 +1,8 @@
 ---
-description: "This article explains how to schedule tasks with hiRegTimer() in SKILL"
+description: "Scheduling recurring tasks in SKILL using hiRegTimer()"
 ---
 
-## Scheduling Tasks with hiRegTimer()
-
-### Contents:
-1. [How to use hiRegTimer()](#howToUse)
-2. [Repeating tasks](#repeatingTasks)
-3. [Practical example](#practicalExample)
-4. [Understanding SKILL’s tm structure](#skillTmStructure)
-5. [More tips](#moreTips)
-6. [Conclusion](#conclusion)
+# Scheduling Tasks with hiRegTimer()
 
 In Cadence's Virtuoso environment, automation tools and scripts are essential for optimizing chip design development. 
 We can benefit even more from automating tasks to run at regular intervals or specific times without manual intervention. 
@@ -24,7 +16,7 @@ use **hiRegTimer()** to schedule and repeat your tasks efficiently.
 
 <div id="howToUse"></div>
 
-### 1. How to use hiRegTimer()
+## 1. How to use hiRegTimer()
 
 The **hiRegTimer()** function takes two arguments - a function to run (provided as a string) and a number representing 
 tenths of seconds after which the function should run.
@@ -49,7 +41,7 @@ will be removed.
 
 <div id="repeatingTasks"></div>
 
-### 2. Repeating tasks
+## 2. Repeating tasks
 
 To repeat a task, we’ll need to run **hiRegTimer()** again. To do so, we can create a simple recursion, like this:
 
@@ -80,7 +72,7 @@ nil
 
 <div id="practicalExample"></div>
 
-### 3. Practical example
+## 3. Practical example
 
 Let’s implement a wrapper function to schedule a task at a specific time and optionally repeat it daily.
 
@@ -262,7 +254,7 @@ scheduleTask("sayHello()" "16:55:00" ?everyDay t)
 
 <div id="skillTmStructure"></div>
 
-### 4. Understanding SKILL’s tm structure
+## 4. Understanding SKILL’s tm structure
 
 SKILL’s tm structure requires a bit of clarification:
 
@@ -293,7 +285,7 @@ dateTime~>tm_year + 1900
 
 <div id="moreTips"></div>
 
-### 5. More tips
+## 5. More tips
 
 - You should take care not to schedule anything that is too lengthy to run, since this will appear to occasionally 
 freeze the user interface as the scheduled task runs.
@@ -303,7 +295,7 @@ freeze the user interface as the scheduled task runs.
 
 <div id="conclusion"></div>
 
-### 6. Conclusion 
+## 6. Conclusion 
 
 By leveraging **hiRegTimer()**, you can automate routine tasks and optimize your workflow. Explore its capabilities and 
 see how it can enhance your project efficiency.

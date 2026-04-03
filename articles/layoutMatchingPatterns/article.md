@@ -2,15 +2,7 @@
 description: "Dive into interdigitation and common centroid"
 ---
 
-## Matching patterns in layout
-
-### Table of Contents
-1. [Introduction](#introduction)
-2. [Matching principles](#matchingGoldenRules)
-3. [Matching patterns](#matchingPatterns)
-4. [Interdigitation](#interdigitation)
-5. [Common Centroid](#commonCentroid)
-6. [Matching guide](#matchingGuide)
+# Matching patterns in layout
 
 <div id="introduction"></div>
 
@@ -161,7 +153,6 @@ Taking into account that $$A = 2B = 2C$$, we can see that all devices in this ar
 
 The following tutorial shows how to create an **interdigitation** pattern for a current mirror in Cadence Layout GXL:
 
-<br/>
 
 <div style="display: block; margin-inline: auto; width: min(90%, 100rem); aspect-ratio: 16/9">
     <iframe 
@@ -284,7 +275,6 @@ multipliers, place them too, but on $D_2$
 
 The following tutorial shows how to create a **common centroid** pattern for a differential pair in Cadence Layout GXL:
 
-<br/>
 
 <div style="display: block; margin-inline: auto; width: min(90%, 100rem); aspect-ratio: 16/9">
     <iframe 

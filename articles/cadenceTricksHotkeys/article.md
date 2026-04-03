@@ -1,11 +1,6 @@
 ---
-description: "This article describes hotkeys for Cadence Virtuoso"
+description: "Useful hotkeys for Cadence Virtuoso"
 ---
-
-### Cadence Virtuoso Shortcuts
-1. [Schematic Editor Shortcuts](#schematicEditor)
-2. [Layout Editor Shortcuts](#layoutEditor)
-3. [Bindkeys File](/category/cadenceEnvironmentSetup/article/cadenceEnvironmentSetup#bindkeys)
 
 <div id="schematicEditor"></div>
 
@@ -48,7 +43,6 @@ description: "This article describes hotkeys for Cadence Virtuoso"
  - **O** - Display settings;   
  - **F3** - Current function options;
  
-<br/> 
 <img src="http://localhost:3000/images/cadenceTricksHotkeys/bindkeys-schematic.svg" alt="Schematic Bindkeys Cheatsheet" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center"><a href="https://github.com/analoghub-ie/art/blob/main/cadenceBindkeys/bindkeys-schematic.pdf">Schematic Bindkeys Cheatsheet (A4) download</a></p>
 
@@ -92,7 +86,6 @@ description: "This article describes hotkeys for Cadence Virtuoso"
 - **E** - Open layout editor options;
 - **F3** - Current function options;
 
-<br/> 
 <img src="http://localhost:3000/images/cadenceTricksHotkeys/bindkeys-layout.svg" alt="Layout Bindkeys Cheatsheet" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center"><a href="https://github.com/analoghub-ie/art/blob/main/cadenceBindkeys/bindkeys-layout.pdf">Layout Bindkeys Cheatsheet (A4) download</a></p>
 

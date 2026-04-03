@@ -31,7 +31,6 @@ categories:
     slug: circuitAnalysis
     icon: "circuit analysis.svg"
     description: "Analysing circuits theoretically"
-    hideInProd: true
     articles:
       - slug: circuitAnalysisTransferFunctions
         title: "Transfer Functions"
@@ -63,6 +62,9 @@ categories:
       - slug: cadenceAnalysisEMIR
         title: "EM/IR analysis"
         short_title: "EM/IR analysis"
+      - slug: simulationHacks
+        title: "Simulation Hacks"
+        short_title: "Simulation Hacks"
 
   - name: "Layout"
     slug: Layout
@@ -94,46 +96,46 @@ categories:
     description: "Variety of models for simulation"
     articles:
       - slug: ADC
-        title: "Analog-to-Digital Converter (ADC) Verilog-A model (any resolution)"
+        title: "Analog-to-Digital Converter (ADC)"
         short_title: "Analog-to-Digital"
       - slug: DAC
-        title: "Digital-to-Analog Converter (DAC) Verilog-A model (any resolution)"
+        title: "Digital-to-Analog Converter (DAC)"
         short_title: "Digital-to-Analog"
       - slug: HPF
-        title: "High-pass filter (HPF) Verilog-A model"
+        title: "High-pass filter (HPF)"
         short_title: "High-pass filter"
       - slug: LPF
-        title: "Low-pass filter (LPF) Verilog-A model"
+        title: "Low-pass filter (LPF)"
         short_title: "Low-pass filter"
       - slug: PWM
-        title: "PWM generator Verilog-A model"
+        title: "PWM generator"
         short_title: "PWM generator"
       - slug: bin2therm
-        title: "Binary to Thermometer Encoder Verilog-A model"
-        short_title: "Binary to"
+        title: "Binary to Thermometer Encoder"
+        short_title: "Binary to Thermometer"
       - slug: comparator
-        title: "Comparator Verilog-A model"
-        short_title: "Comparator Verilog-A"
+        title: "Comparator"
+        short_title: "Comparator"
       - slug: counter
-        title: "Binary Counter Verilog-A model"
+        title: "Binary Counter"
         short_title: "Binary Counter"
       - slug: dec2bin
-        title: "Decimal to Binary Encoder Verilog-A model"
+        title: "Decimal to Binary Encoder"
         short_title: "Decimal to Binary"
       - slug: dec2therm
-        title: "Decimal to Thermometer Encoder Verilog-A model"
-        short_title: "Decimal to"
+        title: "Decimal to Thermometer Encoder"
+        short_title: "Decimal to Thermometer"
       - slug: levelShifter
-        title: "Level shifter Verilog-A model"
+        title: "Level shifter"
         short_title: "Level shifter"
       - slug: nonoverlapClk
-        title: "Non-overlapping clock generator Verilog-A model"
+        title: "Non-overlapping clock generator"
         short_title: "Non-overlapping"
       - slug: save2file
-        title: "Verilog-A block for saving simulation results to file"
-        short_title: "Verilog-A block for"
+        title: "Saving simulation results to file"
+        short_title: "Saving simulation"
       - slug: vcoModel
-        title: "Voltage-controlled oscillator (VCO) Verilog-A model"
+        title: "Voltage-controlled oscillator (VCO)"
         short_title: "Voltage-controlled"
 
   - name: "MATLAB"
@@ -156,6 +158,9 @@ categories:
       - slug: cadenceTricksHotkeys
         title: "Useful hotkeys Cadence Virtuoso"
         short_title: "Useful hotkeys"
+      - slug: cadenceEnvironmentSetup
+        title: "Setting up Cadence Environment"
+        short_title: "Setting up Cadence"
       - slug: displayParamsVerilogA
         title: "How to display Verilog-A model parameters in Cadence Virtuoso?"
         short_title: "How to display"
@@ -193,36 +198,26 @@ categories:
         title: "Schematic Design Materials"
         short_title: "Schematic Design"
 
-  - name: "Design Presentation"
-    slug: designPresentation
+  - name: "Design Guidelines"
+    slug: designGuidelines
     icon: "Design Presentation.svg"
-    description: "Design code and clarity tips"
+    description: "Best practices for schematic and layout design"
     articles:
+      - slug: layoutDesignChecks
+        title: "Analog IC Layout checks"
+        short_title: "Analog IC Layout"
+      - slug: schematicDesignChecks
+        title: "Schematic Design checks"
+        short_title: "Schematic Design"
+      - slug: schematicDesignPractices
+        title: "Schematic Design practices"
+        short_title: "Schematic Design"
       - slug: layoutViewer
         title: "3D Layout Viewer"
         short_title: "3D Layout Viewer"
       - slug: schematicDesignPresentation
         title: "Schematic Design Presentation"
         short_title: "Schematic Design"
-
-  - name: "Simulation Hacks"
-    slug: simulationHacks
-    icon: "Simulation Hacks.svg"
-    description: "How to simulate efficiently"
-    articles:
-      - slug: simulationHacks
-        title: "Simulation Hacks"
-        short_title: "Simulation Hacks"
-
-  - name: "Virtuoso Customization"
-    slug: cadenceEnvironmentSetup
-    icon: "Setting Up Cadence Environment.png"
-    description: "Virtuoso customization and optimization "
-    hideInProd: true
-    articles:
-      - slug: cadenceEnvironmentSetup
-        title: "Setting up Cadence Environment"
-        short_title: "Setting up Cadence"
 
   - name: "Interview Questions"
     slug: interviewQuestions
@@ -261,22 +256,4 @@ categories:
         title: "Setting Up SKILL IDE in Cadence Virtuoso Environment"
         short_title: "Setting Up SKILL IDE"
 
-  - name: "Design Practices"
-    slug: goodDesignPractices
-    icon: "Good Design Practices.png"
-    description: "Best design practices and checks"
-    hideInProd: true
-    articles:
-      - slug: layoutDesignChecks
-        title: "Analog IC Layout checks"
-        short_title: "Analog IC Layout"
-      - slug: schematicDesignChecks
-        title: "Schematic Design checks"
-        short_title: "Schematic Design"
-      - slug: schematicDesignPractices
-        title: "Schematic Design practices"
-        short_title: "Schematic Design"
-      - slug: schematicDesignPresentation
-        title: "Schematic Design Presentation"
-        short_title: "Schematic Design"
 

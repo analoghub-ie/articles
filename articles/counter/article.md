@@ -2,7 +2,10 @@
 description: "Verilog-A model for a binary counter"
 ---
 
-## Binary Counter Model Verilog-A
+# Binary Counter Model Verilog-A
+
+This is a behavioral N-bit synchronous binary counter that increments or decrements on the rising edge of `clk` while `en` is high, useful as a stimulus or sequencing block in ADC testbenches, frequency dividers, or state machines for programmable-gain/bandwidth control. The counter width is fixed by the `bits` macro; `count_up` selects direction, `step_size` sets the increment, and `start_code` defines the reset value. `t_delay` and `t_edge` model clock-to-output delay and edge times on the output bus, giving realistic digital behavior. A typical use-case is driving a DAC model with a linearly increasing code to generate a staircase waveform for ADC linearity characterization, or sequencing the capacitor-array switches in a SAR ADC behavioral model.
+
 This article contains Verilog-A model for a binary counter, which counts up or down at the edge of the clock, when **en**
  is high.
 
@@ -13,9 +16,9 @@ This article contains Verilog-A model for a binary counter, which counts up or d
 2. Copy and paste the code provided;
 3. Specify ***bits*** variable to define the number of output bits;
 4. Specify ***start_code*** variable to be the start code of the counter;
-5. Specify ***count_up*** variable to be 1 for increasing or 0 for decresing counting;
+5. Specify ***count_up*** variable to be 1 for increasing or 0 for decreasing counting;
 6. Specify ***step_size*** variable to be the step size of the counter (increment);
-7. Specify ***vth_clk*** variable to be threshold volatge of the clock signal;
+7. Specify ***vth_clk*** variable to be threshold voltage of the clock signal;
 8. Specify ***vtol*** and ***ttol*** variables as signal and time tolerance to the clock signal;
 9. Specify ***vdd*** variable to be the output voltage of the counter;
 10. Specify ***t_edge*** and ***t_delay*** variables to be the rising/falling time and delay of the output waveform;
@@ -24,7 +27,6 @@ This article contains Verilog-A model for a binary counter, which counts up or d
 13. Instantiate ***counter*** cell into your design;
 14. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 
 <br/> <img src="http://localhost:3000/images/counter/counter-tb.png" disableinvert alt="Counter testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
@@ -34,7 +36,6 @@ This article contains Verilog-A model for a binary counter, which counts up or d
 <br/> <img src="http://localhost:3000/images/counter/counter-sim.png" disableinvert alt="Counter model simulation result" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Counter model simulation result</p> 
  
-</br>
 
 > **Cell name:** counter
 

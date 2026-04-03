@@ -1,21 +1,11 @@
 ---
-description: "This is a compilation of the useful links, books and sources for Analog IC Designers"
+description: "Useful links, books, and resources for analog IC designers"
 ---
 
     
-## Contents:
-
-1. [Analog IC Design Theory Videos](#analogVideos)
-2. [Analog IC Design Tutorials](#analogTutorials)
-3. [Analog IC Design Books](#analogDesignBooks)
-4. [Analog IC Design Software](#analogSoftware)
-5. [Analog IC Design Software Manuals and References](#analogSoftwareManuals)
-6. [Analog IC Design Forums](#analogForums)
-7. [Interesting sources](#analogInteresting)
-
 <div id="analogDesignVideos"></div>
 
-## 1. Analog IC Design Theory Videos
+# 1. Analog IC Design Theory Videos
 
  - [Analog IC Design Lectures by Prof. B. Razavi, Part1](https://www.youtube.com/watch?v=yQDfVJzEymI&list=PLyYrySVqmyVPzvVlPW-TTzHhNWg1J_0LU)
  - [Analog IC Design Lectures by Prof. B. Razavi, Part2](https://www.youtube.com/watch?v=pK2elUcXWzs&list=PLO4mxQzfcml_56XSGcA8ULOv7qEtZd0Hy)

@@ -2,14 +2,8 @@
 description: "Setting Up SKILL IDE in Cadence Virtuoso Environment"
 ---
 
-## Setting Up SKILL IDE in Cadence Virtuoso Environment
+# Setting Up SKILL IDE in Cadence Virtuoso Environment
 
-
-### Contents:
-1. [Writing SKILL Code](#writingSkill)
-2. [Invoking SKILL IDE](#invokeSkillIde)
-3. [Writing Your First Program](#firstSkillProgram)
-4. [Exploring SKILL Functions](#exploreSkillFunctions)
 
 
 This guide will show you how to set up the SKILL IDE within Cadence's Virtuoso environment, enabling you to write and 
@@ -17,14 +11,14 @@ execute SKILL programming language scripts to create custom tools and automate t
 
 <div id="writingSkill"></div>
 
-### 1. Writing SKILL Code
+## 1. Writing SKILL Code
 You can write SKILL code using any text editor, as long as you save the code with a .il file extension. For example, a 
 file might be named *move_pins.il*. However, using the dedicated SKILL IDE is recommended due to its built-in features 
 that enhance coding efficiency, such as breakpoints, error highlighting, and name completion.
 
 <div id="invokeSkillIde"></div>
 
-### 2. Invoking SKILL IDE
+## 2. Invoking SKILL IDE
 To open the SKILL IDE, go to ***CIW -> Tools -> SKILL IDE…***
 
 <br/> <img src="http://localhost:3000/images/skillIdeSetup/invokeSkill.png" disableinvert alt="Invoking SKILL IDE" style="display: block; margin-inline: auto; width: min(80%, 20rem)" /> 
@@ -32,7 +26,7 @@ To open the SKILL IDE, go to ***CIW -> Tools -> SKILL IDE…***
 
 <div id="firstSkillProgram"></div>
 
-### 3. Writing Your First Program
+## 3. Writing Your First Program
 
 To test the setup, start by writing a simple program, such as the classic "Hello, World!" example.
 
@@ -56,7 +50,7 @@ functionalities that streamline the development process.
 
 <div id="exploreSkillFunctions"></div>
 
-### 4. Exploring SKILL Functions
+## 4. Exploring SKILL Functions
 To delve deeper into the SKILL programming language, refer to Cadence's forums and official documentation. 
 Additionally, the **SKILL API Finder** is a valuable tool for discovering functions and their descriptions.
 To open API Finder, go to **CIW -> Tools -> SKILL API Finder**

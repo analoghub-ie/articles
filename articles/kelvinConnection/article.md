@@ -2,34 +2,24 @@
 description: "Kelvin connection for IC design explained"
 ---
 
-##  Kelvin connection in IC design
-
-### Table of Contents
-
-1. [Introduction](#intro)
-2. [The concept](#concept)
-3. [Kelvin connection in unity gain buffer (example)](#kelvinUGBExample)
-4. [Kelvin connection in LDO (theory)](#kelvinLDOTheory)
-5. [Kelvin connection in LDO (example)](#kelvinLDOExample)
+#  Kelvin connection in IC design
 
 
 
 
-<br/>
 
 <div id="intro"></div>
 
-### 1. Introduction
+## 1. Introduction
 
 **Kelvin connection** - is a very clever concept, often used for high-accuracy resistance measurements by separating 
 the leads that supply current from the leads that measure voltage. Let's explore how this concept applies to the IC 
 design and helps to create more accurate circuits.
 
-<br/>
 
 <div id="concept"></div>
 
-### 2. The concept
+## 2. The concept
 
 The entire idea behind **Kelvin connection** is to separate the nodes that are carrying high currents from the sensing 
 nodes to the feedback. Let's have a look on a very simple example - a unity gain buffer:
@@ -54,7 +44,6 @@ $$
 V_{drop} = I_{L}R_{trace} = 100mA*1 \Omega = 100mV
 $$
 
-<br/>
 
 To avoid such a large voltage error, we can use a **Kelvin connection**:
 
@@ -68,7 +57,7 @@ $V_{out} = V_{fb} = V_{ref}$.
 
 <div id="kelvinUGBExample"></div>
 
-### 3. Kelvin connection in unity gain buffer (example)
+## 3. Kelvin connection in unity gain buffer (example)
 
 For a unity gain buffer circuit, let's assume the following:
 
@@ -97,7 +86,6 @@ $$
 \Delta V_{out} = \frac{V_{out}}{V_{ref}} = \frac{0.9V}{1V} = 10\%
 $$
 
-</br>
 
 <u><b> Kelvin connection: </b></u>
 
@@ -119,7 +107,7 @@ There is no voltage error at the output in this case, thanks to the Kelvin conne
 
 <div id="kelvinLDOTheory"></div>
 
-### 4. Kelvin connection in LDO (theory)
+## 4. Kelvin connection in LDO (theory)
 
 Now let's take a look at more complex circuit - [a low-dropout regulator (LDO)](/category/Circuits/article/circuitsLDO), 
 which contains a resistive feedback:
@@ -157,11 +145,10 @@ usually very small compared to the
 load current, the voltage drop will be also very small, delivering almost entire value of the true output voltage to the 
 feedback. We can now say that true output voltage value is fed back into the loop.
 
-<br/>
 
 <div id="kelvinLDOExample"></div>
 
-### 5. Kelvin connection in LDO (example)
+## 5. Kelvin connection in LDO (example)
 
 For an LDO circuit, let's assume the following:
 
@@ -200,7 +187,6 @@ $$
 \Delta V_{out} = \frac{V_{out}}{2V_{ref}} = \frac{1.7V}{1.8V} = 6\%
 $$
 
-</br>
 
 <u><b> Kelvin connection: </b></u>
 

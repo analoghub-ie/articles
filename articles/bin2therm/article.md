@@ -2,11 +2,12 @@
 description: "Verilog-A model for Binary to Thermometer encoder"
 ---
 
-## Binary-to Thermometer Encoder model
+# Binary-to Thermometer Encoder model
+
+This is a behavioral binary-to-thermometer encoder that converts an N-bit binary input into a one-hot thermometer output bus, a key building block in current-steering DAC decoders, pipelined ADC segment selectors, and programmable-gain amplifier stimulus blocks. With `binary_bits = N`, the model drives 2^N output lines; `Start_Bit` selects whether decimal 0 maps to the all-zero word (Start_Bit = 0) or to the LSB-high word (Start_Bit = 1), accommodating different DAC unit-element conventions. Output logic levels are set by `vdd`/`vss` and the input threshold by `threshold`. A typical use-case is driving the unit-element switches of a segmented current-steering DAC array from a binary counter output in a mixed-signal simulation, bypassing the need for a transistor-level decoder during early behavioral verification.
 
 *This page contains Verilog-A model of the binary-to-thermometer encoder. This block can be used for behavioral simulation of the pipelined ADCs, programmable gains/BW etc. This model will automatically select number of outputs based on selected number of input binary bits.*
 
-</br>
 
 **Usage:** 
 1. Create a new cell in Library Manager named ***bin2therm*** and select cell type ***Verilog A***;
@@ -18,7 +19,6 @@ description: "Verilog-A model for Binary to Thermometer encoder"
 7. Instantiate ***bin2term*** cell into your design;
 8. Perform ***Check and Save*** and run the simulation.
 
-</br>
 
 > Example:
 > ***binary_bits = 2, Start_Bit = 0***

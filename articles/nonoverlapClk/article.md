@@ -2,13 +2,11 @@
 description: "Verilog-A model non-overlapping clock generator"
 ---
 
-## Non-overlapping clock generator
-This article contains Verilog-A models for a Non-overlapping clock generator. 
+# Non-overlapping clock generator
 
-### Table of Contents  
-1. [Non-overlap clock generator (same as clk)](#nonoverlap1)  
-2. [Non-overlap clock generator with 2 phases](#nonoverlap2)  
-3. [Non-overlap clock generator with 4 phases](#nonoverlap3)  
+This article provides three variants of a non-overlapping clock generator: a 2-phase generator at the same frequency as the input clock, a 2-phase generator at half the input clock frequency (frequency-divided), and a 4-phase generator at one-quarter the input clock frequency. Non-overlapping clocks are essential in switched-capacitor circuits — integrators, filters, SAR ADC charge-redistribution arrays — where two phases must never be simultaneously high to prevent charge sharing and signal corruption. The key parameter shared by all variants is `t_dead`, which sets the guaranteed dead-time gap between adjacent phases; `vdd`/`vss` set output levels and `t_edge`/`t_delay` control edge characteristics. A typical use-case is generating the φ1/φ2 clocks for a switched-capacitor integrator or the four-phase sequence of a charge-pump in a behavioral PLL model.
+
+This article contains Verilog-A models for a Non-overlapping clock generator. 
 
 **Usage:**
 
@@ -26,7 +24,7 @@ This article contains Verilog-A models for a Non-overlapping clock generator.
 <div id="nonoverlap1"></div>
 
 
-### Non-overlapping clock generator (same as clk)
+## Non-overlapping clock generator (same as clk)
 
 <br/> <img src="http://localhost:3000/images/nonoverlapClk/nonoverlap1-tb.png" disableinvert alt="Nonoverlap_clk testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">Nonoverlap_clk testbench</p>
@@ -93,7 +91,7 @@ endmodule
 
 <div id="nonoverlap2"></div>
 
-### Non-overlapping clock generator with 2 phases
+## Non-overlapping clock generator with 2 phases
 
 <br/> <img src="http://localhost:3000/images/nonoverlapClk/nonoverlap2-tb.png" disableinvert alt="Nonoverlap_clk_2ph testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">2-phases nonoverlap_clk testbench</p>
@@ -176,7 +174,7 @@ endmodule
 
 <div id="nonoverlap3"></div>
 
-### Non-overlapping clock generator with 4 phases
+## Non-overlapping clock generator with 4 phases
 
 <br/> <img src="http://localhost:3000/images/nonoverlapClk/nonoverlap4-tb.png" disableinvert alt="Nonoverlap_clk_4ph testbench" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
 <p style="display: block; text-align: center">4-phases nonoverlap_clk testbench</p>

@@ -1,22 +1,14 @@
 ---
-description: "This article covers IC manufacturing steps, basic components such as MOSFETs, resistors and capacitors and their types"
+description: "IC manufacturing steps and basic components: MOSFETs, resistors, and capacitors"
 ---
 
-## IC Layout Basics 
-
-### Table of Contents
-1. [CMOS process](#CMOSprocess)
-2. [CMOS Inverter cross-section](#inverterCrossSection)
-3. [Mask-related effects, distortion of light](#maskEffects)
-4. [CMOS transistors. Fingers and Multipliers](#fingersMultipliers)
-5. [Capacitors](#capacitors)
-6. [Resistors](#resistors)
+# IC Layout Basics 
 
 
 
 <div id="CMOSprocess"></div>
 
-### 1.CMOS process
+## 1.CMOS process
 Fabrication of the CMOS integrated circuit is a multistep process, that takes a lot of efforts to achieve good 
 performance and yield. Manufacturing of the IC is very similar to cooking a very tall and fancy burger - it starts from 
 the $Si-$substrate (bottom bun), adding different layers to create structures (cheese, lettuce, patty) and covering 
@@ -34,7 +26,7 @@ typical IC cross-section on the image below.
 
 <div id="inverterCrossSection"></div>
 
-### 2. CMOS Inverter cross-section
+## 2. CMOS Inverter cross-section
 
 Let's have a look on a very basic circuit - CMOS inverter in layout. CMOS inverter contains just 2 devices - PMOS and 
 NMOS transistors. Both devices are manufactured in the substrate of a p-type. In a standard CMOS process, PMOS device 
@@ -83,7 +75,7 @@ Deep NWELL connections:
 
 <div id="maskEffects"></div>
 
-### 3. Mask-related effects, distortion of light
+## 3. Mask-related effects, distortion of light
 
 **Lithography** is a key process in the fabrication of CMOS devices. It involves using light (usually extreme 
 ultraviolet, EUV) to transfer patterns from a mask onto a thin layer of photosensitive material, called photoresist, 
@@ -120,7 +112,7 @@ distortions that occur during imaging and subsequent processing steps.
 
 <div id="fingersMultipliers"></div>
 
-### 4. CMOS transistors. Fingers and Multipliers
+## 4. CMOS transistors. Fingers and Multipliers
 
 In the analog design, we often use large-sized transistors, that help us achieve desired gain or current. Usually,
 such transistors have a large $W/L$ ratio which makes them more sensitive to the manufacturing and temperature gradients.
@@ -146,7 +138,7 @@ drain-bulk capacitance $C_{DB}= C_{DB}'$. If the same device has 2 fingers, $W_n
 
 Apart from this, the polysilicon gate of the MOSFET has also some substantial resistance, making the gate voltage potential 
  distribution uneven hereby negatively affecting the performance. In the case of the two-finger device, the gate will 
- look like two hal-sized resistors in parallel, reducing the total resistance by the factor of 2.
+ look like two half-sized resistors in parallel, reducing the total resistance by the factor of 2.
  
  > **Key points of using fingers:**
  > - Reduced parasitic capacitance of the drain/source;
@@ -159,9 +151,9 @@ Apart from this, the polysilicon gate of the MOSFET has also some substantial re
 
 <div id="capacitors"></div>
 
-### 5. Capacitors
+## 5. Capacitors
 
-#### 5.1 Capacitor Types in CMOS Technology  
+### 5.1 Capacitor Types in CMOS Technology  
 
 In CMOS technology, there are three main types of capacitors:  
 
@@ -174,7 +166,7 @@ In CMOS technology, there are three main types of capacitors:
 <p style="display: block; text-align: center">Capacitor types</p> 
 
 
-#### 5.2 Metal-Oxide-Semiconductor (MOS) Capacitors  
+### 5.2 Metal-Oxide-Semiconductor (MOS) Capacitors  
 
 A **Metal-Oxide-Semiconductor (MOS) capacitor** functions similarly to a transistor used as a capacitor. 
 
@@ -192,7 +184,7 @@ MOS capacitors are particularly well-suited for local supply decoupling applicat
 remains constant.  
 
 
-#### 5.3 Metal-Insulator-Metal (MIM) Capacitors  
+### 5.3 Metal-Insulator-Metal (MIM) Capacitors  
 
 **Metal-Insulator-Metal (MIM) capacitors** are a type of capacitor which function similarly to a 
 **parallel-plate capacitor**, where metal plates (electrodes) are separated by an insulating dielectric material. 
@@ -209,7 +201,7 @@ requires extra mask (and corresponding layer of dielectric) and different parasi
 should be taken into account while designing the circuit.
 
 
-#### 5.4 Metal-Oxide-Metal (MOM) Capacitors  
+### 5.4 Metal-Oxide-Metal (MOM) Capacitors  
 
 **Metal-Oxide-Metal (MOM) capacitors** - is an interdigitated, multi-finger structure formed by metal layers, 
 with the fingers interlocking like the clasped fingers of two hands. The plates of the capacitor are created using 
@@ -232,11 +224,11 @@ To further increase capacitance density, multiple metal layers can be connected 
 forming a vertical metal wall or mesh. The lowest metal layers (such as M1–M5) are typically used 
 in **MOM capacitors** to maximize capacitance density, as these layers have the smallest metal line width and spacing.
 This type of capacitors does not require an extra mask which makes them a very low-cost devices. 
-**Main drawbacks** of this type of capacitor is that it has higher series inductance and resistance, as well as occuping 
+**Main drawbacks** of this type of capacitor is that it has higher series inductance and resistance, as well as occupying
 routing metal layers, which makes routing more complicated.  
 
 
-### 5.5 Capacitor types comparison
+## 5.5 Capacitor types comparison
 
 Here is the summary of the capacitor types in IC design:
 
@@ -256,8 +248,8 @@ Here is the summary of the capacitor types in IC design:
 
 <div id="resistors"></div>
 
-### 6. Resistors
-#### 6.1 Resistor types
+## 6. Resistors
+### 6.1 Resistor types
 In CMOS technology, there are three main types of resistors:  
 
 - Diffusion resistor ($p^+$ or $n^+$) 
@@ -268,21 +260,21 @@ In CMOS technology, there are three main types of resistors:
 <p style="display: block; text-align: center">Different resistor types cross-section</p> 
 
 
-#### 6.2 Diffusion resistor
+### 6.2 Diffusion resistor
 **Diffusion resistor** - is a type of resistor which is formed in a diffusion area (as drain/source areas), separated by 
 the WELL. Typically, the $p^+$ diff. resistor has a bit lower resistivity than $n^+$. On the other hand, $n^+$ diffusion 
 resistor has $10-20%$ lower temperature coefficient (both TC are positive).
 <!--The N+ diff. resistor - in contrast - typically has a (10 .. 20%) lower TC (both have pos. TC). The N+ diff. resistor -->
 <!--has a small positive VC (voltage coefficient), whereas the P+ resistor has a much higher, but negative VC.-->
 
-#### 6.3 NWELL resistor
+### 6.3 NWELL resistor
 **NWELL resistor** - is a type of resistor which is formed in a well area (NWELL or PWELL). It uses the resistance of 
-lightly doped area of the wel to form a resistor.
+lightly doped area of the well to form a resistor.
 Both diffusion and NWELL resistors are formed directly in the substrate, that's why they have a natural parasitic 
 capacitance caused by the reverse-biased junction formed between the diffusion resistor and the opposing doping of the 
 substrate.
 
-#### 6.4 Polysilicon resistor
+### 6.4 Polysilicon resistor
 
 **Polysilicon resistor** - is a type of resistor which is made on top of the STI layer, using polysilicon (which is 
 primarily a gate material). The polysilicon itself is quite a resistive material, that's why when it is used to form a 
@@ -297,7 +289,7 @@ and the voltage coefficient is about half diffusion resistors.
 Additionally, because Polysilicon resistors are above the oxide layer, they can be laser-trimmed for higher accuracy or 
 used as fuses without damaging the substrate.
 
-#### 6.5 Metal resistor
+### 6.5 Metal resistor
 **Metal resistor** - is a type of resistor that uses resistivity of the routing metal. This type of resistors has a lot 
 of drawbacks, such as low resistivity, large capacitive and inductive parasitics and sensitivity to EM requirements. 
 But this type of resistors become very handy while creating relatively small resistors as well as net connections in 
@@ -305,7 +297,7 @@ schematic. The common example is the separation of the positive and negative ter
 tools will consider inductor as a plain short), creating ASIC options and programming features.
 
 
-#### 6.6 Resistor types comparison
+### 6.6 Resistor types comparison
 Here is the summary of the resistor types used in IC design:
 
 <br/> <img src="http://localhost:3000/images/layoutBasics/resistor-types-1.svg" alt="Resistor types" style="display: block; margin-inline: auto; width: min(80%, 60rem)" /> 
