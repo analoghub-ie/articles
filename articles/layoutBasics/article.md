@@ -263,7 +263,7 @@ In CMOS technology, there are three main types of resistors:
 ### 6.2 Diffusion resistor
 **Diffusion resistor** - is a type of resistor which is formed in a diffusion area (as drain/source areas), separated by 
 the WELL. Typically, the $p^+$ diff. resistor has a bit lower resistivity than $n^+$. On the other hand, $n^+$ diffusion 
-resistor has $10-20%$ lower temperature coefficient (both TC are positive).
+resistor has $10-20\%$ lower temperature coefficient (both TC are positive).
 <!--The N+ diff. resistor - in contrast - typically has a (10 .. 20%) lower TC (both have pos. TC). The N+ diff. resistor -->
 <!--has a small positive VC (voltage coefficient), whereas the P+ resistor has a much higher, but negative VC.-->
 
