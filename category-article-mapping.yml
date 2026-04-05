@@ -45,6 +45,9 @@ categories:
     icon: "Cadence analysis.svg"
     description: "Explaining different types of analyses"
     articles:
+      - slug: analysisPAC
+        title: "PAC/PSS analysis"
+        short_title: "PAC/PSS analysis"
       - slug: analysisCorner
         title: "Corner analysis (PVT)"
         short_title: "Corner analysis"
