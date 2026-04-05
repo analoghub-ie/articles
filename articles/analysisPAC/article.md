@@ -36,8 +36,7 @@ Select *Results → Direct Plot → Main Form*. Then select *PAC* tab and select
 
 6. Click on a desired node to plot
 
-P.S. We will see some artefacts near the sampling frequency, which is normal and makes complete sense
+PAC analysis plot will have some artefacts near the sampling frequency, which is expected.
 
 
 > **Author**: [Ivan Smirnov]()
-        
