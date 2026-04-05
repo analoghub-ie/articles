@@ -1,5 +1,8 @@
 ---
 description: "Scheduling recurring tasks in SKILL using hiRegTimer()"
+authors:
+  - name: "Eugeny Khanchin"
+    github: "https://github.com/eKhanchin"
 ---
 
 # Scheduling Tasks with hiRegTimer()
@@ -299,6 +302,3 @@ freeze the user interface as the scheduled task runs.
 
 By leveraging **hiRegTimer()**, you can automate routine tasks and optimize your workflow. Explore its capabilities and 
 see how it can enhance your project efficiency.
-
-
- > **Author:** [Eugeny Khanchin](https://www.linkedin.com/in/eugenykhanchin/)

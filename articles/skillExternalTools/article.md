@@ -1,5 +1,8 @@
 ---
 description: "Running external tools from Cadence Virtuoso via SKILL"
+authors:
+  - name: "Eugeny Khanchin"
+    github: "https://github.com/eKhanchin"
 ---
 
 
@@ -154,5 +157,3 @@ effectively.
 In this guide, we've explored how to run external tools via SKILL using **system()** and **ipcBeginProcess()**. 
 Use **system()** for short tasks where output isn't needed, and **ipcBeginProcess()** with handlers for longer tasks 
 requiring output handling. Each approach has its place, depending on the task at hand.
-
- > **Author:** [Eugeny Khanchin](https://www.linkedin.com/in/eugenykhanchin/)

@@ -1,5 +1,8 @@
 ---
 description: "Setting Up SKILL IDE in Cadence Virtuoso Environment"
+authors:
+  - name: "Eugeny Khanchin"
+    github: "https://github.com/eKhanchin"
 ---
 
 # Setting Up SKILL IDE in Cadence Virtuoso Environment
@@ -62,7 +65,4 @@ This will open a window where you can search for any SKILL function and view its
 click on *"More Info..."* to access comprehensive information about each function.
 
 <br/> <img src="http://localhost:3000/images/skillIdeSetup/skillDocumentation.png" disableinvert alt="SKILL Documentation View" style="display: block; margin-inline: auto; width: min(80%, 25rem)" /> 
-<p style="display: block; text-align: center">SKILL Documentation View</p> 
-
-
- > **Author:** [Eugeny Khanchin](https://www.linkedin.com/in/eugenykhanchin/)
+<p style="display: block; text-align: center">SKILL Documentation View</p>

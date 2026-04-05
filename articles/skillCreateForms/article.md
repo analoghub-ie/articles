@@ -1,5 +1,8 @@
 ---
 description: "Creating interactive forms in Cadence Virtuoso using SKILL"
+authors:
+  - name: "Eugeny Khanchin"
+    github: "https://github.com/eKhanchin"
 ---
 
 # Creating Forms in SKILL Code: A Practical Guide
@@ -763,6 +766,3 @@ procedure( mapViewName(viewName)
 );procedure
 
 </code></pre>
-
-
- > **Author:** [Eugeny Khanchin](https://www.linkedin.com/in/eugenykhanchin/)

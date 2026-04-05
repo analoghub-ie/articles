@@ -1,5 +1,8 @@
 ---
 description: "Setting BindKeys in Cadence Virtuoso Using SKILL Code"
+authors:
+  - name: "Eugeny Khanchin"
+    github: "https://github.com/eKhanchin"
 ---
 
 # Setting Bind Keys in Cadence Virtuoso Using SKILL Code
@@ -199,5 +202,3 @@ Re-open Virtuoso to test the automatic loading.
 To maintain a clean and readable code structure, separate your bind key definitions into one file and the functions 
 they use into another. This approach helps declutter your code and enhances readability. You can then load these files 
 from the **.cdsinit** file or directly from the CIW.
-
- > **Author:** [Eugeny Khanchin](https://www.linkedin.com/in/eugenykhanchin/)

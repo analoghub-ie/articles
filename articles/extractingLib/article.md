@@ -1,5 +1,8 @@
 ---
 description: "Extract library and cell names from a design hierarchy using SKILL"
+authors:
+  - name: "Eugeny Khanchin"
+    github: "https://github.com/eKhanchin"
 ---
 
 # Extracting Library and Cell Names from a Top Cell Hierarchy Using SKILL Code
@@ -233,6 +236,3 @@ fastTree -lib  <library name> -cell <cell name> -view <view name> -cdslib <path 
 </code></pre>
 
 This creates a file *(default: cellName.viewName.tree)* that can be parsed with SKILL or other programming languages.
-
-
- > **Author:** [Eugeny Khanchin](https://www.linkedin.com/in/eugenykhanchin/)

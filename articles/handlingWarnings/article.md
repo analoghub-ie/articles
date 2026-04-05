@@ -1,5 +1,8 @@
 ---
 description: "Handling error, warning, and info messages in SKILL"
+authors:
+  - name: "Eugeny Khanchin"
+    github: "https://github.com/eKhanchin"
 ---
 
 # Handling error/warning/info messages in SKILL
@@ -281,5 +284,3 @@ Mastering the use of messaging and debugging functions such as **hiDisplayAppDBo
 **info()** is crucial for developing robust and user-friendly applications. These functions provide effective 
 communication with users by providing immediate feedback and guidance. They also enhance error handling, ensuring that 
 scripts run smoothly and efficiently.
-
- > **Author:** [Eugeny Khanchin](https://www.linkedin.com/in/eugenykhanchin/)
