@@ -44,6 +44,9 @@ categories:
     icon: "Cadence analysis.svg"
     description: "Explaining different types of analyses"
     articles:
+      - slug: simulationHacks
+        title: "Simulation Hacks"
+        short_title: "Simulation Hacks"
       - slug: analysisPAC
         title: "PAC/PSS analysis"
         short_title: "PAC/PSS analysis"

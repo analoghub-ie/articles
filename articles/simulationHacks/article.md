@@ -2,7 +2,6 @@
 description: "Simulation Hacks for Cadence Virtuoso"
 ---
 
-    
 # Simulation Hacks 
 
 <div id="differentialSignals"></div>
@@ -15,13 +14,8 @@ generates differential signal with a given amplitude and frequency:
 <p style="display: block; text-align: center">Differential signal generator</p> 
 
 ***V0*** source defines the offset of the signal (common-mode), and ***V1*** denotes the signal shape, amplitude and 
-frequency. Voltage-controlled current sources ***E0*** and ***E1*** with the gains of -1 and 1 define the positive and 
-the negative outputs, respectively. The results of the simulation of the following structure are shown below:
+frequency. Voltage-controlled voltage sources ***E0*** and ***E1*** with the gains of -0,5 and 0,5 define the positive and 
+the negative outputs, respectively (0,5 for correct ac analyze). The results of the simulation of the following structure are shown below:
 
 <img src="http://localhost:3000/images/simulationHacks/differential-signal-sim.png" disableinvert alt="Differential signal generator simulation" style="display: block; margin-inline: auto; width: min(80%, 50rem)" /> 
-<p style="display: block; text-align: center">Differential signal generator simulation</p> 
-
-
-    
-        
-        
+<p style="display: block; text-align: center">Differential signal generator simulation</p>
