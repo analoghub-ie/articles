@@ -54,7 +54,7 @@ Let's assume the following inputs:
 - $V_{ref} = 1.2V$
 - $R_1 = 100k\Omega$
 - $R_L = 1k\Omega$
-- $A_{EA} = 40dB = 10'000$
+- $A_{EA} = 40dB = 100$
 
 At the start-up, the output is $V_{out} = V_{fb} = 0V$. The reference voltage is set to $1.2V$, so the output voltage 
 of the amplifier is:
@@ -659,8 +659,3 @@ $$
 
 bla
 -->
-
-
-
-
-    
