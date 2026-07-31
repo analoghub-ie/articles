@@ -17,6 +17,9 @@ categories:
       - slug: circuitsLDO
         title: "LDO"
         short_title: "LDO"
+      - slug: circuitsLDO
+        title: "LDO"
+        short_title: "LDO"
       - slug: currentMirrors
         title: "Cascode current mirror - a practical guide"
         short_title: "Cascode current"
