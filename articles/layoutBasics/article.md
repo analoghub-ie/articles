@@ -196,7 +196,7 @@ remains constant.
 To maximize capacitance, MIM capacitors are often built using a **three-plate structure**. This structure 
 enhances capacitance density while maintaining stable performance and low leakage current, due to the high-quality 
 dielectric material used in their construction. Moreover, MIM capacitors have a high quality factor which makes them
-very suitable for RF applications. **Main drawbacks** of this type of capacitor is that MOM capacitor manufacturing
+very suitable for RF applications. **Main drawbacks** of this type of capacitor is that MIM capacitor manufacturing
 requires extra mask (and corresponding layer of dielectric) and different parasitics for top and bottom plates, which 
 should be taken into account while designing the circuit.
 

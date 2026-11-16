@@ -74,6 +74,9 @@ categories:
     icon: "layout.svg"
     description: "Layout techniques and verification"
     articles:
+      - slug: layoutBasics
+        title: "IC Layout Basics"
+        short_title: "IC Layout Basics"
       - slug: layoutDependentEffects
         title: "Layout-Dependent Effects"
         short_title: "Layout-Dependent"
